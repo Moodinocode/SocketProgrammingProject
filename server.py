@@ -4,16 +4,15 @@ from threading import *
 PORT = 8080
 files_Array = []
 def handle_client(con,addr):
-  command = con.recv(128).decode
-  if command == 1:
+  command = con.recv(1024).decode()
+  if command == "1":
     print("upload")
-  elif command == 2:
+    # Add file upload logic here
+  elif command == "2":
     print("download")
-  elif command == 3:
-    con.send(",".join(files_Array).encode) 
-
-
-
+    # Add file download logic here
+  elif command == "3":
+    con.send(",".join(files_Array).encode()) 
   con.close()
 
 def startServer():
@@ -25,3 +24,8 @@ def startServer():
     clientthread = Thread(target = handle_client,args= (connectionSocket,address))
     ##connectionSocket.close(); close in the handle client
     clientthread.start()
+
+
+if __name__ == "__main__":
+  print(f"Server starting on port {PORT}...")
+  startServer()

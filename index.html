@@ -1,12 +1,108 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title></title>
+    <title>File Server</title>
+    <script>
+      function uploadFile() {
+        const fileInput = document.getElementById('fileInput');
+        if (!fileInput.files.length) {
+          alert('Please select a file first');
+          return;
+        }
+        
+        const file = fileInput.files[0];
+        const formData = new FormData();
+        formData.append('file', file);
+        
+        fetch('/upload', {
+          method: 'POST',
+          body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+          if (data.error) {
+            alert('Error: ' + data.error);
+          } else {
+            alert(data.message);
+          }
+        })
+        .catch(error => {
+          console.error('Error:', error);
+          alert('An error occurred during upload');
+        });
+      }
+      
+      function downloadFile() {
+        const filename = prompt('Enter the filename to download:');
+        if (!filename) return;
+        
+        fetch('/download', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ filename: filename })
+        })
+        .then(response => response.json())
+        .then(data => {
+          if (data.error) {
+            alert('Error: ' + data.error);
+          } else {
+            alert(data.message);
+          }
+        })
+        .catch(error => {
+          console.error('Error:', error);
+          alert('An error occurred during download');
+        });
+      }
+      
+      function listFiles() {
+        fetch('/list')
+        .then(response => response.json())
+        .then(data => {
+          const fileList = document.getElementById('fileList');
+          fileList.innerHTML = '';
+          
+          if (data.files && data.files.length) {
+            const ul = document.createElement('ul');
+            data.files.forEach(file => {
+              if (file) { // Skip empty entries
+                const li = document.createElement('li');
+                li.textContent = file;
+                ul.appendChild(li);
+              }
+            });
+            fileList.appendChild(ul);
+          } else {
+            fileList.textContent = 'No files available';
+          }
+        })
+        .catch(error => {
+          console.error('Error:', error);
+          alert('An error occurred while listing files');
+        });
+      }
+    </script>
   </head>
   <body>
-    <!-- using js and input tags we must send req/res functions to the flask app -->
-    <button onclick="">upload</button>
-    <button>downlaod</button>
-    <button>list</button>
+    <h1>File Server</h1>
+    
+    <div>
+      <h2>Upload File</h2>
+      <input type="file" id="fileInput">
+      <button onclick="uploadFile()">Upload</button>
+    </div>
+    
+    <div>
+      <h2>Download File</h2>
+      <button onclick="downloadFile()">Download</button>
+    </div>
+    
+    <div>
+      <h2>List Files</h2>
+      <button onclick="listFiles()">List</button>
+      <div id="fileList"></div>
+    </div>
   </body>
 </html>
