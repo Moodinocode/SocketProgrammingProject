@@ -8,6 +8,10 @@ def handle_client(con,addr):
   if command == "1":
     print("upload")
     # Add file upload logic here
+    #expect to recv filename first
+    # incase of duplicates i think we should have a dictionary saved on the running server
+    # with each filename and the number of copies with each new copy  we just add to the filename (x) ? x is the file number
+    # and normally add it to the database
     # Receive the file
     with open(filename, 'wb') as f:
         data = clientSocket.recv(1024)
