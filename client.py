@@ -29,14 +29,15 @@ def initiateClient(command, filename=None): #command should be sent from the fla
     clientSocket.send(filename.encode())
     
     # Receive the file
-    with open(filename, 'wb') as f:
-        data = clientSocket.recv(1024)
-        while data:
-            f.write(data)
+        with open(filename, 'wb') as f:
+        while True:
             data = clientSocket.recv(1024)
-            # Need a way to know when file transfer is complete
-            # This is simplified and might need improvement
-            
+            if not data or data == b"FILE_NOT_FOUND":
+                break
+            f.write(data)
+            if len(data) < 1024:  # Last packet might be smaller
+                break
+                
   elif command == 3:
     #listing functionality
     data = clientSocket.recv(4096).decode()

@@ -38,16 +38,18 @@ def handle_client(con,addr):
   con.close()
 
 def startServer():
-  serverSocket = socket(AF_INET,SOCK_STREAM)
-  serverSocket.bind(('',PORT))
-  serverSocket.listen(10) # 10 clients in queue
-  while True:
-    connectionSocket, address = serverSocket.accept()
-    clientthread = Thread(target = handle_client,args= (connectionSocket,address))
-    ##connectionSocket.close(); close in the handle client
-    clientthread.start()
+    serverSocket = socket(AF_INET, SOCK_STREAM)
+    serverSocket.bind(('', PORT))
+    serverSocket.listen(10)  # 10 clients in queue
+    print(f"Server listening on port {PORT}...")
+    while True:
+        connectionSocket, address = serverSocket.accept()
+        print(f"Connection established with {address}")
+        clientthread = Thread(target=handle_client, args=(connectionSocket, address))
+        clientthread.daemon = True  # Make thread exit when main thread exits ### like c threads we used to do set detached state
+        clientthread.start()
 
 
 if __name__ == "__main__":
-  print(f"Server starting on port {PORT}...")
-  startServer()
+    print(f"Server starting on port {PORT}...")
+    startServer()
