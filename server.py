@@ -8,9 +8,27 @@ def handle_client(con,addr):
   if command == "1":
     print("upload")
     # Add file upload logic here
+    # Receive the file
+    with open(filename, 'wb') as f:
+        data = clientSocket.recv(1024)
+        while data:
+            f.write(data)
+            data = clientSocket.recv(1024)
+            # Need a way to know when file transfer is complete
+            # This is simplified and might need improvement
+            #copied from the download of client 
+            # must add connection to database
   elif command == "2":
     print("download")
     # Add file download logic here
+    #sending the contents of the file
+    with open(filename, 'rb') as f: # 'r' is for read we use 'rb' since we are dealing with raw data (binary data)
+        data = f.read(1024) #defining data as the first KB of the file
+        while data:
+            clientSocket.send(data) #send each KB at a time
+            data = f.read(1024) #redefine data as the next KB
+            #coppied directly from client upload hence might need fixing
+    
   elif command == "3":
     con.send(",".join(files_Array).encode()) 
   con.close()
