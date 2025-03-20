@@ -29,7 +29,7 @@ def initiateClient(command, filename=None): #command should be sent from the fla
     clientSocket.send(filename.encode())
     
     # Receive the file
-        with open(filename, 'wb') as f:
+    with open(filename, 'wb') as f:
         while True:
             data = clientSocket.recv(1024)
             if not data or data == b"FILE_NOT_FOUND":
