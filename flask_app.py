@@ -13,20 +13,20 @@ def upload():
     # Handle file upload
     # Get the file from the request
     if 'file' not in request.files:
-        return jsonify({'error': 'No file part'})
+        return jsonify({'error': 'No file part'}) # checks the http request coming from the index.html if it has a field called file
     
     file = request.files['file']
     if file.filename == '':
-        return jsonify({'error': 'No selected file'})
+        return jsonify({'error': 'No selected file'}) # incase there was no file to be uploaded then return an error to the frontend 
     
     # Save the file temporarily
-    filename = file.filename
-    file.save(filename)
+    filename = file.filename #extract the name from the file 
+    file.save(filename) 
     
     # Call the client to upload the file
-    initiateClient(1, filename)
+    initiateClient(1, filename) # calls our client socket to open connection with the server socket with method = 1 (meaning upload) 
     
-    return jsonify({'success': True, 'message': f'File {filename} uploaded successfully'})
+    return jsonify({'success': True, 'message': f'File {filename} uploaded successfully'}) # return to web interface a success mesage
 
 @app.route('/download', methods=['POST'])
 def download():
