@@ -10,14 +10,17 @@ logging.basicConfig(
 )
 
 def log(level, message):
-    if level == "debug":
-        logging.debug(message)
-    elif level == "info":
-        logging.info(message)
-    elif level == "warning":
-        logging.warning(message)
-    elif level == "error":
-        logging.error(message)
-    elif level == "critical":
-        logging.critical(message)
+    try:
+        if level == "debug":
+            logging.debug(message)
+        elif level == "info":
+            logging.info(message)
+        elif level == "warning":
+            logging.warning(message)
+        elif level == "error":
+            logging.error(message)
+        elif level == "critical":
+            logging.critical(message)
+    except Exception as e:
+        print(f"Logging error: {str(e)}")  # Fallback to print if logging fails
 
