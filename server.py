@@ -11,14 +11,15 @@ if not os.path.exists(SERVER_FILES_DIR):
     os.makedirs(SERVER_FILES_DIR)
 
 def handle_client(con, addr):
-    print(f"New connection from {addr}")
+    log("info",f"New serving socket connected to address = {addr}")
     command = con.recv(1024).decode()
     
     if command == "1":
-        print("Upload request received")
+        log("info",f"Upload request recieved")
+
         # Receive filename
         filename = con.recv(1024).decode()
-        print(f"Receiving file: {filename}")
+        log("info",f"Recieveing file with name: {filename}")
         
         # Create full path for saving
         file_path = os.path.join(SERVER_FILES_DIR, filename)
@@ -40,10 +41,12 @@ def handle_client(con, addr):
                     break
                 f.write(data)
         
-        print(f"File saved as: {os.path.basename(file_path)}")
+        log("info",f"{filename} file saved on: {os.path.basename(file_path)}")
+        
         
     elif command == "2":
-        print("Download request received")
+        log("info","Download request recieved")
+        
         # Receive filename
         filename = con.recv(1024).decode()
         print(f"Client requested file: {filename}")
@@ -85,11 +88,11 @@ def startServer():
     
     while True:
         connectionSocket, address = serverSocket.accept()
-        print(f"Connection established with {address}")
+        log("info",f"New connection established with client of address = {address}")
         clientthread = Thread(target=handle_client, args=(connectionSocket, address))
         clientthread.daemon = True  # Make thread exit when main thread exits
         clientthread.start()
 
 if __name__ == "__main__":
-    print(f"Server starting on port {PORT}...")
+    log("info",f"Server starting on port {PORT}...")
     startServer()
