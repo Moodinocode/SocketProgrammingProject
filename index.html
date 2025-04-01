@@ -2,6 +2,12 @@
 <html>
   <head>
     <title>File Server</title>
+    <style>
+      #progressBar {
+        width: 100%;
+        height: 30px;
+      }
+    </style>
     <script>
       function uploadFile() {
         const fileInput = document.getElementById('fileInput');
@@ -104,5 +110,26 @@
       <button onclick="listFiles()">List</button>
       <div id="fileList"></div>
     </div>
+    <progress id="progressBar" value="0" max="100"></progress>
+    <div id="progressText">0%</div>
+    
+    <script>
+      const filename = 'default_file';  // Use the same key as in the Flask app
+
+      // Function to fetch progress from the server
+      function fetchProgress() {
+        fetch(`/get_progress/${filename}`)
+          .then(response => response.json())
+          .then(data => {
+            const progress = data.progress;
+            document.getElementById('progressBar').value = progress;
+            document.getElementById('progressText').innerText = `${progress}%`;
+          })
+          .catch(error => console.error('Error fetching progress:', error));
+      }
+
+      // Poll for progress updates every second
+      setInterval(fetchProgress, 1000);
+    </script>
   </body>
 </html>

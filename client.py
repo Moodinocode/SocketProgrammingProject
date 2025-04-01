@@ -43,6 +43,9 @@ def initiateClient(command, filename=None): #command should be sent from the fla
               current += len(data)  # Corrected to use len(data)
               progress = (current / int(filesize)) * 100  # Calculate progress
               log("info", f"Downloading: {progress:.2f}%")
+
+              # Send progress to the Flask app
+              requests.post('http://localhost:5000/update_progress', json={"progress": progress})
                 
     elif command == 3:
       #listing functionality
