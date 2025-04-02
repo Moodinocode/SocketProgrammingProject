@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>File Server</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    
+    <div class="navbar">
+      
+      <!-- Single button that triggers the hidden file input -->
+      <button id="uploadButton">Upload File</button>
+      <input type="file" id="fileInput" style="display: none;">
+
+
+      <button>logout</button> <!--after logging in -->
+    </div>
+    
+    <div class="file-list-container">
+      <h2>Your Files</h2>
+      <div id="fileList"></div>
+    </div>
+    
+    <progress id="progressBar" value="0" max="100"></progress>
+    <div id="progressText">0%</div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
