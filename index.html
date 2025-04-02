@@ -38,10 +38,9 @@
         });
       }
       
-      function downloadFile() {
-        const filename = prompt('Enter the filename to download:');
-        if (!filename) return;
-        
+      function downloadFile(filename) {
+        if (!fileName) return;
+
         fetch('/download', {
           method: 'POST',
           headers: {
@@ -63,32 +62,80 @@
         });
       }
       
-      function listFiles() {
-        fetch('/list')
-        .then(response => response.json())
-        .then(data => {
-          const fileList = document.getElementById('fileList');
-          fileList.innerHTML = '';
-          
-          if (data.files && data.files.length) {
-            const ul = document.createElement('ul');
-            data.files.forEach(file => {
-              if (file) { // Skip empty entries
-                const li = document.createElement('li');
-                li.textContent = file;
-                ul.appendChild(li);
-              }
-            });
-            fileList.appendChild(ul);
-          } else {
-            fileList.textContent = 'No files available';
-          }
-        })
-        .catch(error => {
-          console.error('Error:', error);
-          alert('An error occurred while listing files');
-        });
-      }
+  function listFiles() {
+    fetch('/list')
+      .then(response => response.json())
+      .then(data => {
+        const fileList = document.getElementById('fileList');
+        fileList.innerHTML = '';
+
+        if (data.files && data.files.length) {
+          const ul = document.createElement('ul');
+
+          data.files.forEach(file => {
+            if (file) { // Skip empty entries
+              const li = document.createElement('li');
+              li.classList.add('file-item');
+
+              // Get the file extension (if any)
+              const parts = file.split('.');
+              const extension = parts.length > 1 ? parts.pop().toLowerCase() : '';
+
+              // Icon mapping based on file extension
+              const iconMapping = {
+                'txt': 'icons/text-file.png',
+                'pdf': 'icons/pdf-file.png',
+                'doc': 'icons/word-file.png',
+                'docx': 'icons/word-file.png',
+                'xls': 'icons/excel-file.png',
+                'xlsx': 'icons/excel-file.png',
+                'png': 'icons/image-file.png',
+                'jpg': 'icons/image-file.png',
+                'jpeg': 'icons/image-file.png',
+                'gif': 'icons/image-file.png'
+                // Add more mappings as needed
+              };
+
+              const icon = document.createElement('img');
+              icon.classList.add('file-icon');
+              icon.src = iconMapping[extension] || 'icons/default-file.png';
+              icon.alt = extension + ' file icon';
+
+              const fileNameSpan = document.createElement('span');
+              fileNameSpan.classList.add('file-name');
+              fileNameSpan.textContent = file;
+
+              const fileExtSpan = document.createElement('span');
+              fileExtSpan.classList.add('file-extension');
+              fileExtSpan.textContent = extension ? `.${extension}` : '';
+
+              // Create the download button and attach onclick event
+              const downloadButton = document.createElement('button');
+              downloadButton.classList.add('download-button');
+              downloadButton.textContent = 'Download';
+              downloadButton.addEventListener('click', () => {
+                downloadFile(file); // Pass the file name to the download function
+              });
+
+              li.appendChild(icon);
+              li.appendChild(fileNameSpan);
+              li.appendChild(fileExtSpan);
+              li.appendChild(downloadButton);
+
+              ul.appendChild(li);
+            }
+          });
+
+          fileList.appendChild(ul);
+        } else {
+          fileList.textContent = 'No files available';
+        }
+      })
+      .catch(error => {
+        console.error('Error:', error);
+        alert('An error occurred while listing files');
+      });
+  }
     </script>
   </head>
   <body>
