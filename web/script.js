@@ -112,7 +112,10 @@ function listFiles() {
               'png': 'icons/image-file.png',
               'jpg': 'icons/image-file.png',
               'jpeg': 'icons/image-file.png',
-              'gif': 'icons/image-file.png'
+              'gif': 'icons/image-file.png',
+              'ppt': 'icons/ppt-file.png',
+              'mp3': 'icons/audio-file.png',
+              'html': 'icons/html-file.png',
               // Add more mappings as needed
             };
 
