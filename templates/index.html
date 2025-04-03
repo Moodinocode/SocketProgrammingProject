@@ -2,7 +2,8 @@
 <html>
   <head>
     <title>File Server</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
   </head>
   <body>
 
@@ -25,6 +26,7 @@
     <progress id="progressBar" value="0" max="100"></progress>
     <div id="progressText">0%</div>
     
-    <script src="script.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
   </body>
 </html>

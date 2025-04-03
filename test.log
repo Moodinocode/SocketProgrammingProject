@@ -1,2 +1,370 @@
 2025-04-03 22:51:20,430 - INFO - Server starting on port 8080...
 2025-04-03 22:51:20,431 - INFO - Server listening on port 8080...
+2025-04-03 23:31:13,787 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-03 23:31:13,788 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-03 23:31:13,788 - INFO -  * Restarting with stat
+2025-04-03 23:31:14,228 - WARNING -  * Debugger is active!
+2025-04-03 23:31:14,230 - INFO -  * Debugger PIN: 102-924-386
+2025-04-03 23:31:23,591 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:23] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:31:24,225 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:24] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:31:25,238 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:25] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:31:25,286 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:25] "GET / HTTP/1.1" 200 -
+2025-04-03 23:31:25,334 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-03 23:31:25,335 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:25] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-03 23:31:25,341 - INFO - New connection established with client of address = ('127.0.0.1', 55820)
+2025-04-03 23:31:25,342 - INFO - New serving socket connected to address = ('127.0.0.1', 55820)
+2025-04-03 23:31:25,342 - INFO - List files request received
+2025-04-03 23:31:25,342 - INFO - File list sent to client
+2025-04-03 23:31:25,342 - INFO - Connection with ('127.0.0.1', 55820) closed
+2025-04-03 23:31:25,343 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:25] "GET /list HTTP/1.1" 200 -
+2025-04-03 23:31:26,349 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:26] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:31:27,357 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:27] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:31:28,344 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:28] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:31:29,353 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:29] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:31:30,358 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:30] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:31:31,346 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:31] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:31:32,349 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:32] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:31:33,046 - INFO - New connection established with client of address = ('127.0.0.1', 55830)
+2025-04-03 23:31:33,047 - INFO - New serving socket connected to address = ('127.0.0.1', 55830)
+2025-04-03 23:31:33,047 - WARNING - Unknown command: 1LAS 201 SDG 6 HW Mohamad Mehdi.pdf
+2025-04-03 23:31:33,047 - INFO - Connection with ('127.0.0.1', 55830) closed
+2025-04-03 23:31:33,056 - ERROR - Error in client operation: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-04-03 23:31:33,056 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:33] "POST /upload HTTP/1.1" 200 -
+2025-04-03 23:31:36,566 - INFO - New connection established with client of address = ('127.0.0.1', 55833)
+2025-04-03 23:31:36,567 - INFO - New serving socket connected to address = ('127.0.0.1', 55833)
+2025-04-03 23:31:36,567 - INFO - List files request received
+2025-04-03 23:31:36,567 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:36] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:31:36,567 - INFO - File list sent to client
+2025-04-03 23:31:36,567 - INFO - Connection with ('127.0.0.1', 55833) closed
+2025-04-03 23:31:36,567 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:36] "GET /list HTTP/1.1" 200 -
+2025-04-03 23:31:37,341 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:37] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:31:38,348 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:38] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:31:39,358 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:39] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:31:40,341 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:40] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:31:41,357 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:41] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:31:42,345 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:42] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:31:43,349 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:43] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:31:44,352 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:44] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:31:45,347 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:45] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:31:46,360 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:46] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:31:47,349 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:47] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:31:48,345 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:48] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:31:49,359 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:49] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:31:50,346 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:50] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:31:51,343 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:51] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:31:52,349 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:52] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:31:53,344 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:53] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:31:54,352 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:54] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:31:55,346 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:55] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:31:56,348 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:56] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:31:57,341 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:57] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:31:58,344 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:58] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:31:59,346 - INFO - 127.0.0.1 - - [03/Apr/2025 23:31:59] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:00,349 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:00] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:01,341 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:01] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:02,345 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:02] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:03,345 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:03] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:04,345 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:04] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:05,345 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:05] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:06,344 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:06] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:07,345 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:07] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:08,345 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:08] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:09,344 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:09] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:10,346 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:10] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:11,344 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:11] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:12,345 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:12] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:13,344 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:13] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:14,343 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:14] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:15,360 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:15] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:16,344 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:16] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:17,762 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:17] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:18,765 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:18] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:19,761 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:19] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:20,762 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:20] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:21,761 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:21] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:22,769 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:22] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:23,760 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:23] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:24,762 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:24] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:25,761 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:25] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:26,760 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:26] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:27,765 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:27] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:28,762 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:28] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:29,773 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:29] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:30,768 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:30] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:31,761 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:31] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:32,765 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:32] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:33,770 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:33] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:34,767 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:34] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:35,774 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:35] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:36,760 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:36] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:37,775 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:37] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:38,760 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:38] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:39,768 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:39] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:40,762 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:40] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:41,776 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:41] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:42,760 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:42] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:43,760 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:43] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:44,764 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:44] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:45,764 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:45] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:46,763 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:46] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:47,765 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:47] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:48,765 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:48] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:49,767 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:49] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:50,771 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:50] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:51,591 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\client.py', reloading
+2025-04-03 23:32:51,620 - INFO -  * Restarting with stat
+2025-04-03 23:32:52,078 - WARNING -  * Debugger is active!
+2025-04-03 23:32:52,079 - INFO -  * Debugger PIN: 102-924-386
+2025-04-03 23:32:52,086 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:52] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:52,771 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:52] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:53,764 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:53] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:54,094 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\client.py', reloading
+2025-04-03 23:32:54,129 - INFO -  * Restarting with stat
+2025-04-03 23:32:54,587 - WARNING -  * Debugger is active!
+2025-04-03 23:32:54,589 - INFO -  * Debugger PIN: 102-924-386
+2025-04-03 23:32:54,771 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:54] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:55,764 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:55] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:56,768 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:56] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:57,767 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:57] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:58,345 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:58] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:32:59,343 - INFO - 127.0.0.1 - - [03/Apr/2025 23:32:59] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:00,349 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:00] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:01,344 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:01] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:02,352 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:02] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:03,342 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:03] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:04,341 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:04] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:05,345 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:05] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:06,342 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:06] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:07,345 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:07] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:08,341 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:08] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:09,346 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:09] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:10,342 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:10] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:11,351 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:11] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:12,341 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:12] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:13,349 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:13] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:13,914 - INFO - New connection established with client of address = ('127.0.0.1', 55942)
+2025-04-03 23:33:13,914 - INFO - New serving socket connected to address = ('127.0.0.1', 55942)
+2025-04-03 23:33:13,914 - WARNING - Unknown command: 1LAS 201 SDG 6 HW Mohamad Mehdi.pdf
+2025-04-03 23:33:13,915 - INFO - Connection with ('127.0.0.1', 55942) closed
+2025-04-03 23:33:13,924 - ERROR - Error in client operation: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-04-03 23:33:13,924 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:13] "POST /upload HTTP/1.1" 200 -
+2025-04-03 23:33:16,086 - INFO - New connection established with client of address = ('127.0.0.1', 55945)
+2025-04-03 23:33:16,087 - INFO - New serving socket connected to address = ('127.0.0.1', 55945)
+2025-04-03 23:33:16,087 - INFO - List files request received
+2025-04-03 23:33:16,087 - INFO - File list sent to client
+2025-04-03 23:33:16,087 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:16] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:16,087 - INFO - Connection with ('127.0.0.1', 55945) closed
+2025-04-03 23:33:16,088 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:16] "GET /list HTTP/1.1" 200 -
+2025-04-03 23:33:16,352 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:16] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:17,354 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:17] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:18,356 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:18] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:19,351 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:19] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:20,349 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:20] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:21,354 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:21] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:22,349 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:22] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:23,357 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:23] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:24,352 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:24] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:25,358 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:25] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:26,343 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:26] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:27,343 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:27] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:28,342 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:28] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:29,343 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:29] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:30,356 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:30] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:31,348 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:31] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:32,357 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:32] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:33,342 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:33] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:34,343 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:34] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:35,354 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:35] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:36,341 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:36] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:37,342 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:37] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:38,357 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:38] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:39,356 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:39] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:40,355 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:40] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:41,344 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:41] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:42,345 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:42] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:43,354 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:43] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:44,355 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:44] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:45,352 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:45] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:46,343 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:46] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:47,357 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:47] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:48,358 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:48] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:49,341 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:49] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:50,347 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:50] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:51,357 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:51] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:52,352 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:52] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:53,347 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:53] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:54,351 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:54] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:55,350 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:55] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:56,355 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:56] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:57,351 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:57] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:58,355 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:58] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:33:59,345 - INFO - 127.0.0.1 - - [03/Apr/2025 23:33:59] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:00,353 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:00] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:00,527 - INFO - New connection established with client of address = ('127.0.0.1', 55995)
+2025-04-03 23:34:00,528 - INFO - New serving socket connected to address = ('127.0.0.1', 55995)
+2025-04-03 23:34:00,528 - WARNING - Unknown command: 1las project.txt
+2025-04-03 23:34:00,528 - INFO - Connection with ('127.0.0.1', 55995) closed
+2025-04-03 23:34:00,538 - ERROR - Error in client operation: [WinError 10053] An established connection was aborted by the software in your host machine
+2025-04-03 23:34:00,538 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:00] "POST /upload HTTP/1.1" 200 -
+2025-04-03 23:34:05,358 - INFO - New connection established with client of address = ('127.0.0.1', 55998)
+2025-04-03 23:34:05,359 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:05] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:05,359 - INFO - New serving socket connected to address = ('127.0.0.1', 55998)
+2025-04-03 23:34:05,359 - INFO - List files request received
+2025-04-03 23:34:05,359 - INFO - File list sent to client
+2025-04-03 23:34:05,359 - INFO - Connection with ('127.0.0.1', 55998) closed
+2025-04-03 23:34:05,359 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:05] "GET /list HTTP/1.1" 200 -
+2025-04-03 23:34:06,354 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:06] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:07,342 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:07] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:08,348 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:08] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:09,345 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:09] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:10,351 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:10] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:11,345 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:11] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:12,344 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:12] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:13,346 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:13] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:14,356 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:14] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:15,358 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:15] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:16,353 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:16] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:17,344 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:17] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:18,345 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:18] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:19,356 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:19] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:20,348 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:20] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:21,356 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:21] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:22,343 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:22] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:23,351 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:23] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:24,352 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:24] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:25,349 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:25] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:26,341 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:26] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:27,345 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:27] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:28,347 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:28] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:29,344 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:29] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:30,343 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:30] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:31,347 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:31] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:32,343 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:32] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:33,344 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:33] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:34,343 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:34] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:35,343 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:35] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:36,347 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:36] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:37,343 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:37] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:38,356 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:38] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:39,355 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:39] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:40,342 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:40] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:41,343 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:41] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:42,341 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:42] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:43,354 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:43] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:44,352 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:44] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:45,342 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:45] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:46,346 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:46] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:47,342 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:47] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:48,359 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:48] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:49,342 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:49] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:50,358 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:50] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:51,353 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:51] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:52,347 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:52] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:53,347 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:53] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:54,349 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:54] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:55,349 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:55] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:56,345 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:56] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:57,341 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:57] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:58,348 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:58] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:34:59,347 - INFO - 127.0.0.1 - - [03/Apr/2025 23:34:59] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:00,347 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:00] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:01,347 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:01] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:02,353 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:02] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:03,352 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:03] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:04,354 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:04] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:05,355 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:05] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:06,354 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:06] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:07,340 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:07] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:08,347 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:08] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:09,347 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:09] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:10,352 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:10] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:11,340 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:11] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:12,349 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:12] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:13,318 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:13] "GET / HTTP/1.1" 200 -
+2025-04-03 23:35:13,369 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:13] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-03 23:35:13,370 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-03 23:35:13,376 - INFO - New connection established with client of address = ('127.0.0.1', 56076)
+2025-04-03 23:35:13,377 - INFO - New serving socket connected to address = ('127.0.0.1', 56076)
+2025-04-03 23:35:13,377 - INFO - List files request received
+2025-04-03 23:35:13,377 - INFO - File list sent to client
+2025-04-03 23:35:13,377 - INFO - Connection with ('127.0.0.1', 56076) closed
+2025-04-03 23:35:13,377 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:13] "GET /list HTTP/1.1" 200 -
+2025-04-03 23:35:14,304 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:14] "GET / HTTP/1.1" 200 -
+2025-04-03 23:35:14,312 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:14] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-03 23:35:14,313 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:14] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-03 23:35:14,317 - INFO - New connection established with client of address = ('127.0.0.1', 56081)
+2025-04-03 23:35:14,317 - INFO - New serving socket connected to address = ('127.0.0.1', 56081)
+2025-04-03 23:35:14,317 - INFO - List files request received
+2025-04-03 23:35:14,317 - INFO - File list sent to client
+2025-04-03 23:35:14,317 - INFO - Connection with ('127.0.0.1', 56081) closed
+2025-04-03 23:35:14,317 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:14] "GET /list HTTP/1.1" 200 -
+2025-04-03 23:35:15,318 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:15] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:16,329 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:16] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:17,321 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:17] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:18,333 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:18] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:19,327 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:19] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:20,323 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:20] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:21,324 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:21] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:22,332 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:22] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:23,331 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:23] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:24,320 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:24] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:25,322 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:25] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:26,336 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:26] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:27,319 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:27] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:28,319 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:28] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:29,325 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:29] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:30,332 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:30] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:31,334 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:31] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:32,335 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:32] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:33,321 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:33] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:34,323 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:34] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:35,318 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:35] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:36,336 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:36] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:37,323 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:37] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:38,327 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:38] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:39,329 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:39] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:40,330 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:40] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:41,334 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:41] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:42,335 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:42] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:43,326 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:43] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:44,330 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:44] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:45,325 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:45] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:46,334 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:46] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:47,323 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:47] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:48,324 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:48] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:49,324 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:49] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:50,326 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:50] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:51,327 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:51] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:52,323 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:52] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:53,121 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:53] "GET / HTTP/1.1" 200 -
+2025-04-03 23:35:53,128 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-03 23:35:53,129 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:53] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-03 23:35:53,137 - INFO - New connection established with client of address = ('127.0.0.1', 56126)
+2025-04-03 23:35:53,137 - INFO - New serving socket connected to address = ('127.0.0.1', 56126)
+2025-04-03 23:35:53,137 - INFO - List files request received
+2025-04-03 23:35:53,137 - INFO - File list sent to client
+2025-04-03 23:35:53,137 - INFO - Connection with ('127.0.0.1', 56126) closed
+2025-04-03 23:35:53,137 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:53] "GET /list HTTP/1.1" 200 -
+2025-04-03 23:35:53,141 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:53] "[33mGET /icons/pdf-file.png HTTP/1.1[0m" 404 -
+2025-04-03 23:35:53,143 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:53] "[33mGET /icons/text-file.png HTTP/1.1[0m" 404 -
+2025-04-03 23:35:54,152 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:54] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:55,138 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:55] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:56,141 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:56] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:56,325 - INFO - New connection established with client of address = ('127.0.0.1', 56133)
+2025-04-03 23:35:56,326 - INFO - New serving socket connected to address = ('127.0.0.1', 56133)
+2025-04-03 23:35:56,326 - WARNING - Unknown command: 2LAS 201 SDG 6 HW Mohamad Mehdi.pdf
+2025-04-03 23:35:56,326 - INFO - Connection with ('127.0.0.1', 56133) closed
+2025-04-03 23:35:56,327 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:56] "POST /download HTTP/1.1" 200 -
+2025-04-03 23:35:57,542 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:57] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:58,142 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:58] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:35:58,533 - INFO - New connection established with client of address = ('127.0.0.1', 56137)
+2025-04-03 23:35:58,534 - INFO - New serving socket connected to address = ('127.0.0.1', 56137)
+2025-04-03 23:35:58,534 - WARNING - Unknown command: 2las project.txt
+2025-04-03 23:35:58,534 - INFO - Connection with ('127.0.0.1', 56137) closed
+2025-04-03 23:35:58,535 - INFO - 127.0.0.1 - - [03/Apr/2025 23:35:58] "POST /download HTTP/1.1" 200 -
+2025-04-03 23:36:00,015 - INFO - 127.0.0.1 - - [03/Apr/2025 23:36:00] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:36:00,140 - INFO - 127.0.0.1 - - [03/Apr/2025 23:36:00] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:36:01,150 - INFO - 127.0.0.1 - - [03/Apr/2025 23:36:01] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:36:02,144 - INFO - 127.0.0.1 - - [03/Apr/2025 23:36:02] "GET /get_progress/default_file HTTP/1.1" 200 -
+2025-04-03 23:36:03,153 - INFO - 127.0.0.1 - - [03/Apr/2025 23:36:03] "GET /get_progress/default_file HTTP/1.1" 200 -

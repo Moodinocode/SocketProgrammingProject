@@ -3,7 +3,7 @@ from flask import *
 from client import initiateClient
 
 app = Flask(__name__)
-
+progress_data = {}
 @app.route('/')
 def mainPage():
     return render_template('index.html')

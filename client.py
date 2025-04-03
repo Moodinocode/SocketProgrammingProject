@@ -1,8 +1,12 @@
 from socket import *
 import os
+import requests
+
+
+from utils import log
 
 PORT = 8080
-ServerIP = "0.0.0.0" # we can also put local host 
+ServerIP = "127.0.0.1" or "0.0.0.0"  # we can also put local host 
 
 
 def initiateClient(command, filename=None): #command should be sent from the flask web app
@@ -61,4 +65,4 @@ def initiateClient(command, filename=None): #command should be sent from the fla
 
 
 if __name__ == "__main__":
-  initiateClient(3)  # Just list files by default
+    intiateClient(3) #-- commented this out since it was reconfigured using flask and html
