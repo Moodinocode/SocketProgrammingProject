@@ -3,6 +3,8 @@ from socket import *
 from threading import *
 import os
 
+from utils import log
+
 PORT = 8080
 SERVER_FILES_DIR = "server_files"  # Directory to store uploaded files
 
