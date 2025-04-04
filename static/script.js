@@ -131,7 +131,7 @@ function listFiles() {
             // Create the download button within each file listing
             const downloadButton = document.createElement('button');
             downloadButton.classList.add('download-button');
-            downloadButton.textContent = 'Download';
+            downloadButton.textContent = 'icons/download-file.png';
             downloadButton.addEventListener('click', () => {
               downloadFile(file);
             });
