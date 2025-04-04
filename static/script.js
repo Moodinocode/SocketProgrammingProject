@@ -24,6 +24,7 @@ function uploadFile() {
   // Show progress bar when upload starts
   document.getElementById('progressBar').style.display = 'block';
   document.getElementById('progressText').style.display = 'block';
+  setInterval(fetchProgress, 1000);
 
   fetch('/upload', {
     method: 'POST',
@@ -178,8 +179,7 @@ function fetchProgress() {
     .catch(error => console.error('Error fetching progress:', error));
 }
 
-// Automatically load the file list and start polling for progress on page load
+// Automatically load the file list 
 window.onload = function() {
   listFiles();
-  setInterval(fetchProgress, 1000);
 };

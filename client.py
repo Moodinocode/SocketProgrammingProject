@@ -1,6 +1,7 @@
 from socket import *
 import os
 import requests
+import time
 
 
 from utils import log
@@ -27,6 +28,7 @@ def initiateClient(command, filename=None): #command should be sent from the fla
           while data:
               clientSocket.send(data) #send each KB at a time
               data = f.read(1024) #redefine data as the next KB
+              time.sleep(1) # to be able to see the progress
     
     elif command == 2:
       print("download")
@@ -50,6 +52,7 @@ def initiateClient(command, filename=None): #command should be sent from the fla
 
               # Send progress to the Flask app
               requests.post('http://localhost:5000/update_progress', json={"progress": progress})
+              time.sleep(1) # to be able to see the progress
                 
     elif command == 3:
       #listing functionality
