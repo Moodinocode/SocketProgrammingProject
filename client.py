@@ -39,7 +39,8 @@ def initiateClient(command, file_path=None, original_filename=None): #command sh
               requests.post('http://localhost:5000/update_progress', 
                            json={"filename": filename, "progress": progress})
               data = f.read(4096)
-              time.sleep(0.1) # to be able to see the progress
+              if total_size < 5 * 1024 * 1024:  
+                  time.sleep(0.1) #delay for small files (<5MB) in order to be able to see the progress bar 
       # Send final 100% progress update
       requests.post('http://localhost:5000/update_progress', 
                    json={"filename": filename, "progress": 100})
@@ -83,7 +84,8 @@ def initiateClient(command, file_path=None, original_filename=None): #command sh
               # Send progress to the Flask app
               requests.post('http://localhost:5000/update_progress', 
                            json={"filename": filename, "progress": progress})
-              time.sleep(0.1) # to be able to see the progress
+              if filesize < 5 * 1024 * 1024:  
+                  time.sleep(0.1) #delay for small files (<5MB) in order to be able to see the progress bar
       
       # Send final 100% progress update
       requests.post('http://localhost:5000/update_progress', 
