@@ -2,70 +2,109 @@ from socket import *
 import os
 import requests
 import time
-
-
 from utils import log
 
 PORT = 8080
-ServerIP = "127.0.0.1" or "0.0.0.0"  # we can also put local host 
+ServerIP = "127.0.0.1"  # Use localhost
 
-
-def initiateClient(command, filename=None): #command should be sent from the flask web app
+def initiateClient(command, file_path=None, original_filename=None): #command should be sent from the flask web app
   try:
     clientSocket = socket(AF_INET,SOCK_STREAM)
-
     clientSocket.connect((ServerIP,PORT))
     clientSocket.send(str(command).encode()) # send to server the command that we want
+    time.sleep(1)
 
     if command == 1:
-      print("upload")
+      if not file_path:
+        log("error", "No file path provided for upload")
+        return
+        
+      log("info", f"Uploading file: {file_path}")
+      # Extract just the filename from the path
+      filename = os.path.basename(file_path)
+      
       #sending the name of the file
       clientSocket.send(filename.encode())
       
       #sending the contents of the file
-      with open(filename, 'rb') as f: # 'r' is for read we use 'rb' since we are dealing with raw data (binary data)
-          data = f.read(1024) #defining data as the first KB of the file
+      with open(file_path, 'rb') as f:
+          total_size = os.path.getsize(file_path)
+          sent = 0
+          data = f.read(4096)
           while data:
-              clientSocket.send(data) #send each KB at a time
-              data = f.read(1024) #redefine data as the next KB
-              time.sleep(1) # to be able to see the progress
+              clientSocket.send(data)
+              sent += len(data)
+              progress = (sent / total_size) * 100
+              # Send progress to the Flask app
+              requests.post('http://localhost:5000/update_progress', 
+                           json={"filename": filename, "progress": progress})
+              data = f.read(4096)
+              time.sleep(0.1) # to be able to see the progress
+      # Send final 100% progress update
+      requests.post('http://localhost:5000/update_progress', 
+                   json={"filename": filename, "progress": 100})
     
     elif command == 2:
-      print("download")
+      if not file_path:
+        log("error", "No file path provided for download")
+        return
+        
+      log("info", f"Downloading file: {file_path}")
+      
+      # Use the original filename if provided, otherwise extract from path
+      if original_filename:
+          filename = original_filename
+      else:
+          # Extract just the filename from the path
+          filename = os.path.basename(file_path)
+      
       # Send the filename to download
       clientSocket.send(filename.encode())
-      filesize = clientSocket.recv(1024)
+      filesize = clientSocket.recv(1024).decode()
+      
+      if filesize == "FILE_NOT_FOUND":
+          log("error", f"File {filename} not found on server")
+          return
+          
+      filesize = int(filesize)
       current = 0
       
       # Receive the file
-      with open(filename, 'wb') as f:
-          while True:
-              data = clientSocket.recv(1024)
-              if not data or data == b"FILE_NOT_FOUND":
+      with open(file_path, 'wb') as f:
+          while current < filesize:
+              data = clientSocket.recv(4096)
+              if not data:
                   break
               f.write(data)
-              if len(data) < 1024:  # Last packet might be smaller
-                  break
-              current += len(data)  # Corrected to use len(data)
-              progress = (current / int(filesize)) * 100  # Calculate progress
+              current += len(data)
+              progress = (current / filesize) * 100  # Calculate progress
               log("info", f"Downloading: {progress:.2f}%")
 
               # Send progress to the Flask app
-              requests.post('http://localhost:5000/update_progress', json={"progress": progress})
-              time.sleep(1) # to be able to see the progress
+              requests.post('http://localhost:5000/update_progress', 
+                           json={"filename": filename, "progress": progress})
+              time.sleep(0.1) # to be able to see the progress
+      
+      # Send final 100% progress update
+      requests.post('http://localhost:5000/update_progress', 
+                   json={"filename": filename, "progress": 100})
                 
     elif command == 3:
+      log("info", "Requesting file list from server")
       #listing functionality
       data = clientSocket.recv(4096).decode()
       files_list = data.split(',')
+      log("info", f"Received file list with {len(files_list)} files")
       return files_list 
       # Return the list to be used by Flask app
 
   except Exception as e:
     log("error", f"Error in client operation: {str(e)}")
+    return [] if command == 3 else None
   finally:
     clientSocket.close()
+    log("info", "Client connection closed")
 
 
 if __name__ == "__main__":
-    intiateClient(3) #-- commented this out since it was reconfigured using flask and html
+    initiateClient(3)  # Fixed typo in function name

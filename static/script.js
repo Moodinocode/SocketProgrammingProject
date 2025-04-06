@@ -24,7 +24,25 @@ function uploadFile() {
   // Show progress bar when upload starts
   document.getElementById('progressBar').style.display = 'block';
   document.getElementById('progressText').style.display = 'block';
-  setInterval(fetchProgress, 1000);
+  
+  // Start progress tracking for this specific file
+  const progressInterval = setInterval(() => {
+    fetch(`/get_progress/${file.name}`)
+      .then(response => response.json())
+      .then(data => {
+        const progressBar = document.getElementById('progressBar');
+        const progressText = document.getElementById('progressText');
+        const progress = data.progress || 0;
+        progressBar.value = progress;
+        progressText.innerText = `${progress}%`;
+        
+        // If upload is complete, clear the interval
+        if (data.status === 'completed' || progress >= 100) {
+          clearInterval(progressInterval);
+        }
+      })
+      .catch(error => console.error('Error fetching progress:', error));
+  }, 1000);
 
   fetch('/upload', {
     method: 'POST',
@@ -32,6 +50,9 @@ function uploadFile() {
   })
   .then(response => response.json())
   .then(data => {
+    // Clear the progress interval
+    clearInterval(progressInterval);
+    
     // Hide progress bar when upload completes
     document.getElementById('progressBar').style.display = 'none';
     document.getElementById('progressText').style.display = 'none';
@@ -43,6 +64,9 @@ function uploadFile() {
     }
   })
   .catch(error => {
+    // Clear the progress interval
+    clearInterval(progressInterval);
+    
     console.error('Error:', error);
     document.getElementById('progressBar').style.display = 'none';
     document.getElementById('progressText').style.display = 'none';
@@ -56,6 +80,25 @@ function downloadFile(filename) {
   // Show progress bar when download starts
   document.getElementById('progressBar').style.display = 'block';
   document.getElementById('progressText').style.display = 'block';
+  
+  // Start progress tracking for this specific file
+  const progressInterval = setInterval(() => {
+    fetch(`/get_progress/${filename}`)
+      .then(response => response.json())
+      .then(data => {
+        const progressBar = document.getElementById('progressBar');
+        const progressText = document.getElementById('progressText');
+        const progress = data.progress || 0;
+        progressBar.value = progress;
+        progressText.innerText = `${progress}%`;
+        
+        // If download is complete, clear the interval
+        if (data.status === 'completed' || progress >= 100) {
+          clearInterval(progressInterval);
+        }
+      })
+      .catch(error => console.error('Error fetching progress:', error));
+  }, 1000);
 
   fetch('/download', {
     method: 'POST',
@@ -64,22 +107,46 @@ function downloadFile(filename) {
     },
     body: JSON.stringify({ filename: filename })
   })
-  .then(response => response.json())
-  .then(data => {
-    // Hide progress bar when download completes
-    document.getElementById('progressBar').style.display = 'none';
-    document.getElementById('progressText').style.display = 'none';
-    if (data.error) {
-      alert('Error: ' + data.error);
+  .then(response => {
+    // Clear the progress interval
+    clearInterval(progressInterval);
+    
+    // Check if the response is a file or an error
+    const contentType = response.headers.get('content-type');
+    if (contentType && contentType.includes('application/json')) {
+      // It's a JSON error response
+      return response.json().then(data => {
+        throw new Error(data.error || 'Download failed');
+      });
     } else {
-      alert(data.message);
+      // It's a file download
+      return response.blob().then(blob => {
+        // Create a URL for the blob
+        const url = window.URL.createObjectURL(blob);
+        // Create a temporary link element
+        const a = document.createElement('a');
+        a.style.display = 'none';
+        a.href = url;
+        a.download = filename; // Set the filename
+        document.body.appendChild(a);
+        a.click(); // Trigger the download
+        window.URL.revokeObjectURL(url); // Clean up
+        document.body.removeChild(a);
+        
+        // Hide progress bar when download completes
+        document.getElementById('progressBar').style.display = 'none';
+        document.getElementById('progressText').style.display = 'none';
+      });
     }
   })
   .catch(error => {
+    // Clear the progress interval
+    clearInterval(progressInterval);
+    
     console.error('Error:', error);
     document.getElementById('progressBar').style.display = 'none';
     document.getElementById('progressText').style.display = 'none';
-    alert('An error occurred during download');
+    alert('An error occurred during download: ' + error.message);
   });
 }
 
@@ -122,7 +189,7 @@ function listFiles() {
 
             const icon = document.createElement('img');
             icon.classList.add('file-icon');
-            icon.src = iconMapping[extension] || 'icons/default-file.png';
+            icon.src = iconMapping[extension] || './icons/default-file.png';
             icon.alt = extension + ' file icon';
 
             const fileNameSpan = document.createElement('span');
@@ -157,9 +224,10 @@ function listFiles() {
 
 // Optionally, if you have server-side progress tracking:
 function fetchProgress() {
-  // Assuming a fixed filename for demonstration; adjust as needed for multiple files
-  const filename = 'default_file';
-  fetch(`/get_progress/${filename}`)
+  // Get the current file being processed (if any)
+  const currentFile = document.querySelector('.file-item.selected')?.querySelector('.file-name')?.textContent || 'default_file';
+  
+  fetch(`/get_progress/${currentFile}`)
     .then(response => response.json())
     .then(data => {
       const progressBar = document.getElementById('progressBar');

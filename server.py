@@ -24,7 +24,7 @@ def handle_client(con, addr):
             filename = con.recv(1024).decode()
             log("info", f"Receiving file with name: {filename}")
             
-             # Create full path for saving the files
+            # Create full path for saving the files
             file_path = os.path.join(SERVER_FILES_DIR, filename)
 
             # Handle duplicate filenames
@@ -36,12 +36,17 @@ def handle_client(con, addr):
                 counter += 1
             
             with open(file_path, 'wb') as f:
+                total_received = 0
                 while True:
-                    data = con.recv(1024)
-                    if not data or len(data) < 1024: # Last packet might be smaller
-                        f.write(data)
+                    data = con.recv(4096)  
+                    if not data:
                         break
                     f.write(data)
+                    total_received += len(data)
+                    if len(data) < 4096:  # Last packet might be smaller
+                        break
+                
+                log("info", f"Received {total_received} bytes for file {filename}")
             
             log("info", f"{filename} file saved on: {os.path.basename(file_path)}")
         
@@ -51,6 +56,12 @@ def handle_client(con, addr):
             # Receive filename
             filename = con.recv(1024).decode()
             log("info",f"Client requested file: {filename}")
+            
+            # Strip 'temp_' prefix if it exists
+            if filename.startswith("temp_"):
+                original_filename = filename[5:]  # Remove the 'temp_' prefix
+                log("info", f"Stripped 'temp_' prefix, using: {original_filename}")
+                filename = original_filename
 
             file_path = os.path.join(SERVER_FILES_DIR, filename)
             
@@ -58,15 +69,24 @@ def handle_client(con, addr):
             if not os.path.exists(file_path):
                 log("warning", f"File {filename} not found")
                 con.send("FILE_NOT_FOUND".encode())
+                return
             else:
                 #send the file in raw bits
                 filesize = os.path.getsize(file_path)  # sending the file size in order to know the progress overall
                 con.send(str(filesize).encode())  # Send file size
+                
+                # For large files like MOV, we need to handle the transfer differently
                 with open(file_path, 'rb') as f:
-                    data = f.read(1024)
-                    while data:
+                    total_sent = 0
+                    while True:
+                        data = f.read(4096)  # Increased buffer size for better performance
+                        if not data:
+                            break
                         con.send(data)
-                        data = f.read(1024)
+                        total_sent += len(data)
+
+                
+                log("info", f"Sent {total_sent} bytes for file {filename}")
                 log("info", f"File {filename} sent to client")
         
         elif command == "3":
