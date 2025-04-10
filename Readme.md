@@ -35,14 +35,14 @@
 
 ### Core Requirements
 
-| Requirement | Developer                |
-| ----------- | ------------------------ |
-| A           | Mohamad Mehdi            |
-| B           | Mohamad Mehdi            |
-| C           | Both                     |
-| D           | Mounir Nawwar (utils.py) |
-| E           | Mohamad Mehdi            |
-| F           | Mohamad Mehdi (utils.py) |
+| Requirement | Developer     |
+| ----------- | ------------- |
+| A           | Mohamad Mehdi |
+| B           | Mohamad Mehdi |
+| C           | Both          |
+| D           | Mohamad Mehdi |
+| E           | Mohamad Mehdi |
+| F           | Mohamad Mehdi |
 
 ### Bonus Requirements
 

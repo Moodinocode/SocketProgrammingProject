@@ -2,6 +2,7 @@
 from socket import *
 from threading import *
 import os
+import hashlib
 
 from utils import log
 
@@ -26,6 +27,7 @@ def handle_client(con, addr):
             
             # Create full path for saving the files
             file_path = os.path.join(SERVER_FILES_DIR, filename)
+            hash_object = hashlib.sha256()
 
             # Handle duplicate filenames
             base_name, extension = os.path.splitext(filename)
@@ -38,9 +40,10 @@ def handle_client(con, addr):
             with open(file_path, 'wb') as f:
                 total_received = 0
                 while True:
-                    data = con.recv(4096)  
+                    data = con.recv(4096)
                     if not data:
                         break
+                    hash_object.update(data)
                     f.write(data)
                     total_received += len(data)
                     if len(data) < 4096:  # Last packet might be smaller
@@ -48,7 +51,19 @@ def handle_client(con, addr):
                 
                 log("info", f"Received {total_received} bytes for file {filename}")
             
-            log("info", f"{filename} file saved on: {os.path.basename(file_path)}")
+            # Receive client's hash for verification
+            client_hash = con.recv(64).decode()  # SHA-256 hash is 64 characters in hex
+            server_hash = hash_object.hexdigest()
+            
+            if client_hash == server_hash:
+                con.send("OK".encode())
+                log("info", f"{filename} file saved successfully with integrity verified")
+            else:
+                con.send("FAIL".encode())
+                log("error", f"File integrity check failed for {filename}")
+                # Optionally remove the corrupted file
+                os.remove(file_path)
+                return
         
         elif command == "2":
             log("info", "Download request received")
@@ -78,16 +93,20 @@ def handle_client(con, addr):
                 # For large files like MOV, we need to handle the transfer differently
                 with open(file_path, 'rb') as f:
                     total_sent = 0
+                    hash_object = hashlib.sha256()
                     while True:
                         data = f.read(4096)  # Increased buffer size for better performance
                         if not data:
                             break
+                        hash_object.update(data)
                         con.send(data)
                         total_sent += len(data)
 
+                # Send the hash to client for verification
+                con.send(hash_object.hexdigest().encode())
                 
                 log("info", f"Sent {total_sent} bytes for file {filename}")
-                log("info", f"File {filename} sent to client")
+                log("info", f"File {filename} sent to client with integrity verification")
         
         elif command == "3":
             log("info", "List files request received")

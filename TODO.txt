@@ -1,5 +1,4 @@
-write the hashing function and implement hash comparison 
-seems like SHA 256 is the best option as its the most secure (we can revisit this)
+
 
 Clean up the frontend
 

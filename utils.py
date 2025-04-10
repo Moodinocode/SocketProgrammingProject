@@ -2,6 +2,7 @@
 #logging functions 
 #etc
 import logging
+import hashlib
 
 logging.basicConfig(
     filename='test.log',
