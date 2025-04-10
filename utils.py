@@ -6,7 +6,8 @@ import logging
 logging.basicConfig(
     filename='test.log',
     level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
+    # we can add the threadName in the logging (might be good to show the multithreading)
+    format='%(asctime)s - %(levelname)s - %(message)s' # format from stack overflow (https://stackoverflow.com/questions/20240464/python-logging-file-is-not-working-when-using-logging-basicconfig)
 )
 
 def log(level, message):

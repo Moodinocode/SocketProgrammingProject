@@ -1,8 +1,54 @@
-### Steps to run the code
+# Socket Programming Project
 
-1 - Open a terminal within ...\SocketProgrammingProject\
-2 - run command: python server.py
-3 - Open another terminal within ...\SocketProgrammingProject\
-4 - run command: python flask_app.py
-5 - naviagte in your browser to http://127.0.0.1:5000
-6 - upload/list/download functionalities should be available
+## Setup and Running Instructions
+
+1. Open a terminal and navigate to the project directory:
+
+   ```
+   cd ...\SocketProgrammingProject\
+   ```
+
+2. Start the server:
+
+   ```
+   python server.py
+   ```
+
+3. Open another terminal in the same directory and start the Flask application:
+
+   ```
+   python flask_app.py
+   ```
+
+4. Access the web interface by navigating to:
+
+   ```
+   http://127.0.0.1:5000
+   ```
+
+5. The following functionalities will be available:
+   - File Upload
+   - File Listing
+   - File Download
+
+## Project Distribution
+
+### Core Requirements
+
+| Requirement | Developer                |
+| ----------- | ------------------------ |
+| A           | Mohamad Mehdi            |
+| B           | Mohamad Mehdi            |
+| C           | Both                     |
+| D           | Mounir Nawwar (utils.py) |
+| E           | Mohamad Mehdi            |
+| F           | Mohamad Mehdi (utils.py) |
+
+### Bonus Requirements
+
+| Requirement | Developer     |
+| ----------- | ------------- |
+| A           | Both          |
+| B           | Mounir Nawwar |
+| C           | Mounir Nawwar |
+| D           | Mohamad Mehdi |

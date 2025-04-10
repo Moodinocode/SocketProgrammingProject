@@ -1,0 +1,16 @@
+write the hashing function and implement hash comparison 
+seems like SHA 256 is the best option as its the most secure (we can revisit this)
+
+Clean up the frontend
+
+
+we should add a json file that stores the metadata comming from a certain client (based on flask)
+everytime a download is intiated the meta data is scanned to check if the file has been intrupted before and hence resumes its
+
+
+implement login system with mongoose DB (we can use sql) and then add RBAC within the login schema 
+recreate the server_files folder calling it Rserver_files (resitrected) where only the previleged users can acess them
+
+
+host the project for the presentation
+write the document.
