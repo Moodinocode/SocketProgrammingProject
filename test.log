@@ -4592,3 +4592,29 @@ files
 2025-04-12 22:37:01,496 - ERROR - Error in client operation: [WinError 10061] No connection could be made because the target machine actively refused it
 2025-04-12 22:37:01,496 - INFO - Client connection closed
 2025-04-12 22:37:01,497 - INFO - 127.0.0.1 - - [12/Apr/2025 22:37:01] "GET /list HTTP/1.1" 200 -
+2025-04-12 22:53:52,615 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-12 22:53:52,615 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-12 22:53:52,616 - INFO -  * Restarting with stat
+2025-04-12 22:53:53,565 - WARNING -  * Debugger is active!
+2025-04-12 22:53:53,567 - INFO -  * Debugger PIN: 252-492-769
+2025-04-12 22:53:55,321 - INFO - 127.0.0.1 - - [12/Apr/2025 22:53:55] "GET /home HTTP/1.1" 200 -
+2025-04-12 22:53:55,363 - INFO - 127.0.0.1 - - [12/Apr/2025 22:53:55] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-12 22:53:55,561 - INFO - 127.0.0.1 - - [12/Apr/2025 22:53:55] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-12 22:53:56,766 - INFO - 127.0.0.1 - - [12/Apr/2025 22:53:56] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-12 22:53:57,089 - INFO - 127.0.0.1 - - [12/Apr/2025 22:53:57] "GET / HTTP/1.1" 200 -
+2025-04-12 22:53:57,411 - INFO - 127.0.0.1 - - [12/Apr/2025 22:53:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-12 22:53:57,411 - INFO - 127.0.0.1 - - [12/Apr/2025 22:53:57] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-12 22:53:57,909 - ERROR - Error in client operation: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-04-12 22:53:57,910 - INFO - Client connection closed
+2025-04-12 22:53:57,910 - INFO - 127.0.0.1 - - [12/Apr/2025 22:53:57] "GET /list HTTP/1.1" 200 -
+2025-04-12 22:54:07,298 - INFO - 127.0.0.1 - - [12/Apr/2025 22:54:07] "POST / HTTP/1.1" 200 -
+2025-04-12 22:54:07,304 - INFO - 127.0.0.1 - - [12/Apr/2025 22:54:07] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-12 22:54:07,345 - INFO - 127.0.0.1 - - [12/Apr/2025 22:54:07] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-12 22:54:21,122 - INFO - 127.0.0.1 - - [12/Apr/2025 22:54:21] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-04-12 22:54:21,126 - INFO - 127.0.0.1 - - [12/Apr/2025 22:54:21] "GET /home HTTP/1.1" 200 -
+2025-04-12 22:54:21,176 - INFO - 127.0.0.1 - - [12/Apr/2025 22:54:21] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-12 22:54:21,444 - INFO - 127.0.0.1 - - [12/Apr/2025 22:54:21] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-12 22:54:23,786 - ERROR - Error in client operation: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-04-12 22:54:23,786 - INFO - Client connection closed
+2025-04-12 22:54:23,786 - INFO - 127.0.0.1 - - [12/Apr/2025 22:54:23] "GET /list HTTP/1.1" 200 -
