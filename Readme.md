@@ -31,24 +31,9 @@
    - File Listing
    - File Download
 
-## Project Distribution
-
-### Core Requirements
-
-| Requirement | Developer     |
-| ----------- | ------------- |
-| A           | Mohamad Mehdi |
-| B           | Mohamad Mehdi |
-| C           | Both          |
-| D           | Mohamad Mehdi |
-| E           | Mohamad Mehdi |
-| F           | Mohamad Mehdi |
-
-### Bonus Requirements
-
-| Requirement | Developer     |
-| ----------- | ------------- |
-| A           | Both          |
-| B           | Mounir Nawwar |
-| C           | Mounir Nawwar |
-| D           | Mohamad Mehdi |
+Admin User:
+Username: admin
+Password: admin123
+Normal User:
+Username: user
+Password: user123

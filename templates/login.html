@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>File Server</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+</head>
+
+<body>
+    <div>
+        <h1>Log in</h1>
+        <form method="POST" action="">
+            {{form.hidden_tag()}}
+            {{form.username}}
+            {{form.password}}
+            {{form.submit}}
+        </form>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+
+</body>
+
+</html>

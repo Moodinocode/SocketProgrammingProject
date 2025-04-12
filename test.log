@@ -4362,3 +4362,233 @@ files
 2025-04-06 14:47:13,252 - INFO -  * Restarting with stat
 2025-04-06 14:47:14,348 - WARNING -  * Debugger is active!
 2025-04-06 14:47:14,350 - INFO -  * Debugger PIN: 911-889-448
+2025-04-12 20:29:36,474 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-12 20:29:36,475 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-12 20:29:36,476 - INFO -  * Restarting with stat
+2025-04-12 20:29:36,935 - WARNING -  * Debugger is active!
+2025-04-12 20:29:36,938 - INFO -  * Debugger PIN: 252-492-769
+2025-04-12 20:30:05,509 - INFO - 127.0.0.1 - - [12/Apr/2025 20:30:05] "GET / HTTP/1.1" 200 -
+2025-04-12 20:30:05,550 - INFO - 127.0.0.1 - - [12/Apr/2025 20:30:05] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-12 20:30:05,775 - INFO - 127.0.0.1 - - [12/Apr/2025 20:30:05] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-12 20:30:05,822 - INFO - 127.0.0.1 - - [12/Apr/2025 20:30:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-12 20:31:12,455 - INFO - 127.0.0.1 - - [12/Apr/2025 20:31:12] "GET / HTTP/1.1" 200 -
+2025-04-12 20:31:12,462 - INFO - 127.0.0.1 - - [12/Apr/2025 20:31:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-12 20:31:12,720 - INFO - 127.0.0.1 - - [12/Apr/2025 20:31:12] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-12 22:01:55,976 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-12 22:01:55,976 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-12 22:01:55,980 - INFO -  * Restarting with stat
+2025-04-12 22:01:56,656 - WARNING -  * Debugger is active!
+2025-04-12 22:01:56,658 - INFO -  * Debugger PIN: 252-492-769
+2025-04-12 22:02:03,277 - INFO - 127.0.0.1 - - [12/Apr/2025 22:02:03] "GET / HTTP/1.1" 200 -
+2025-04-12 22:02:03,321 - INFO - 127.0.0.1 - - [12/Apr/2025 22:02:03] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-12 22:02:03,535 - INFO - 127.0.0.1 - - [12/Apr/2025 22:02:03] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-12 22:03:18,983 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\flask_app.py', reloading
+2025-04-12 22:03:19,062 - INFO -  * Restarting with stat
+2025-04-12 22:04:55,370 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-12 22:04:55,371 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-12 22:04:55,375 - INFO -  * Restarting with stat
+2025-04-12 22:04:56,049 - WARNING -  * Debugger is active!
+2025-04-12 22:04:56,050 - INFO -  * Debugger PIN: 252-492-769
+2025-04-12 22:04:58,516 - INFO - 127.0.0.1 - - [12/Apr/2025 22:04:58] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-12 22:04:59,455 - INFO - 127.0.0.1 - - [12/Apr/2025 22:04:59] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-12 22:05:01,375 - INFO - 127.0.0.1 - - [12/Apr/2025 22:05:01] "[33mGET / HTTP/1.1[0m" 404 -
+2025-04-12 22:05:06,101 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\flask_app.py', reloading
+2025-04-12 22:05:06,182 - INFO -  * Restarting with stat
+2025-04-12 22:05:06,952 - WARNING -  * Debugger is active!
+2025-04-12 22:05:06,954 - INFO -  * Debugger PIN: 252-492-769
+2025-04-12 22:05:07,292 - INFO - 127.0.0.1 - - [12/Apr/2025 22:05:07] "GET / HTTP/1.1" 200 -
+2025-04-12 22:05:07,324 - INFO - 127.0.0.1 - - [12/Apr/2025 22:05:07] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-12 22:05:07,549 - INFO - 127.0.0.1 - - [12/Apr/2025 22:05:07] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-12 22:05:31,044 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\flask_app.py', reloading
+2025-04-12 22:05:31,121 - INFO -  * Restarting with stat
+2025-04-12 22:05:32,042 - WARNING -  * Debugger is active!
+2025-04-12 22:05:32,046 - INFO -  * Debugger PIN: 252-492-769
+2025-04-12 22:05:33,919 - INFO - 127.0.0.1 - - [12/Apr/2025 22:05:33] "GET / HTTP/1.1" 200 -
+2025-04-12 22:05:33,949 - INFO - 127.0.0.1 - - [12/Apr/2025 22:05:33] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-12 22:05:34,179 - INFO - 127.0.0.1 - - [12/Apr/2025 22:05:34] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-12 22:05:55,144 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\flask_app.py', reloading
+2025-04-12 22:05:55,272 - INFO -  * Restarting with stat
+2025-04-12 22:05:56,051 - WARNING -  * Debugger is active!
+2025-04-12 22:05:56,053 - INFO -  * Debugger PIN: 252-492-769
+2025-04-12 22:07:24,180 - INFO - 127.0.0.1 - - [12/Apr/2025 22:07:24] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-04-12 22:07:24,227 - INFO - 127.0.0.1 - - [12/Apr/2025 22:07:24] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-12 22:07:24,422 - INFO - 127.0.0.1 - - [12/Apr/2025 22:07:24] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-12 22:07:24,763 - INFO - 127.0.0.1 - - [12/Apr/2025 22:07:24] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=OCLps7k0x6gBJQGAG3Qe HTTP/1.1" 200 -
+2025-04-12 22:07:25,009 - INFO - 127.0.0.1 - - [12/Apr/2025 22:07:25] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-12 22:07:52,488 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\flask_app.py', reloading
+2025-04-12 22:07:52,550 - INFO -  * Restarting with stat
+2025-04-12 22:07:53,278 - WARNING -  * Debugger is active!
+2025-04-12 22:07:53,279 - INFO -  * Debugger PIN: 252-492-769
+2025-04-12 22:08:19,381 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\flask_app.py', reloading
+2025-04-12 22:08:19,449 - INFO -  * Restarting with stat
+2025-04-12 22:08:34,444 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-12 22:08:34,444 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-12 22:08:34,448 - INFO -  * Restarting with stat
+2025-04-12 22:08:35,136 - WARNING -  * Debugger is active!
+2025-04-12 22:08:35,137 - INFO -  * Debugger PIN: 252-492-769
+2025-04-12 22:08:36,194 - INFO - 127.0.0.1 - - [12/Apr/2025 22:08:36] "GET / HTTP/1.1" 200 -
+2025-04-12 22:08:36,525 - INFO - 127.0.0.1 - - [12/Apr/2025 22:08:36] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-12 22:08:36,545 - INFO - 127.0.0.1 - - [12/Apr/2025 22:08:36] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-12 22:10:53,753 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\add_users.py', reloading
+2025-04-12 22:10:53,857 - INFO -  * Restarting with stat
+2025-04-12 22:10:54,677 - WARNING -  * Debugger is active!
+2025-04-12 22:10:54,678 - INFO -  * Debugger PIN: 252-492-769
+2025-04-12 22:11:20,756 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\add_users.py', reloading
+2025-04-12 22:11:20,854 - INFO -  * Restarting with stat
+2025-04-12 22:11:21,632 - WARNING -  * Debugger is active!
+2025-04-12 22:11:21,634 - INFO -  * Debugger PIN: 252-492-769
+2025-04-12 22:11:29,667 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\add_users.py', reloading
+2025-04-12 22:11:29,745 - INFO -  * Restarting with stat
+2025-04-12 22:11:30,502 - WARNING -  * Debugger is active!
+2025-04-12 22:11:30,504 - INFO -  * Debugger PIN: 252-492-769
+2025-04-12 22:11:31,514 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\add_users.py', reloading
+2025-04-12 22:11:31,602 - INFO -  * Restarting with stat
+2025-04-12 22:11:32,355 - WARNING -  * Debugger is active!
+2025-04-12 22:11:32,357 - INFO -  * Debugger PIN: 252-492-769
+2025-04-12 22:12:40,277 - INFO - 127.0.0.1 - - [12/Apr/2025 22:12:40] "POST / HTTP/1.1" 200 -
+2025-04-12 22:12:40,312 - INFO - 127.0.0.1 - - [12/Apr/2025 22:12:40] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-12 22:12:40,531 - INFO - 127.0.0.1 - - [12/Apr/2025 22:12:40] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-12 22:14:36,059 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\flask_app.py', reloading
+2025-04-12 22:14:36,135 - INFO -  * Restarting with stat
+2025-04-12 22:14:37,002 - WARNING -  * Debugger is active!
+2025-04-12 22:14:37,004 - INFO -  * Debugger PIN: 252-492-769
+2025-04-12 22:14:42,506 - INFO - 127.0.0.1 - - [12/Apr/2025 22:14:42] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-04-12 22:14:42,512 - INFO - 127.0.0.1 - - [12/Apr/2025 22:14:42] "GET /home HTTP/1.1" 200 -
+2025-04-12 22:14:42,761 - INFO - 127.0.0.1 - - [12/Apr/2025 22:14:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-12 22:14:42,835 - INFO - 127.0.0.1 - - [12/Apr/2025 22:14:42] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-12 22:14:45,207 - ERROR - Error in client operation: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-04-12 22:14:45,207 - INFO - Client connection closed
+2025-04-12 22:14:45,207 - INFO - 127.0.0.1 - - [12/Apr/2025 22:14:45] "GET /list HTTP/1.1" 200 -
+2025-04-12 22:14:50,146 - INFO - 127.0.0.1 - - [12/Apr/2025 22:14:50] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-04-12 22:14:50,150 - INFO - 127.0.0.1 - - [12/Apr/2025 22:14:50] "GET /home HTTP/1.1" 200 -
+2025-04-12 22:14:50,471 - INFO - 127.0.0.1 - - [12/Apr/2025 22:14:50] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-12 22:14:50,472 - INFO - 127.0.0.1 - - [12/Apr/2025 22:14:50] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-12 22:14:52,841 - ERROR - Error in client operation: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-04-12 22:14:52,842 - INFO - Client connection closed
+2025-04-12 22:14:52,843 - INFO - 127.0.0.1 - - [12/Apr/2025 22:14:52] "GET /list HTTP/1.1" 200 -
+2025-04-12 22:18:01,797 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\flask_app.py', reloading
+2025-04-12 22:18:01,877 - INFO -  * Restarting with stat
+2025-04-12 22:18:02,657 - WARNING -  * Debugger is active!
+2025-04-12 22:18:02,658 - INFO -  * Debugger PIN: 252-492-769
+2025-04-12 22:19:08,936 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\flask_app.py', reloading
+2025-04-12 22:19:09,102 - INFO -  * Restarting with stat
+2025-04-12 22:22:51,638 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-12 22:22:51,639 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-12 22:22:51,644 - INFO -  * Restarting with stat
+2025-04-12 22:22:52,324 - WARNING -  * Debugger is active!
+2025-04-12 22:22:52,326 - INFO -  * Debugger PIN: 252-492-769
+2025-04-12 22:22:56,491 - INFO - 127.0.0.1 - - [12/Apr/2025 22:22:56] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-04-12 22:22:56,497 - INFO - 127.0.0.1 - - [12/Apr/2025 22:22:56] "GET /home HTTP/1.1" 200 -
+2025-04-12 22:22:56,752 - INFO - 127.0.0.1 - - [12/Apr/2025 22:22:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-12 22:22:56,806 - INFO - 127.0.0.1 - - [12/Apr/2025 22:22:56] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-12 22:22:59,166 - ERROR - Error in client operation: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-04-12 22:22:59,166 - INFO - Client connection closed
+2025-04-12 22:22:59,167 - INFO - 127.0.0.1 - - [12/Apr/2025 22:22:59] "GET /list HTTP/1.1" 200 -
+2025-04-12 22:22:59,433 - INFO - 127.0.0.1 - - [12/Apr/2025 22:22:59] "GET / HTTP/1.1" 200 -
+2025-04-12 22:23:05,964 - INFO - 127.0.0.1 - - [12/Apr/2025 22:23:05] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-04-12 22:23:06,274 - INFO - 127.0.0.1 - - [12/Apr/2025 22:23:06] "GET /home HTTP/1.1" 200 -
+2025-04-12 22:23:06,283 - INFO - 127.0.0.1 - - [12/Apr/2025 22:23:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-12 22:23:06,535 - INFO - 127.0.0.1 - - [12/Apr/2025 22:23:06] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-12 22:23:08,890 - ERROR - Error in client operation: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-04-12 22:23:08,890 - INFO - Client connection closed
+2025-04-12 22:23:08,890 - INFO - 127.0.0.1 - - [12/Apr/2025 22:23:08] "GET /list HTTP/1.1" 200 -
+2025-04-12 22:24:36,777 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\flask_app.py', reloading
+2025-04-12 22:24:36,850 - INFO -  * Restarting with stat
+2025-04-12 22:24:37,590 - WARNING -  * Debugger is active!
+2025-04-12 22:24:37,591 - INFO -  * Debugger PIN: 252-492-769
+2025-04-12 22:24:39,788 - INFO - 127.0.0.1 - - [12/Apr/2025 22:24:39] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-04-12 22:24:39,820 - INFO - 127.0.0.1 - - [12/Apr/2025 22:24:39] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+2025-04-12 22:24:40,076 - INFO - 127.0.0.1 - - [12/Apr/2025 22:24:40] "GET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-04-12 22:24:40,143 - INFO - 127.0.0.1 - - [12/Apr/2025 22:24:40] "GET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-04-12 22:24:40,484 - INFO - 127.0.0.1 - - [12/Apr/2025 22:24:40] "GET /home?__debugger__=yes&cmd=resource&f=console.png&s=BNjtppjX5nrqac16LL9F HTTP/1.1" 200 -
+2025-04-12 22:24:40,748 - INFO - 127.0.0.1 - - [12/Apr/2025 22:24:40] "GET /home?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-12 22:25:05,538 - INFO - 127.0.0.1 - - [12/Apr/2025 22:25:05] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-04-12 22:25:05,849 - INFO - 127.0.0.1 - - [12/Apr/2025 22:25:05] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+2025-04-12 22:25:06,178 - INFO - 127.0.0.1 - - [12/Apr/2025 22:25:06] "[36mGET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-12 22:25:06,178 - INFO - 127.0.0.1 - - [12/Apr/2025 22:25:06] "[36mGET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-12 22:25:06,422 - INFO - 127.0.0.1 - - [12/Apr/2025 22:25:06] "[36mGET /home?__debugger__=yes&cmd=resource&f=console.png&s=BNjtppjX5nrqac16LL9F HTTP/1.1[0m" 304 -
+2025-04-12 22:27:26,243 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\flask_app.py', reloading
+2025-04-12 22:27:26,309 - INFO -  * Restarting with stat
+2025-04-12 22:27:54,778 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-12 22:27:54,779 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-12 22:27:54,784 - INFO -  * Restarting with stat
+2025-04-12 22:27:55,559 - WARNING -  * Debugger is active!
+2025-04-12 22:27:55,560 - INFO -  * Debugger PIN: 252-492-769
+2025-04-12 22:27:58,086 - INFO - 127.0.0.1 - - [12/Apr/2025 22:27:58] "GET / HTTP/1.1" 200 -
+2025-04-12 22:27:58,119 - INFO - 127.0.0.1 - - [12/Apr/2025 22:27:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-12 22:27:58,326 - INFO - 127.0.0.1 - - [12/Apr/2025 22:27:58] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-12 22:28:07,874 - INFO - 127.0.0.1 - - [12/Apr/2025 22:28:07] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-04-12 22:28:07,882 - INFO - 127.0.0.1 - - [12/Apr/2025 22:28:07] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-12 22:28:08,133 - INFO - 127.0.0.1 - - [12/Apr/2025 22:28:08] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-12 22:28:08,461 - INFO - 127.0.0.1 - - [12/Apr/2025 22:28:08] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=IrrxuonGR0NuyHruSYxC HTTP/1.1" 200 -
+2025-04-12 22:28:08,709 - INFO - 127.0.0.1 - - [12/Apr/2025 22:28:08] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-12 22:28:55,778 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\flask_app.py', reloading
+2025-04-12 22:28:55,864 - INFO -  * Restarting with stat
+2025-04-12 22:29:24,192 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-12 22:29:24,192 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-12 22:29:24,196 - INFO -  * Restarting with stat
+2025-04-12 22:29:24,872 - WARNING -  * Debugger is active!
+2025-04-12 22:29:24,873 - INFO -  * Debugger PIN: 252-492-769
+2025-04-12 22:29:28,448 - INFO - 127.0.0.1 - - [12/Apr/2025 22:29:28] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-04-12 22:29:28,482 - INFO - 127.0.0.1 - - [12/Apr/2025 22:29:28] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-12 22:29:28,687 - INFO - 127.0.0.1 - - [12/Apr/2025 22:29:28] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-12 22:29:29,014 - INFO - 127.0.0.1 - - [12/Apr/2025 22:29:29] "GET /?__debugger__=yes&cmd=resource&f=console.png&s=Adxler7lPO5O2MLkCjGz HTTP/1.1" 200 -
+2025-04-12 22:29:29,266 - INFO - 127.0.0.1 - - [12/Apr/2025 22:29:29] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-04-12 22:29:32,914 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\flask_app.py', reloading
+2025-04-12 22:29:32,987 - INFO -  * Restarting with stat
+2025-04-12 22:29:33,725 - WARNING -  * Debugger is active!
+2025-04-12 22:29:33,726 - INFO -  * Debugger PIN: 252-492-769
+2025-04-12 22:30:12,896 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\flask_app.py', reloading
+2025-04-12 22:30:12,960 - INFO -  * Restarting with stat
+2025-04-12 22:30:13,679 - WARNING -  * Debugger is active!
+2025-04-12 22:30:13,680 - INFO -  * Debugger PIN: 252-492-769
+2025-04-12 22:30:20,523 - INFO - 127.0.0.1 - - [12/Apr/2025 22:30:20] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-04-12 22:30:20,533 - INFO - 127.0.0.1 - - [12/Apr/2025 22:30:20] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+2025-04-12 22:30:20,890 - INFO - 127.0.0.1 - - [12/Apr/2025 22:30:20] "[36mGET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-04-12 22:30:20,890 - INFO - 127.0.0.1 - - [12/Apr/2025 22:30:20] "[36mGET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-04-12 22:30:21,113 - INFO - 127.0.0.1 - - [12/Apr/2025 22:30:21] "GET /home?__debugger__=yes&cmd=resource&f=console.png&s=Ddrj2e5mmNX9akf2OzbN HTTP/1.1" 200 -
+2025-04-12 22:32:15,201 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\flask_app.py', reloading
+2025-04-12 22:32:15,278 - INFO -  * Restarting with stat
+2025-04-12 22:32:16,078 - WARNING -  * Debugger is active!
+2025-04-12 22:32:16,079 - INFO -  * Debugger PIN: 252-492-769
+2025-04-12 22:32:25,007 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-12 22:32:25,007 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-12 22:32:25,011 - INFO -  * Restarting with stat
+2025-04-12 22:32:25,730 - WARNING -  * Debugger is active!
+2025-04-12 22:32:25,731 - INFO -  * Debugger PIN: 252-492-769
+2025-04-12 22:32:29,165 - INFO - 127.0.0.1 - - [12/Apr/2025 22:32:29] "GET / HTTP/1.1" 200 -
+2025-04-12 22:32:29,209 - INFO - 127.0.0.1 - - [12/Apr/2025 22:32:29] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-12 22:32:29,422 - INFO - 127.0.0.1 - - [12/Apr/2025 22:32:29] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-12 22:33:33,157 - INFO - 127.0.0.1 - - [12/Apr/2025 22:33:33] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-04-12 22:33:33,164 - INFO - 127.0.0.1 - - [12/Apr/2025 22:33:33] "GET /home HTTP/1.1" 200 -
+2025-04-12 22:33:33,208 - INFO - 127.0.0.1 - - [12/Apr/2025 22:33:33] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-12 22:33:33,491 - INFO - 127.0.0.1 - - [12/Apr/2025 22:33:33] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-12 22:33:35,839 - ERROR - Error in client operation: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-04-12 22:33:35,840 - INFO - Client connection closed
+2025-04-12 22:33:35,840 - INFO - 127.0.0.1 - - [12/Apr/2025 22:33:35] "GET /list HTTP/1.1" 200 -
+2025-04-12 22:33:42,680 - INFO - 127.0.0.1 - - [12/Apr/2025 22:33:42] "POST / HTTP/1.1" 200 -
+2025-04-12 22:33:42,796 - INFO - 127.0.0.1 - - [12/Apr/2025 22:33:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-12 22:33:42,997 - INFO - 127.0.0.1 - - [12/Apr/2025 22:33:42] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-12 22:34:47,372 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\flask_app.py', reloading
+2025-04-12 22:34:47,499 - INFO -  * Restarting with stat
+2025-04-12 22:36:55,611 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-12 22:36:55,612 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-12 22:36:55,613 - INFO -  * Restarting with stat
+2025-04-12 22:36:56,301 - WARNING -  * Debugger is active!
+2025-04-12 22:36:56,303 - INFO -  * Debugger PIN: 252-492-769
+2025-04-12 22:36:58,798 - INFO - 127.0.0.1 - - [12/Apr/2025 22:36:58] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-04-12 22:36:58,807 - INFO - 127.0.0.1 - - [12/Apr/2025 22:36:58] "GET /home HTTP/1.1" 200 -
+2025-04-12 22:36:58,875 - INFO - 127.0.0.1 - - [12/Apr/2025 22:36:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-12 22:36:59,131 - INFO - 127.0.0.1 - - [12/Apr/2025 22:36:59] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-12 22:37:01,496 - ERROR - Error in client operation: [WinError 10061] No connection could be made because the target machine actively refused it
+2025-04-12 22:37:01,496 - INFO - Client connection closed
+2025-04-12 22:37:01,497 - INFO - 127.0.0.1 - - [12/Apr/2025 22:37:01] "GET /list HTTP/1.1" 200 -
