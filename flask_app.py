@@ -183,6 +183,32 @@ def get_progress(filename):
     else:
         return jsonify({"progress": 0, "status": "unknown"})
 
+@app.route('/delete', methods=['POST'])
+@login_required
+def delete_file():
+    try:
+        # Check if user is admin
+        if current_user.username != "admin":
+            return jsonify({'error': 'Only admin users can delete files'})
+            
+        # Get filename from request
+        filename = request.json.get('filename')
+        if not filename:
+            return jsonify({'error': 'No filename provided'})
+        
+        # Call the client to delete the file
+        result = initiateClient(4, filename=filename)
+        
+        if result == "SUCCESS":
+            return jsonify({'success': True, 'message': f'File {filename} deleted successfully'})
+        elif result == "FILE_NOT_FOUND":
+            return jsonify({'error': f'File {filename} not found on server'})
+        else:
+            return jsonify({'error': 'An error occurred during file deletion'})
+    except Exception as e:
+        log("error", f"Error during file deletion: {str(e)}")
+        return jsonify({'error': 'An error occurred during file deletion'})
+
 # using http methos POST/GET/... we recieve the frontend command and any additional data and then initiate client to use the TCP connection
 if __name__ == '__main__':
     app.run(debug=True)

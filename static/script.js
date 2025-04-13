@@ -74,6 +74,7 @@ function uploadFile() {
   });
 }
 
+
 function downloadFile(filename) {
   if (!filename) return;
 
@@ -232,6 +233,49 @@ function listFiles() {
       console.error('Error:', error);
       alert('An error occurred while listing files');
     });
+}
+
+function deletefile(filename) {
+  if (!filename) {
+    alert('No file selected for deletion');
+    return;
+  }
+
+  // Confirm deletion with the user
+  if (!confirm(`Are you sure you want to delete "${filename}"?`)) {
+    return;
+  }
+
+  // Show progress bar when deletion starts
+  document.getElementById('progressBar').style.display = 'block';
+  document.getElementById('progressText').style.display = 'block';
+  
+  fetch('/delete', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({ filename: filename })
+  })
+  .then(response => response.json())
+  .then(data => {
+    // Hide progress bar when deletion completes
+    document.getElementById('progressBar').style.display = 'none';
+    document.getElementById('progressText').style.display = 'none';
+    
+    if (data.error) {
+      alert('Error: ' + data.error);
+    } else {
+      alert(data.message || 'File deleted successfully');
+      listFiles(); // Refresh file list after successful deletion
+    }
+  })
+  .catch(error => {
+    console.error('Error:', error);
+    document.getElementById('progressBar').style.display = 'none';
+    document.getElementById('progressText').style.display = 'none';
+    alert('An error occurred during file deletion');
+  });
 }
 
 // Optionally, if you have server-side progress tracking:

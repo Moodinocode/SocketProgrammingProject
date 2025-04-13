@@ -8,7 +8,7 @@ import hashlib
 PORT = 8080
 ServerIP = "127.0.0.1"  # Use localhost
 
-def initiateClient(command, file_path=None, original_filename=None): #command should be sent from the flask web app
+def initiateClient(command, file_path=None, original_filename=None, filename=None): #command should be sent from the flask web app
   try:
     clientSocket = socket(AF_INET,SOCK_STREAM)
     clientSocket.connect((ServerIP,PORT))
@@ -54,6 +54,7 @@ def initiateClient(command, file_path=None, original_filename=None): #command sh
       if verification != "OK":
           log("error", "File integrity check failed during upload")
           return
+      
     
     elif command == 2:
       if not file_path:
@@ -120,6 +121,22 @@ def initiateClient(command, file_path=None, original_filename=None): #command sh
       log("info", f"Received file list with {len(files_list)} files")
       return files_list 
       # Return the list to be used by Flask app
+      
+    elif command == 4:
+      if not filename:
+        log("error", "No filename provided for deletion")
+        return "ERROR"
+        
+      log("info", f"Deleting file: {filename}")
+      
+      # Send the filename to delete
+      clientSocket.send(filename.encode())
+      
+      # Receive the result from the server
+      result = clientSocket.recv(1024).decode()
+      log("info", f"Delete result: {result}")
+      
+      return result
 
   except Exception as e:
     log("error", f"Error in client operation: {str(e)}")

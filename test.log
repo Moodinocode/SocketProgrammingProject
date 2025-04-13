@@ -5070,3 +5070,109 @@ files
 2025-04-13 06:44:57,241 - INFO - Client connection closed
 2025-04-13 06:44:57,242 - INFO - 127.0.0.1 - - [13/Apr/2025 06:44:57] "GET /list HTTP/1.1" 200 -
 2025-04-13 06:44:57,248 - INFO - 127.0.0.1 - - [13/Apr/2025 06:44:57] "[33mGET /icons/text-file.png HTTP/1.1[0m" 404 -
+2025-04-13 21:29:12,964 - INFO - Server starting on port 8080...
+2025-04-13 21:29:12,965 - INFO - Server listening on port 8080...
+2025-04-13 21:29:21,710 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-13 21:29:21,710 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 21:29:21,712 - INFO -  * Restarting with stat
+2025-04-13 21:29:22,415 - WARNING -  * Debugger is active!
+2025-04-13 21:29:22,417 - INFO -  * Debugger PIN: 355-406-568
+2025-04-13 21:29:49,059 - INFO - 127.0.0.1 - - [13/Apr/2025 21:29:49] "GET / HTTP/1.1" 200 -
+2025-04-13 21:29:49,111 - INFO - 127.0.0.1 - - [13/Apr/2025 21:29:49] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-13 21:29:49,316 - INFO - 127.0.0.1 - - [13/Apr/2025 21:29:49] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-13 21:29:49,628 - INFO - 127.0.0.1 - - [13/Apr/2025 21:29:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-13 21:30:02,390 - INFO - 127.0.0.1 - - [13/Apr/2025 21:30:02] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-04-13 21:30:02,491 - INFO - 127.0.0.1 - - [13/Apr/2025 21:30:02] "GET /home HTTP/1.1" 200 -
+2025-04-13 21:30:02,807 - INFO - 127.0.0.1 - - [13/Apr/2025 21:30:02] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-13 21:30:02,809 - INFO - 127.0.0.1 - - [13/Apr/2025 21:30:02] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-13 21:30:03,072 - INFO - New connection established with client of address = ('127.0.0.1', 50449)
+2025-04-13 21:30:03,074 - INFO - New serving socket connected to address = ('127.0.0.1', 50449)
+2025-04-13 21:30:03,074 - INFO - List files request received
+2025-04-13 21:30:03,074 - INFO - File list sent to client
+2025-04-13 21:30:03,074 - INFO - Connection with ('127.0.0.1', 50449) closed
+2025-04-13 21:30:04,072 - INFO - Requesting file list from server
+2025-04-13 21:30:04,072 - INFO - Received file list with 1 files
+2025-04-13 21:30:04,072 - INFO - Client connection closed
+2025-04-13 21:30:04,073 - INFO - 127.0.0.1 - - [13/Apr/2025 21:30:04] "GET /list HTTP/1.1" 200 -
+2025-04-13 21:30:06,824 - INFO - New connection established with client of address = ('127.0.0.1', 50452)
+2025-04-13 21:30:06,825 - INFO - New serving socket connected to address = ('127.0.0.1', 50452)
+2025-04-13 21:30:06,825 - INFO - Upload request received
+2025-04-13 21:30:07,824 - INFO - Uploading file: client_files\receipt-LAS_201H_11_202520-Project Submission.txt
+2025-04-13 21:30:07,825 - INFO - Receiving file with name: receipt-LAS_201H_11_202520-Project Submission.txt
+2025-04-13 21:30:07,833 - INFO - Received 251 bytes for file receipt-LAS_201H_11_202520-Project Submission.txt
+2025-04-13 21:30:08,145 - INFO - 127.0.0.1 - - [13/Apr/2025 21:30:08] "GET /get_progress/receipt-LAS_201H_11_202520-Project%20Submission.txt HTTP/1.1" 200 -
+2025-04-13 21:30:09,147 - INFO - 127.0.0.1 - - [13/Apr/2025 21:30:09] "GET /get_progress/receipt-LAS_201H_11_202520-Project%20Submission.txt HTTP/1.1" 200 -
+2025-04-13 21:30:09,875 - INFO - 127.0.0.1 - - [13/Apr/2025 21:30:09] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 21:30:10,143 - INFO - 127.0.0.1 - - [13/Apr/2025 21:30:10] "GET /get_progress/receipt-LAS_201H_11_202520-Project%20Submission.txt HTTP/1.1" 200 -
+2025-04-13 21:30:12,011 - INFO - 127.0.0.1 - - [13/Apr/2025 21:30:12] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 21:30:12,014 - INFO - receipt-LAS_201H_11_202520-Project Submission.txt file saved successfully with integrity verified
+2025-04-13 21:30:12,014 - INFO - Connection with ('127.0.0.1', 50452) closed
+2025-04-13 21:30:12,014 - INFO - Client connection closed
+2025-04-13 21:30:12,014 - INFO - 127.0.0.1 - - [13/Apr/2025 21:30:12] "POST /upload HTTP/1.1" 200 -
+2025-04-13 21:30:15,100 - INFO - New connection established with client of address = ('127.0.0.1', 50468)
+2025-04-13 21:30:15,101 - INFO - New serving socket connected to address = ('127.0.0.1', 50468)
+2025-04-13 21:30:15,101 - INFO - List files request received
+2025-04-13 21:30:15,101 - INFO - File list sent to client
+2025-04-13 21:30:15,101 - INFO - Connection with ('127.0.0.1', 50468) closed
+2025-04-13 21:30:16,100 - INFO - Requesting file list from server
+2025-04-13 21:30:16,100 - INFO - Received file list with 1 files
+2025-04-13 21:30:16,100 - INFO - Client connection closed
+2025-04-13 21:30:16,101 - INFO - 127.0.0.1 - - [13/Apr/2025 21:30:16] "GET /list HTTP/1.1" 200 -
+2025-04-13 21:30:16,104 - INFO - 127.0.0.1 - - [13/Apr/2025 21:30:16] "[33mGET /icons/text-file.png HTTP/1.1[0m" 404 -
+2025-04-13 21:30:16,589 - INFO - 127.0.0.1 - - [13/Apr/2025 21:30:16] "GET /home HTTP/1.1" 200 -
+2025-04-13 21:30:16,597 - INFO - 127.0.0.1 - - [13/Apr/2025 21:30:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-13 21:30:16,828 - INFO - 127.0.0.1 - - [13/Apr/2025 21:30:16] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-13 21:30:17,138 - INFO - New connection established with client of address = ('127.0.0.1', 50479)
+2025-04-13 21:30:17,139 - INFO - New serving socket connected to address = ('127.0.0.1', 50479)
+2025-04-13 21:30:17,139 - INFO - List files request received
+2025-04-13 21:30:17,139 - INFO - File list sent to client
+2025-04-13 21:30:17,139 - INFO - Connection with ('127.0.0.1', 50479) closed
+2025-04-13 21:30:18,138 - INFO - Requesting file list from server
+2025-04-13 21:30:18,138 - INFO - Received file list with 1 files
+2025-04-13 21:30:18,139 - INFO - Client connection closed
+2025-04-13 21:30:18,139 - INFO - 127.0.0.1 - - [13/Apr/2025 21:30:18] "GET /list HTTP/1.1" 200 -
+2025-04-13 21:30:18,146 - INFO - 127.0.0.1 - - [13/Apr/2025 21:30:18] "[33mGET /icons/text-file.png HTTP/1.1[0m" 404 -
+2025-04-13 21:30:23,399 - INFO - 127.0.0.1 - - [13/Apr/2025 21:30:23] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-13 21:30:23,470 - INFO - 127.0.0.1 - - [13/Apr/2025 21:30:23] "GET / HTTP/1.1" 200 -
+2025-04-13 21:30:23,652 - INFO - 127.0.0.1 - - [13/Apr/2025 21:30:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-13 21:30:23,790 - INFO - 127.0.0.1 - - [13/Apr/2025 21:30:23] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-13 21:30:31,529 - INFO - 127.0.0.1 - - [13/Apr/2025 21:30:31] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-04-13 21:30:31,648 - INFO - 127.0.0.1 - - [13/Apr/2025 21:30:31] "GET /home HTTP/1.1" 200 -
+2025-04-13 21:30:31,963 - INFO - 127.0.0.1 - - [13/Apr/2025 21:30:31] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-13 21:30:31,964 - INFO - 127.0.0.1 - - [13/Apr/2025 21:30:31] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-13 21:30:32,227 - INFO - New connection established with client of address = ('127.0.0.1', 50500)
+2025-04-13 21:30:32,227 - INFO - New serving socket connected to address = ('127.0.0.1', 50500)
+2025-04-13 21:30:32,228 - INFO - List files request received
+2025-04-13 21:30:32,228 - INFO - File list sent to client
+2025-04-13 21:30:32,228 - INFO - Connection with ('127.0.0.1', 50500) closed
+2025-04-13 21:30:33,227 - INFO - Requesting file list from server
+2025-04-13 21:30:33,228 - INFO - Received file list with 1 files
+2025-04-13 21:30:33,228 - INFO - Client connection closed
+2025-04-13 21:30:33,228 - INFO - 127.0.0.1 - - [13/Apr/2025 21:30:33] "GET /list HTTP/1.1" 200 -
+2025-04-13 21:30:33,232 - INFO - 127.0.0.1 - - [13/Apr/2025 21:30:33] "[33mGET /icons/text-file.png HTTP/1.1[0m" 404 -
+2025-04-13 21:30:39,156 - INFO - New connection established with client of address = ('127.0.0.1', 50505)
+2025-04-13 21:30:39,156 - INFO - New serving socket connected to address = ('127.0.0.1', 50505)
+2025-04-13 21:30:39,156 - INFO - Delete file request received
+2025-04-13 21:30:40,156 - INFO - Deleting file: receipt-LAS_201H_11_202520-Project Submission.txt
+2025-04-13 21:30:40,157 - INFO - Client requested to delete file: receipt-LAS_201H_11_202520-Project Submission.txt
+2025-04-13 21:30:40,160 - INFO - File receipt-LAS_201H_11_202520-Project Submission.txt deleted successfully
+2025-04-13 21:30:40,160 - INFO - Connection with ('127.0.0.1', 50505) closed
+2025-04-13 21:30:40,160 - INFO - Delete result: SUCCESS
+2025-04-13 21:30:40,161 - INFO - Client connection closed
+2025-04-13 21:30:40,162 - INFO - 127.0.0.1 - - [13/Apr/2025 21:30:40] "POST /delete HTTP/1.1" 200 -
+2025-04-13 21:30:41,677 - INFO - New connection established with client of address = ('127.0.0.1', 50507)
+2025-04-13 21:30:41,678 - INFO - New serving socket connected to address = ('127.0.0.1', 50507)
+2025-04-13 21:30:41,678 - INFO - List files request received
+2025-04-13 21:30:41,678 - INFO - File list sent to client
+2025-04-13 21:30:41,678 - INFO - Connection with ('127.0.0.1', 50507) closed
+2025-04-13 21:30:42,678 - INFO - Requesting file list from server
+2025-04-13 21:30:42,678 - INFO - Received file list with 1 files
+2025-04-13 21:30:42,679 - INFO - Client connection closed
+2025-04-13 21:30:42,679 - INFO - 127.0.0.1 - - [13/Apr/2025 21:30:42] "GET /list HTTP/1.1" 200 -
+2025-04-13 21:33:11,414 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\server.py', reloading
+2025-04-13 21:33:11,492 - INFO -  * Restarting with stat
+2025-04-13 21:33:12,249 - WARNING -  * Debugger is active!
+2025-04-13 21:33:12,250 - INFO -  * Debugger PIN: 355-406-568
+2025-04-13 21:33:14,268 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\client.py', reloading
+2025-04-13 21:33:14,341 - INFO -  * Restarting with stat

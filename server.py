@@ -115,6 +115,30 @@ def handle_client(con, addr):
             # Send the list as a comma-separated string
             con.send(",".join(files_list).encode())
             log("info", "File list sent to client")
+            
+        elif command == "4":
+            log("info", "Delete file request received")
+            
+            # Receive filename
+            filename = con.recv(1024).decode()
+            log("info", f"Client requested to delete file: {filename}")
+            
+            file_path = os.path.join(SERVER_FILES_DIR, filename)
+            
+            # Check if file exists
+            if not os.path.exists(file_path):
+                log("warning", f"File {filename} not found for deletion")
+                con.send("FILE_NOT_FOUND".encode())
+                return
+            else:
+                try:
+                    # Delete the file
+                    os.remove(file_path)
+                    log("info", f"File {filename} deleted successfully")
+                    con.send("SUCCESS".encode())
+                except Exception as e:
+                    log("error", f"Error deleting file {filename}: {str(e)}")
+                    con.send("ERROR".encode())
         
         else:
             log("warning", f"Unknown command: {command}")
@@ -125,6 +149,7 @@ def handle_client(con, addr):
     finally:
         con.close()
         log("info", f"Connection with {addr} closed")
+
 
 def startServer():
     serverSocket = socket(AF_INET, SOCK_STREAM)
