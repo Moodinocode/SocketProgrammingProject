@@ -74,7 +74,7 @@ def loginPage():
 @app.route('/home')
 @login_required
 def mainPage():
-    return render_template('index.html')
+    return render_template('index.html', username=current_user.username)
 
 @app.route('/logout',methods=['GET','POST'])
 @login_required

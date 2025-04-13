@@ -4618,3 +4618,455 @@ files
 2025-04-12 22:54:23,786 - ERROR - Error in client operation: [WinError 10061] No connection could be made because the target machine actively refused it
 2025-04-12 22:54:23,786 - INFO - Client connection closed
 2025-04-12 22:54:23,786 - INFO - 127.0.0.1 - - [12/Apr/2025 22:54:23] "GET /list HTTP/1.1" 200 -
+2025-04-13 06:21:09,471 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-13 06:21:09,471 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 06:21:09,472 - INFO -  * Restarting with stat
+2025-04-13 06:21:10,215 - WARNING -  * Debugger is active!
+2025-04-13 06:21:10,217 - INFO -  * Debugger PIN: 252-492-769
+2025-04-13 06:21:29,250 - INFO - Server starting on port 8080...
+2025-04-13 06:21:29,251 - INFO - Server listening on port 8080...
+2025-04-13 06:22:16,176 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:16] "GET / HTTP/1.1" 200 -
+2025-04-13 06:22:16,222 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:16] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-13 06:22:16,400 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:16] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-13 06:22:16,716 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-13 06:22:24,668 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:24] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-04-13 06:22:24,756 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:24] "GET /home HTTP/1.1" 200 -
+2025-04-13 06:22:25,080 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-13 06:22:25,081 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:25] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-13 06:22:25,321 - INFO - New connection established with client of address = ('127.0.0.1', 56136)
+2025-04-13 06:22:25,322 - INFO - New serving socket connected to address = ('127.0.0.1', 56136)
+2025-04-13 06:22:25,322 - INFO - List files request received
+2025-04-13 06:22:25,322 - INFO - File list sent to client
+2025-04-13 06:22:25,322 - INFO - Connection with ('127.0.0.1', 56136) closed
+2025-04-13 06:22:26,321 - INFO - Requesting file list from server
+2025-04-13 06:22:26,322 - INFO - Received file list with 1 files
+2025-04-13 06:22:26,322 - INFO - Client connection closed
+2025-04-13 06:22:26,323 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:26] "GET /list HTTP/1.1" 200 -
+2025-04-13 06:22:35,325 - INFO - New connection established with client of address = ('127.0.0.1', 56139)
+2025-04-13 06:22:35,326 - INFO - New serving socket connected to address = ('127.0.0.1', 56139)
+2025-04-13 06:22:35,326 - INFO - Upload request received
+2025-04-13 06:22:36,325 - INFO - Uploading file: client_files\Project.pptx
+2025-04-13 06:22:36,326 - INFO - Receiving file with name: Project.pptx
+2025-04-13 06:22:36,602 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:36] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:22:37,613 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:37] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:22:38,384 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:38] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:22:38,608 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:38] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:22:39,596 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:39] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:22:40,433 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:40] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:22:40,614 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:40] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:22:41,597 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:41] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:22:42,467 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:42] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:22:42,625 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:42] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:22:43,602 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:43] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:22:44,506 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:44] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:22:44,597 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:44] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:22:45,612 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:45] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:22:46,555 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:46] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:22:46,618 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:46] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:22:47,595 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:47] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:22:48,599 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:48] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:22:48,616 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:48] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:22:50,591 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:50] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:22:50,640 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:50] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:22:52,586 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:52] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:22:52,666 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:52] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:22:53,603 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:53] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:22:54,704 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:54] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:22:55,576 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:55] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:22:56,730 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:56] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:22:57,073 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:57] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:22:57,600 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:57] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:22:58,610 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:58] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:22:58,753 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:58] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:22:59,601 - INFO - 127.0.0.1 - - [13/Apr/2025 06:22:59] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:23:00,609 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:00] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:23:00,793 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:00] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:23:01,612 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:01] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:23:02,604 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:02] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:23:02,833 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:02] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:23:03,611 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:03] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:23:04,124 - INFO - New connection established with client of address = ('127.0.0.1', 56227)
+2025-04-13 06:23:04,124 - INFO - New serving socket connected to address = ('127.0.0.1', 56227)
+2025-04-13 06:23:04,124 - INFO - Upload request received
+2025-04-13 06:23:04,605 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:04] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:23:04,874 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:04] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:23:05,125 - INFO - Uploading file: client_files\receipt-LAS_201H_11_202520-Project Submission.txt
+2025-04-13 06:23:05,125 - INFO - Receiving file with name: receipt-LAS_201H_11_202520-Project Submission.txt
+2025-04-13 06:23:05,130 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:05] "GET /get_progress/receipt-LAS_201H_11_202520-Project%20Submission.txt HTTP/1.1" 200 -
+2025-04-13 06:23:05,140 - INFO - Received 251 bytes for file receipt-LAS_201H_11_202520-Project Submission.txt
+2025-04-13 06:23:05,608 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:05] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:23:06,127 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:06] "GET /get_progress/receipt-LAS_201H_11_202520-Project%20Submission.txt HTTP/1.1" 200 -
+2025-04-13 06:23:06,602 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:06] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:23:06,899 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:06] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:23:07,130 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:07] "GET /get_progress/receipt-LAS_201H_11_202520-Project%20Submission.txt HTTP/1.1" 200 -
+2025-04-13 06:23:07,170 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:07] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:23:07,595 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:07] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:23:08,127 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:08] "GET /get_progress/receipt-LAS_201H_11_202520-Project%20Submission.txt HTTP/1.1" 200 -
+2025-04-13 06:23:08,601 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:08] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:23:08,927 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:08] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:23:09,306 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:09] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:23:09,307 - INFO - receipt-LAS_201H_11_202520-Project Submission.txt file saved successfully with integrity verified
+2025-04-13 06:23:09,307 - INFO - Client connection closed
+2025-04-13 06:23:09,307 - INFO - Connection with ('127.0.0.1', 56227) closed
+2025-04-13 06:23:09,308 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:09] "POST /upload HTTP/1.1" 200 -
+2025-04-13 06:23:09,613 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:09] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:23:10,931 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:10] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:23:10,933 - INFO - New connection established with client of address = ('127.0.0.1', 56262)
+2025-04-13 06:23:10,934 - INFO - New serving socket connected to address = ('127.0.0.1', 56262)
+2025-04-13 06:23:10,935 - INFO - List files request received
+2025-04-13 06:23:10,935 - INFO - File list sent to client
+2025-04-13 06:23:10,935 - INFO - Connection with ('127.0.0.1', 56262) closed
+2025-04-13 06:23:10,962 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:10] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:23:11,599 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:11] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:23:11,934 - INFO - Requesting file list from server
+2025-04-13 06:23:11,934 - INFO - Received file list with 2 files
+2025-04-13 06:23:11,934 - INFO - Client connection closed
+2025-04-13 06:23:11,934 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:11] "GET /list HTTP/1.1" 200 -
+2025-04-13 06:23:12,242 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:12] "[33mGET /icons/default-file.png HTTP/1.1[0m" 404 -
+2025-04-13 06:23:12,244 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:12] "[33mGET /icons/text-file.png HTTP/1.1[0m" 404 -
+2025-04-13 06:23:12,621 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:12] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:23:12,982 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:12] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:23:13,605 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:13] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:23:14,608 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:14] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:23:15,000 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:15] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:23:15,599 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:15] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:23:16,604 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:16] "GET /get_progress/Project.pptx HTTP/1.1" 200 -
+2025-04-13 06:23:17,029 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:17] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:23:17,600 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:17] "GET /home HTTP/1.1" 200 -
+2025-04-13 06:23:18,724 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:18] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-13 06:23:19,042 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:19] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-13 06:23:19,049 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:19] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:23:19,351 - INFO - New connection established with client of address = ('127.0.0.1', 56298)
+2025-04-13 06:23:19,352 - INFO - New serving socket connected to address = ('127.0.0.1', 56298)
+2025-04-13 06:23:19,352 - INFO - List files request received
+2025-04-13 06:23:19,353 - INFO - File list sent to client
+2025-04-13 06:23:19,353 - INFO - Connection with ('127.0.0.1', 56298) closed
+2025-04-13 06:23:20,352 - INFO - Requesting file list from server
+2025-04-13 06:23:20,352 - INFO - Received file list with 2 files
+2025-04-13 06:23:20,352 - INFO - Client connection closed
+2025-04-13 06:23:20,352 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:20] "GET /list HTTP/1.1" 200 -
+2025-04-13 06:23:20,357 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:20] "[33mGET /icons/default-file.png HTTP/1.1[0m" 404 -
+2025-04-13 06:23:20,660 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:20] "[33mGET /icons/text-file.png HTTP/1.1[0m" 404 -
+2025-04-13 06:23:21,066 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:21] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:23:23,104 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:23] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:23:25,127 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:25] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:23:27,152 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:27] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:23:29,188 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:29] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:23:31,234 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:31] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:23:31,846 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:31] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-13 06:23:33,266 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:33] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:23:35,276 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:35] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:23:37,305 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:37] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:23:39,343 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:39] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:23:41,400 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:41] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:23:43,427 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:43] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:23:45,443 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:45] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:23:47,481 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:47] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:23:49,505 - INFO - 127.0.0.1 - - [13/Apr/2025 06:23:49] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:23:50,362 - ERROR - Error handling client ('127.0.0.1', 56139): [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-04-13 06:23:50,362 - INFO - Connection with ('127.0.0.1', 56139) closed
+2025-04-13 06:24:24,625 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-13 06:24:24,626 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 06:24:24,627 - INFO -  * Restarting with stat
+2025-04-13 06:24:25,336 - WARNING -  * Debugger is active!
+2025-04-13 06:24:25,337 - INFO -  * Debugger PIN: 252-492-769
+2025-04-13 06:24:28,671 - INFO - 127.0.0.1 - - [13/Apr/2025 06:24:28] "GET /home HTTP/1.1" 200 -
+2025-04-13 06:24:28,722 - INFO - 127.0.0.1 - - [13/Apr/2025 06:24:28] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-13 06:24:28,889 - INFO - 127.0.0.1 - - [13/Apr/2025 06:24:28] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-13 06:24:29,207 - INFO - New connection established with client of address = ('127.0.0.1', 56402)
+2025-04-13 06:24:29,208 - INFO - New serving socket connected to address = ('127.0.0.1', 56402)
+2025-04-13 06:24:29,208 - INFO - List files request received
+2025-04-13 06:24:29,209 - INFO - File list sent to client
+2025-04-13 06:24:29,209 - INFO - Connection with ('127.0.0.1', 56402) closed
+2025-04-13 06:24:30,207 - INFO - Requesting file list from server
+2025-04-13 06:24:30,208 - INFO - Received file list with 1 files
+2025-04-13 06:24:30,208 - INFO - Client connection closed
+2025-04-13 06:24:30,208 - INFO - 127.0.0.1 - - [13/Apr/2025 06:24:30] "GET /list HTTP/1.1" 200 -
+2025-04-13 06:24:30,215 - INFO - 127.0.0.1 - - [13/Apr/2025 06:24:30] "[33mGET /icons/text-file.png HTTP/1.1[0m" 404 -
+2025-04-13 06:25:43,035 - INFO - 127.0.0.1 - - [13/Apr/2025 06:25:43] "GET /home HTTP/1.1" 200 -
+2025-04-13 06:25:43,043 - INFO - 127.0.0.1 - - [13/Apr/2025 06:25:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-13 06:25:43,272 - INFO - 127.0.0.1 - - [13/Apr/2025 06:25:43] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-13 06:25:43,589 - INFO - New connection established with client of address = ('127.0.0.1', 56459)
+2025-04-13 06:25:43,590 - INFO - New serving socket connected to address = ('127.0.0.1', 56459)
+2025-04-13 06:25:43,590 - INFO - List files request received
+2025-04-13 06:25:43,590 - INFO - File list sent to client
+2025-04-13 06:25:43,590 - INFO - Connection with ('127.0.0.1', 56459) closed
+2025-04-13 06:25:44,589 - INFO - Requesting file list from server
+2025-04-13 06:25:44,589 - INFO - Received file list with 1 files
+2025-04-13 06:25:44,589 - INFO - Client connection closed
+2025-04-13 06:25:44,590 - INFO - 127.0.0.1 - - [13/Apr/2025 06:25:44] "GET /list HTTP/1.1" 200 -
+2025-04-13 06:25:44,596 - INFO - 127.0.0.1 - - [13/Apr/2025 06:25:44] "[33mGET /icons/text-file.png HTTP/1.1[0m" 404 -
+2025-04-13 06:25:49,956 - INFO - 127.0.0.1 - - [13/Apr/2025 06:25:49] "GET /home HTTP/1.1" 200 -
+2025-04-13 06:25:49,965 - INFO - 127.0.0.1 - - [13/Apr/2025 06:25:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-13 06:25:50,198 - INFO - 127.0.0.1 - - [13/Apr/2025 06:25:50] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-13 06:25:50,517 - INFO - New connection established with client of address = ('127.0.0.1', 56473)
+2025-04-13 06:25:50,518 - INFO - New serving socket connected to address = ('127.0.0.1', 56473)
+2025-04-13 06:25:50,518 - INFO - List files request received
+2025-04-13 06:25:50,519 - INFO - File list sent to client
+2025-04-13 06:25:50,519 - INFO - Connection with ('127.0.0.1', 56473) closed
+2025-04-13 06:25:51,517 - INFO - Requesting file list from server
+2025-04-13 06:25:51,518 - INFO - Received file list with 1 files
+2025-04-13 06:25:51,519 - INFO - Client connection closed
+2025-04-13 06:25:51,520 - INFO - 127.0.0.1 - - [13/Apr/2025 06:25:51] "GET /list HTTP/1.1" 200 -
+2025-04-13 06:25:51,528 - INFO - 127.0.0.1 - - [13/Apr/2025 06:25:51] "[33mGET /icons/text-file.png HTTP/1.1[0m" 404 -
+2025-04-13 06:26:13,148 - INFO - Server starting on port 8080...
+2025-04-13 06:26:13,149 - INFO - Server listening on port 8080...
+2025-04-13 06:26:21,968 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-13 06:26:21,969 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 06:26:21,970 - INFO -  * Restarting with stat
+2025-04-13 06:26:22,727 - WARNING -  * Debugger is active!
+2025-04-13 06:26:22,729 - INFO -  * Debugger PIN: 252-492-769
+2025-04-13 06:26:26,447 - INFO - 127.0.0.1 - - [13/Apr/2025 06:26:26] "GET / HTTP/1.1" 200 -
+2025-04-13 06:26:26,490 - INFO - 127.0.0.1 - - [13/Apr/2025 06:26:26] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-13 06:26:26,679 - INFO - 127.0.0.1 - - [13/Apr/2025 06:26:26] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-13 06:26:38,500 - INFO - 127.0.0.1 - - [13/Apr/2025 06:26:38] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-04-13 06:26:38,505 - INFO - 127.0.0.1 - - [13/Apr/2025 06:26:38] "GET /home HTTP/1.1" 200 -
+2025-04-13 06:26:38,544 - INFO - 127.0.0.1 - - [13/Apr/2025 06:26:38] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-13 06:26:38,833 - INFO - 127.0.0.1 - - [13/Apr/2025 06:26:38] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-13 06:26:39,146 - INFO - New connection established with client of address = ('127.0.0.1', 56520)
+2025-04-13 06:26:39,147 - INFO - New serving socket connected to address = ('127.0.0.1', 56520)
+2025-04-13 06:26:39,147 - INFO - List files request received
+2025-04-13 06:26:39,147 - INFO - File list sent to client
+2025-04-13 06:26:39,147 - INFO - Connection with ('127.0.0.1', 56520) closed
+2025-04-13 06:26:40,146 - INFO - Requesting file list from server
+2025-04-13 06:26:40,146 - INFO - Received file list with 1 files
+2025-04-13 06:26:40,147 - INFO - Client connection closed
+2025-04-13 06:26:40,147 - INFO - 127.0.0.1 - - [13/Apr/2025 06:26:40] "GET /list HTTP/1.1" 200 -
+2025-04-13 06:26:43,970 - INFO - New connection established with client of address = ('127.0.0.1', 56523)
+2025-04-13 06:26:43,971 - INFO - New serving socket connected to address = ('127.0.0.1', 56523)
+2025-04-13 06:26:43,971 - INFO - Upload request received
+2025-04-13 06:26:44,970 - INFO - Uploading file: client_files\receipt-LAS_201H_11_202520-Project Submission.txt
+2025-04-13 06:26:44,970 - INFO - Receiving file with name: receipt-LAS_201H_11_202520-Project Submission.txt
+2025-04-13 06:26:44,974 - INFO - Received 251 bytes for file receipt-LAS_201H_11_202520-Project Submission.txt
+2025-04-13 06:26:45,279 - INFO - 127.0.0.1 - - [13/Apr/2025 06:26:45] "GET /get_progress/receipt-LAS_201H_11_202520-Project%20Submission.txt HTTP/1.1" 200 -
+2025-04-13 06:26:46,272 - INFO - 127.0.0.1 - - [13/Apr/2025 06:26:46] "GET /get_progress/receipt-LAS_201H_11_202520-Project%20Submission.txt HTTP/1.1" 200 -
+2025-04-13 06:26:47,002 - INFO - 127.0.0.1 - - [13/Apr/2025 06:26:47] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:26:47,273 - INFO - 127.0.0.1 - - [13/Apr/2025 06:26:47] "GET /get_progress/receipt-LAS_201H_11_202520-Project%20Submission.txt HTTP/1.1" 200 -
+2025-04-13 06:26:49,143 - INFO - 127.0.0.1 - - [13/Apr/2025 06:26:49] "POST /update_progress HTTP/1.1" 200 -
+2025-04-13 06:26:49,144 - INFO - receipt-LAS_201H_11_202520-Project Submission.txt file saved successfully with integrity verified
+2025-04-13 06:26:49,145 - INFO - Connection with ('127.0.0.1', 56523) closed
+2025-04-13 06:26:49,144 - INFO - Client connection closed
+2025-04-13 06:26:49,145 - INFO - 127.0.0.1 - - [13/Apr/2025 06:26:49] "POST /upload HTTP/1.1" 200 -
+2025-04-13 06:26:53,689 - INFO - New connection established with client of address = ('127.0.0.1', 56538)
+2025-04-13 06:26:53,690 - INFO - New serving socket connected to address = ('127.0.0.1', 56538)
+2025-04-13 06:26:53,690 - INFO - List files request received
+2025-04-13 06:26:53,690 - INFO - File list sent to client
+2025-04-13 06:26:53,690 - INFO - Connection with ('127.0.0.1', 56538) closed
+2025-04-13 06:26:54,689 - INFO - Requesting file list from server
+2025-04-13 06:26:54,690 - INFO - Received file list with 1 files
+2025-04-13 06:26:54,690 - INFO - Client connection closed
+2025-04-13 06:26:54,691 - INFO - 127.0.0.1 - - [13/Apr/2025 06:26:54] "GET /list HTTP/1.1" 200 -
+2025-04-13 06:26:54,697 - INFO - 127.0.0.1 - - [13/Apr/2025 06:26:54] "[33mGET /icons/text-file.png HTTP/1.1[0m" 404 -
+2025-04-13 06:27:12,788 - INFO - 127.0.0.1 - - [13/Apr/2025 06:27:12] "GET /home HTTP/1.1" 200 -
+2025-04-13 06:27:12,798 - INFO - 127.0.0.1 - - [13/Apr/2025 06:27:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-13 06:27:13,022 - INFO - 127.0.0.1 - - [13/Apr/2025 06:27:13] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-13 06:27:13,338 - INFO - New connection established with client of address = ('127.0.0.1', 56553)
+2025-04-13 06:27:13,338 - INFO - New serving socket connected to address = ('127.0.0.1', 56553)
+2025-04-13 06:27:13,338 - INFO - List files request received
+2025-04-13 06:27:13,339 - INFO - File list sent to client
+2025-04-13 06:27:13,339 - INFO - Connection with ('127.0.0.1', 56553) closed
+2025-04-13 06:27:14,338 - INFO - Requesting file list from server
+2025-04-13 06:27:14,338 - INFO - Received file list with 1 files
+2025-04-13 06:27:14,338 - INFO - Client connection closed
+2025-04-13 06:27:14,339 - INFO - 127.0.0.1 - - [13/Apr/2025 06:27:14] "GET /list HTTP/1.1" 200 -
+2025-04-13 06:27:14,343 - INFO - 127.0.0.1 - - [13/Apr/2025 06:27:14] "[33mGET /icons/text-file.png HTTP/1.1[0m" 404 -
+2025-04-13 06:29:57,851 - INFO - 127.0.0.1 - - [13/Apr/2025 06:29:57] "GET /home HTTP/1.1" 200 -
+2025-04-13 06:29:57,858 - INFO - 127.0.0.1 - - [13/Apr/2025 06:29:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-13 06:29:58,109 - INFO - 127.0.0.1 - - [13/Apr/2025 06:29:58] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-13 06:29:58,421 - INFO - New connection established with client of address = ('127.0.0.1', 56603)
+2025-04-13 06:29:58,423 - INFO - New serving socket connected to address = ('127.0.0.1', 56603)
+2025-04-13 06:29:58,423 - INFO - List files request received
+2025-04-13 06:29:58,424 - INFO - File list sent to client
+2025-04-13 06:29:58,424 - INFO - Connection with ('127.0.0.1', 56603) closed
+2025-04-13 06:29:59,421 - INFO - Requesting file list from server
+2025-04-13 06:29:59,422 - INFO - Received file list with 1 files
+2025-04-13 06:29:59,422 - INFO - Client connection closed
+2025-04-13 06:29:59,423 - INFO - 127.0.0.1 - - [13/Apr/2025 06:29:59] "GET /list HTTP/1.1" 200 -
+2025-04-13 06:29:59,427 - INFO - 127.0.0.1 - - [13/Apr/2025 06:29:59] "[33mGET /icons/text-file.png HTTP/1.1[0m" 404 -
+2025-04-13 06:30:28,662 - INFO - 127.0.0.1 - - [13/Apr/2025 06:30:28] "GET /home HTTP/1.1" 200 -
+2025-04-13 06:30:28,669 - INFO - 127.0.0.1 - - [13/Apr/2025 06:30:28] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-13 06:30:28,913 - INFO - 127.0.0.1 - - [13/Apr/2025 06:30:28] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-13 06:30:29,230 - INFO - New connection established with client of address = ('127.0.0.1', 56615)
+2025-04-13 06:30:29,231 - INFO - New serving socket connected to address = ('127.0.0.1', 56615)
+2025-04-13 06:30:29,231 - INFO - List files request received
+2025-04-13 06:30:29,231 - INFO - File list sent to client
+2025-04-13 06:30:29,231 - INFO - Connection with ('127.0.0.1', 56615) closed
+2025-04-13 06:30:30,230 - INFO - Requesting file list from server
+2025-04-13 06:30:30,230 - INFO - Received file list with 1 files
+2025-04-13 06:30:30,230 - INFO - Client connection closed
+2025-04-13 06:30:30,230 - INFO - 127.0.0.1 - - [13/Apr/2025 06:30:30] "GET /list HTTP/1.1" 200 -
+2025-04-13 06:30:30,234 - INFO - 127.0.0.1 - - [13/Apr/2025 06:30:30] "[33mGET /icons/text-file.png HTTP/1.1[0m" 404 -
+2025-04-13 06:30:43,406 - INFO - 127.0.0.1 - - [13/Apr/2025 06:30:43] "GET /home HTTP/1.1" 200 -
+2025-04-13 06:30:43,413 - INFO - 127.0.0.1 - - [13/Apr/2025 06:30:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-13 06:30:43,651 - INFO - 127.0.0.1 - - [13/Apr/2025 06:30:43] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-13 06:30:43,958 - INFO - New connection established with client of address = ('127.0.0.1', 56628)
+2025-04-13 06:30:43,959 - INFO - New serving socket connected to address = ('127.0.0.1', 56628)
+2025-04-13 06:30:43,959 - INFO - List files request received
+2025-04-13 06:30:43,960 - INFO - File list sent to client
+2025-04-13 06:30:43,960 - INFO - Connection with ('127.0.0.1', 56628) closed
+2025-04-13 06:30:44,958 - INFO - Requesting file list from server
+2025-04-13 06:30:44,958 - INFO - Received file list with 1 files
+2025-04-13 06:30:44,959 - INFO - Client connection closed
+2025-04-13 06:30:44,959 - INFO - 127.0.0.1 - - [13/Apr/2025 06:30:44] "GET /list HTTP/1.1" 200 -
+2025-04-13 06:30:44,965 - INFO - 127.0.0.1 - - [13/Apr/2025 06:30:44] "[33mGET /icons/text-file.png HTTP/1.1[0m" 404 -
+2025-04-13 06:31:06,622 - INFO - 127.0.0.1 - - [13/Apr/2025 06:31:06] "GET /home HTTP/1.1" 200 -
+2025-04-13 06:31:06,629 - INFO - 127.0.0.1 - - [13/Apr/2025 06:31:06] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-13 06:31:06,854 - INFO - 127.0.0.1 - - [13/Apr/2025 06:31:06] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-13 06:31:07,172 - INFO - New connection established with client of address = ('127.0.0.1', 56639)
+2025-04-13 06:31:07,173 - INFO - New serving socket connected to address = ('127.0.0.1', 56639)
+2025-04-13 06:31:07,174 - INFO - List files request received
+2025-04-13 06:31:07,174 - INFO - File list sent to client
+2025-04-13 06:31:07,174 - INFO - Connection with ('127.0.0.1', 56639) closed
+2025-04-13 06:31:08,172 - INFO - Requesting file list from server
+2025-04-13 06:31:08,173 - INFO - Received file list with 1 files
+2025-04-13 06:31:08,174 - INFO - Client connection closed
+2025-04-13 06:31:08,174 - INFO - 127.0.0.1 - - [13/Apr/2025 06:31:08] "GET /list HTTP/1.1" 200 -
+2025-04-13 06:31:08,179 - INFO - 127.0.0.1 - - [13/Apr/2025 06:31:08] "[33mGET /icons/text-file.png HTTP/1.1[0m" 404 -
+2025-04-13 06:33:54,796 - INFO - 127.0.0.1 - - [13/Apr/2025 06:33:54] "GET /home HTTP/1.1" 200 -
+2025-04-13 06:33:54,802 - INFO - 127.0.0.1 - - [13/Apr/2025 06:33:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-13 06:33:55,045 - INFO - 127.0.0.1 - - [13/Apr/2025 06:33:55] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-13 06:33:55,364 - INFO - New connection established with client of address = ('127.0.0.1', 56670)
+2025-04-13 06:33:55,365 - INFO - New serving socket connected to address = ('127.0.0.1', 56670)
+2025-04-13 06:33:55,365 - INFO - List files request received
+2025-04-13 06:33:55,366 - INFO - File list sent to client
+2025-04-13 06:33:55,366 - INFO - Connection with ('127.0.0.1', 56670) closed
+2025-04-13 06:33:56,364 - INFO - Requesting file list from server
+2025-04-13 06:33:56,364 - INFO - Received file list with 1 files
+2025-04-13 06:33:56,364 - INFO - Client connection closed
+2025-04-13 06:33:56,365 - INFO - 127.0.0.1 - - [13/Apr/2025 06:33:56] "GET /list HTTP/1.1" 200 -
+2025-04-13 06:33:56,371 - INFO - 127.0.0.1 - - [13/Apr/2025 06:33:56] "[33mGET /icons/text-file.png HTTP/1.1[0m" 404 -
+2025-04-13 06:34:07,537 - INFO - 127.0.0.1 - - [13/Apr/2025 06:34:07] "GET /home HTTP/1.1" 200 -
+2025-04-13 06:34:07,544 - INFO - 127.0.0.1 - - [13/Apr/2025 06:34:07] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-13 06:34:07,792 - INFO - 127.0.0.1 - - [13/Apr/2025 06:34:07] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-13 06:34:08,108 - INFO - New connection established with client of address = ('127.0.0.1', 56682)
+2025-04-13 06:34:08,108 - INFO - New serving socket connected to address = ('127.0.0.1', 56682)
+2025-04-13 06:34:08,109 - INFO - List files request received
+2025-04-13 06:34:08,109 - INFO - File list sent to client
+2025-04-13 06:34:08,109 - INFO - Connection with ('127.0.0.1', 56682) closed
+2025-04-13 06:34:09,108 - INFO - Requesting file list from server
+2025-04-13 06:34:09,108 - INFO - Received file list with 1 files
+2025-04-13 06:34:09,108 - INFO - Client connection closed
+2025-04-13 06:34:09,109 - INFO - 127.0.0.1 - - [13/Apr/2025 06:34:09] "GET /list HTTP/1.1" 200 -
+2025-04-13 06:34:09,117 - INFO - 127.0.0.1 - - [13/Apr/2025 06:34:09] "[33mGET /icons/text-file.png HTTP/1.1[0m" 404 -
+2025-04-13 06:34:25,426 - INFO - 127.0.0.1 - - [13/Apr/2025 06:34:25] "GET /home HTTP/1.1" 200 -
+2025-04-13 06:34:25,435 - INFO - 127.0.0.1 - - [13/Apr/2025 06:34:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-13 06:34:25,681 - INFO - 127.0.0.1 - - [13/Apr/2025 06:34:25] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-13 06:34:25,996 - INFO - New connection established with client of address = ('127.0.0.1', 56697)
+2025-04-13 06:34:25,997 - INFO - New serving socket connected to address = ('127.0.0.1', 56697)
+2025-04-13 06:34:25,997 - INFO - List files request received
+2025-04-13 06:34:25,997 - INFO - File list sent to client
+2025-04-13 06:34:25,998 - INFO - Connection with ('127.0.0.1', 56697) closed
+2025-04-13 06:34:26,997 - INFO - Requesting file list from server
+2025-04-13 06:34:26,997 - INFO - Received file list with 1 files
+2025-04-13 06:34:26,997 - INFO - Client connection closed
+2025-04-13 06:34:26,998 - INFO - 127.0.0.1 - - [13/Apr/2025 06:34:26] "GET /list HTTP/1.1" 200 -
+2025-04-13 06:34:27,004 - INFO - 127.0.0.1 - - [13/Apr/2025 06:34:27] "[33mGET /icons/text-file.png HTTP/1.1[0m" 404 -
+2025-04-13 06:34:34,444 - INFO - 127.0.0.1 - - [13/Apr/2025 06:34:34] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-13 06:37:15,593 - INFO - 127.0.0.1 - - [13/Apr/2025 06:37:15] "GET /home HTTP/1.1" 200 -
+2025-04-13 06:37:15,601 - INFO - 127.0.0.1 - - [13/Apr/2025 06:37:15] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-13 06:37:15,847 - INFO - 127.0.0.1 - - [13/Apr/2025 06:37:15] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-13 06:37:16,164 - INFO - New connection established with client of address = ('127.0.0.1', 56807)
+2025-04-13 06:37:16,165 - INFO - New serving socket connected to address = ('127.0.0.1', 56807)
+2025-04-13 06:37:16,165 - INFO - List files request received
+2025-04-13 06:37:16,166 - INFO - File list sent to client
+2025-04-13 06:37:16,166 - INFO - Connection with ('127.0.0.1', 56807) closed
+2025-04-13 06:37:17,164 - INFO - Requesting file list from server
+2025-04-13 06:37:17,164 - INFO - Received file list with 1 files
+2025-04-13 06:37:17,165 - INFO - Client connection closed
+2025-04-13 06:37:17,165 - INFO - 127.0.0.1 - - [13/Apr/2025 06:37:17] "GET /list HTTP/1.1" 200 -
+2025-04-13 06:37:17,174 - INFO - 127.0.0.1 - - [13/Apr/2025 06:37:17] "[33mGET /icons/text-file.png HTTP/1.1[0m" 404 -
+2025-04-13 06:40:27,534 - INFO - 127.0.0.1 - - [13/Apr/2025 06:40:27] "GET /home HTTP/1.1" 200 -
+2025-04-13 06:40:27,541 - INFO - 127.0.0.1 - - [13/Apr/2025 06:40:27] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-13 06:40:27,796 - INFO - 127.0.0.1 - - [13/Apr/2025 06:40:27] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-13 06:40:28,116 - INFO - New connection established with client of address = ('127.0.0.1', 56912)
+2025-04-13 06:40:28,117 - INFO - New serving socket connected to address = ('127.0.0.1', 56912)
+2025-04-13 06:40:28,118 - INFO - List files request received
+2025-04-13 06:40:28,118 - INFO - File list sent to client
+2025-04-13 06:40:28,118 - INFO - Connection with ('127.0.0.1', 56912) closed
+2025-04-13 06:40:29,117 - INFO - Requesting file list from server
+2025-04-13 06:40:29,117 - INFO - Received file list with 1 files
+2025-04-13 06:40:29,117 - INFO - Client connection closed
+2025-04-13 06:40:29,118 - INFO - 127.0.0.1 - - [13/Apr/2025 06:40:29] "GET /list HTTP/1.1" 200 -
+2025-04-13 06:40:29,124 - INFO - 127.0.0.1 - - [13/Apr/2025 06:40:29] "[33mGET /icons/text-file.png HTTP/1.1[0m" 404 -
+2025-04-13 06:41:43,777 - INFO - 127.0.0.1 - - [13/Apr/2025 06:41:43] "GET /home HTTP/1.1" 200 -
+2025-04-13 06:41:43,785 - INFO - 127.0.0.1 - - [13/Apr/2025 06:41:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-13 06:41:44,047 - INFO - 127.0.0.1 - - [13/Apr/2025 06:41:44] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-13 06:41:44,370 - INFO - New connection established with client of address = ('127.0.0.1', 56965)
+2025-04-13 06:41:44,371 - INFO - New serving socket connected to address = ('127.0.0.1', 56965)
+2025-04-13 06:41:44,371 - INFO - List files request received
+2025-04-13 06:41:44,371 - INFO - File list sent to client
+2025-04-13 06:41:44,371 - INFO - Connection with ('127.0.0.1', 56965) closed
+2025-04-13 06:41:45,371 - INFO - Requesting file list from server
+2025-04-13 06:41:45,371 - INFO - Received file list with 1 files
+2025-04-13 06:41:45,371 - INFO - Client connection closed
+2025-04-13 06:41:45,372 - INFO - 127.0.0.1 - - [13/Apr/2025 06:41:45] "GET /list HTTP/1.1" 200 -
+2025-04-13 06:41:45,379 - INFO - 127.0.0.1 - - [13/Apr/2025 06:41:45] "[33mGET /icons/text-file.png HTTP/1.1[0m" 404 -
+2025-04-13 06:43:24,076 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\flask_app.py', reloading
+2025-04-13 06:43:24,166 - INFO -  * Restarting with stat
+2025-04-13 06:43:24,972 - WARNING -  * Debugger is active!
+2025-04-13 06:43:24,973 - INFO -  * Debugger PIN: 252-492-769
+2025-04-13 06:43:27,318 - INFO - 127.0.0.1 - - [13/Apr/2025 06:43:27] "GET /home HTTP/1.1" 200 -
+2025-04-13 06:43:27,362 - INFO - 127.0.0.1 - - [13/Apr/2025 06:43:27] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-13 06:43:27,559 - INFO - 127.0.0.1 - - [13/Apr/2025 06:43:27] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-13 06:43:27,867 - INFO - New connection established with client of address = ('127.0.0.1', 57045)
+2025-04-13 06:43:27,867 - INFO - New serving socket connected to address = ('127.0.0.1', 57045)
+2025-04-13 06:43:27,867 - INFO - List files request received
+2025-04-13 06:43:27,867 - INFO - File list sent to client
+2025-04-13 06:43:27,867 - INFO - Connection with ('127.0.0.1', 57045) closed
+2025-04-13 06:43:28,867 - INFO - Requesting file list from server
+2025-04-13 06:43:28,868 - INFO - Received file list with 1 files
+2025-04-13 06:43:28,868 - INFO - Client connection closed
+2025-04-13 06:43:28,868 - INFO - 127.0.0.1 - - [13/Apr/2025 06:43:28] "GET /list HTTP/1.1" 200 -
+2025-04-13 06:43:28,877 - INFO - 127.0.0.1 - - [13/Apr/2025 06:43:28] "[33mGET /icons/text-file.png HTTP/1.1[0m" 404 -
+2025-04-13 06:44:07,397 - INFO - 127.0.0.1 - - [13/Apr/2025 06:44:07] "GET /home HTTP/1.1" 200 -
+2025-04-13 06:44:07,405 - INFO - 127.0.0.1 - - [13/Apr/2025 06:44:07] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-13 06:44:07,659 - INFO - 127.0.0.1 - - [13/Apr/2025 06:44:07] "GET /static/script.js HTTP/1.1" 200 -
+2025-04-13 06:44:07,979 - INFO - New connection established with client of address = ('127.0.0.1', 57086)
+2025-04-13 06:44:07,979 - INFO - New serving socket connected to address = ('127.0.0.1', 57086)
+2025-04-13 06:44:07,979 - INFO - List files request received
+2025-04-13 06:44:07,980 - INFO - File list sent to client
+2025-04-13 06:44:07,980 - INFO - Connection with ('127.0.0.1', 57086) closed
+2025-04-13 06:44:08,979 - INFO - Requesting file list from server
+2025-04-13 06:44:08,980 - INFO - Received file list with 1 files
+2025-04-13 06:44:08,980 - INFO - Client connection closed
+2025-04-13 06:44:08,981 - INFO - 127.0.0.1 - - [13/Apr/2025 06:44:08] "GET /list HTTP/1.1" 200 -
+2025-04-13 06:44:08,989 - INFO - 127.0.0.1 - - [13/Apr/2025 06:44:08] "[33mGET /icons/text-file.png HTTP/1.1[0m" 404 -
+2025-04-13 06:44:26,572 - INFO - 127.0.0.1 - - [13/Apr/2025 06:44:26] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-13 06:44:26,654 - INFO - 127.0.0.1 - - [13/Apr/2025 06:44:26] "GET / HTTP/1.1" 200 -
+2025-04-13 06:44:26,825 - INFO - 127.0.0.1 - - [13/Apr/2025 06:44:26] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-13 06:44:26,982 - INFO - 127.0.0.1 - - [13/Apr/2025 06:44:26] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-13 06:44:44,036 - INFO - 127.0.0.1 - - [13/Apr/2025 06:44:44] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-04-13 06:44:44,143 - INFO - 127.0.0.1 - - [13/Apr/2025 06:44:44] "GET /home HTTP/1.1" 200 -
+2025-04-13 06:44:44,476 - INFO - 127.0.0.1 - - [13/Apr/2025 06:44:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-13 06:44:44,477 - INFO - 127.0.0.1 - - [13/Apr/2025 06:44:44] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-13 06:44:44,709 - INFO - New connection established with client of address = ('127.0.0.1', 57132)
+2025-04-13 06:44:44,709 - INFO - New serving socket connected to address = ('127.0.0.1', 57132)
+2025-04-13 06:44:44,709 - INFO - List files request received
+2025-04-13 06:44:44,709 - INFO - File list sent to client
+2025-04-13 06:44:44,709 - INFO - Connection with ('127.0.0.1', 57132) closed
+2025-04-13 06:44:45,709 - INFO - Requesting file list from server
+2025-04-13 06:44:45,709 - INFO - Received file list with 1 files
+2025-04-13 06:44:45,709 - INFO - Client connection closed
+2025-04-13 06:44:45,709 - INFO - 127.0.0.1 - - [13/Apr/2025 06:44:45] "GET /list HTTP/1.1" 200 -
+2025-04-13 06:44:45,716 - INFO - 127.0.0.1 - - [13/Apr/2025 06:44:45] "[33mGET /icons/text-file.png HTTP/1.1[0m" 404 -
+2025-04-13 06:44:48,562 - INFO - 127.0.0.1 - - [13/Apr/2025 06:44:48] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-13 06:44:48,654 - INFO - 127.0.0.1 - - [13/Apr/2025 06:44:48] "GET / HTTP/1.1" 200 -
+2025-04-13 06:44:48,818 - INFO - 127.0.0.1 - - [13/Apr/2025 06:44:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-13 06:44:48,970 - INFO - 127.0.0.1 - - [13/Apr/2025 06:44:48] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-13 06:44:55,547 - INFO - 127.0.0.1 - - [13/Apr/2025 06:44:55] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-04-13 06:44:55,661 - INFO - 127.0.0.1 - - [13/Apr/2025 06:44:55] "GET /home HTTP/1.1" 200 -
+2025-04-13 06:44:55,976 - INFO - 127.0.0.1 - - [13/Apr/2025 06:44:55] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-13 06:44:55,977 - INFO - 127.0.0.1 - - [13/Apr/2025 06:44:55] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-13 06:44:56,240 - INFO - New connection established with client of address = ('127.0.0.1', 57158)
+2025-04-13 06:44:56,240 - INFO - New serving socket connected to address = ('127.0.0.1', 57158)
+2025-04-13 06:44:56,240 - INFO - List files request received
+2025-04-13 06:44:56,241 - INFO - File list sent to client
+2025-04-13 06:44:56,241 - INFO - Connection with ('127.0.0.1', 57158) closed
+2025-04-13 06:44:57,240 - INFO - Requesting file list from server
+2025-04-13 06:44:57,241 - INFO - Received file list with 1 files
+2025-04-13 06:44:57,241 - INFO - Client connection closed
+2025-04-13 06:44:57,242 - INFO - 127.0.0.1 - - [13/Apr/2025 06:44:57] "GET /list HTTP/1.1" 200 -
+2025-04-13 06:44:57,248 - INFO - 127.0.0.1 - - [13/Apr/2025 06:44:57] "[33mGET /icons/text-file.png HTTP/1.1[0m" 404 -

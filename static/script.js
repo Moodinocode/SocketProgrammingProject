@@ -184,28 +184,40 @@ function listFiles() {
               'ppt': 'icons/ppt-file.png',
               'mp3': 'icons/audio-file.png',
               'html': 'icons/html-file.png',
+              'delete': 'icons/delete.png',
               // Add more mappings as needed
             };
 
             const icon = document.createElement('img');
             icon.classList.add('file-icon');
-            icon.src = iconMapping[extension] || './icons/default-file.png';
+            icon.src = iconMapping[extension] || 'icons/default-file.png';
             icon.alt = extension + ' file icon';
 
             const fileNameSpan = document.createElement('span');
             fileNameSpan.classList.add('file-name');
             fileNameSpan.textContent = file;
-
+            const delbtn = document.createElement('button');
+             console.log("Logged in as:", currentUser);
+            if (currentUser === "admin") {
+                delbtn.classList.add('delbtn');
+                delbtn.textContent = 'icons/delete.png' || 'icons/default-file.png';;
+                delbtn.addEventListener('click', () => {
+                  deletefile(file);
+                });
+            }
             // Create the download button within each file listing
             const downloadButton = document.createElement('button');
             downloadButton.classList.add('download-button');
-            downloadButton.textContent = 'icons/download-file.png';
+            downloadButton.textContent = './icons/download-file.png';
             downloadButton.addEventListener('click', () => {
               downloadFile(file);
             });
 
             li.appendChild(icon);
             li.appendChild(fileNameSpan);
+            if (currentUser === "admin") {
+              li.append(delbtn)
+            }
             li.appendChild(downloadButton);
             ul.appendChild(li);
           }
