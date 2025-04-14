@@ -11,11 +11,22 @@
     <div class="navbar">
       
       <!-- Single button that triggers the hidden file input -->
-      <button id="uploadButton">Upload File</button>
+       <span>
+        <button id="uploadButton">Upload File</button>
+      </span>
+      {% if username == 'admin' %}
+        <h3>Hello Admin</h3>
+      {% else %}
+        <h3>Hello User</h3>
+      {% endif %}
+      <span>
       <input type="file" id="fileInput" style="display: none;">
 
-
+        {% if username == 'admin' %}
+        <button onclick="window.open('/view-log', '_blank')">View logs</button>
+        {% endif %}
       <a href="{{url_for('logout')}}">logout</a> 
+      </span>
     </div>
     
     <div class="file-list-container">

@@ -38,18 +38,22 @@
   margin: 20px auto 10px;
 }
 
-.navbar > button {
+.navbar  button {
   padding: 12px 18px;
   background-color: #189ab4;
   color: #eeeeee;
   border-radius: 15px;
   border: 0;
 }
-.navbar> a {
+.navbar a {
   padding: 12px 18px;
   background-color: #189ab4;
+  align-content: center;
   color: #eeeeee;
   text-decoration: none;
   border-radius: 15px;
   border: 0;
+}
+.navbar span {
+  align-content: center;
 }

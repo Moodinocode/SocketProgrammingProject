@@ -59,6 +59,18 @@ if not os.path.exists(CLIENT_FILES_DIR):
     os.makedirs(CLIENT_FILES_DIR)
 
 
+
+@app.route('/view-log')
+def view_log():
+    log_path = os.path.join(os.getcwd(), 'test.log')
+    try:
+        with open(log_path, 'r') as file:
+            content = file.read()
+        return f"<pre>{content}</pre>"
+    except Exception as e:
+        return f"<pre>Error reading log: {e}</pre>"
+
+
 @app.route('/', methods=['GET','POST'])
 def loginPage():
     form = LoginForm()
