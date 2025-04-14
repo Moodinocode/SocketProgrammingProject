@@ -5320,3 +5320,1725 @@ files
 2025-04-14 07:29:09,057 - INFO - 127.0.0.1 - - [14/Apr/2025 07:29:09] "GET /logout?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
 2025-04-14 07:29:09,383 - INFO - 127.0.0.1 - - [14/Apr/2025 07:29:09] "GET /logout?__debugger__=yes&cmd=resource&f=console.png&s=oOb2rL8PLs5oR5WiucVo HTTP/1.1" 200 -
 2025-04-14 07:29:09,639 - INFO - 127.0.0.1 - - [14/Apr/2025 07:29:09] "GET /logout?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-04-14 21:37:05,166 - INFO - Server starting on port 8080...
+2025-04-14 21:37:05,167 - INFO - Server listening on port 8080...
+2025-04-14 21:39:43,040 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-14 21:39:43,040 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-14 21:39:43,041 - INFO -  * Restarting with stat
+2025-04-14 21:39:43,738 - WARNING -  * Debugger is active!
+2025-04-14 21:39:43,740 - INFO -  * Debugger PIN: 355-406-568
+2025-04-14 21:39:49,490 - INFO - 127.0.0.1 - - [14/Apr/2025 21:39:49] "GET / HTTP/1.1" 200 -
+2025-04-14 21:39:49,531 - INFO - 127.0.0.1 - - [14/Apr/2025 21:39:49] "GET /static/styles.css HTTP/1.1" 200 -
+2025-04-14 21:39:49,737 - INFO - 127.0.0.1 - - [14/Apr/2025 21:39:49] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-14 21:39:50,050 - INFO - 127.0.0.1 - - [14/Apr/2025 21:39:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-14 21:39:58,138 - INFO - 127.0.0.1 - - [14/Apr/2025 21:39:58] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-04-14 21:39:58,239 - INFO - 127.0.0.1 - - [14/Apr/2025 21:39:58] "GET /home HTTP/1.1" 200 -
+2025-04-14 21:39:58,574 - INFO - 127.0.0.1 - - [14/Apr/2025 21:39:58] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-14 21:39:58,575 - INFO - 127.0.0.1 - - [14/Apr/2025 21:39:58] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-14 21:39:58,812 - INFO - New connection established with client of address = ('127.0.0.1', 53089)
+2025-04-14 21:39:58,813 - INFO - New serving socket connected to address = ('127.0.0.1', 53089)
+2025-04-14 21:39:58,813 - INFO - List files request received
+2025-04-14 21:39:58,813 - INFO - File list sent to client
+2025-04-14 21:39:58,813 - INFO - Connection with ('127.0.0.1', 53089) closed
+2025-04-14 21:39:59,812 - INFO - Requesting file list from server
+2025-04-14 21:39:59,813 - INFO - Received file list with 1 files
+2025-04-14 21:39:59,813 - INFO - Client connection closed
+2025-04-14 21:39:59,813 - INFO - 127.0.0.1 - - [14/Apr/2025 21:39:59] "GET /list HTTP/1.1" 200 -
+2025-04-14 21:40:14,159 - INFO - New connection established with client of address = ('127.0.0.1', 53093)
+2025-04-14 21:40:14,160 - INFO - New serving socket connected to address = ('127.0.0.1', 53093)
+2025-04-14 21:40:14,160 - INFO - Upload request received
+2025-04-14 21:40:15,159 - INFO - Uploading file: client_files\Basically Coders Phase1 (4).docx
+2025-04-14 21:40:15,160 - INFO - Receiving file with name: Basically Coders Phase1 (4).docx
+2025-04-14 21:40:15,463 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:15] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:40:16,473 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:16] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:40:17,199 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:17] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:40:17,482 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:17] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:40:18,471 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:18] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:40:19,315 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:19] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:40:19,468 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:19] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:40:20,460 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:20] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:40:21,449 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:21] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:40:21,471 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:21] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:40:22,387 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:22] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-14 21:40:22,463 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:22] "GET / HTTP/1.1" 200 -
+2025-04-14 21:40:23,456 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:23] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-14 21:40:23,586 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:23] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:40:23,781 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:23] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-14 21:40:25,713 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:25] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:40:27,830 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:27] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:40:29,960 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:29] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:40:32,098 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:32] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:40:34,241 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:34] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:40:36,376 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:36] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:40:36,516 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:36] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-04-14 21:40:36,520 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:36] "GET /home HTTP/1.1" 200 -
+2025-04-14 21:40:36,541 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:36] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-14 21:40:36,829 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:36] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-14 21:40:37,136 - INFO - New connection established with client of address = ('127.0.0.1', 53148)
+2025-04-14 21:40:37,137 - INFO - New serving socket connected to address = ('127.0.0.1', 53148)
+2025-04-14 21:40:37,137 - INFO - List files request received
+2025-04-14 21:40:37,137 - INFO - File list sent to client
+2025-04-14 21:40:37,137 - INFO - Connection with ('127.0.0.1', 53148) closed
+2025-04-14 21:40:38,137 - INFO - Requesting file list from server
+2025-04-14 21:40:38,137 - INFO - Received file list with 1 files
+2025-04-14 21:40:38,137 - INFO - Client connection closed
+2025-04-14 21:40:38,138 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:38] "GET /list HTTP/1.1" 200 -
+2025-04-14 21:40:38,145 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:38] "[33mGET /icons/word-file.png HTTP/1.1[0m" 404 -
+2025-04-14 21:40:38,517 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:38] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:40:40,661 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:40] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:40:42,797 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:42] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:40:44,924 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:44] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:40:47,046 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:47] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:40:49,180 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:49] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:40:51,321 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:51] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:40:52,871 - INFO - New connection established with client of address = ('127.0.0.1', 53168)
+2025-04-14 21:40:52,872 - INFO - New serving socket connected to address = ('127.0.0.1', 53168)
+2025-04-14 21:40:52,873 - INFO - Upload request received
+2025-04-14 21:40:53,438 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:53] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:40:53,562 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:53] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:40:53,872 - INFO - Uploading file: client_files\Basically Coders Phase1 (4).docx
+2025-04-14 21:40:53,873 - INFO - Receiving file with name: Basically Coders Phase1 (4).docx
+2025-04-14 21:40:54,868 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:54] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:40:55,554 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:55] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:40:55,882 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:55] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:40:55,925 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:55] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:40:56,868 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:56] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:40:57,680 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:57] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:40:57,870 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:57] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:40:58,054 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:58] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:40:58,866 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:58] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:40:59,813 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:59] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:40:59,877 - INFO - 127.0.0.1 - - [14/Apr/2025 21:40:59] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:41:00,187 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:00] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:00,870 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:00] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:41:01,866 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:01] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:41:01,950 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:01] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:02,332 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:02] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:02,873 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:02] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:41:03,878 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:03] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:41:04,088 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:04] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:04,458 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:04] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:04,863 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:04] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:41:05,867 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:05] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:41:06,203 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:06] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:06,590 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:06] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:06,872 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:06] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:41:07,879 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:07] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:41:08,349 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:08] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:08,706 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:08] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:08,874 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:08] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:41:09,872 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:09] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:41:10,467 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:10] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:10,825 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:10] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:10,866 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:10] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:41:11,878 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:11] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:41:12,616 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:12] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:12,879 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:12] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:41:12,959 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:12] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:13,868 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:13] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:41:14,761 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:14] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:14,887 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:14] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:41:15,103 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:15] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:15,865 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:15] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:41:16,866 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:16] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:41:16,882 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:16] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:17,234 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:17] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:17,867 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:17] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:41:18,869 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:18] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:41:19,013 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:19] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:19,362 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:19] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:19,868 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:19] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:41:20,872 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:20] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:41:21,138 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:21] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:21,480 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:21] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:21,888 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:21] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:41:22,870 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:22] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:41:23,249 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:23] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:23,597 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:23] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:23,870 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:23] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:41:24,871 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:24] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:41:25,384 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:25] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:25,486 - INFO - Received 136911 bytes for file Basically Coders Phase1 (4).docx
+2025-04-14 21:41:25,724 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:25] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:25,864 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:25] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:41:26,865 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:26] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:41:27,514 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:27] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:27,858 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:27] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:27,878 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:27] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:41:28,866 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:28] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:41:29,640 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:29] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:29,641 - INFO - Client connection closed
+).docx file saved successfully with integrity verified
+2025-04-14 21:41:29,641 - INFO - Connection with ('127.0.0.1', 53093) closed
+2025-04-14 21:41:29,642 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:29] "POST /upload HTTP/1.1" 200 -
+2025-04-14 21:41:29,877 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:29] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:41:29,986 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:29] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:32,101 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:32] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:34,239 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:34] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:36,361 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:36] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:38,482 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:38] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:40,623 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:40] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:42,736 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:42] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:44,857 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:44] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:47,016 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:47] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:49,141 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:49] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:51,275 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:51] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:53,418 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:53] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:55,553 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:55] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:57,681 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:57] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:41:59,810 - INFO - 127.0.0.1 - - [14/Apr/2025 21:41:59] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:42:01,953 - INFO - 127.0.0.1 - - [14/Apr/2025 21:42:01] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:42:04,073 - INFO - 127.0.0.1 - - [14/Apr/2025 21:42:04] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:42:04,174 - INFO - Received 136911 bytes for file Basically Coders Phase1 (4).docx
+2025-04-14 21:42:06,194 - INFO - 127.0.0.1 - - [14/Apr/2025 21:42:06] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:42:08,322 - INFO - 127.0.0.1 - - [14/Apr/2025 21:42:08] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:42:08,322 - INFO - Basically Coders Phase1 (4).docx file saved successfully with integrity verified
+2025-04-14 21:42:08,322 - INFO - Connection with ('127.0.0.1', 53168) closed
+2025-04-14 21:42:08,323 - INFO - Client connection closed
+2025-04-14 21:42:08,323 - INFO - 127.0.0.1 - - [14/Apr/2025 21:42:08] "POST /upload HTTP/1.1" 200 -
+2025-04-14 21:42:10,594 - INFO - New connection established with client of address = ('127.0.0.1', 53360)
+2025-04-14 21:42:10,594 - INFO - New serving socket connected to address = ('127.0.0.1', 53360)
+2025-04-14 21:42:10,594 - INFO - List files request received
+2025-04-14 21:42:10,594 - INFO - File list sent to client
+2025-04-14 21:42:10,595 - INFO - Connection with ('127.0.0.1', 53360) closed
+2025-04-14 21:42:11,594 - INFO - Requesting file list from server
+2025-04-14 21:42:11,595 - INFO - Received file list with 2 files
+2025-04-14 21:42:11,595 - INFO - Client connection closed
+2025-04-14 21:42:11,595 - INFO - 127.0.0.1 - - [14/Apr/2025 21:42:11] "GET /list HTTP/1.1" 200 -
+2025-04-14 21:42:11,600 - INFO - 127.0.0.1 - - [14/Apr/2025 21:42:11] "[33mGET /icons/word-file.png HTTP/1.1[0m" 404 -
+2025-04-14 21:42:38,470 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\flask_app.py', reloading
+2025-04-14 21:42:38,545 - INFO -  * Restarting with stat
+2025-04-14 21:42:53,611 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-14 21:42:53,611 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-14 21:42:53,612 - INFO -  * Restarting with stat
+2025-04-14 21:42:54,382 - WARNING -  * Debugger is active!
+2025-04-14 21:42:54,384 - INFO -  * Debugger PIN: 355-406-568
+2025-04-14 21:43:02,807 - INFO - New connection established with client of address = ('127.0.0.1', 53372)
+2025-04-14 21:43:02,807 - INFO - New serving socket connected to address = ('127.0.0.1', 53372)
+2025-04-14 21:43:02,807 - INFO - Delete file request received
+2025-04-14 21:43:03,807 - INFO - Deleting file: Basically Coders Phase1 (4)_1.docx
+2025-04-14 21:43:03,807 - INFO - Client requested to delete file: Basically Coders Phase1 (4)_1.docx
+2025-04-14 21:43:03,809 - INFO - File Basically Coders Phase1 (4)_1.docx deleted successfully
+2025-04-14 21:43:03,810 - INFO - Connection with ('127.0.0.1', 53372) closed
+2025-04-14 21:43:03,810 - INFO - Delete result: SUCCESS
+2025-04-14 21:43:03,810 - INFO - Client connection closed
+2025-04-14 21:43:03,811 - INFO - 127.0.0.1 - - [14/Apr/2025 21:43:03] "POST /delete HTTP/1.1" 200 -
+2025-04-14 21:43:05,078 - INFO - New connection established with client of address = ('127.0.0.1', 53374)
+2025-04-14 21:43:05,078 - INFO - New serving socket connected to address = ('127.0.0.1', 53374)
+2025-04-14 21:43:05,078 - INFO - List files request received
+2025-04-14 21:43:05,079 - INFO - File list sent to client
+2025-04-14 21:43:05,079 - INFO - Connection with ('127.0.0.1', 53374) closed
+2025-04-14 21:43:06,078 - INFO - Requesting file list from server
+2025-04-14 21:43:06,079 - INFO - Received file list with 1 files
+2025-04-14 21:43:06,079 - INFO - Client connection closed
+2025-04-14 21:43:06,079 - INFO - 127.0.0.1 - - [14/Apr/2025 21:43:06] "GET /list HTTP/1.1" 200 -
+2025-04-14 21:43:06,390 - INFO - 127.0.0.1 - - [14/Apr/2025 21:43:06] "[33mGET /icons/word-file.png HTTP/1.1[0m" 404 -
+2025-04-14 21:43:11,910 - INFO - New connection established with client of address = ('127.0.0.1', 53381)
+2025-04-14 21:43:11,910 - INFO - New serving socket connected to address = ('127.0.0.1', 53381)
+2025-04-14 21:43:11,910 - INFO - Download request received
+2025-04-14 21:43:12,910 - INFO - Downloading file: client_files\temp_Basically Coders Phase1 (4).docx
+2025-04-14 21:43:12,911 - INFO - Client requested file: Basically Coders Phase1 (4).docx
+2025-04-14 21:43:12,911 - ERROR - Error in client operation: name 'interrupted_downloads_tracker' is not defined
+2025-04-14 21:43:12,912 - INFO - Client connection closed
+2025-04-14 21:43:12,913 - INFO - 127.0.0.1 - - [14/Apr/2025 21:43:12] "POST /download HTTP/1.1" 200 -
+2025-04-14 21:43:12,928 - ERROR - Error handling client ('127.0.0.1', 53381): can only concatenate str (not "int") to str
+2025-04-14 21:43:12,928 - INFO - Connection with ('127.0.0.1', 53381) closed
+2025-04-14 21:43:17,669 - INFO - New connection established with client of address = ('127.0.0.1', 53385)
+2025-04-14 21:43:17,670 - INFO - New serving socket connected to address = ('127.0.0.1', 53385)
+2025-04-14 21:43:17,670 - INFO - Delete file request received
+2025-04-14 21:43:18,669 - INFO - Deleting file: Basically Coders Phase1 (4).docx
+2025-04-14 21:43:18,669 - INFO - Client requested to delete file: Basically Coders Phase1 (4).docx
+2025-04-14 21:43:18,671 - INFO - File Basically Coders Phase1 (4).docx deleted successfully
+2025-04-14 21:43:18,672 - INFO - Connection with ('127.0.0.1', 53385) closed
+2025-04-14 21:43:18,672 - INFO - Delete result: SUCCESS
+2025-04-14 21:43:18,672 - INFO - Client connection closed
+2025-04-14 21:43:18,673 - INFO - 127.0.0.1 - - [14/Apr/2025 21:43:18] "POST /delete HTTP/1.1" 200 -
+2025-04-14 21:43:19,620 - INFO - New connection established with client of address = ('127.0.0.1', 53387)
+2025-04-14 21:43:19,621 - INFO - New serving socket connected to address = ('127.0.0.1', 53387)
+2025-04-14 21:43:19,621 - INFO - List files request received
+2025-04-14 21:43:19,621 - INFO - File list sent to client
+2025-04-14 21:43:19,621 - INFO - Connection with ('127.0.0.1', 53387) closed
+2025-04-14 21:43:20,621 - INFO - Requesting file list from server
+2025-04-14 21:43:20,621 - INFO - Received file list with 1 files
+2025-04-14 21:43:20,621 - INFO - Client connection closed
+2025-04-14 21:43:20,622 - INFO - 127.0.0.1 - - [14/Apr/2025 21:43:20] "GET /list HTTP/1.1" 200 -
+2025-04-14 21:43:38,569 - INFO - 127.0.0.1 - - [14/Apr/2025 21:43:38] "GET /home HTTP/1.1" 200 -
+2025-04-14 21:43:38,604 - INFO - 127.0.0.1 - - [14/Apr/2025 21:43:38] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-14 21:43:38,803 - INFO - 127.0.0.1 - - [14/Apr/2025 21:43:38] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-14 21:43:39,109 - INFO - New connection established with client of address = ('127.0.0.1', 53398)
+2025-04-14 21:43:39,110 - INFO - New serving socket connected to address = ('127.0.0.1', 53398)
+2025-04-14 21:43:39,110 - INFO - List files request received
+2025-04-14 21:43:39,110 - INFO - File list sent to client
+2025-04-14 21:43:39,110 - INFO - Connection with ('127.0.0.1', 53398) closed
+2025-04-14 21:43:40,110 - INFO - Requesting file list from server
+2025-04-14 21:43:40,110 - INFO - Received file list with 1 files
+2025-04-14 21:43:40,110 - INFO - Client connection closed
+2025-04-14 21:43:40,110 - INFO - 127.0.0.1 - - [14/Apr/2025 21:43:40] "GET /list HTTP/1.1" 200 -
+2025-04-14 21:43:53,040 - INFO - New connection established with client of address = ('127.0.0.1', 53401)
+2025-04-14 21:43:53,040 - INFO - New serving socket connected to address = ('127.0.0.1', 53401)
+2025-04-14 21:43:53,040 - INFO - Upload request received
+2025-04-14 21:43:54,040 - INFO - Uploading file: client_files\Basically Coders Phase1 (4).docx
+2025-04-14 21:43:54,041 - INFO - Receiving file with name: Basically Coders Phase1 (4).docx
+2025-04-14 21:43:54,358 - INFO - 127.0.0.1 - - [14/Apr/2025 21:43:54] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:43:55,341 - INFO - 127.0.0.1 - - [14/Apr/2025 21:43:55] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:43:56,079 - INFO - 127.0.0.1 - - [14/Apr/2025 21:43:56] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:43:56,348 - INFO - 127.0.0.1 - - [14/Apr/2025 21:43:56] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:43:57,342 - INFO - 127.0.0.1 - - [14/Apr/2025 21:43:57] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:43:58,223 - INFO - 127.0.0.1 - - [14/Apr/2025 21:43:58] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:43:58,343 - INFO - 127.0.0.1 - - [14/Apr/2025 21:43:58] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:43:59,342 - INFO - 127.0.0.1 - - [14/Apr/2025 21:43:59] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:44:00,344 - INFO - 127.0.0.1 - - [14/Apr/2025 21:44:00] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:44:00,360 - INFO - 127.0.0.1 - - [14/Apr/2025 21:44:00] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:44:01,360 - INFO - 127.0.0.1 - - [14/Apr/2025 21:44:01] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:44:02,350 - INFO - 127.0.0.1 - - [14/Apr/2025 21:44:02] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:44:02,462 - INFO - 127.0.0.1 - - [14/Apr/2025 21:44:02] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:44:03,346 - INFO - 127.0.0.1 - - [14/Apr/2025 21:44:03] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:44:04,346 - INFO - 127.0.0.1 - - [14/Apr/2025 21:44:04] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:44:04,604 - INFO - 127.0.0.1 - - [14/Apr/2025 21:44:04] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:44:05,351 - INFO - 127.0.0.1 - - [14/Apr/2025 21:44:05] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:44:06,348 - INFO - 127.0.0.1 - - [14/Apr/2025 21:44:06] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:44:06,723 - INFO - 127.0.0.1 - - [14/Apr/2025 21:44:06] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:44:07,351 - INFO - 127.0.0.1 - - [14/Apr/2025 21:44:07] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:44:08,368 - INFO - 127.0.0.1 - - [14/Apr/2025 21:44:08] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:44:08,548 - ERROR - Error handling client ('127.0.0.1', 53401): [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-04-14 21:44:08,548 - INFO - Connection with ('127.0.0.1', 53401) closed
+2025-04-14 21:44:30,397 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-14 21:44:30,398 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-14 21:44:30,400 - INFO -  * Restarting with stat
+2025-04-14 21:44:31,064 - WARNING -  * Debugger is active!
+2025-04-14 21:44:31,065 - INFO -  * Debugger PIN: 355-406-568
+2025-04-14 21:44:57,517 - INFO - 127.0.0.1 - - [14/Apr/2025 21:44:57] "GET /home HTTP/1.1" 200 -
+2025-04-14 21:44:57,558 - INFO - 127.0.0.1 - - [14/Apr/2025 21:44:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-14 21:44:57,748 - INFO - 127.0.0.1 - - [14/Apr/2025 21:44:57] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-14 21:44:59,058 - INFO - Requesting file list from server
+2025-04-14 21:44:59,059 - ERROR - Error in client operation: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-04-14 21:44:59,059 - INFO - Client connection closed
+2025-04-14 21:44:59,060 - INFO - 127.0.0.1 - - [14/Apr/2025 21:44:59] "GET /list HTTP/1.1" 200 -
+2025-04-14 21:45:07,018 - INFO - Server starting on port 8080...
+2025-04-14 21:45:07,018 - INFO - Server listening on port 8080...
+2025-04-14 21:45:13,096 - INFO - 127.0.0.1 - - [14/Apr/2025 21:45:13] "GET /home HTTP/1.1" 200 -
+2025-04-14 21:45:13,410 - INFO - 127.0.0.1 - - [14/Apr/2025 21:45:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-14 21:45:13,411 - INFO - 127.0.0.1 - - [14/Apr/2025 21:45:13] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-14 21:45:13,723 - INFO - New connection established with client of address = ('127.0.0.1', 53477)
+2025-04-14 21:45:13,724 - INFO - New serving socket connected to address = ('127.0.0.1', 53477)
+2025-04-14 21:45:13,724 - INFO - List files request received
+2025-04-14 21:45:13,724 - INFO - File list sent to client
+2025-04-14 21:45:13,724 - INFO - Connection with ('127.0.0.1', 53477) closed
+2025-04-14 21:45:14,723 - INFO - Requesting file list from server
+2025-04-14 21:45:14,724 - INFO - Received file list with 1 files
+2025-04-14 21:45:14,724 - INFO - Client connection closed
+2025-04-14 21:45:14,724 - INFO - 127.0.0.1 - - [14/Apr/2025 21:45:14] "GET /list HTTP/1.1" 200 -
+2025-04-14 21:45:14,728 - INFO - 127.0.0.1 - - [14/Apr/2025 21:45:14] "[33mGET /icons/word-file.png HTTP/1.1[0m" 404 -
+2025-04-14 21:45:18,509 - INFO - New connection established with client of address = ('127.0.0.1', 53482)
+2025-04-14 21:45:18,509 - INFO - New serving socket connected to address = ('127.0.0.1', 53482)
+2025-04-14 21:45:18,509 - INFO - Download request received
+2025-04-14 21:45:19,210 - INFO - 127.0.0.1 - - [14/Apr/2025 21:45:19] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:45:19,509 - INFO - Downloading file: client_files\temp_Basically Coders Phase1 (4).docx
+2025-04-14 21:45:19,509 - INFO - Client requested file: Basically Coders Phase1 (4).docx
+2025-04-14 21:45:19,510 - ERROR - Error in client operation: name 'interrupted_downloads_tracker' is not defined
+2025-04-14 21:45:19,510 - INFO - Client connection closed
+2025-04-14 21:45:19,511 - INFO - 127.0.0.1 - - [14/Apr/2025 21:45:19] "POST /download HTTP/1.1" 200 -
+2025-04-14 21:45:19,522 - ERROR - Error handling client ('127.0.0.1', 53482): can only concatenate str (not "int") to str
+2025-04-14 21:45:19,522 - INFO - Connection with ('127.0.0.1', 53482) closed
+2025-04-14 21:45:45,358 - INFO - 127.0.0.1 - - [14/Apr/2025 21:45:45] "GET /home HTTP/1.1" 200 -
+2025-04-14 21:45:45,365 - INFO - 127.0.0.1 - - [14/Apr/2025 21:45:45] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-14 21:45:45,623 - INFO - 127.0.0.1 - - [14/Apr/2025 21:45:45] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-14 21:45:45,933 - INFO - New connection established with client of address = ('127.0.0.1', 53495)
+2025-04-14 21:45:45,933 - INFO - New serving socket connected to address = ('127.0.0.1', 53495)
+2025-04-14 21:45:45,934 - INFO - List files request received
+2025-04-14 21:45:45,934 - INFO - File list sent to client
+2025-04-14 21:45:45,934 - INFO - Connection with ('127.0.0.1', 53495) closed
+2025-04-14 21:45:46,933 - INFO - Requesting file list from server
+2025-04-14 21:45:46,933 - INFO - Received file list with 1 files
+2025-04-14 21:45:46,933 - INFO - Client connection closed
+2025-04-14 21:45:46,934 - INFO - 127.0.0.1 - - [14/Apr/2025 21:45:46] "GET /list HTTP/1.1" 200 -
+2025-04-14 21:45:50,847 - INFO - New connection established with client of address = ('127.0.0.1', 53498)
+2025-04-14 21:45:50,848 - INFO - New serving socket connected to address = ('127.0.0.1', 53498)
+2025-04-14 21:45:50,848 - INFO - Upload request received
+2025-04-14 21:45:51,848 - INFO - Uploading file: client_files\Basically Coders Phase1 (4).docx
+2025-04-14 21:45:51,848 - INFO - Receiving file with name: Basically Coders Phase1 (4).docx
+2025-04-14 21:45:52,159 - INFO - 127.0.0.1 - - [14/Apr/2025 21:45:52] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:45:53,154 - INFO - 127.0.0.1 - - [14/Apr/2025 21:45:53] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:45:53,899 - INFO - 127.0.0.1 - - [14/Apr/2025 21:45:53] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:45:54,168 - INFO - 127.0.0.1 - - [14/Apr/2025 21:45:54] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:45:55,150 - INFO - 127.0.0.1 - - [14/Apr/2025 21:45:55] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:45:56,047 - INFO - 127.0.0.1 - - [14/Apr/2025 21:45:56] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:45:56,168 - INFO - 127.0.0.1 - - [14/Apr/2025 21:45:56] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:45:57,163 - INFO - 127.0.0.1 - - [14/Apr/2025 21:45:57] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:45:58,161 - INFO - 127.0.0.1 - - [14/Apr/2025 21:45:58] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:45:58,196 - INFO - 127.0.0.1 - - [14/Apr/2025 21:45:58] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:45:59,155 - INFO - 127.0.0.1 - - [14/Apr/2025 21:45:59] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:00,160 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:00] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:00,324 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:00] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:46:01,148 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:01] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:02,154 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:02] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:02,451 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:02] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:46:03,167 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:03] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:04,170 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:04] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:04,575 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:04] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:46:05,148 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:05] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:06,155 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:06] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:06,723 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:06] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:46:07,167 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:07] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:08,172 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:08] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:08,862 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:08] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:46:09,163 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:09] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:10,160 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:10] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:10,988 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:10] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:46:11,178 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:11] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:12,148 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:12] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:13,112 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:13] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:46:13,159 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:13] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:14,147 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:14] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:15,165 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:15] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:15,241 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:15] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:46:16,147 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:16] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:17,156 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:17] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:17,370 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:17] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:46:18,164 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:18] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:19,154 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:19] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:19,499 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:19] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:46:20,152 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:20] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:21,153 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:21] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:21,632 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:21] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:46:22,162 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:22] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:23,148 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:23] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:23,781 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:23] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:46:24,161 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:24] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:25,157 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:25] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:25,911 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:25] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:46:26,153 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:26] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:27,170 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:27] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:28,029 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:28] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:46:28,160 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:28] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:29,171 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:29] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:30,152 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:30] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:30,163 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:30] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:46:31,146 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:31] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:32,159 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:32] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:32,296 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:32] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:46:33,170 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:33] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:34,160 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:34] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:34,424 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:34] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:46:35,157 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:35] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:36,160 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:36] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:36,551 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:36] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:46:37,157 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:37] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:38,159 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:38] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:38,680 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:38] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:46:39,156 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:39] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:40,164 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:40] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:40,818 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:40] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:46:41,166 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:41] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:42,162 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:42] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:42,957 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:42] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:46:43,151 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:43] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:44,150 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:44] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:45,087 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:45] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:46:45,156 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:45] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:46,149 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:46] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:47,156 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:47] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:47,222 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:47] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:46:48,150 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:48] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:49,149 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:49] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:49,347 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:49] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:46:50,161 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:50] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:51,158 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:51] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:51,469 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:51] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:46:52,155 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:52] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:53,158 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:53] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:53,599 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:53] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:46:54,149 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:54] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:55,150 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:55] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:55,733 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:55] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:46:56,162 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:56] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:57,153 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:57] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:57,861 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:57] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:46:58,164 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:58] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:46:59,167 - INFO - 127.0.0.1 - - [14/Apr/2025 21:46:59] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:47:00,005 - INFO - 127.0.0.1 - - [14/Apr/2025 21:47:00] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:47:00,148 - INFO - 127.0.0.1 - - [14/Apr/2025 21:47:00] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:47:01,149 - INFO - 127.0.0.1 - - [14/Apr/2025 21:47:01] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:47:02,144 - INFO - 127.0.0.1 - - [14/Apr/2025 21:47:02] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:47:02,158 - INFO - 127.0.0.1 - - [14/Apr/2025 21:47:02] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:47:02,246 - INFO - Received 136911 bytes for file Basically Coders Phase1 (4).docx
+2025-04-14 21:47:03,149 - INFO - 127.0.0.1 - - [14/Apr/2025 21:47:03] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:47:04,163 - INFO - 127.0.0.1 - - [14/Apr/2025 21:47:04] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:47:04,276 - INFO - 127.0.0.1 - - [14/Apr/2025 21:47:04] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:47:05,155 - INFO - 127.0.0.1 - - [14/Apr/2025 21:47:05] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:47:06,401 - INFO - 127.0.0.1 - - [14/Apr/2025 21:47:06] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 21:47:06,403 - INFO - Basically Coders Phase1 (4).docx file saved successfully with integrity verified
+2025-04-14 21:47:06,403 - INFO - Connection with ('127.0.0.1', 53498) closed
+2025-04-14 21:47:06,403 - INFO - Client connection closed
+2025-04-14 21:47:06,403 - INFO - 127.0.0.1 - - [14/Apr/2025 21:47:06] "POST /upload HTTP/1.1" 200 -
+2025-04-14 21:47:37,171 - INFO - New connection established with client of address = ('127.0.0.1', 53739)
+2025-04-14 21:47:37,172 - INFO - New serving socket connected to address = ('127.0.0.1', 53739)
+2025-04-14 21:47:37,172 - INFO - List files request received
+2025-04-14 21:47:37,172 - INFO - File list sent to client
+2025-04-14 21:47:37,172 - INFO - Connection with ('127.0.0.1', 53739) closed
+2025-04-14 21:47:38,171 - INFO - Requesting file list from server
+2025-04-14 21:47:38,172 - INFO - Received file list with 1 files
+2025-04-14 21:47:38,172 - INFO - Client connection closed
+2025-04-14 21:47:38,173 - INFO - 127.0.0.1 - - [14/Apr/2025 21:47:38] "GET /list HTTP/1.1" 200 -
+2025-04-14 21:47:38,180 - INFO - 127.0.0.1 - - [14/Apr/2025 21:47:38] "[33mGET /icons/word-file.png HTTP/1.1[0m" 404 -
+2025-04-14 21:47:39,820 - INFO - New connection established with client of address = ('127.0.0.1', 53744)
+2025-04-14 21:47:39,820 - INFO - New serving socket connected to address = ('127.0.0.1', 53744)
+2025-04-14 21:47:39,820 - INFO - Download request received
+2025-04-14 21:47:40,509 - INFO - 127.0.0.1 - - [14/Apr/2025 21:47:40] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:47:40,820 - INFO - Downloading file: client_files\temp_Basically Coders Phase1 (4).docx
+2025-04-14 21:47:40,820 - INFO - Client requested file: Basically Coders Phase1 (4).docx
+2025-04-14 21:47:40,821 - ERROR - Error in client operation: name 'interrupted_downloads_tracker' is not defined
+2025-04-14 21:47:40,821 - INFO - Client connection closed
+2025-04-14 21:47:40,823 - INFO - 127.0.0.1 - - [14/Apr/2025 21:47:40] "POST /download HTTP/1.1" 200 -
+2025-04-14 21:47:40,837 - ERROR - Error handling client ('127.0.0.1', 53744): can only concatenate str (not "int") to str
+2025-04-14 21:47:40,837 - INFO - Connection with ('127.0.0.1', 53744) closed
+2025-04-14 21:50:29,621 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\utils.py', reloading
+2025-04-14 21:50:29,702 - INFO -  * Restarting with stat
+2025-04-14 21:56:43,358 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-14 21:56:43,359 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-14 21:56:43,361 - INFO -  * Restarting with stat
+2025-04-14 21:56:44,034 - WARNING -  * Debugger is active!
+2025-04-14 21:56:44,035 - INFO -  * Debugger PIN: 355-406-568
+2025-04-14 21:56:52,834 - INFO - 127.0.0.1 - - [14/Apr/2025 21:56:52] "GET /home HTTP/1.1" 200 -
+2025-04-14 21:56:52,876 - INFO - 127.0.0.1 - - [14/Apr/2025 21:56:52] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-14 21:56:53,081 - INFO - 127.0.0.1 - - [14/Apr/2025 21:56:53] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-14 21:56:53,391 - INFO - New connection established with client of address = ('127.0.0.1', 53888)
+2025-04-14 21:56:53,391 - INFO - New serving socket connected to address = ('127.0.0.1', 53888)
+2025-04-14 21:56:53,391 - INFO - List files request received
+2025-04-14 21:56:53,392 - INFO - File list sent to client
+2025-04-14 21:56:53,392 - INFO - Connection with ('127.0.0.1', 53888) closed
+2025-04-14 21:56:54,391 - INFO - Requesting file list from server
+2025-04-14 21:56:54,391 - INFO - Received file list with 1 files
+2025-04-14 21:56:54,391 - INFO - Client connection closed
+2025-04-14 21:56:54,392 - INFO - 127.0.0.1 - - [14/Apr/2025 21:56:54] "GET /list HTTP/1.1" 200 -
+2025-04-14 21:56:54,396 - INFO - 127.0.0.1 - - [14/Apr/2025 21:56:54] "[33mGET /icons/word-file.png HTTP/1.1[0m" 404 -
+2025-04-14 21:56:55,615 - INFO - New connection established with client of address = ('127.0.0.1', 53894)
+2025-04-14 21:56:55,616 - INFO - New serving socket connected to address = ('127.0.0.1', 53894)
+2025-04-14 21:56:55,616 - INFO - Download request received
+2025-04-14 21:56:56,318 - INFO - 127.0.0.1 - - [14/Apr/2025 21:56:56] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:56:56,616 - INFO - Downloading file: client_files\temp_Basically Coders Phase1 (4).docx
+2025-04-14 21:56:56,616 - INFO - Client requested file: Basically Coders Phase1 (4).docx
+2025-04-14 21:56:56,617 - ERROR - Error in client operation: 'int' object has no attribute 'encode'
+2025-04-14 21:56:56,617 - INFO - Client connection closed
+2025-04-14 21:56:56,617 - ERROR - Error handling client ('127.0.0.1', 53894): can only concatenate str (not "int") to str
+2025-04-14 21:56:56,618 - INFO - Connection with ('127.0.0.1', 53894) closed
+2025-04-14 21:56:56,618 - INFO - 127.0.0.1 - - [14/Apr/2025 21:56:56] "POST /download HTTP/1.1" 200 -
+2025-04-14 21:58:49,573 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\client.py', reloading
+2025-04-14 21:58:49,660 - INFO -  * Restarting with stat
+2025-04-14 21:58:50,471 - WARNING -  * Debugger is active!
+2025-04-14 21:58:50,472 - INFO -  * Debugger PIN: 355-406-568
+2025-04-14 21:59:22,122 - INFO - New connection established with client of address = ('127.0.0.1', 53908)
+2025-04-14 21:59:22,123 - INFO - New serving socket connected to address = ('127.0.0.1', 53908)
+2025-04-14 21:59:22,123 - INFO - Download request received
+2025-04-14 21:59:22,802 - INFO - 127.0.0.1 - - [14/Apr/2025 21:59:22] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 21:59:23,122 - INFO - Downloading file: client_files\temp_Basically Coders Phase1 (4).docx
+2025-04-14 21:59:23,122 - INFO - Client requested file: Basically Coders Phase1 (4).docx
+2025-04-14 21:59:23,123 - ERROR - Error in client operation: a bytes-like object is required, not 'int'
+2025-04-14 21:59:23,123 - INFO - Client connection closed
+2025-04-14 21:59:23,124 - ERROR - Error handling client ('127.0.0.1', 53908): can only concatenate str (not "int") to str
+2025-04-14 21:59:23,124 - INFO - Connection with ('127.0.0.1', 53908) closed
+2025-04-14 21:59:23,124 - INFO - 127.0.0.1 - - [14/Apr/2025 21:59:23] "POST /download HTTP/1.1" 200 -
+2025-04-14 22:00:24,807 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\client.py', reloading
+2025-04-14 22:00:24,889 - INFO -  * Restarting with stat
+2025-04-14 22:00:25,687 - WARNING -  * Debugger is active!
+2025-04-14 22:00:25,689 - INFO -  * Debugger PIN: 355-406-568
+2025-04-14 22:00:53,821 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\server.py', reloading
+2025-04-14 22:00:53,892 - INFO -  * Restarting with stat
+2025-04-14 22:00:54,696 - WARNING -  * Debugger is active!
+2025-04-14 22:00:54,698 - INFO -  * Debugger PIN: 355-406-568
+2025-04-14 22:00:57,277 - INFO - New connection established with client of address = ('127.0.0.1', 53939)
+2025-04-14 22:00:57,277 - INFO - New serving socket connected to address = ('127.0.0.1', 53939)
+2025-04-14 22:00:57,277 - INFO - Download request received
+2025-04-14 22:00:57,973 - INFO - 127.0.0.1 - - [14/Apr/2025 22:00:57] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 22:00:58,277 - INFO - Downloading file: client_files\temp_Basically Coders Phase1 (4).docx
+2025-04-14 22:00:58,277 - INFO - Client requested file: Basically Coders Phase1 (4).docx
+2025-04-14 22:00:58,278 - ERROR - Error handling client ('127.0.0.1', 53939): can only concatenate str (not "int") to str
+2025-04-14 22:00:58,278 - INFO - Connection with ('127.0.0.1', 53939) closed
+2025-04-14 22:00:58,278 - INFO - Downloading: 2.99%
+2025-04-14 22:00:59,294 - INFO - 127.0.0.1 - - [14/Apr/2025 22:00:59] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 22:01:00,282 - INFO - 127.0.0.1 - - [14/Apr/2025 22:01:00] "GET /get_progress/Basically%20Coders%20Phase1%20(4).docx HTTP/1.1" 200 -
+2025-04-14 22:01:00,300 - INFO - 127.0.0.1 - - [14/Apr/2025 22:01:00] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:01:00,402 - ERROR - File integrity check failed during download
+2025-04-14 22:01:00,403 - INFO - Client connection closed
+2025-04-14 22:01:00,436 - INFO - 127.0.0.1 - - [14/Apr/2025 22:01:00] "POST /download HTTP/1.1" 200 -
+2025-04-14 22:01:29,412 - INFO - New connection established with client of address = ('127.0.0.1', 53963)
+2025-04-14 22:01:29,413 - INFO - New serving socket connected to address = ('127.0.0.1', 53963)
+2025-04-14 22:01:29,413 - INFO - Delete file request received
+2025-04-14 22:01:30,413 - INFO - Deleting file: Basically Coders Phase1 (4).docx
+2025-04-14 22:01:30,413 - INFO - Client requested to delete file: Basically Coders Phase1 (4).docx
+2025-04-14 22:01:30,416 - INFO - File Basically Coders Phase1 (4).docx deleted successfully
+2025-04-14 22:01:30,417 - INFO - Delete result: SUCCESS
+0.1', 53963) closed
+2025-04-14 22:01:30,417 - INFO - Client connection closed
+2025-04-14 22:01:30,418 - INFO - 127.0.0.1 - - [14/Apr/2025 22:01:30] "POST /delete HTTP/1.1" 200 -
+2025-04-14 22:01:35,184 - INFO - New connection established with client of address = ('127.0.0.1', 53965)
+2025-04-14 22:01:35,184 - INFO - New serving socket connected to address = ('127.0.0.1', 53965)
+2025-04-14 22:01:35,184 - INFO - List files request received
+2025-04-14 22:01:35,184 - INFO - File list sent to client
+2025-04-14 22:01:35,184 - INFO - Connection with ('127.0.0.1', 53965) closed
+2025-04-14 22:01:36,184 - INFO - Requesting file list from server
+2025-04-14 22:01:36,184 - INFO - Received file list with 1 files
+2025-04-14 22:01:36,184 - INFO - Client connection closed
+2025-04-14 22:01:36,185 - INFO - 127.0.0.1 - - [14/Apr/2025 22:01:36] "GET /list HTTP/1.1" 200 -
+2025-04-14 22:01:40,656 - INFO - New connection established with client of address = ('127.0.0.1', 53970)
+2025-04-14 22:01:40,656 - INFO - New serving socket connected to address = ('127.0.0.1', 53970)
+2025-04-14 22:01:40,656 - INFO - Upload request received
+2025-04-14 22:01:41,351 - INFO - 127.0.0.1 - - [14/Apr/2025 22:01:41] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:01:41,656 - INFO - Uploading file: client_files\PS4_Sp24-25.pdf
+2025-04-14 22:01:41,657 - INFO - Receiving file with name: PS4_Sp24-25.pdf
+2025-04-14 22:01:42,648 - INFO - 127.0.0.1 - - [14/Apr/2025 22:01:42] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:01:43,667 - INFO - 127.0.0.1 - - [14/Apr/2025 22:01:43] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:01:43,715 - INFO - 127.0.0.1 - - [14/Apr/2025 22:01:43] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:01:44,648 - INFO - 127.0.0.1 - - [14/Apr/2025 22:01:44] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:01:45,663 - INFO - 127.0.0.1 - - [14/Apr/2025 22:01:45] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:01:45,831 - INFO - 127.0.0.1 - - [14/Apr/2025 22:01:45] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:01:46,666 - INFO - 127.0.0.1 - - [14/Apr/2025 22:01:46] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:01:47,650 - INFO - 127.0.0.1 - - [14/Apr/2025 22:01:47] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:01:47,963 - INFO - 127.0.0.1 - - [14/Apr/2025 22:01:47] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:01:48,659 - INFO - 127.0.0.1 - - [14/Apr/2025 22:01:48] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:01:49,650 - INFO - 127.0.0.1 - - [14/Apr/2025 22:01:49] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:01:50,091 - INFO - 127.0.0.1 - - [14/Apr/2025 22:01:50] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:01:50,660 - INFO - 127.0.0.1 - - [14/Apr/2025 22:01:50] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:01:51,666 - INFO - 127.0.0.1 - - [14/Apr/2025 22:01:51] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:01:52,236 - INFO - 127.0.0.1 - - [14/Apr/2025 22:01:52] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:01:52,661 - INFO - 127.0.0.1 - - [14/Apr/2025 22:01:52] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:01:53,651 - INFO - 127.0.0.1 - - [14/Apr/2025 22:01:53] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:01:54,362 - INFO - 127.0.0.1 - - [14/Apr/2025 22:01:54] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:01:54,662 - INFO - 127.0.0.1 - - [14/Apr/2025 22:01:54] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:01:55,654 - INFO - 127.0.0.1 - - [14/Apr/2025 22:01:55] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:01:56,487 - INFO - 127.0.0.1 - - [14/Apr/2025 22:01:56] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:01:56,656 - INFO - 127.0.0.1 - - [14/Apr/2025 22:01:56] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:01:57,648 - INFO - 127.0.0.1 - - [14/Apr/2025 22:01:57] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:01:58,624 - INFO - 127.0.0.1 - - [14/Apr/2025 22:01:58] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:01:58,654 - INFO - 127.0.0.1 - - [14/Apr/2025 22:01:58] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:01:59,647 - INFO - 127.0.0.1 - - [14/Apr/2025 22:01:59] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:00,657 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:00] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:00,744 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:00] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:02:01,647 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:01] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:02,653 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:02] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:02,878 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:02] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:02:03,653 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:03] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:04,650 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:04] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:05,009 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:05] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:02:05,665 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:05] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:06,650 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:06] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:07,135 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:07] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:02:07,660 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:07] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:08,665 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:08] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:09,281 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:09] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:02:09,646 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:09] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:10,667 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:10] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:11,422 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:11] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:02:11,674 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:11] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:12,646 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:12] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:13,546 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:13] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:02:13,657 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:13] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:14,652 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:14] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:15,671 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:15] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:15,674 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:15] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:02:16,646 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:16] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:17,650 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:17] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:17,805 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:17] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:02:18,666 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:18] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:19,657 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:19] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:19,949 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:19] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:02:20,657 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:20] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:21,657 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:21] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:22,091 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:22] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:02:22,663 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:22] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:23,661 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:23] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:24,225 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:24] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:02:24,659 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:24] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:25,652 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:25] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:26,365 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:26] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:02:26,665 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:26] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:27,645 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:27] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:28,492 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:28] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:02:28,665 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:28] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:29,656 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:29] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:30,632 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:30] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:02:30,648 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:30] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:31,650 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:31] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:32,647 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:32] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:32,766 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:32] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:02:33,650 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:33] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:34,649 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:34] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:34,907 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:34] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:02:35,656 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:35] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:36,661 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:36] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:37,048 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:37] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:02:37,668 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:37] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:38,651 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:38] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:39,170 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:39] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:02:39,677 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:39] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:40,675 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:40] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:41,306 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:41] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:02:41,656 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:41] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:42,649 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:42] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:43,451 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:43] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:02:43,669 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:43] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:44,660 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:44] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:45,605 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:45] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:02:45,655 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:45] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:46,649 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:46] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:47,670 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:47] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:47,725 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:47] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:02:48,649 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:48] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:49,646 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:49] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:49,861 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:49] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:02:50,655 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:50] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:51,660 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:51] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:51,998 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:51] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:02:52,648 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:52] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:53,655 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:53] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:54,128 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:54] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:02:54,653 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:54] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:55,660 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:55] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:56,261 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:56] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:02:56,661 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:56] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:57,660 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:57] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:58,396 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:58] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:02:58,652 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:58] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:02:59,647 - INFO - 127.0.0.1 - - [14/Apr/2025 22:02:59] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:00,522 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:00] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:03:00,653 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:00] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:01,647 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:01] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:02,652 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:02] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:02,655 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:02] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:03:03,647 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:03] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:04,653 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:04] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:04,796 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:04] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:03:05,644 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:05] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:06,677 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:06] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:06,943 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:06] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:03:07,659 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:07] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:08,662 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:08] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:09,068 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:09] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:03:09,659 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:09] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:10,663 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:10] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:11,213 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:11] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:03:11,659 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:11] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:12,658 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:12] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:13,357 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:13] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:03:13,659 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:13] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:14,653 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:14] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:15,492 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:15] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:03:15,667 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:15] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:16,646 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:16] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:17,621 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:17] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:03:17,651 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:17] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:18,646 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:18] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:19,659 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:19] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:19,748 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:19] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:03:20,646 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:20] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:21,658 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:21] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:21,882 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:21] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:03:22,658 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:22] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:23,649 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:23] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:24,006 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:24] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:03:24,663 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:24] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:25,648 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:25] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:26,150 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:26] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:03:26,668 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:26] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:27,660 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:27] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:28,290 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:28] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:03:28,650 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:28] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:29,651 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:29] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:30,423 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:30] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:03:30,663 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:30] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:31,650 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:31] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:32,553 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:32] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:03:32,650 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:32] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:33,650 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:33] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:34,660 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:34] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:34,699 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:34] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:03:35,644 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:35] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:36,657 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:36] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:36,845 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:36] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:03:37,657 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:37] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:38,657 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:38] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:38,971 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:38] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:03:39,662 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:39] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:40,674 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:40] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:41,099 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:41] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:03:41,662 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:41] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:42,663 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:42] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:43,231 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:43] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:03:43,658 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:43] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:44,652 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:44] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:45,362 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:45] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:03:45,649 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:45] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:46,650 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:46] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:47,499 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:47] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:03:47,659 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:47] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:48,649 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:48] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:49,626 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:49] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:03:49,660 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:49] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:50,649 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:50] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:51,657 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:51] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:51,762 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:51] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:03:52,649 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:52] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:53,659 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:53] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:53,895 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:53] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:03:54,661 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:54] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:55,663 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:55] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:56,022 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:56] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:03:56,660 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:56] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:57,657 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:57] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:58,160 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:58] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:03:58,655 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:58] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:03:59,662 - INFO - 127.0.0.1 - - [14/Apr/2025 22:03:59] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:00,309 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:00] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:04:00,657 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:00] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:01,647 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:01] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:02,431 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:02] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:04:02,664 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:02] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:03,648 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:03] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:04,554 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:04] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:04:04,648 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:04] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:05,647 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:05] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:06,659 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:06] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:06,684 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:06] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:04:07,647 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:07] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:08,654 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:08] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:08,808 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:08] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:04:09,646 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:09] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:10,657 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:10] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:10,933 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:10] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:04:11,652 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:11] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:12,658 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:12] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:13,062 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:13] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:04:13,653 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:13] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:14,655 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:14] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:15,205 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:15] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:04:15,656 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:15] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:16,668 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:16] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:17,331 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:17] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:04:17,664 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:17] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:18,646 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:18] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:19,458 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:19] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:04:19,663 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:19] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:20,652 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:20] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:21,598 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:21] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:04:21,664 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:21] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:22,646 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:22] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:23,652 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:23] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:23,732 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:23] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:04:24,646 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:24] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:25,662 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:25] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:25,874 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:25] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:04:26,658 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:26] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:27,674 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:27] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:28,014 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:28] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:04:28,651 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:28] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:29,653 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:29] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:30,140 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:30] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:04:30,650 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:30] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:31,647 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:31] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:32,279 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:32] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:04:32,657 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:32] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:33,660 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:33] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:34,417 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:34] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:04:34,657 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:34] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:35,645 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:35] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:36,544 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:36] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:04:36,656 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:36] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:37,673 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:37] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:38,657 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:38] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:38,677 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:38] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:04:39,644 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:39] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:40,657 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:40] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:40,817 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:40] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:04:40,918 - INFO - Received 346574 bytes for file PS4_Sp24-25.pdf
+2025-04-14 22:04:41,650 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:41] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:42,650 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:42] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:42,943 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:42] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:04:43,668 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:43] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:04:45,081 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:45] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:04:45,083 - INFO - Client connection closed
+ successfully with integrity verified
+2025-04-14 22:04:45,083 - INFO - Connection with ('127.0.0.1', 53970) closed
+2025-04-14 22:04:45,083 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:45] "POST /upload HTTP/1.1" 200 -
+2025-04-14 22:04:55,335 - INFO - New connection established with client of address = ('127.0.0.1', 54515)
+2025-04-14 22:04:55,336 - INFO - New serving socket connected to address = ('127.0.0.1', 54515)
+2025-04-14 22:04:55,336 - INFO - List files request received
+2025-04-14 22:04:55,336 - INFO - File list sent to client
+2025-04-14 22:04:55,337 - INFO - Connection with ('127.0.0.1', 54515) closed
+2025-04-14 22:04:56,335 - INFO - Requesting file list from server
+2025-04-14 22:04:56,336 - INFO - Received file list with 1 files
+2025-04-14 22:04:56,336 - INFO - Client connection closed
+2025-04-14 22:04:56,336 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:56] "GET /list HTTP/1.1" 200 -
+2025-04-14 22:04:56,342 - INFO - 127.0.0.1 - - [14/Apr/2025 22:04:56] "[33mGET /icons/pdf-file.png HTTP/1.1[0m" 404 -
+2025-04-14 22:04:59,642 - INFO - New connection established with client of address = ('127.0.0.1', 54520)
+2025-04-14 22:04:59,642 - INFO - New serving socket connected to address = ('127.0.0.1', 54520)
+2025-04-14 22:04:59,642 - INFO - Download request received
+2025-04-14 22:05:00,346 - INFO - 127.0.0.1 - - [14/Apr/2025 22:05:00] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:05:00,643 - INFO - Downloading file: client_files\temp_PS4_Sp24-25.pdf
+2025-04-14 22:05:00,643 - INFO - Client requested file: PS4_Sp24-25.pdf
+2025-04-14 22:05:00,659 - INFO - Downloading: 1.18%
+nt ('127.0.0.1', 54520): can only concatenate str (not "int") to str
+2025-04-14 22:05:00,659 - INFO - Connection with ('127.0.0.1', 54520) closed
+2025-04-14 22:05:02,692 - INFO - 127.0.0.1 - - [14/Apr/2025 22:05:02] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:05:02,793 - ERROR - File integrity check failed during download
+2025-04-14 22:05:02,793 - INFO - Client connection closed
+2025-04-14 22:05:02,807 - INFO - 127.0.0.1 - - [14/Apr/2025 22:05:02] "POST /download HTTP/1.1" 200 -
+2025-04-14 22:08:04,504 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\server.py', reloading
+2025-04-14 22:08:04,589 - INFO -  * Restarting with stat
+2025-04-14 22:08:05,463 - WARNING -  * Debugger is active!
+2025-04-14 22:08:05,465 - INFO -  * Debugger PIN: 355-406-568
+2025-04-14 22:08:19,511 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\client.py', reloading
+2025-04-14 22:08:19,589 - INFO -  * Restarting with stat
+2025-04-14 22:08:20,347 - WARNING -  * Debugger is active!
+2025-04-14 22:08:20,349 - INFO -  * Debugger PIN: 355-406-568
+2025-04-14 22:09:18,620 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\server.py', reloading
+2025-04-14 22:09:18,688 - INFO -  * Restarting with stat
+2025-04-14 22:09:19,443 - WARNING -  * Debugger is active!
+2025-04-14 22:09:19,445 - INFO -  * Debugger PIN: 355-406-568
+2025-04-14 22:09:28,325 - INFO - Server starting on port 8080...
+2025-04-14 22:09:28,326 - INFO - Server listening on port 8080...
+2025-04-14 22:09:32,341 - INFO - 127.0.0.1 - - [14/Apr/2025 22:09:32] "GET /home HTTP/1.1" 200 -
+2025-04-14 22:09:32,378 - INFO - 127.0.0.1 - - [14/Apr/2025 22:09:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-14 22:09:32,581 - INFO - 127.0.0.1 - - [14/Apr/2025 22:09:32] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-14 22:09:32,887 - INFO - New connection established with client of address = ('127.0.0.1', 54599)
+2025-04-14 22:09:32,888 - INFO - New serving socket connected to address = ('127.0.0.1', 54599)
+2025-04-14 22:09:32,888 - ERROR - Error handling client ('127.0.0.1', 54599): not enough values to unpack (expected 2, got 1)
+2025-04-14 22:09:32,889 - INFO - Connection with ('127.0.0.1', 54599) closed
+2025-04-14 22:09:33,887 - INFO - Requesting file list from server
+2025-04-14 22:09:33,888 - INFO - Received file list with 1 files
+2025-04-14 22:09:33,888 - INFO - Client connection closed
+2025-04-14 22:09:33,889 - INFO - 127.0.0.1 - - [14/Apr/2025 22:09:33] "GET /list HTTP/1.1" 200 -
+2025-04-14 22:09:41,596 - INFO - 127.0.0.1 - - [14/Apr/2025 22:09:41] "GET /home HTTP/1.1" 200 -
+2025-04-14 22:09:41,916 - INFO - 127.0.0.1 - - [14/Apr/2025 22:09:41] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-14 22:09:41,918 - INFO - 127.0.0.1 - - [14/Apr/2025 22:09:41] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-14 22:09:42,231 - INFO - New connection established with client of address = ('127.0.0.1', 54609)
+2025-04-14 22:09:42,232 - INFO - New serving socket connected to address = ('127.0.0.1', 54609)
+2025-04-14 22:09:42,232 - ERROR - Error handling client ('127.0.0.1', 54609): not enough values to unpack (expected 2, got 1)
+2025-04-14 22:09:42,232 - INFO - Connection with ('127.0.0.1', 54609) closed
+2025-04-14 22:09:43,231 - INFO - Requesting file list from server
+2025-04-14 22:09:43,231 - INFO - Received file list with 1 files
+2025-04-14 22:09:43,231 - INFO - Client connection closed
+2025-04-14 22:09:43,232 - INFO - 127.0.0.1 - - [14/Apr/2025 22:09:43] "GET /list HTTP/1.1" 200 -
+2025-04-14 22:09:52,041 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-14 22:09:52,041 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-14 22:09:52,042 - INFO -  * Restarting with stat
+2025-04-14 22:09:52,751 - WARNING -  * Debugger is active!
+2025-04-14 22:09:52,752 - INFO -  * Debugger PIN: 355-406-568
+2025-04-14 22:09:56,115 - INFO - 127.0.0.1 - - [14/Apr/2025 22:09:56] "GET / HTTP/1.1" 200 -
+2025-04-14 22:09:56,155 - INFO - 127.0.0.1 - - [14/Apr/2025 22:09:56] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-14 22:09:56,347 - INFO - 127.0.0.1 - - [14/Apr/2025 22:09:56] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-14 22:10:04,706 - INFO - 127.0.0.1 - - [14/Apr/2025 22:10:04] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-04-14 22:10:04,713 - INFO - 127.0.0.1 - - [14/Apr/2025 22:10:04] "GET /home HTTP/1.1" 200 -
+2025-04-14 22:10:04,761 - INFO - 127.0.0.1 - - [14/Apr/2025 22:10:04] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-14 22:10:05,026 - INFO - 127.0.0.1 - - [14/Apr/2025 22:10:05] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-14 22:10:05,335 - INFO - New connection established with client of address = ('127.0.0.1', 54650)
+2025-04-14 22:10:05,336 - INFO - New serving socket connected to address = ('127.0.0.1', 54650)
+2025-04-14 22:10:05,336 - ERROR - Error handling client ('127.0.0.1', 54650): not enough values to unpack (expected 2, got 1)
+2025-04-14 22:10:05,336 - INFO - Connection with ('127.0.0.1', 54650) closed
+2025-04-14 22:10:06,336 - INFO - Requesting file list from server
+2025-04-14 22:10:06,336 - INFO - Received file list with 1 files
+2025-04-14 22:10:06,336 - INFO - Client connection closed
+2025-04-14 22:10:06,336 - INFO - 127.0.0.1 - - [14/Apr/2025 22:10:06] "GET /list HTTP/1.1" 200 -
+2025-04-14 22:10:18,875 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\server.py', reloading
+2025-04-14 22:10:18,934 - INFO -  * Restarting with stat
+2025-04-14 22:10:19,656 - WARNING -  * Debugger is active!
+2025-04-14 22:10:19,657 - INFO -  * Debugger PIN: 355-406-568
+2025-04-14 22:10:31,708 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\client.py', reloading
+2025-04-14 22:10:31,789 - INFO -  * Restarting with stat
+2025-04-14 22:10:32,542 - WARNING -  * Debugger is active!
+2025-04-14 22:10:32,544 - INFO -  * Debugger PIN: 355-406-568
+2025-04-14 22:10:57,654 - INFO - 127.0.0.1 - - [14/Apr/2025 22:10:57] "GET /home HTTP/1.1" 200 -
+2025-04-14 22:10:57,690 - INFO - 127.0.0.1 - - [14/Apr/2025 22:10:57] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-14 22:10:57,894 - INFO - 127.0.0.1 - - [14/Apr/2025 22:10:57] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-14 22:10:58,207 - INFO - New connection established with client of address = ('127.0.0.1', 54667)
+2025-04-14 22:10:58,207 - INFO - New serving socket connected to address = ('127.0.0.1', 54667)
+2025-04-14 22:10:58,207 - ERROR - Error handling client ('127.0.0.1', 54667): not enough values to unpack (expected 2, got 1)
+2025-04-14 22:10:58,207 - INFO - Connection with ('127.0.0.1', 54667) closed
+2025-04-14 22:10:59,207 - INFO - Requesting file list from server
+2025-04-14 22:10:59,207 - INFO - Received file list with 1 files
+2025-04-14 22:10:59,208 - INFO - Client connection closed
+2025-04-14 22:10:59,208 - INFO - 127.0.0.1 - - [14/Apr/2025 22:10:59] "GET /list HTTP/1.1" 200 -
+2025-04-14 22:12:01,384 - INFO - Server starting on port 8080...
+2025-04-14 22:12:01,384 - INFO - Server listening on port 8080...
+2025-04-14 22:12:05,817 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-14 22:12:05,817 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-14 22:12:05,818 - INFO -  * Restarting with stat
+2025-04-14 22:12:06,556 - WARNING -  * Debugger is active!
+2025-04-14 22:12:06,557 - INFO -  * Debugger PIN: 355-406-568
+2025-04-14 22:12:13,796 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:13] "GET / HTTP/1.1" 200 -
+2025-04-14 22:12:13,846 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-14 22:12:14,049 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:14] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-14 22:12:22,249 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:22] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-04-14 22:12:22,257 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:22] "GET /home HTTP/1.1" 200 -
+2025-04-14 22:12:22,278 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:22] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-14 22:12:22,584 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:22] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-14 22:12:22,900 - INFO - New connection established with client of address = ('127.0.0.1', 54724)
+2025-04-14 22:12:22,901 - INFO - New serving socket connected to address = ('127.0.0.1', 54724)
+2025-04-14 22:12:22,901 - INFO - List files request received
+2025-04-14 22:12:22,901 - INFO - File list sent to client
+2025-04-14 22:12:22,901 - INFO - Connection with ('127.0.0.1', 54724) closed
+2025-04-14 22:12:23,900 - INFO - Requesting file list from server
+2025-04-14 22:12:23,900 - INFO - Received file list with 1 files
+2025-04-14 22:12:23,901 - INFO - Client connection closed
+2025-04-14 22:12:23,901 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:23] "GET /list HTTP/1.1" 200 -
+2025-04-14 22:12:23,908 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:23] "[33mGET /icons/pdf-file.png HTTP/1.1[0m" 404 -
+2025-04-14 22:12:28,946 - INFO - New connection established with client of address = ('127.0.0.1', 54730)
+2025-04-14 22:12:28,947 - INFO - New serving socket connected to address = ('127.0.0.1', 54730)
+2025-04-14 22:12:28,947 - INFO - Download request received
+2025-04-14 22:12:29,640 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:29] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:12:29,947 - INFO - Downloading file: client_files\temp_PS4_Sp24-25.pdf
+2025-04-14 22:12:29,947 - INFO - Client requested file: PS4_Sp24-25.pdf
+2025-04-14 22:12:29,948 - INFO - Client requested offset: 0
+2025-04-14 22:12:29,949 - INFO - Downloading: 1.18%
+2025-04-14 22:12:30,958 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:30] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:12:31,953 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:31] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:12:31,994 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:31] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:12:32,096 - INFO - Downloading: 2.36%
+2025-04-14 22:12:32,952 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:32] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:12:33,946 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:33] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:12:34,122 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:34] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:12:34,225 - INFO - Downloading: 3.55%
+2025-04-14 22:12:34,957 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:34] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:12:35,945 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:35] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:12:36,257 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:36] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:12:36,358 - INFO - Downloading: 4.73%
+2025-04-14 22:12:36,945 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:36] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:12:37,963 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:37] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:12:38,390 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:38] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:12:38,492 - INFO - Downloading: 5.91%
+2025-04-14 22:12:38,957 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:38] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:12:39,964 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:39] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:12:40,522 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:40] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:12:40,623 - INFO - Downloading: 7.09%
+2025-04-14 22:12:40,955 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:40] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:12:41,946 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:41] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:12:42,658 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:42] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:12:42,760 - INFO - Downloading: 8.27%
+2025-04-14 22:12:42,959 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:42] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:12:43,944 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:43] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:12:44,783 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:44] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:12:44,885 - INFO - Downloading: 9.45%
+2025-04-14 22:12:44,958 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:44] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:12:45,950 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:45] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:12:46,915 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:46] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:12:46,950 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:46] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:12:47,016 - INFO - Downloading: 10.64%
+2025-04-14 22:12:47,944 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:47] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:12:48,953 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:48] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:12:49,057 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:49] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:12:49,160 - INFO - Downloading: 11.82%
+2025-04-14 22:12:49,956 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:49] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:12:50,954 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:50] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:12:51,186 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:51] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:12:51,287 - INFO - Downloading: 13.00%
+2025-04-14 22:12:51,963 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:51] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:12:52,948 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:52] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:12:53,306 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:53] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:12:53,408 - INFO - Downloading: 14.18%
+2025-04-14 22:12:53,962 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:53] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:12:54,946 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:54] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:12:55,434 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:55] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:12:55,536 - INFO - Downloading: 15.36%
+2025-04-14 22:12:55,958 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:55] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:12:56,947 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:56] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:12:57,578 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:57] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:12:57,680 - INFO - Downloading: 16.55%
+2025-04-14 22:12:57,958 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:57] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:12:58,953 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:58] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:12:59,712 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:59] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:12:59,814 - INFO - Downloading: 17.73%
+2025-04-14 22:12:59,965 - INFO - 127.0.0.1 - - [14/Apr/2025 22:12:59] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:00,943 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:00] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:01,846 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:01] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:13:01,948 - INFO - Downloading: 18.91%
+2025-04-14 22:13:01,961 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:01] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:02,943 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:02] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:03,947 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:03] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:03,985 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:03] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:13:04,087 - INFO - Downloading: 20.09%
+2025-04-14 22:13:04,943 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:04] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:05,955 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:05] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:06,114 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:06] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:13:06,216 - INFO - Downloading: 21.27%
+2025-04-14 22:13:06,943 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:06] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:07,943 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:07] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:08,241 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:08] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:13:08,343 - INFO - Downloading: 22.46%
+2025-04-14 22:13:08,948 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:08] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:09,953 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:09] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:10,365 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:10] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:13:10,467 - INFO - Downloading: 23.64%
+2025-04-14 22:13:10,958 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:10] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:11,958 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:11] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:12,508 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:12] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:13:12,610 - INFO - Downloading: 24.82%
+2025-04-14 22:13:12,956 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:12] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:13,953 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:13] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:14,640 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:14] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:13:14,742 - INFO - Downloading: 26.00%
+2025-04-14 22:13:14,961 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:14] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:15,941 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:15] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:16,772 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:16] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:13:16,873 - INFO - Downloading: 27.18%
+2025-04-14 22:13:16,960 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:16] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:17,948 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:17] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:18,906 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:18] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:13:18,953 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:18] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:19,008 - INFO - Downloading: 28.36%
+2025-04-14 22:13:19,947 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:19] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:20,953 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:20] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:21,034 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:21] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:13:21,136 - INFO - Downloading: 29.55%
+2025-04-14 22:13:21,941 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:21] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:22,948 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:22] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:23,165 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:23] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:13:23,267 - INFO - Downloading: 30.73%
+2025-04-14 22:13:23,947 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:23] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:24,948 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:24] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:25,293 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:25] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:13:25,395 - INFO - Downloading: 31.91%
+2025-04-14 22:13:25,946 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:25] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:26,958 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:26] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:27,424 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:27] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:13:27,526 - INFO - Downloading: 33.09%
+2025-04-14 22:13:27,950 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:27] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:28,953 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:28] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:29,558 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:29] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:13:29,660 - INFO - Downloading: 34.27%
+2025-04-14 22:13:29,953 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:29] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:30,947 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:30] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:31,683 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:31] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:13:31,785 - INFO - Downloading: 35.46%
+2025-04-14 22:13:31,953 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:31] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:32,947 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:32] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:33,819 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:33] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:13:33,922 - INFO - Downloading: 36.64%
+2025-04-14 22:13:33,922 - INFO - Sent 346574 bytes for file PS4_Sp24-25.pdf
+2025-04-14 22:13:33,922 - INFO - File PS4_Sp24-25.pdf sent to client with integrity verification
+2025-04-14 22:13:33,922 - INFO - Connection with ('127.0.0.1', 54730) closed
+2025-04-14 22:13:33,945 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:33] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:34,958 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:34] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:35,945 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:35] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:35,948 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:35] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:13:36,050 - INFO - Downloading: 37.82%
+2025-04-14 22:13:36,967 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:36] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:37,942 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:37] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:38,078 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:38] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:13:38,180 - INFO - Downloading: 39.00%
+2025-04-14 22:13:38,946 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:38] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:39,957 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:39] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:40,217 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:40] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:13:40,319 - INFO - Downloading: 40.18%
+2025-04-14 22:13:40,951 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:40] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:41,952 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:41] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:42,346 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:42] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:13:42,448 - INFO - Downloading: 41.36%
+2025-04-14 22:13:42,951 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:42] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:43,962 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:43] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:44,477 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:44] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:13:44,579 - INFO - Downloading: 42.55%
+2025-04-14 22:13:44,969 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:44] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:45,963 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:45] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:46,621 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:46] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:13:46,723 - INFO - Downloading: 43.73%
+2025-04-14 22:13:46,954 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:46] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:47,944 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:47] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:48,745 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:48] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:13:48,847 - INFO - Downloading: 44.91%
+2025-04-14 22:13:48,954 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:48] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:49,944 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:49] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:50,873 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:50] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:13:50,952 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:50] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:50,975 - INFO - Downloading: 46.09%
+2025-04-14 22:13:51,944 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:51] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:52,957 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:52] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:52,999 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:52] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:13:53,101 - INFO - Downloading: 47.27%
+2025-04-14 22:13:53,945 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:53] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:54,956 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:54] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:55,151 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:55] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:13:55,253 - INFO - Downloading: 48.46%
+2025-04-14 22:13:55,950 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:55] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:56,963 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:56] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:57,275 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:57] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:13:57,377 - INFO - Downloading: 49.64%
+2025-04-14 22:13:57,944 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:57] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:58,948 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:58] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:13:59,404 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:59] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:13:59,506 - INFO - Downloading: 50.82%
+2025-04-14 22:13:59,962 - INFO - 127.0.0.1 - - [14/Apr/2025 22:13:59] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:00,964 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:00] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:01,529 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:01] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:14:01,632 - INFO - Downloading: 52.00%
+2025-04-14 22:14:01,958 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:01] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:02,953 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:02] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:03,659 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:03] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:14:03,762 - INFO - Downloading: 53.18%
+2025-04-14 22:14:03,948 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:03] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:04,949 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:04] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:05,802 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:05] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:14:05,904 - INFO - Downloading: 54.37%
+2025-04-14 22:14:05,959 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:05] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:06,943 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:06] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:07,928 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:07] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:14:07,943 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:07] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:08,029 - INFO - Downloading: 55.55%
+2025-04-14 22:14:08,943 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:08] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:09,953 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:09] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:10,071 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:10] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:14:10,173 - INFO - Downloading: 56.73%
+2025-04-14 22:14:10,943 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:10] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:11,950 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:11] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:12,207 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:12] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:14:12,308 - INFO - Downloading: 57.91%
+2025-04-14 22:14:12,954 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:12] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:13,943 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:13] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:14,336 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:14] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:14:14,439 - INFO - Downloading: 59.09%
+2025-04-14 22:14:14,948 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:14] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:15,948 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:15] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:16,477 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:16] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:14:16,579 - INFO - Downloading: 60.27%
+2025-04-14 22:14:16,957 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:16] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:17,955 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:17] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:18,609 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:18] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:14:18,711 - INFO - Downloading: 61.46%
+2025-04-14 22:14:18,955 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:18] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:19,942 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:19] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:20,730 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:20] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:14:20,832 - INFO - Downloading: 62.64%
+2025-04-14 22:14:20,955 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:20] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:21,942 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:21] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:22,854 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:22] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:14:22,947 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:22] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:22,955 - INFO - Downloading: 63.82%
+2025-04-14 22:14:23,954 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:23] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:24,973 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:24] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:24,978 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:24] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:14:25,079 - INFO - Downloading: 65.00%
+2025-04-14 22:14:25,955 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:25] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:26,953 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:26] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:27,113 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:27] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:14:27,215 - INFO - Downloading: 66.18%
+2025-04-14 22:14:27,947 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:27] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:28,963 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:28] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:29,242 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:29] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:14:29,344 - INFO - Downloading: 67.37%
+2025-04-14 22:14:29,947 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:29] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:30,947 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:30] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:31,373 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:31] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:14:31,474 - INFO - Downloading: 68.55%
+2025-04-14 22:14:31,953 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:31] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:32,956 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:32] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:33,507 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:33] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:14:33,610 - INFO - Downloading: 69.73%
+2025-04-14 22:14:33,952 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:33] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:34,958 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:34] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:35,644 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:35] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:14:35,745 - INFO - Downloading: 70.91%
+2025-04-14 22:14:35,952 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:35] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:36,946 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:36] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:37,778 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:37] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:14:37,880 - INFO - Downloading: 72.09%
+2025-04-14 22:14:37,955 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:37] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:38,940 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:38] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:39,930 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:39] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:14:39,945 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:39] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:40,032 - INFO - Downloading: 73.27%
+2025-04-14 22:14:40,946 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:40] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:41,971 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:41] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:42,061 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:42] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:14:42,163 - INFO - Downloading: 74.46%
+2025-04-14 22:14:42,946 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:42] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:43,955 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:43] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:44,187 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:44] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:14:44,289 - INFO - Downloading: 75.64%
+2025-04-14 22:14:44,952 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:44] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:45,955 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:45] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:46,315 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:46] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:14:46,417 - INFO - Downloading: 76.82%
+2025-04-14 22:14:46,951 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:46] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:47,954 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:47] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:48,454 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:48] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:14:48,556 - INFO - Downloading: 78.00%
+2025-04-14 22:14:48,960 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:48] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:49,960 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:49] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:50,590 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:50] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:14:50,692 - INFO - Downloading: 79.18%
+2025-04-14 22:14:50,956 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:50] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:51,955 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:51] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:52,742 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:52] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:14:52,843 - INFO - Downloading: 80.37%
+2025-04-14 22:14:52,951 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:52] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:53,944 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:53] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:54,869 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:54] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:14:54,951 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:54] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:54,971 - INFO - Downloading: 81.55%
+2025-04-14 22:14:55,944 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:55] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:56,954 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:56] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:57,009 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:57] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:14:57,111 - INFO - Downloading: 82.73%
+2025-04-14 22:14:57,950 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:57] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:58,949 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:58] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:14:59,147 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:59] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:14:59,249 - INFO - Downloading: 83.91%
+2025-04-14 22:14:59,956 - INFO - 127.0.0.1 - - [14/Apr/2025 22:14:59] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:15:00,953 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:00] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:15:01,295 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:01] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:15:01,397 - INFO - Downloading: 85.09%
+2025-04-14 22:15:01,944 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:01] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:15:02,952 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:02] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:15:03,424 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:03] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:15:03,526 - INFO - Downloading: 86.28%
+2025-04-14 22:15:03,953 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:03] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:15:04,950 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:04] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:15:05,550 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:05] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:15:05,652 - INFO - Downloading: 87.46%
+2025-04-14 22:15:05,958 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:05] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:15:06,956 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:06] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:15:07,676 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:07] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:15:07,778 - INFO - Downloading: 88.64%
+2025-04-14 22:15:07,946 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:07] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:15:08,962 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:08] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:15:09,800 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:09] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:15:09,902 - INFO - Downloading: 89.82%
+2025-04-14 22:15:09,970 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:09] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:15:10,943 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:10] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:15:11,937 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:11] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:15:11,953 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:11] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:15:12,039 - INFO - Downloading: 91.00%
+2025-04-14 22:15:12,949 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:12] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:15:13,951 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:13] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:15:14,055 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:14] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:15:14,158 - INFO - Downloading: 92.18%
+2025-04-14 22:15:14,943 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:14] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:15:15,952 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:15] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:15:16,183 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:16] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:15:16,285 - INFO - Downloading: 93.37%
+2025-04-14 22:15:16,949 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:16] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:15:17,952 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:17] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:15:18,309 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:18] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:15:18,410 - INFO - Downloading: 94.55%
+2025-04-14 22:15:18,960 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:18] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:15:19,945 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:19] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:15:20,448 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:20] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:15:20,550 - INFO - Downloading: 95.73%
+2025-04-14 22:15:20,958 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:20] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:15:21,965 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:21] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:15:22,591 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:22] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:15:22,694 - INFO - Downloading: 96.91%
+2025-04-14 22:15:22,942 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:22] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:15:23,942 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:23] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:15:24,727 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:24] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:15:24,829 - INFO - Downloading: 98.09%
+2025-04-14 22:15:24,949 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:24] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:15:25,951 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:25] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:15:26,869 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:26] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:15:26,948 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:26] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:15:26,971 - INFO - Downloading: 99.28%
+2025-04-14 22:15:27,947 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:27] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:15:28,954 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:28] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:15:29,002 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:29] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:15:29,104 - INFO - Downloading: 100.02%
+2025-04-14 22:15:29,941 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:29] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:15:30,943 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:30] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:15:31,128 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:31] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:15:31,230 - ERROR - File integrity check failed during download
+2025-04-14 22:15:31,231 - INFO - Client connection closed
+2025-04-14 22:15:31,247 - INFO - 127.0.0.1 - - [14/Apr/2025 22:15:31] "POST /download HTTP/1.1" 200 -
+2025-04-14 22:18:54,995 - INFO - New connection established with client of address = ('127.0.0.1', 55295)
+2025-04-14 22:18:54,996 - INFO - New serving socket connected to address = ('127.0.0.1', 55295)
+2025-04-14 22:18:54,996 - INFO - Download request received
+2025-04-14 22:18:55,687 - INFO - 127.0.0.1 - - [14/Apr/2025 22:18:55] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:18:55,996 - INFO - Downloading file: client_files\temp_PS4_Sp24-25.pdf
+2025-04-14 22:18:55,996 - INFO - Client requested file: PS4_Sp24-25.pdf
+2025-04-14 22:18:55,997 - INFO - Client requested offset: 0
+2025-04-14 22:18:55,998 - INFO - Downloading: 1.18%
+2025-04-14 22:18:58,033 - INFO - 127.0.0.1 - - [14/Apr/2025 22:18:58] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:18:58,134 - INFO - Downloading: 2.36%
+2025-04-14 22:19:00,173 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:00] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:19:00,275 - INFO - Downloading: 3.55%
+2025-04-14 22:19:02,304 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:02] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:19:02,406 - INFO - Downloading: 4.73%
+2025-04-14 22:19:04,420 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:04] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:19:04,521 - INFO - Downloading: 5.91%
+2025-04-14 22:19:06,550 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:06] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:19:06,652 - INFO - Downloading: 7.09%
+2025-04-14 22:19:08,676 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:08] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:19:08,778 - INFO - Downloading: 8.27%
+2025-04-14 22:19:09,208 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:09] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-04-14 22:19:09,521 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:09] "GET / HTTP/1.1" 200 -
+2025-04-14 22:19:10,820 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:10] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:19:10,921 - INFO - Downloading: 9.45%
+2025-04-14 22:19:12,940 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:12] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:19:13,042 - INFO - Downloading: 10.64%
+2025-04-14 22:19:14,022 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:14] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-14 22:19:14,022 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:14] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-14 22:19:15,067 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:15] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:19:15,168 - INFO - Downloading: 11.82%
+2025-04-14 22:19:17,192 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:17] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:19:17,294 - INFO - Downloading: 13.00%
+2025-04-14 22:19:19,291 - ERROR - Error handling client ('127.0.0.1', 55295): [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-04-14 22:19:19,291 - INFO - Connection with ('127.0.0.1', 55295) closed
+2025-04-14 22:19:24,978 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-14 22:19:24,978 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-14 22:19:24,979 - INFO -  * Restarting with stat
+2025-04-14 22:19:25,741 - WARNING -  * Debugger is active!
+2025-04-14 22:19:25,743 - INFO -  * Debugger PIN: 355-406-568
+2025-04-14 22:19:37,213 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:37] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-04-14 22:19:37,221 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:37] "GET /home HTTP/1.1" 200 -
+2025-04-14 22:19:37,294 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:37] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-14 22:19:37,532 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:37] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-14 22:19:37,843 - INFO - New connection established with client of address = ('127.0.0.1', 55358)
+2025-04-14 22:19:37,844 - INFO - New serving socket connected to address = ('127.0.0.1', 55358)
+2025-04-14 22:19:37,844 - INFO - List files request received
+2025-04-14 22:19:37,844 - INFO - File list sent to client
+2025-04-14 22:19:37,844 - INFO - Connection with ('127.0.0.1', 55358) closed
+2025-04-14 22:19:38,843 - INFO - Requesting file list from server
+2025-04-14 22:19:38,844 - INFO - Received file list with 1 files
+2025-04-14 22:19:38,844 - INFO - Client connection closed
+2025-04-14 22:19:38,844 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:38] "GET /list HTTP/1.1" 200 -
+2025-04-14 22:19:38,848 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:38] "[33mGET /icons/pdf-file.png HTTP/1.1[0m" 404 -
+2025-04-14 22:19:40,075 - INFO - New connection established with client of address = ('127.0.0.1', 55363)
+2025-04-14 22:19:40,075 - INFO - New serving socket connected to address = ('127.0.0.1', 55363)
+2025-04-14 22:19:40,075 - INFO - Download request received
+2025-04-14 22:19:40,778 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:40] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:19:41,075 - INFO - Downloading file: client_files\temp_PS4_Sp24-25.pdf
+2025-04-14 22:19:41,076 - INFO - Client requested file: PS4_Sp24-25.pdf
+2025-04-14 22:19:41,076 - INFO - Client requested offset: 0
+2025-04-14 22:19:41,077 - INFO - Downloading: 1.18%
+2025-04-14 22:19:42,081 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:42] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:19:43,090 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:43] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:19:43,108 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:43] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:19:43,209 - INFO - Downloading: 2.36%
+2025-04-14 22:19:44,071 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:44] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:19:45,070 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:45] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:19:45,254 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:45] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:19:45,357 - INFO - Downloading: 3.55%
+2025-04-14 22:19:46,080 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:46] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:19:47,071 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:47] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:19:47,382 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:47] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:19:47,484 - INFO - Downloading: 4.73%
+2025-04-14 22:19:48,077 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:48] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:19:49,078 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:49] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:19:49,518 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:49] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:19:49,620 - INFO - Downloading: 5.91%
+2025-04-14 22:19:50,100 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:50] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:19:51,088 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:51] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:19:51,655 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:51] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:19:51,757 - INFO - Downloading: 7.09%
+2025-04-14 22:19:52,096 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:52] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:19:53,075 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:53] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:19:53,801 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:53] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:19:53,903 - INFO - Downloading: 8.27%
+2025-04-14 22:19:54,083 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:54] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:19:55,076 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:55] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:19:55,934 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:55] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:19:56,036 - INFO - Downloading: 9.45%
+2025-04-14 22:19:56,090 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:56] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:19:57,089 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:57] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:19:58,083 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:58] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:19:58,085 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:58] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:19:58,187 - INFO - Downloading: 10.64%
+2025-04-14 22:19:59,087 - INFO - 127.0.0.1 - - [14/Apr/2025 22:19:59] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:00,070 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:00] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:00,221 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:00] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:20:00,324 - INFO - Downloading: 11.82%
+2025-04-14 22:20:01,081 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:01] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:02,077 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:02] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:02,355 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:02] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:20:02,457 - INFO - Downloading: 13.00%
+2025-04-14 22:20:03,080 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:03] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:04,077 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:04] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:04,483 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:04] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:20:04,587 - INFO - Downloading: 14.18%
+2025-04-14 22:20:05,097 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:05] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:06,088 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:06] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:06,636 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:06] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:20:06,738 - INFO - Downloading: 15.36%
+2025-04-14 22:20:07,079 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:07] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:08,091 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:08] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:08,770 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:08] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:20:08,873 - INFO - Downloading: 16.55%
+2025-04-14 22:20:09,084 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:09] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:10,075 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:10] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:10,911 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:10] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:20:11,014 - INFO - Downloading: 17.73%
+2025-04-14 22:20:11,080 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:11] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:12,075 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:12] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:13,054 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:13] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:20:13,069 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:13] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:13,156 - INFO - Downloading: 18.91%
+2025-04-14 22:20:14,085 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:14] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:15,071 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:15] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:15,199 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:15] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:20:15,301 - INFO - Downloading: 20.09%
+2025-04-14 22:20:16,087 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:16] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:17,082 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:17] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:17,327 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:17] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:20:17,430 - INFO - Downloading: 21.27%
+2025-04-14 22:20:18,080 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:18] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:19,078 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:19] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:19,462 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:19] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:20:19,563 - INFO - Downloading: 22.46%
+2025-04-14 22:20:20,098 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:20] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:21,079 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:21] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:21,598 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:21] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:20:21,700 - INFO - Downloading: 23.64%
+2025-04-14 22:20:22,075 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:22] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:23,095 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:23] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:23,745 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:23] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:20:23,847 - INFO - Downloading: 24.82%
+2025-04-14 22:20:24,082 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:24] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:25,083 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:25] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:25,866 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:25] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:20:25,968 - INFO - Downloading: 26.00%
+2025-04-14 22:20:26,071 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:26] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:27,531 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:27] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:27,988 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:27] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:20:28,089 - INFO - Downloading: 27.18%
+2025-04-14 22:20:28,531 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:28] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:29,549 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:29] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:30,118 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:30] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:20:30,220 - INFO - Downloading: 28.36%
+2025-04-14 22:20:30,542 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:30] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:31,531 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:31] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:32,251 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:32] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:20:32,353 - INFO - Downloading: 29.55%
+2025-04-14 22:20:32,539 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:32] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:33,536 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:33] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:34,388 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:34] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:20:34,489 - INFO - Downloading: 30.73%
+2025-04-14 22:20:34,530 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:34] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:35,531 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:35] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:36,500 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:36] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:20:36,548 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:36] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:36,601 - INFO - Downloading: 31.91%
+2025-04-14 22:20:37,537 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:37] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:38,530 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:38] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:38,625 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:38] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:20:38,727 - INFO - Downloading: 33.09%
+2025-04-14 22:20:39,532 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:39] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:40,539 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:40] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:40,763 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:40] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:20:40,865 - INFO - Downloading: 34.27%
+2025-04-14 22:20:41,531 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:41] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:42,537 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:42] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:42,903 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:42] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:20:43,005 - INFO - Downloading: 35.46%
+2025-04-14 22:20:43,542 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:43] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:44,531 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:44] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:45,030 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:45] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:20:45,132 - INFO - Downloading: 36.64%
+2025-04-14 22:20:45,132 - INFO - Sent 346574 bytes for file PS4_Sp24-25.pdf
+2025-04-14 22:20:45,132 - INFO - File PS4_Sp24-25.pdf sent to client with integrity verification
+2025-04-14 22:20:45,132 - INFO - Connection with ('127.0.0.1', 55363) closed
+2025-04-14 22:20:45,535 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:45] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:46,539 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:46] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:47,161 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:47] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:20:47,263 - INFO - Downloading: 37.82%
+2025-04-14 22:20:47,540 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:47] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:48,530 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:48] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:49,289 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:49] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:20:49,391 - INFO - Downloading: 39.00%
+2025-04-14 22:20:49,539 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:49] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:50,530 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:50] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:51,426 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:51] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:20:51,528 - INFO - Downloading: 40.18%
+2025-04-14 22:20:51,535 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:51] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:52,530 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:52] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:53,531 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:53] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:53,579 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:53] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:20:53,681 - INFO - Downloading: 41.36%
+2025-04-14 22:20:54,529 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:54] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:55,542 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:55] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:55,729 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:55] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:20:55,831 - INFO - Downloading: 42.55%
+2025-04-14 22:20:56,541 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:56] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:57,555 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:57] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:57,859 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:57] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:20:57,962 - INFO - Downloading: 43.73%
+2025-04-14 22:20:58,542 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:58] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:59,537 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:59] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:20:59,983 - INFO - 127.0.0.1 - - [14/Apr/2025 22:20:59] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:21:00,085 - INFO - Downloading: 44.91%
+2025-04-14 22:21:00,534 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:00] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:21:01,552 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:01] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:21:02,122 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:02] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:21:02,223 - INFO - Downloading: 46.09%
+2025-04-14 22:21:02,531 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:02] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:21:03,542 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:03] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:21:04,254 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:04] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:21:04,355 - INFO - Downloading: 47.27%
+2025-04-14 22:21:04,541 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:04] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:21:05,529 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:05] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:21:06,392 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:06] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:21:06,494 - INFO - Downloading: 48.46%
+2025-04-14 22:21:06,527 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:06] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:21:07,533 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:07] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:21:08,533 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:08] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:21:08,546 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:08] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:21:08,635 - INFO - Downloading: 49.64%
+2025-04-14 22:21:09,535 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:09] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:21:10,537 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:10] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:21:10,670 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:10] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:21:10,771 - INFO - Downloading: 50.82%
+2025-04-14 22:21:11,527 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:11] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:21:12,542 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:12] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:21:12,797 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:12] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:21:12,899 - INFO - Downloading: 52.00%
+2025-04-14 22:21:13,533 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:13] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:21:14,537 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:14] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:21:14,930 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:14] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:21:15,033 - INFO - Downloading: 53.18%
+2025-04-14 22:21:15,541 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:15] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:21:16,535 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:16] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:21:17,056 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:17] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:21:17,157 - INFO - Downloading: 54.37%
+2025-04-14 22:21:17,544 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:17] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:21:18,539 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:18] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:21:19,199 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:19] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:21:19,301 - INFO - Downloading: 55.55%
+2025-04-14 22:21:19,540 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:19] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:21:20,544 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:20] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:21:21,329 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:21] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:21:21,431 - INFO - Downloading: 56.73%
+2025-04-14 22:21:21,533 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:21] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:21:22,526 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:22] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:21:23,458 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:23] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:21:23,550 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:23] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:21:23,559 - INFO - Downloading: 57.91%
+2025-04-14 22:21:24,533 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:24] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:21:25,533 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:25] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:21:25,592 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:25] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:21:25,693 - INFO - Downloading: 59.09%
+2025-04-14 22:21:27,725 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:27] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:21:27,827 - INFO - Downloading: 60.27%
+2025-04-14 22:21:29,842 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:29] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:21:29,943 - INFO - Downloading: 61.46%
+2025-04-14 22:21:31,956 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:31] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:21:32,057 - INFO - Downloading: 62.64%
+2025-04-14 22:21:34,096 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:34] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:21:34,197 - INFO - Downloading: 63.82%
+2025-04-14 22:21:36,216 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:36] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:21:36,317 - INFO - Downloading: 65.00%
+2025-04-14 22:21:38,341 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:38] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:21:38,442 - INFO - Downloading: 66.18%
+2025-04-14 22:21:40,466 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:40] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:21:40,568 - INFO - Downloading: 67.37%
+2025-04-14 22:21:42,602 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:42] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:21:42,703 - INFO - Downloading: 68.55%
+2025-04-14 22:21:44,730 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:44] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:21:44,833 - INFO - Downloading: 69.73%
+2025-04-14 22:21:46,854 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:46] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:21:46,955 - INFO - Downloading: 70.91%
+2025-04-14 22:21:48,541 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:48] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:21:48,990 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:48] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:21:49,092 - INFO - Downloading: 72.09%
+2025-04-14 22:21:51,124 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:51] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:21:51,226 - INFO - Downloading: 73.27%
+2025-04-14 22:21:53,258 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:53] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:21:53,359 - INFO - Downloading: 74.46%
+2025-04-14 22:21:54,215 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:54] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:21:55,094 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:55] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:21:55,373 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:55] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:21:55,474 - INFO - Downloading: 75.64%
+2025-04-14 22:21:56,069 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:56] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:21:57,086 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:57] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:21:57,498 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:57] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:21:57,600 - INFO - Downloading: 76.82%
+2025-04-14 22:21:58,078 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:58] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:21:59,072 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:59] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:21:59,614 - INFO - 127.0.0.1 - - [14/Apr/2025 22:21:59] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:21:59,715 - INFO - Downloading: 78.00%
+2025-04-14 22:22:00,081 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:00] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:01,069 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:01] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:01,733 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:01] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:22:01,835 - INFO - Downloading: 79.18%
+2025-04-14 22:22:02,068 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:02] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:03,068 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:03] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:03,852 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:03] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:22:03,954 - INFO - Downloading: 80.37%
+2025-04-14 22:22:04,079 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:04] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:05,068 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:05] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:05,976 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:05] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:22:06,075 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:06] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:06,078 - INFO - Downloading: 81.55%
+2025-04-14 22:22:07,068 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:07] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:08,075 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:08] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:08,105 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:08] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:22:08,206 - INFO - Downloading: 82.73%
+2025-04-14 22:22:09,074 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:09] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:10,094 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:10] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:10,239 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:10] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:22:10,341 - INFO - Downloading: 83.91%
+2025-04-14 22:22:11,069 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:11] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:12,072 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:12] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:12,365 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:12] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:22:12,467 - INFO - Downloading: 85.09%
+2025-04-14 22:22:13,073 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:13] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:14,078 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:14] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:14,488 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:14] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:22:14,590 - INFO - Downloading: 86.28%
+2025-04-14 22:22:15,077 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:15] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:16,085 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:16] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:16,612 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:16] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:22:16,713 - INFO - Downloading: 87.46%
+2025-04-14 22:22:17,075 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:17] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:18,087 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:18] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:18,747 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:18] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:22:18,849 - INFO - Downloading: 88.64%
+2025-04-14 22:22:19,073 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:19] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:20,072 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:20] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:20,896 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:20] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:22:20,998 - INFO - Downloading: 89.82%
+2025-04-14 22:22:21,086 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:21] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:22,079 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:22] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:23,022 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:23] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:22:23,078 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:23] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:23,124 - INFO - Downloading: 91.00%
+2025-04-14 22:22:24,079 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:24] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:25,083 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:25] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:25,137 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:25] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:22:25,239 - INFO - Downloading: 92.18%
+2025-04-14 22:22:26,072 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:26] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:27,089 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:27] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:27,271 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:27] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:22:27,373 - INFO - Downloading: 93.37%
+2025-04-14 22:22:28,084 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:28] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:29,072 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:29] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:29,411 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:29] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:22:29,512 - INFO - Downloading: 94.55%
+2025-04-14 22:22:30,078 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:30] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:31,093 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:31] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:31,533 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:31] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:22:31,635 - INFO - Downloading: 95.73%
+2025-04-14 22:22:32,091 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:32] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:33,087 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:33] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:33,671 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:33] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:22:33,772 - INFO - Downloading: 96.91%
+2025-04-14 22:22:34,080 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:34] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:35,086 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:35] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:35,787 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:35] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:22:35,888 - INFO - Downloading: 98.09%
+2025-04-14 22:22:36,071 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:36] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:37,071 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:37] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:37,903 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:37] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:22:38,004 - INFO - Downloading: 99.28%
+2025-04-14 22:22:38,088 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:38] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:39,074 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:39] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:40,037 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:40] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:22:40,084 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:40] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:40,139 - INFO - Downloading: 100.02%
+2025-04-14 22:22:41,071 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:41] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:42,076 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:42] "GET /get_progress/PS4_Sp24-25.pdf HTTP/1.1" 200 -
+2025-04-14 22:22:42,177 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:42] "POST /update_progress HTTP/1.1" 200 -
+2025-04-14 22:22:42,279 - ERROR - File integrity check failed during download
+2025-04-14 22:22:42,279 - INFO - Client connection closed
+2025-04-14 22:22:42,300 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:42] "POST /download HTTP/1.1" 200 -

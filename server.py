@@ -90,10 +90,37 @@ def handle_client(con, addr):
                 filesize = os.path.getsize(file_path)  # sending the file size in order to know the progress overall
                 con.send(str(filesize).encode())  # Send file size
                 
+                # Receive offset from client
+                try:
+                    offset_str = con.recv(1024).decode()
+                    offset = int(offset_str)
+                    log("info", f"Client requested offset: {offset}")
+                except Exception as e:
+                    log("error", f"Error parsing offset: {str(e)}")
+                    offset = 0
+                
                 # For large files like MOV, we need to handle the transfer differently
                 with open(file_path, 'rb') as f:
-                    total_sent = 0
+                    # Skip to the offset position
+                    if offset > 0:
+                        f.seek(offset)
+                    
+                    total_sent = offset
                     hash_object = hashlib.sha256()
+                    
+                    # Skip the hash calculation for the part we're not sending
+                    if offset > 0:
+                        # Read and hash the skipped part
+                        f.seek(0)
+                        while f.tell() < offset:
+                            data = f.read(4096)
+                            if not data:
+                                break
+                            hash_object.update(data)
+                        # Go back to the offset position
+                        f.seek(offset)
+                    
+                    # Send the file from the offset position
                     while True:
                         data = f.read(4096)  # Increased buffer size for better performance
                         if not data:

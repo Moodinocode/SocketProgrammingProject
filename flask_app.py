@@ -133,7 +133,7 @@ def download():
         
         # Call the client to download the file to a temporary location
         # Pass the original filename (without temp_ prefix) to the client
-        initiateClient(2, temp_file_path, original_filename=filename)
+        initiateClient(2, temp_file_path, original_filename=filename, user_id=current_user.id)
         
         # Check if the file was downloaded successfully
         if not os.path.exists(temp_file_path):
@@ -184,7 +184,7 @@ def update_progress():
         'status': 'processing' if progress < 100 else 'completed'
     }
     
-    print(f"Progress update for {filename}: {progress}%")
+    print(f"Progress update for {filename}: {progress:.2f}%")
     return jsonify({"status": "success"})
 
 @app.route('/get_progress/<filename>', methods=['GET'])

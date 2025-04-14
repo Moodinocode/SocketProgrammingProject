@@ -2,13 +2,13 @@ from socket import *
 import os
 import requests
 import time
-from utils import log
+from utils import log, interrupted_downloads_tracker
 import hashlib
 
 PORT = 8080
 ServerIP = "127.0.0.1"  # Use localhost
 
-def initiateClient(command, file_path=None, original_filename=None, filename=None): #command should be sent from the flask web app
+def initiateClient(command, file_path=None, original_filename=None, filename=None, user_id=None): #command should be sent from the flask web app
   try:
     clientSocket = socket(AF_INET,SOCK_STREAM)
     clientSocket.connect((ServerIP,PORT))
@@ -74,13 +74,16 @@ def initiateClient(command, file_path=None, original_filename=None, filename=Non
       clientSocket.send(filename.encode())
       filesize = clientSocket.recv(1024).decode()
       hash_object = hashlib.sha256()
+      interrupted_downloads_tracker.setdefault(user_id, {}).setdefault(filename, 0)
+      offset = interrupted_downloads_tracker[user_id][filename] % int(filesize)
+      clientSocket.send(str(offset).encode())
 
       if filesize == "FILE_NOT_FOUND":
           log("error", f"File {filename} not found on server")
           return
           
       filesize = int(filesize)
-      current = 0
+      current = offset
       
       # Receive the file
       with open(file_path, 'wb') as f:

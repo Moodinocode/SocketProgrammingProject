@@ -26,3 +26,5 @@ def log(level, message):
     except Exception as e:
         print(f"Logging error: {str(e)}")  # Fallback to print if logging fails
 
+
+interrupted_downloads_tracker = {}
