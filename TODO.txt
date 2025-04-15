@@ -3,14 +3,9 @@
 Clean up the frontend
 
 
-we should add a json file that stores the metadata 
-comming from a certain client (based on flask)
-everytime a download is intiated the meta data is 
-scanned to check if the file has been intrupted before 
-and hence resumes its
+recomment the entire codebase
 
-
-
+go over each requirment and make sure it is functionanng correctly 
 
 host the project for the presentation
 write the document.

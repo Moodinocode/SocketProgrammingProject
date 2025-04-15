@@ -105,8 +105,11 @@ def initiateClient(command, file_path=None, original_filename=None, filename=Non
       
       # Receive server's hash for verification
       server_hash = clientSocket.recv(64).decode()  # SHA-256 hash is 64 characters in hex
+      log('info', 'hash recieved during download from server in hex is {server_hash}')
+
       client_hash = hash_object.hexdigest()
-      
+      log('info', 'hash calculated during download from client in hex is {client_hash}')
+
       if server_hash != client_hash:
           log('error', 'File integrity check failed during download')
           return
