@@ -82,7 +82,6 @@ def initiateClient(command, file_path=None, original_filename=None, filename=Non
       interrupted_downloads_tracker.setdefault(user_id, {}).setdefault(filename, 0)
       offset = interrupted_downloads_tracker[user_id][filename] % int(filesize)
       clientSocket.send(str(offset).encode())
-      pbar = tqdm(total=filesize,desc="Downloading") # initializing terminal progress bar
 
       if filesize == "FILE_NOT_FOUND":
           log("error", f"File {filename} not found on server")
@@ -92,23 +91,24 @@ def initiateClient(command, file_path=None, original_filename=None, filename=Non
       current = offset
       
       # Receive the file
-      with open(file_path, 'wb') as f:
-          while current < filesize:
-              data = clientSocket.recv(4096)
-              if not data:
-                  break
-              hash_object.update(data)
-              f.write(data)
-              current += len(data)
-              progress = (current / filesize) * 100  # Calculate progress
-              pbar.update(4096) #updating terminal progress bar
-              log("info", f"Downloading: {progress:.2f}%") # logging the progress before sending it to web interface
+      with tqdm(total=filesize, initial=offset, desc="Downloading", unit="B", unit_scale=True) as pbar:  # initializing terminal progress bar
+        with open(file_path, 'wb') as f:
+            while current < filesize:
+                data = clientSocket.recv(4096)
+                if not data:
+                    break
+                hash_object.update(data)
+                f.write(data)
+                current += len(data)
+                progress = (current / filesize) * 100  # Calculate progress
+                pbar.update(4096) #updating terminal progress bar
+                log("info", f"Downloading: {progress:.2f}%") # logging the progress before sending it to web interface
 
-              # Send progress to the Flask app
-              requests.post('http://localhost:5000/update_progress', 
-                           json={"filename": filename, "progress": progress})
-              # if filesize < 5 * 1024 * 1024:  
-              #     time.sleep(0.1) #delay for small files (<5MB) in order to be able to see the progress bar
+                # Send progress to the Flask app
+                requests.post('http://localhost:5000/update_progress', 
+                            json={"filename": filename, "progress": progress})
+                # if filesize < 5 * 1024 * 1024:  
+                #     time.sleep(0.1) #delay for small files (<5MB) in order to be able to see the progress bar
       
       # Receive server's hash for verification
       server_hash = clientSocket.recv(64).decode()  # SHA-256 hash is 64 characters in hex
