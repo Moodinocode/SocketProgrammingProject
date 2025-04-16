@@ -7042,3 +7042,524 @@ nt ('127.0.0.1', 54520): can only concatenate str (not "int") to str
 2025-04-14 22:22:42,279 - ERROR - File integrity check failed during download
 2025-04-14 22:22:42,279 - INFO - Client connection closed
 2025-04-14 22:22:42,300 - INFO - 127.0.0.1 - - [14/Apr/2025 22:22:42] "POST /download HTTP/1.1" 200 -
+2025-04-16 20:16:34,564 - INFO - Server starting on port 8080...
+2025-04-16 20:16:34,564 - INFO - Server listening on port 8080...
+2025-04-16 20:16:45,240 - INFO - Server starting on port 8080...
+2025-04-16 20:16:49,162 - INFO - Server starting on port 8080...
+2025-04-16 20:17:19,097 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-16 20:17:19,097 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-16 20:17:19,098 - INFO -  * Restarting with stat
+2025-04-16 20:17:19,796 - WARNING -  * Debugger is active!
+2025-04-16 20:17:19,798 - INFO -  * Debugger PIN: 355-406-568
+2025-04-16 20:17:20,811 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\client.py', reloading
+2025-04-16 20:17:20,883 - INFO -  * Restarting with stat
+2025-04-16 20:17:21,611 - WARNING -  * Debugger is active!
+2025-04-16 20:17:21,612 - INFO -  * Debugger PIN: 355-406-568
+2025-04-16 20:17:32,207 - INFO - 127.0.0.1 - - [16/Apr/2025 20:17:32] "GET / HTTP/1.1" 200 -
+2025-04-16 20:17:32,244 - INFO - 127.0.0.1 - - [16/Apr/2025 20:17:32] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-16 20:17:32,441 - INFO - 127.0.0.1 - - [16/Apr/2025 20:17:32] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-16 20:17:32,756 - INFO - 127.0.0.1 - - [16/Apr/2025 20:17:32] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-16 20:17:38,945 - INFO - 127.0.0.1 - - [16/Apr/2025 20:17:38] "POST / HTTP/1.1" 200 -
+2025-04-16 20:17:39,036 - INFO - 127.0.0.1 - - [16/Apr/2025 20:17:39] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-16 20:17:39,273 - INFO - 127.0.0.1 - - [16/Apr/2025 20:17:39] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-16 20:17:44,436 - INFO - 127.0.0.1 - - [16/Apr/2025 20:17:44] "POST / HTTP/1.1" 200 -
+2025-04-16 20:17:44,442 - INFO - 127.0.0.1 - - [16/Apr/2025 20:17:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-16 20:17:44,475 - INFO - 127.0.0.1 - - [16/Apr/2025 20:17:44] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-16 20:17:54,808 - INFO - 127.0.0.1 - - [16/Apr/2025 20:17:54] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-16 20:18:55,624 - INFO - 127.0.0.1 - - [16/Apr/2025 20:18:55] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-04-16 20:18:55,634 - INFO - 127.0.0.1 - - [16/Apr/2025 20:18:55] "GET /home HTTP/1.1" 200 -
+2025-04-16 20:18:55,658 - INFO - 127.0.0.1 - - [16/Apr/2025 20:18:55] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-16 20:18:55,958 - INFO - 127.0.0.1 - - [16/Apr/2025 20:18:55] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-16 20:18:56,269 - INFO - New connection established with client of address = ('127.0.0.1', 60322)
+2025-04-16 20:18:56,270 - INFO - New serving socket connected to address = ('127.0.0.1', 60322)
+2025-04-16 20:18:56,271 - INFO - List files request received
+2025-04-16 20:18:56,271 - INFO - File list sent to client
+2025-04-16 20:18:56,271 - INFO - Connection with ('127.0.0.1', 60322) closed
+2025-04-16 20:18:57,270 - INFO - Requesting file list from server
+2025-04-16 20:18:57,270 - INFO - Received file list with 1 files
+2025-04-16 20:18:57,271 - INFO - Client connection closed
+2025-04-16 20:18:57,271 - INFO - 127.0.0.1 - - [16/Apr/2025 20:18:57] "GET /list HTTP/1.1" 200 -
+2025-04-16 20:19:02,053 - INFO - New connection established with client of address = ('127.0.0.1', 60325)
+2025-04-16 20:19:02,054 - INFO - New serving socket connected to address = ('127.0.0.1', 60325)
+2025-04-16 20:19:02,054 - INFO - Upload request received
+2025-04-16 20:19:03,054 - INFO - Uploading file: client_files\CSC 490 - final notes.pdf
+2025-04-16 20:19:03,054 - INFO - Receiving file with name: CSC 490 - final notes.pdf
+2025-04-16 20:19:03,067 - ERROR - Error in client operation: name 'loading' is not defined
+2025-04-16 20:19:03,068 - INFO - Received 0 bytes for file CSC 490 - final notes.pdf
+2025-04-16 20:19:03,068 - ERROR - File integrity check failed for CSC 490 - final notes.pdf
+2025-04-16 20:19:03,068 - INFO - 127.0.0.1 - - [16/Apr/2025 20:19:03] "POST /upload HTTP/1.1" 200 -
+2025-04-16 20:19:03,070 - INFO - Connection with ('127.0.0.1', 60325) closed
+2025-04-16 20:19:03,356 - INFO - 127.0.0.1 - - [16/Apr/2025 20:19:03] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:19:07,139 - INFO - New connection established with client of address = ('127.0.0.1', 60331)
+2025-04-16 20:19:07,140 - INFO - New serving socket connected to address = ('127.0.0.1', 60331)
+2025-04-16 20:19:07,140 - INFO - List files request received
+2025-04-16 20:19:07,140 - INFO - File list sent to client
+2025-04-16 20:19:07,141 - INFO - Connection with ('127.0.0.1', 60331) closed
+2025-04-16 20:19:08,139 - INFO - Requesting file list from server
+2025-04-16 20:19:08,139 - INFO - Received file list with 1 files
+2025-04-16 20:19:08,140 - INFO - Client connection closed
+2025-04-16 20:19:08,140 - INFO - 127.0.0.1 - - [16/Apr/2025 20:19:08] "GET /list HTTP/1.1" 200 -
+2025-04-16 20:20:03,566 - INFO - 127.0.0.1 - - [16/Apr/2025 20:20:03] "GET /home HTTP/1.1" 200 -
+2025-04-16 20:20:03,884 - INFO - 127.0.0.1 - - [16/Apr/2025 20:20:03] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-16 20:20:03,885 - INFO - 127.0.0.1 - - [16/Apr/2025 20:20:03] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-16 20:20:04,207 - INFO - New connection established with client of address = ('127.0.0.1', 60345)
+2025-04-16 20:20:04,208 - INFO - New serving socket connected to address = ('127.0.0.1', 60345)
+2025-04-16 20:20:04,208 - INFO - List files request received
+2025-04-16 20:20:04,208 - INFO - File list sent to client
+2025-04-16 20:20:04,208 - INFO - Connection with ('127.0.0.1', 60345) closed
+2025-04-16 20:20:05,207 - INFO - Requesting file list from server
+2025-04-16 20:20:05,207 - INFO - Received file list with 1 files
+2025-04-16 20:20:05,207 - INFO - Client connection closed
+2025-04-16 20:20:05,208 - INFO - 127.0.0.1 - - [16/Apr/2025 20:20:05] "GET /list HTTP/1.1" 200 -
+2025-04-16 20:21:25,707 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\client.py', reloading
+2025-04-16 20:21:25,798 - INFO -  * Restarting with stat
+2025-04-16 20:21:26,610 - WARNING -  * Debugger is active!
+2025-04-16 20:21:26,611 - INFO -  * Debugger PIN: 355-406-568
+2025-04-16 20:21:39,246 - INFO - New connection established with client of address = ('127.0.0.1', 60361)
+2025-04-16 20:21:39,246 - INFO - New serving socket connected to address = ('127.0.0.1', 60361)
+2025-04-16 20:21:39,247 - INFO - Upload request received
+2025-04-16 20:21:39,940 - INFO - 127.0.0.1 - - [16/Apr/2025 20:21:39] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:21:40,246 - INFO - Uploading file: client_files\CSC 490 - final notes.pdf
+2025-04-16 20:21:40,247 - INFO - Receiving file with name: CSC 490 - final notes.pdf
+2025-04-16 20:21:41,247 - INFO - 127.0.0.1 - - [16/Apr/2025 20:21:41] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:21:42,241 - INFO - 127.0.0.1 - - [16/Apr/2025 20:21:42] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:21:42,305 - INFO - 127.0.0.1 - - [16/Apr/2025 20:21:42] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:21:43,236 - INFO - 127.0.0.1 - - [16/Apr/2025 20:21:43] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:21:44,255 - INFO - 127.0.0.1 - - [16/Apr/2025 20:21:44] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:21:44,336 - INFO - 127.0.0.1 - - [16/Apr/2025 20:21:44] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:21:45,248 - INFO - 127.0.0.1 - - [16/Apr/2025 20:21:45] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:21:46,241 - INFO - 127.0.0.1 - - [16/Apr/2025 20:21:46] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:21:46,359 - INFO - 127.0.0.1 - - [16/Apr/2025 20:21:46] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:21:47,236 - INFO - 127.0.0.1 - - [16/Apr/2025 20:21:47] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:21:48,262 - INFO - 127.0.0.1 - - [16/Apr/2025 20:21:48] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:21:48,398 - INFO - 127.0.0.1 - - [16/Apr/2025 20:21:48] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:21:49,248 - INFO - 127.0.0.1 - - [16/Apr/2025 20:21:49] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:21:50,237 - INFO - 127.0.0.1 - - [16/Apr/2025 20:21:50] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:21:50,424 - INFO - 127.0.0.1 - - [16/Apr/2025 20:21:50] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:21:51,235 - INFO - 127.0.0.1 - - [16/Apr/2025 20:21:51] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:21:52,239 - INFO - 127.0.0.1 - - [16/Apr/2025 20:21:52] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:21:52,456 - INFO - 127.0.0.1 - - [16/Apr/2025 20:21:52] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:21:53,251 - INFO - 127.0.0.1 - - [16/Apr/2025 20:21:53] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:21:54,242 - INFO - 127.0.0.1 - - [16/Apr/2025 20:21:54] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:21:54,492 - INFO - 127.0.0.1 - - [16/Apr/2025 20:21:54] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:21:55,247 - INFO - 127.0.0.1 - - [16/Apr/2025 20:21:55] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:21:56,241 - INFO - 127.0.0.1 - - [16/Apr/2025 20:21:56] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:21:56,540 - INFO - 127.0.0.1 - - [16/Apr/2025 20:21:56] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:21:57,250 - INFO - 127.0.0.1 - - [16/Apr/2025 20:21:57] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:21:58,260 - INFO - 127.0.0.1 - - [16/Apr/2025 20:21:58] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:21:58,579 - INFO - 127.0.0.1 - - [16/Apr/2025 20:21:58] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:21:59,245 - INFO - 127.0.0.1 - - [16/Apr/2025 20:21:59] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:00,240 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:00] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:00,629 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:00] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:22:01,242 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:01] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:02,237 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:02] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:02,659 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:02] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:22:03,241 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:03] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:04,247 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:04] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:04,709 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:04] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:22:05,247 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:05] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:06,261 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:06] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:06,760 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:06] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:22:07,236 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:07] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:08,249 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:08] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:08,798 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:08] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:22:09,244 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:09] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:10,254 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:10] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:10,834 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:10] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:22:11,264 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:11] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:12,246 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:12] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:12,877 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:12] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:22:13,245 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:13] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:14,252 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:14] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:14,914 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:14] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:22:15,264 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:15] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:16,259 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:16] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:16,952 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:16] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:22:17,239 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:17] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:18,244 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:18] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:18,985 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:18] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:22:19,253 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:19] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:20,262 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:20] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:21,019 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:21] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:22:21,256 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:21] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:22,255 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:22] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:23,075 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:23] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:22:23,262 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:23] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:24,245 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:24] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:25,120 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:25] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:22:25,247 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:25] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:26,241 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:26] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:27,157 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:27] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:22:27,251 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:27] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:28,235 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:28] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:29,214 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:29] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:22:29,249 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:29] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:30,241 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:30] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:31,252 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:31] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:31,254 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:31] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:22:32,245 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:32] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:33,245 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:33] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:33,285 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:33] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:22:34,240 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:34] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:35,251 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:35] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:35,306 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:35] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:22:36,263 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:36] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:37,258 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:37] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:37,331 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:37] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:22:38,255 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:38] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:39,248 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:39] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:39,372 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:39] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:22:40,265 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:40] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:41,245 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:41] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:41,395 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:41] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:22:42,233 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:42] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:43,250 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:43] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:43,435 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:43] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:22:44,262 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:44] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:45,264 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:45] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:45,463 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:45] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:22:46,237 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:46] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:47,255 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:47] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:47,509 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:47] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:22:48,238 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:48] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:49,235 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:49] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:49,556 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:49] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:22:50,237 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:50] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:51,263 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:51] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:51,587 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:51] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:22:52,239 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:52] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:53,235 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:53] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:53,622 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:53] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:22:54,256 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:54] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:55,235 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:55] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:55,663 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:55] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:22:56,245 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:56] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:57,240 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:57] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:57,723 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:57] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:22:58,250 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:58] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:59,247 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:59] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:22:59,755 - INFO - 127.0.0.1 - - [16/Apr/2025 20:22:59] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:23:00,248 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:00] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:01,244 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:01] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:01,808 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:01] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:23:02,264 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:02] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:03,244 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:03] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:03,840 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:03] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:23:04,235 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:04] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:05,247 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:05] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:05,879 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:05] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:23:06,247 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:06] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:07,249 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:07] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:07,910 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:07] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:23:08,238 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:08] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:09,248 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:09] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:09,944 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:09] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:23:10,257 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:10] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:11,234 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:11] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:11,987 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:11] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:23:12,243 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:12] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:13,253 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:13] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:14,029 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:14] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:23:14,237 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:14] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:15,248 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:15] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:16,071 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:16] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:23:16,258 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:16] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:17,241 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:17] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:18,110 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:18] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:23:18,245 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:18] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:19,259 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:19] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:20,145 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:20] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:23:20,250 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:20] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:21,241 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:21] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:22,176 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:22] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:23:22,248 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:22] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:23,244 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:23] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:24,221 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:24] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:23:24,236 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:24] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:25,236 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:25] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:26,261 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:26] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:26,263 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:26] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:23:27,242 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:27] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:28,251 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:28] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:28,303 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:28] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:23:29,242 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:29] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:30,237 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:30] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:30,328 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:30] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:23:31,236 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:31] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:32,238 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:32] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:32,376 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:32] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:23:33,236 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:33] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:34,263 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:34] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:34,416 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:34] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:23:35,252 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:35] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:36,241 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:36] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:36,452 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:36] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:23:37,245 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:37] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:38,247 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:38] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:38,476 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:38] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:23:39,241 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:39] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:40,234 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:40] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:40,497 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:40] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:23:41,245 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:41] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:42,242 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:42] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:42,532 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:42] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:23:43,248 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:43] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:44,253 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:44] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:44,563 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:44] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:23:45,254 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:45] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:46,256 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:46] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:46,600 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:46] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:23:47,235 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:47] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:48,235 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:48] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:48,640 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:48] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:23:49,240 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:49] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:50,264 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:50] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:50,685 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:50] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:23:51,239 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:51] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:52,249 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:52] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:52,727 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:52] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:23:53,251 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:53] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:54,249 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:54] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:54,758 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:54] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:23:55,253 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:55] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:56,260 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:56] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:56,796 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:56] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:23:57,242 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:57] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:58,240 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:58] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:23:58,851 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:58] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:23:59,263 - INFO - 127.0.0.1 - - [16/Apr/2025 20:23:59] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:00,242 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:00] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:00,895 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:00] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:24:01,244 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:01] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:02,241 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:02] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:02,945 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:02] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:24:03,259 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:03] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:04,236 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:04] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:04,976 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:04] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:24:05,247 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:05] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:06,249 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:06] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:07,026 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:07] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:24:07,249 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:07] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:08,246 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:08] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:09,068 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:09] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:24:09,258 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:09] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:10,236 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:10] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:11,104 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:11] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:24:11,247 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:11] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:12,235 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:12] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:13,141 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:13] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:24:13,246 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:13] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:14,255 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:14] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:15,170 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:15] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:24:15,244 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:15] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:16,243 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:16] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:17,207 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:17] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:24:17,240 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:17] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:18,249 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:18] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:19,244 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:19] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:24:19,259 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:19] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:20,262 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:20] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:21,241 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:21] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:21,289 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:21] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:24:22,241 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:22] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:23,259 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:23] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:23,338 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:23] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:24:24,262 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:24] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:25,240 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:25] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:25,377 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:25] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:24:26,236 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:26] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:27,246 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:27] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:27,409 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:27] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:24:28,247 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:28] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:29,242 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:29] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:29,456 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:29] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:24:30,237 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:30] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:31,264 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:31] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:31,488 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:31] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:24:32,249 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:32] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:33,239 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:33] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:33,538 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:33] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:24:34,238 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:34] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:35,260 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:35] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:35,582 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:35] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:24:36,246 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:36] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:37,239 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:37] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:37,631 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:37] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:24:38,240 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:38] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:39,237 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:39] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:39,673 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:39] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:24:40,240 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:40] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:41,236 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:41] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:41,719 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:41] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:24:42,246 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:42] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:43,244 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:43] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:43,749 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:43] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:24:44,251 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:44] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:45,248 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:45] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:45,794 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:45] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:24:46,267 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:46] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:47,244 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:47] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:47,837 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:47] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:24:48,246 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:48] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:49,242 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:49] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:49,869 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:49] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:24:50,244 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:50] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:51,242 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:51] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:51,916 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:51] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:24:52,242 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:52] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:53,261 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:53] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:53,955 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:53] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:24:54,254 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:54] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:55,246 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:55] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:55,987 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:55] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:24:56,251 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:56] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:57,261 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:57] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:58,020 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:58] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:24:58,250 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:58] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:24:59,247 - INFO - 127.0.0.1 - - [16/Apr/2025 20:24:59] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:00,067 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:00] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:25:00,251 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:00] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:01,247 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:01] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:02,103 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:02] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:25:02,255 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:02] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:03,235 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:03] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:04,150 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:04] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:25:04,255 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:04] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:05,236 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:05] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:06,187 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:06] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:25:06,235 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:06] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:07,260 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:07] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:08,225 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:08] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:25:08,254 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:08] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:09,239 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:09] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:10,265 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:10] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:10,267 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:10] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:25:11,248 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:11] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:12,250 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:12] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:12,321 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:12] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:25:13,252 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:13] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:14,257 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:14] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:14,359 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:14] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:25:15,262 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:15] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:16,242 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:16] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:16,395 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:16] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:25:17,253 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:17] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:18,241 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:18] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:18,432 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:18] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:25:19,240 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:19] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:20,249 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:20] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:20,481 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:20] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:25:21,240 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:21] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:22,249 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:22] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:22,528 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:22] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:25:23,241 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:23] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:24,245 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:24] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:24,583 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:24] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:25:25,241 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:25] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:26,244 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:26] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:26,633 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:26] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:25:27,257 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:27] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:28,239 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:28] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:28,674 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:28] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:25:29,242 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:29] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:30,240 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:30] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:30,719 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:30] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:25:31,242 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:31] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:32,235 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:32] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:32,738 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:32] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:25:33,233 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:33] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:34,248 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:34] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:34,766 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:34] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:25:35,247 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:35] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:36,244 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:36] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:36,823 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:36] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:25:37,258 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:37] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:38,240 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:38] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:38,855 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:38] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:25:39,248 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:39] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:40,241 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:40] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:40,887 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:40] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:25:41,246 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:41] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:42,243 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:42] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:42,934 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:42] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:25:43,251 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:43] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:44,237 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:44] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:44,990 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:44] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:25:45,253 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:45] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:46,262 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:46] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:47,022 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:47] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:25:47,258 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:47] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:48,239 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:48] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:49,066 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:49] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:25:49,252 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:49] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:50,248 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:50] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:51,115 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:51] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:25:51,253 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:51] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:52,249 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:52] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:53,149 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:53] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:25:53,258 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:53] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:54,254 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:54] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:55,198 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:55] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:25:55,248 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:55] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:56,243 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:56] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:57,235 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:57] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:57,239 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:57] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:25:58,244 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:58] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:59,240 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:59] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:25:59,280 - INFO - 127.0.0.1 - - [16/Apr/2025 20:25:59] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:26:00,259 - INFO - 127.0.0.1 - - [16/Apr/2025 20:26:00] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:26:01,253 - INFO - 127.0.0.1 - - [16/Apr/2025 20:26:01] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:26:01,340 - INFO - 127.0.0.1 - - [16/Apr/2025 20:26:01] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:26:02,254 - INFO - 127.0.0.1 - - [16/Apr/2025 20:26:02] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:26:03,257 - INFO - 127.0.0.1 - - [16/Apr/2025 20:26:03] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:26:03,377 - INFO - 127.0.0.1 - - [16/Apr/2025 20:26:03] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:26:04,244 - INFO - 127.0.0.1 - - [16/Apr/2025 20:26:04] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:26:05,238 - INFO - 127.0.0.1 - - [16/Apr/2025 20:26:05] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:26:05,406 - INFO - 127.0.0.1 - - [16/Apr/2025 20:26:05] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:26:06,260 - INFO - 127.0.0.1 - - [16/Apr/2025 20:26:06] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:26:07,241 - INFO - 127.0.0.1 - - [16/Apr/2025 20:26:07] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:26:07,453 - INFO - 127.0.0.1 - - [16/Apr/2025 20:26:07] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:26:08,244 - INFO - 127.0.0.1 - - [16/Apr/2025 20:26:08] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:26:09,240 - INFO - 127.0.0.1 - - [16/Apr/2025 20:26:09] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:26:09,499 - INFO - 127.0.0.1 - - [16/Apr/2025 20:26:09] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:26:09,502 - INFO - Received 543981 bytes for file CSC 490 - final notes.pdf
+2025-04-16 20:26:10,237 - INFO - 127.0.0.1 - - [16/Apr/2025 20:26:10] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:26:11,264 - INFO - 127.0.0.1 - - [16/Apr/2025 20:26:11] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:26:11,543 - INFO - 127.0.0.1 - - [16/Apr/2025 20:26:11] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:26:12,248 - INFO - 127.0.0.1 - - [16/Apr/2025 20:26:12] "GET /get_progress/CSC%20490%20-%20final%20notes.pdf HTTP/1.1" 200 -
+2025-04-16 20:26:13,587 - INFO - 127.0.0.1 - - [16/Apr/2025 20:26:13] "POST /update_progress HTTP/1.1" 200 -
+2025-04-16 20:26:13,589 - INFO - CSC 490 - final notes.pdf file saved successfully with integrity verified
+2025-04-16 20:26:13,589 - INFO - Connection with ('127.0.0.1', 60361) closed
+2025-04-16 20:26:13,589 - INFO - Client connection closed
+2025-04-16 20:26:13,590 - INFO - 127.0.0.1 - - [16/Apr/2025 20:26:13] "POST /upload HTTP/1.1" 200 -
+2025-04-16 20:26:35,606 - INFO - New connection established with client of address = ('127.0.0.1', 61191)
+2025-04-16 20:26:35,606 - INFO - New serving socket connected to address = ('127.0.0.1', 61191)
+2025-04-16 20:26:35,606 - INFO - List files request received
+2025-04-16 20:26:35,606 - INFO - File list sent to client
+2025-04-16 20:26:35,607 - INFO - Connection with ('127.0.0.1', 61191) closed
+2025-04-16 20:26:36,606 - INFO - Requesting file list from server
+2025-04-16 20:26:36,606 - INFO - Received file list with 1 files
+2025-04-16 20:26:36,606 - INFO - Client connection closed
+2025-04-16 20:26:36,607 - INFO - 127.0.0.1 - - [16/Apr/2025 20:26:36] "GET /list HTTP/1.1" 200 -
+2025-04-16 20:26:36,611 - INFO - 127.0.0.1 - - [16/Apr/2025 20:26:36] "[33mGET /icons/pdf-file.png HTTP/1.1[0m" 404 -
+2025-04-16 20:29:46,135 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\flask_app.py', reloading
+2025-04-16 20:29:46,212 - INFO -  * Restarting with stat
+2025-04-16 20:29:46,970 - WARNING -  * Debugger is active!
+2025-04-16 20:29:46,972 - INFO -  * Debugger PIN: 355-406-568
+2025-04-16 20:31:15,407 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\utils.py', reloading
+2025-04-16 20:31:15,482 - INFO -  * Restarting with stat
+2025-04-16 20:31:16,243 - WARNING -  * Debugger is active!
+2025-04-16 20:31:16,245 - INFO -  * Debugger PIN: 355-406-568
+2025-04-16 20:32:17,522 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\flask_app.py', reloading
+2025-04-16 20:32:17,588 - INFO -  * Restarting with stat
+2025-04-16 20:32:18,313 - WARNING -  * Debugger is active!
+2025-04-16 20:32:18,315 - INFO -  * Debugger PIN: 355-406-568
+2025-04-16 21:00:37,010 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\flask_app.py', reloading
+2025-04-16 21:00:37,072 - INFO -  * Restarting with stat
+2025-04-16 21:00:37,851 - WARNING -  * Debugger is active!
+2025-04-16 21:00:37,852 - INFO -  * Debugger PIN: 355-406-568
+2025-04-16 21:00:50,915 - INFO -  * Detected change in 'C:\\Users\\user\\Desktop\\Spring 2025\\Networks\\SocketProgrammingProject\\flask_app.py', reloading
+2025-04-16 21:00:51,003 - INFO -  * Restarting with stat
+2025-04-16 21:00:51,732 - WARNING -  * Debugger is active!
+2025-04-16 21:00:51,733 - INFO -  * Debugger PIN: 355-406-568

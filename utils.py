@@ -7,7 +7,7 @@ import hashlib
 logging.basicConfig(
     filename='test.log',
     level=logging.INFO,
-    # we can add the threadName in the logging (might be good to show the multithreading)
+    # we can add the threadName in the logging (might be good to show the multithreading) and maybe user if we think it nessacary 
     format='%(asctime)s - %(levelname)s - %(message)s' # format from stack overflow (https://stackoverflow.com/questions/20240464/python-logging-file-is-not-working-when-using-logging-basicconfig)
 )
 

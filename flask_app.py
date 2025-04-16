@@ -146,6 +146,7 @@ def download():
             download_name=filename
         )
         
+        #not working need to check why and i think its better to add it to the upload not download
         # Add a callback to delete the file after the response is sent
         @response.call_on_close
         def on_close():

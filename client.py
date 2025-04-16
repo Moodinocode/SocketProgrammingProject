@@ -4,6 +4,7 @@ import requests
 import time
 from utils import log, interrupted_downloads_tracker
 import hashlib
+from tqdm import tqdm
 
 PORT = 8080
 ServerIP = "127.0.0.1"  # Use localhost
@@ -14,6 +15,7 @@ def initiateClient(command, file_path=None, original_filename=None, filename=Non
     clientSocket.connect((ServerIP,PORT))
     clientSocket.send(str(command).encode()) # send to server the command that we want
     time.sleep(1)
+    
 
     if command == 1:
       if not file_path:
@@ -31,6 +33,7 @@ def initiateClient(command, file_path=None, original_filename=None, filename=Non
       #sending the contents of the file
       with open(file_path, 'rb') as f:
           total_size = os.path.getsize(file_path)
+          pbar = tqdm(total=total_size,desc="Uploading") # initializing terminal progress bar
           sent = 0
           data = f.read(4096)
           while data:
@@ -38,12 +41,14 @@ def initiateClient(command, file_path=None, original_filename=None, filename=Non
               clientSocket.send(data)
               sent += len(data)
               progress = (sent / total_size) * 100
+              pbar.update(4096) #updating terminal progress bar
+
               # Send progress to the Flask app
               requests.post('http://localhost:5000/update_progress', 
                            json={"filename": filename, "progress": progress})
               data = f.read(4096)
-              if total_size < 5 * 1024 * 1024:  
-                  time.sleep(0.1) #delay for small files (<5MB) in order to be able to see the progress bar 
+              # if total_size < 5 * 1024 * 1024:  
+              #     time.sleep(0.1) #delay for small files (<5MB) in order to be able to see the progress bar 
       # Send final 100% progress update
       requests.post('http://localhost:5000/update_progress', 
                    json={"filename": filename, "progress": 100})
@@ -77,6 +82,7 @@ def initiateClient(command, file_path=None, original_filename=None, filename=Non
       interrupted_downloads_tracker.setdefault(user_id, {}).setdefault(filename, 0)
       offset = interrupted_downloads_tracker[user_id][filename] % int(filesize)
       clientSocket.send(str(offset).encode())
+      pbar = tqdm(total=filesize,desc="Downloading") # initializing terminal progress bar
 
       if filesize == "FILE_NOT_FOUND":
           log("error", f"File {filename} not found on server")
@@ -95,13 +101,14 @@ def initiateClient(command, file_path=None, original_filename=None, filename=Non
               f.write(data)
               current += len(data)
               progress = (current / filesize) * 100  # Calculate progress
-              log("info", f"Downloading: {progress:.2f}%")
+              pbar.update(4096) #updating terminal progress bar
+              log("info", f"Downloading: {progress:.2f}%") # logging the progress before sending it to web interface
 
               # Send progress to the Flask app
               requests.post('http://localhost:5000/update_progress', 
                            json={"filename": filename, "progress": progress})
-              if filesize < 5 * 1024 * 1024:  
-                  time.sleep(0.1) #delay for small files (<5MB) in order to be able to see the progress bar
+              # if filesize < 5 * 1024 * 1024:  
+              #     time.sleep(0.1) #delay for small files (<5MB) in order to be able to see the progress bar
       
       # Receive server's hash for verification
       server_hash = clientSocket.recv(64).decode()  # SHA-256 hash is 64 characters in hex
