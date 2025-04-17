@@ -8,25 +8,31 @@
    cd ...\SocketProgrammingProject\
    ```
 
-2. Start the server:
+2. Install the required libararies for the app to run:
+
+   ```
+   pip install -r requirements.txt
+   ```
+
+3. Start the server:
 
    ```
    python server.py
    ```
 
-3. Open another terminal in the same directory and start the Flask application:
+4. Open another terminal in the same directory and start the Flask application:
 
    ```
    python flask_app.py
    ```
 
-4. Access the web interface by navigating to:
+5. Access the web interface by navigating to:
 
    ```
    http://127.0.0.1:5000
    ```
 
-5. The following functionalities will be available:
+6. The following functionalities will be available:
    - File Upload
    - File Listing
    - File Download
