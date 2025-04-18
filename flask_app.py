@@ -13,6 +13,11 @@ from flask_bcrypt import Bcrypt
 app = Flask(__name__)
 progress_data = {}
 
+# Disable HTTP request logging
+import logging
+log = logging.getLogger('werkzeug')
+log.setLevel(logging.ERROR)
+
 bcrypt = Bcrypt(app)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
 app.config['SECRET_KEY'] = 'networkssecretkey' #generally this should be secret but for the purpose of the project its not
@@ -185,7 +190,6 @@ def update_progress():
         'status': 'processing' if progress < 100 else 'completed'
     }
     
-    print(f"Progress update for {filename}: {progress:.2f}%")
     return jsonify({"status": "success"})
 
 @app.route('/get_progress/<filename>', methods=['GET'])

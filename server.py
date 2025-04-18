@@ -3,7 +3,7 @@ from socket import *
 from threading import *
 import os
 import hashlib
-
+import time
 from utils import log
 
 PORT = 8080
@@ -79,6 +79,7 @@ def handle_client(con, addr):
                 filename = original_filename
 
             file_path = os.path.join(SERVER_FILES_DIR, filename)
+            hash_object = hashlib.sha256()
             
             #check if file exists
             if not os.path.exists(file_path):
@@ -101,12 +102,8 @@ def handle_client(con, addr):
                 
                 # For large files like MOV, we need to handle the transfer differently
                 with open(file_path, 'rb') as f:
-                    # Skip to the offset position
-                    if offset > 0:
-                        f.seek(offset)
-                    
+                
                     total_sent = offset
-                    hash_object = hashlib.sha256()
                     
                     # Skip the hash calculation for the part we're not sending
                     if offset > 0:
@@ -121,19 +118,22 @@ def handle_client(con, addr):
                         f.seek(offset)
                     
                     # Send the file from the offset position
-                    while True:
-                        data = f.read(4096)  # Increased buffer size for better performance
+                    while total_sent < filesize:
+                        data = f.read(4096)  
                         if not data:
+                            log('info','server has no more data ')
                             break
                         hash_object.update(data)
                         con.send(data)
                         total_sent += len(data)
 
-                # Send the hash to client for verification
-                con.send(hash_object.hexdigest().encode())
-                
-                log("info", f"Sent {total_sent} bytes for file {filename}")
-                log("info", f"File {filename} sent to client with integrity verification")
+                    # Send the hash to client for verification
+                    
+                    log('info', f'server sending hash {hash_object.hexdigest()}')
+                    con.send(hash_object.hexdigest().encode())
+                    
+                    log("info", f"Sent {total_sent} bytes for file {filename}")
+                    log("info", f"File {filename} sent to client with integrity verification")
         
         elif command == "3":
             log("info", "List files request received")
