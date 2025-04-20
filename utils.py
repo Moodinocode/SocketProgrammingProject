@@ -4,6 +4,10 @@
 import logging
 import hashlib
 
+# Disable HTTP request logging
+werkzeug_logger = logging.getLogger('werkzeug')
+werkzeug_logger.setLevel(logging.ERROR)
+
 logging.basicConfig(
     filename='test.log',
     level=logging.INFO,

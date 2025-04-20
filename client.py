@@ -9,7 +9,7 @@ from tqdm import tqdm
 PORT = 8080
 ServerIP = "127.0.0.1"  # Use localhost
 
-def initiateClient(command, file_path=None, original_filename=None, filename=None, user_id=None): #command should be sent from the flask web app
+def initiateClient(command, file_path=None, original_filename=None, filename=None, user_id=None, is_overwrite=False): #command should be sent from the flask web app
   try:
     clientSocket = socket(AF_INET,SOCK_STREAM)
     clientSocket.connect((ServerIP,PORT))
@@ -28,6 +28,15 @@ def initiateClient(command, file_path=None, original_filename=None, filename=Non
       
       #sending the name of the file
       clientSocket.send(filename.encode())
+      
+      # Send the overwrite flag
+      overwrite_str = str(is_overwrite).lower()
+      clientSocket.send(overwrite_str.encode())
+      log("info", f"Sending overwrite flag: {overwrite_str}")
+      
+      if is_overwrite:
+         log("info",f"{user_id} is requesting to overwrite {filename}")
+      
       hash_object = hashlib.sha256()
       
       #sending the contents of the file

@@ -29,13 +29,26 @@ def handle_client(con, addr):
             file_path = os.path.join(SERVER_FILES_DIR, filename)
             hash_object = hashlib.sha256()
 
-            # Handle duplicate filenames
-            base_name, extension = os.path.splitext(filename)
-            counter = 1
-            while os.path.exists(file_path):
-                new_filename = f"{base_name}_{counter}{extension}"
-                file_path = os.path.join(SERVER_FILES_DIR, new_filename)
-                counter += 1
+            # Check if this is an overwrite operation
+            is_overwrite_str = con.recv(1024).decode()
+            is_overwrite = is_overwrite_str == "true"
+            log("info", f"Overwrite flag received: {is_overwrite_str}, interpreted as: {is_overwrite}")
+            
+            # Handle duplicate filenames only if not overwriting
+            if not is_overwrite:
+                base_name, extension = os.path.splitext(filename)
+                counter = 1
+                while os.path.exists(file_path):
+                    new_filename = f"{base_name}_{counter}{extension}"
+                    file_path = os.path.join(SERVER_FILES_DIR, new_filename)
+                    counter += 1
+                log("info", f"Using versioned filename: {os.path.basename(file_path)}")
+            else:
+                # If overwriting, just use the original filename
+                log("info", f"Overwriting existing file: {filename}")
+                # Make sure the file doesn't exist (it should have been deleted by the client)
+                if os.path.exists(file_path):
+                    log("warning", f"File {filename} still exists despite overwrite flag. This might indicate a timing issue.")
             
             with open(file_path, 'wb') as f:
                 total_received = 0

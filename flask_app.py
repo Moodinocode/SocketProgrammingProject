@@ -15,9 +15,9 @@ app = Flask(__name__)
 progress_data = {}
 
 # Disable HTTP request logging
-import logging
-log = logging.getLogger('werkzeug')
-log.setLevel(logging.ERROR)
+# import logging
+# log = logging.getLogger('werkzeug')
+# log.setLevel(logging.ERROR)
 
 bcrypt = Bcrypt(app)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
@@ -117,12 +117,16 @@ def upload():
         filename = file.filename
         file_path = os.path.join(CLIENT_FILES_DIR, filename)
         file.save(file_path)
-        if 'is_overwrite' in request.form:
+        
+        # Check if this is an overwrite operation
+        is_overwrite = 'is_overwrite' in request.form
+        log("info", f"Upload request with is_overwrite={is_overwrite}")
+        
+        if is_overwrite:
             log("info",f"{current_user.username} has uploaded {filename} and overwritten the previously available one")
-
         
         # Call the client to upload the file
-        initiateClient(1, file_path) # calls our client socket to open connection with the server socket with method = 1 (meaning upload)
+        initiateClient(1, file_path, is_overwrite=is_overwrite) # calls our client socket to open connection with the server socket with method = 1 (meaning upload)
         
         return jsonify({'success': True, 'message': f'File {filename} uploaded successfully'}) # return to web interface a success mesage
     except Exception as e:

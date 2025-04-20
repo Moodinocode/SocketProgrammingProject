@@ -50,8 +50,9 @@ function uploadFile() {
           }
         }
       }
-    })
-  
+    }).then(()=>{
+
+    
   // Show progress bar when upload starts
   document.getElementById('progressBar').style.display = 'block';
   document.getElementById('progressText').style.display = 'block';
@@ -80,7 +81,10 @@ function uploadFile() {
     method: 'POST',
     body: formData
   })
-  .then(response => response.json())
+  .then(response => {
+    console.log(response);
+    return response.json();
+  })
   .then(data => {
     // Clear the progress interval
     clearInterval(progressInterval);
@@ -104,6 +108,7 @@ function uploadFile() {
     document.getElementById('progressText').style.display = 'none';
     alert('An error occurred during upload');
   });
+  })
 }
 
 

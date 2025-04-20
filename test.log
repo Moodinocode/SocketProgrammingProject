@@ -12727,3 +12727,964 @@ aved successfully with integrity verified
 2025-04-18 09:30:29,837 - INFO - hash calculated during download from client in hex is ef6595ac5e10f17a019fcc2bafa4c90c5cf0fcbe2b5c0cfea07c9bad703fb4c4
 2025-04-18 09:30:29,837 - ERROR - File integrity check failed during download
 2025-04-18 09:30:29,837 - INFO - Client connection closed
+2025-04-20 06:52:07,242 - INFO - Server starting on port 8080...
+2025-04-20 06:52:07,243 - INFO - Server listening on port 8080...
+2025-04-20 06:52:29,599 - INFO - New connection established with client of address = ('127.0.0.1', 50193)
+2025-04-20 06:52:29,602 - INFO - New serving socket connected to address = ('127.0.0.1', 50193)
+2025-04-20 06:52:29,602 - INFO - List files request received
+2025-04-20 06:52:29,603 - INFO - File list sent to client
+2025-04-20 06:52:29,604 - INFO - Connection with ('127.0.0.1', 50193) closed
+2025-04-20 06:52:30,599 - INFO - Requesting file list from server
+2025-04-20 06:52:30,600 - INFO - Received file list with 1 files
+2025-04-20 06:52:30,600 - INFO - Client connection closed
+2025-04-20 06:52:43,049 - INFO - New connection established with client of address = ('127.0.0.1', 50198)
+2025-04-20 06:52:43,050 - INFO - New serving socket connected to address = ('127.0.0.1', 50198)
+2025-04-20 06:52:43,050 - INFO - List files request received
+2025-04-20 06:52:43,050 - INFO - File list sent to client
+2025-04-20 06:52:43,050 - INFO - Connection with ('127.0.0.1', 50198) closed
+2025-04-20 06:52:43,402 - INFO - New connection established with client of address = ('127.0.0.1', 50201)
+2025-04-20 06:52:43,403 - INFO - New serving socket connected to address = ('127.0.0.1', 50201)
+2025-04-20 06:52:43,404 - INFO - Upload request received
+2025-04-20 06:52:44,050 - INFO - Requesting file list from server
+2025-04-20 06:52:44,050 - INFO - Received file list with 1 files
+2025-04-20 06:52:44,050 - INFO - Client connection closed
+2025-04-20 06:52:44,403 - INFO - Uploading file: client_files\bubbleSort (1) (1).java
+2025-04-20 06:52:44,404 - INFO - Receiving file with name: bubbleSort (1) (1).java
+2025-04-20 06:52:44,408 - INFO - Received 476 bytes for file bubbleSort (1) (1).java
+2025-04-20 06:52:48,495 - INFO - bubbleSort (1) (1).java file saved successfully with integrity verified
+2025-04-20 06:52:48,495 - INFO - Client connection closed
+2025-04-20 06:52:48,496 - INFO - Connection with ('127.0.0.1', 50201) closed
+2025-04-20 06:52:51,188 - INFO - New connection established with client of address = ('127.0.0.1', 50220)
+2025-04-20 06:52:51,189 - INFO - New serving socket connected to address = ('127.0.0.1', 50220)
+2025-04-20 06:52:51,189 - INFO - List files request received
+2025-04-20 06:52:51,190 - INFO - File list sent to client
+2025-04-20 06:52:51,191 - INFO - Connection with ('127.0.0.1', 50220) closed
+2025-04-20 06:52:52,189 - INFO - Requesting file list from server
+2025-04-20 06:52:52,189 - INFO - Received file list with 1 files
+2025-04-20 06:52:52,190 - INFO - Client connection closed
+2025-04-20 06:53:15,727 - INFO - New connection established with client of address = ('127.0.0.1', 50233)
+2025-04-20 06:53:15,729 - INFO - New serving socket connected to address = ('127.0.0.1', 50233)
+2025-04-20 06:53:15,730 - INFO - List files request received
+2025-04-20 06:53:15,731 - INFO - File list sent to client
+2025-04-20 06:53:15,732 - INFO - Connection with ('127.0.0.1', 50233) closed
+2025-04-20 06:53:15,738 - INFO - New connection established with client of address = ('127.0.0.1', 50234)
+2025-04-20 06:53:15,739 - INFO - New serving socket connected to address = ('127.0.0.1', 50234)
+2025-04-20 06:53:15,740 - INFO - Upload request received
+2025-04-20 06:53:16,731 - INFO - Requesting file list from server
+2025-04-20 06:53:16,731 - INFO - Received file list with 1 files
+2025-04-20 06:53:16,732 - INFO - Client connection closed
+2025-04-20 06:53:16,738 - INFO - Uploading file: client_files\WhatsApp Image 2025-04-17 at 12.30.47 PM.jpeg
+2025-04-20 06:53:16,739 - INFO - Receiving file with name: WhatsApp Image 2025-04-17 at 12.30.47 PM.jpeg
+2025-04-20 06:54:26,600 - INFO - New connection established with client of address = ('127.0.0.1', 50486)
+2025-04-20 06:54:26,601 - INFO - New serving socket connected to address = ('127.0.0.1', 50486)
+2025-04-20 06:54:26,602 - INFO - List files request received
+2025-04-20 06:54:26,603 - INFO - File list sent to client
+2025-04-20 06:54:26,604 - INFO - Connection with ('127.0.0.1', 50486) closed
+2025-04-20 06:54:26,608 - INFO - New connection established with client of address = ('127.0.0.1', 50487)
+2025-04-20 06:54:26,609 - INFO - New serving socket connected to address = ('127.0.0.1', 50487)
+2025-04-20 06:54:26,610 - INFO - Upload request received
+2025-04-20 06:54:27,609 - INFO - Requesting file list from server
+2025-04-20 06:54:27,609 - INFO - Uploading file: client_files\bubbleSort (1) (1).java
+2025-04-20 06:54:27,610 - INFO - Received file list with 2 files
+2025-04-20 06:54:27,611 - INFO - Receiving file with name: bubbleSort (1) (1).java
+2025-04-20 06:54:27,611 - INFO - Client connection closed
+2025-04-20 06:54:27,633 - INFO - Received 476 bytes for file bubbleSort (1) (1).java
+2025-04-20 06:54:31,718 - INFO - bubbleSort (1) (1).java file saved successfully with integrity verified
+2025-04-20 06:54:31,718 - INFO - Client connection closed
+2025-04-20 06:54:31,718 - INFO - Connection with ('127.0.0.1', 50487) closed
+2025-04-20 06:54:33,965 - INFO - New connection established with client of address = ('127.0.0.1', 50512)
+2025-04-20 06:54:33,967 - INFO - New serving socket connected to address = ('127.0.0.1', 50512)
+2025-04-20 06:54:33,968 - INFO - Delete file request received
+2025-04-20 06:54:34,966 - INFO - Deleting file: bubbleSort (1) (1).java
+2025-04-20 06:54:34,966 - INFO - Client requested to delete file: bubbleSort (1) (1).java
+2025-04-20 06:54:34,968 - INFO - File bubbleSort (1) (1).java deleted successfully
+2025-04-20 06:54:34,969 - INFO - Delete result: SUCCESS
+2025-04-20 06:54:34,969 - INFO - Connection with ('127.0.0.1', 50512) closed
+2025-04-20 06:54:34,970 - INFO - Client connection closed
+2025-04-20 06:54:37,809 - INFO - New connection established with client of address = ('127.0.0.1', 50523)
+2025-04-20 06:54:37,811 - INFO - New serving socket connected to address = ('127.0.0.1', 50523)
+2025-04-20 06:54:37,811 - INFO - List files request received
+2025-04-20 06:54:37,814 - INFO - File list sent to client
+2025-04-20 06:54:37,814 - INFO - Connection with ('127.0.0.1', 50523) closed
+2025-04-20 06:54:38,810 - INFO - Requesting file list from server
+2025-04-20 06:54:38,811 - INFO - Received file list with 2 files
+2025-04-20 06:54:38,811 - INFO - Client connection closed
+2025-04-20 06:54:56,701 - INFO - Received 204488 bytes for file WhatsApp Image 2025-04-17 at 12.30.47 PM.jpeg
+2025-04-20 06:55:00,770 - INFO - WhatsApp Image 2025-04-17 at 12.30.47 PM.jpeg file saved successfully with integrity verified
+2025-04-20 06:55:00,770 - INFO - Client connection closed
+2025-04-20 06:55:00,770 - INFO - Connection with ('127.0.0.1', 50234) closed
+2025-04-20 06:55:19,398 - INFO - New connection established with client of address = ('127.0.0.1', 50614)
+2025-04-20 06:55:19,399 - INFO - New serving socket connected to address = ('127.0.0.1', 50614)
+2025-04-20 06:55:19,399 - INFO - List files request received
+2025-04-20 06:55:19,400 - INFO - File list sent to client
+2025-04-20 06:55:19,400 - INFO - Connection with ('127.0.0.1', 50614) closed
+2025-04-20 06:55:20,398 - INFO - Requesting file list from server
+2025-04-20 06:55:20,399 - INFO - Received file list with 2 files
+2025-04-20 06:55:20,399 - INFO - Client connection closed
+2025-04-20 06:56:15,670 - INFO - New connection established with client of address = ('127.0.0.1', 50658)
+2025-04-20 06:56:15,671 - INFO - New serving socket connected to address = ('127.0.0.1', 50658)
+2025-04-20 06:56:15,671 - INFO - List files request received
+2025-04-20 06:56:15,672 - INFO - File list sent to client
+2025-04-20 06:56:15,673 - INFO - Connection with ('127.0.0.1', 50658) closed
+2025-04-20 06:56:16,670 - INFO - Requesting file list from server
+2025-04-20 06:56:16,670 - INFO - Received file list with 2 files
+2025-04-20 06:56:16,671 - INFO - Client connection closed
+2025-04-20 06:58:45,688 - INFO - New connection established with client of address = ('127.0.0.1', 50750)
+2025-04-20 06:58:45,689 - INFO - New serving socket connected to address = ('127.0.0.1', 50750)
+2025-04-20 06:58:45,690 - INFO - List files request received
+2025-04-20 06:58:45,690 - INFO - New connection established with client of address = ('127.0.0.1', 50751)
+2025-04-20 06:58:45,692 - INFO - File list sent to client
+2025-04-20 06:58:45,693 - INFO - New serving socket connected to address = ('127.0.0.1', 50751)
+2025-04-20 06:58:45,693 - INFO - Upload request received
+2025-04-20 06:58:45,693 - INFO - Connection with ('127.0.0.1', 50750) closed
+2025-04-20 06:58:46,689 - INFO - Requesting file list from server
+2025-04-20 06:58:46,691 - INFO - Uploading file: client_files\bubbleSort (1) (1).java
+2025-04-20 06:58:48,361 - INFO - Received file list with 2 files
+2025-04-20 06:58:48,495 - INFO - Receiving file with name: bubbleSort (1) (1).java
+2025-04-20 06:58:48,495 - INFO - Client connection closed
+2025-04-20 06:58:48,530 - INFO - Received 476 bytes for file bubbleSort (1) (1).java
+2025-04-20 06:58:52,573 - INFO - bubbleSort (1) (1).java file saved successfully with integrity verified
+2025-04-20 06:58:52,573 - INFO - Client connection closed
+2025-04-20 06:58:52,573 - INFO - Connection with ('127.0.0.1', 50751) closed
+2025-04-20 06:59:00,673 - INFO - New connection established with client of address = ('127.0.0.1', 50767)
+2025-04-20 06:59:00,674 - INFO - New serving socket connected to address = ('127.0.0.1', 50767)
+2025-04-20 06:59:00,674 - INFO - List files request received
+2025-04-20 06:59:00,675 - INFO - File list sent to client
+2025-04-20 06:59:00,676 - INFO - Connection with ('127.0.0.1', 50767) closed
+2025-04-20 06:59:01,674 - INFO - Requesting file list from server
+2025-04-20 06:59:01,674 - INFO - Received file list with 3 files
+2025-04-20 06:59:01,675 - INFO - Client connection closed
+2025-04-20 06:59:39,524 - INFO - New connection established with client of address = ('127.0.0.1', 50797)
+2025-04-20 06:59:39,525 - INFO - New serving socket connected to address = ('127.0.0.1', 50797)
+2025-04-20 06:59:39,525 - INFO - List files request received
+2025-04-20 06:59:39,526 - INFO - File list sent to client
+2025-04-20 06:59:39,527 - INFO - Connection with ('127.0.0.1', 50797) closed
+2025-04-20 06:59:40,524 - INFO - Requesting file list from server
+2025-04-20 06:59:40,524 - INFO - Received file list with 3 files
+2025-04-20 06:59:40,525 - INFO - Client connection closed
+2025-04-20 06:59:43,418 - INFO - New connection established with client of address = ('127.0.0.1', 50812)
+2025-04-20 06:59:43,419 - INFO - New serving socket connected to address = ('127.0.0.1', 50812)
+2025-04-20 06:59:43,420 - INFO - List files request received
+2025-04-20 06:59:43,422 - INFO - File list sent to client
+2025-04-20 06:59:43,422 - INFO - Connection with ('127.0.0.1', 50812) closed
+2025-04-20 06:59:43,426 - INFO - New connection established with client of address = ('127.0.0.1', 50813)
+2025-04-20 06:59:43,427 - INFO - New serving socket connected to address = ('127.0.0.1', 50813)
+2025-04-20 06:59:43,429 - INFO - Upload request received
+2025-04-20 06:59:44,424 - INFO - Requesting file list from server
+2025-04-20 06:59:44,424 - INFO - Received file list with 3 files
+2025-04-20 06:59:44,424 - INFO - Client connection closed
+2025-04-20 06:59:44,427 - INFO - Uploading file: client_files\bubbleSort (1) (1).java
+2025-04-20 06:59:44,428 - INFO - Receiving file with name: bubbleSort (1) (1).java
+2025-04-20 06:59:44,431 - INFO - Received 476 bytes for file bubbleSort (1) (1).java
+2025-04-20 06:59:48,498 - INFO - bubbleSort (1) (1).java file saved successfully with integrity verified
+2025-04-20 06:59:48,498 - INFO - Client connection closed
+2025-04-20 06:59:48,499 - INFO - Connection with ('127.0.0.1', 50813) closed
+2025-04-20 06:59:55,553 - INFO - New connection established with client of address = ('127.0.0.1', 50827)
+2025-04-20 06:59:55,554 - INFO - New serving socket connected to address = ('127.0.0.1', 50827)
+2025-04-20 06:59:55,554 - INFO - Delete file request received
+2025-04-20 06:59:56,553 - INFO - Deleting file: bubbleSort (1) (1).java
+2025-04-20 06:59:56,554 - INFO - Client requested to delete file: bubbleSort (1) (1).java
+2025-04-20 06:59:56,555 - INFO - File bubbleSort (1) (1).java deleted successfully
+2025-04-20 06:59:56,556 - INFO - Delete result: SUCCESS
+2025-04-20 06:59:56,556 - INFO - Connection with ('127.0.0.1', 50827) closed
+2025-04-20 06:59:56,557 - INFO - Client connection closed
+2025-04-20 06:59:56,945 - INFO - New connection established with client of address = ('127.0.0.1', 50830)
+2025-04-20 06:59:56,945 - INFO - New serving socket connected to address = ('127.0.0.1', 50830)
+2025-04-20 06:59:56,946 - INFO - List files request received
+2025-04-20 06:59:56,946 - INFO - File list sent to client
+2025-04-20 06:59:56,947 - INFO - Connection with ('127.0.0.1', 50830) closed
+2025-04-20 06:59:57,946 - INFO - Requesting file list from server
+2025-04-20 06:59:57,946 - INFO - Received file list with 3 files
+2025-04-20 06:59:57,947 - INFO - Client connection closed
+2025-04-20 07:00:37,506 - INFO - New connection established with client of address = ('127.0.0.1', 50863)
+2025-04-20 07:00:37,507 - INFO - New serving socket connected to address = ('127.0.0.1', 50863)
+2025-04-20 07:00:37,507 - INFO - Delete file request received
+2025-04-20 07:00:38,506 - INFO - Deleting file: bubbleSort (1) (1)_2.java
+2025-04-20 07:00:38,507 - INFO - Client requested to delete file: bubbleSort (1) (1)_2.java
+2025-04-20 07:00:38,509 - INFO - File bubbleSort (1) (1)_2.java deleted successfully
+2025-04-20 07:00:38,509 - INFO - Connection with ('127.0.0.1', 50863) closed
+2025-04-20 07:00:38,509 - INFO - Delete result: SUCCESS
+2025-04-20 07:00:38,510 - INFO - Client connection closed
+2025-04-20 07:00:40,179 - INFO - New connection established with client of address = ('127.0.0.1', 50869)
+2025-04-20 07:00:40,180 - INFO - New serving socket connected to address = ('127.0.0.1', 50869)
+2025-04-20 07:00:40,181 - INFO - List files request received
+2025-04-20 07:00:40,182 - INFO - File list sent to client
+2025-04-20 07:00:40,182 - INFO - Connection with ('127.0.0.1', 50869) closed
+2025-04-20 07:00:41,179 - INFO - Requesting file list from server
+2025-04-20 07:00:41,179 - INFO - Received file list with 2 files
+2025-04-20 07:00:41,179 - INFO - Client connection closed
+2025-04-20 07:00:41,988 - INFO - New connection established with client of address = ('127.0.0.1', 50872)
+2025-04-20 07:00:41,988 - INFO - New serving socket connected to address = ('127.0.0.1', 50872)
+2025-04-20 07:00:41,988 - INFO - Delete file request received
+2025-04-20 07:00:42,989 - INFO - Deleting file: bubbleSort (1) (1)_1.java
+2025-04-20 07:00:42,989 - INFO - Client requested to delete file: bubbleSort (1) (1)_1.java
+2025-04-20 07:00:42,991 - INFO - File bubbleSort (1) (1)_1.java deleted successfully
+2025-04-20 07:00:42,992 - INFO - Delete result: SUCCESS
+0.1', 50872) closed
+2025-04-20 07:00:42,993 - INFO - Client connection closed
+2025-04-20 07:00:44,485 - INFO - New connection established with client of address = ('127.0.0.1', 50878)
+2025-04-20 07:00:44,487 - INFO - New serving socket connected to address = ('127.0.0.1', 50878)
+2025-04-20 07:00:44,487 - INFO - List files request received
+2025-04-20 07:00:44,488 - INFO - File list sent to client
+2025-04-20 07:00:44,488 - INFO - Connection with ('127.0.0.1', 50878) closed
+2025-04-20 07:00:45,486 - INFO - Requesting file list from server
+2025-04-20 07:00:45,486 - INFO - Received file list with 1 files
+2025-04-20 07:00:45,487 - INFO - Client connection closed
+2025-04-20 07:25:31,260 - INFO - Server starting on port 8080...
+2025-04-20 07:25:31,262 - INFO - Server listening on port 8080...
+2025-04-20 07:25:39,267 - INFO - New connection established with client of address = ('127.0.0.1', 51297)
+2025-04-20 07:25:39,270 - INFO - New serving socket connected to address = ('127.0.0.1', 51297)
+2025-04-20 07:25:39,270 - INFO - List files request received
+2025-04-20 07:25:39,272 - INFO - File list sent to client
+2025-04-20 07:25:39,272 - INFO - Connection with ('127.0.0.1', 51297) closed
+2025-04-20 07:25:40,268 - INFO - Requesting file list from server
+2025-04-20 07:25:40,269 - INFO - Received file list with 1 files
+2025-04-20 07:25:40,269 - INFO - Client connection closed
+2025-04-20 07:25:45,129 - INFO - New connection established with client of address = ('127.0.0.1', 51309)
+2025-04-20 07:25:45,130 - INFO - New serving socket connected to address = ('127.0.0.1', 51309)
+2025-04-20 07:25:45,130 - INFO - List files request received
+2025-04-20 07:25:45,130 - INFO - New connection established with client of address = ('127.0.0.1', 51310)
+2025-04-20 07:25:45,131 - INFO - New serving socket connected to address = ('127.0.0.1', 51310)
+2025-04-20 07:25:45,131 - INFO - File list sent to client
+2025-04-20 07:25:45,132 - INFO - Upload request received
+2025-04-20 07:25:45,132 - INFO - Connection with ('127.0.0.1', 51309) closed
+2025-04-20 07:25:46,129 - INFO - Requesting file list from server
+2025-04-20 07:25:46,129 - INFO - Received file list with 1 files
+2025-04-20 07:25:46,131 - INFO - Uploading file: client_files\bubbleSort (1) (1).java
+2025-04-20 07:25:46,131 - INFO - Client connection closed
+2025-04-20 07:25:46,131 - INFO - Receiving file with name: bubbleSort (1) (1).java
+2025-04-20 07:25:46,138 - INFO - Received 476 bytes for file bubbleSort (1) (1).java
+2025-04-20 07:25:50,230 - INFO - bubbleSort (1) (1).java file saved successfully with integrity verified
+2025-04-20 07:25:50,230 - INFO - Client connection closed
+2025-04-20 07:25:50,230 - INFO - Connection with ('127.0.0.1', 51310) closed
+2025-04-20 07:25:55,220 - INFO - New connection established with client of address = ('127.0.0.1', 51325)
+2025-04-20 07:25:55,222 - INFO - New serving socket connected to address = ('127.0.0.1', 51325)
+2025-04-20 07:25:55,222 - INFO - List files request received
+2025-04-20 07:25:55,223 - INFO - File list sent to client
+2025-04-20 07:25:55,224 - INFO - Connection with ('127.0.0.1', 51325) closed
+2025-04-20 07:25:56,221 - INFO - Requesting file list from server
+2025-04-20 07:25:56,221 - INFO - Received file list with 2 files
+2025-04-20 07:25:56,221 - INFO - Client connection closed
+2025-04-20 07:26:04,686 - INFO - New connection established with client of address = ('127.0.0.1', 51340)
+2025-04-20 07:26:04,687 - INFO - New serving socket connected to address = ('127.0.0.1', 51340)
+2025-04-20 07:26:04,687 - INFO - List files request received
+2025-04-20 07:26:04,688 - INFO - File list sent to client
+2025-04-20 07:26:04,689 - INFO - Connection with ('127.0.0.1', 51340) closed
+2025-04-20 07:26:05,687 - INFO - Requesting file list from server
+2025-04-20 07:26:05,687 - INFO - Received file list with 2 files
+2025-04-20 07:26:05,688 - INFO - Client connection closed
+2025-04-20 07:26:09,574 - INFO - New connection established with client of address = ('127.0.0.1', 51355)
+2025-04-20 07:26:09,575 - INFO - New serving socket connected to address = ('127.0.0.1', 51355)
+2025-04-20 07:26:09,576 - INFO - List files request received
+2025-04-20 07:26:09,577 - INFO - File list sent to client
+2025-04-20 07:26:09,577 - INFO - Connection with ('127.0.0.1', 51355) closed
+2025-04-20 07:26:09,582 - INFO - New connection established with client of address = ('127.0.0.1', 51356)
+2025-04-20 07:26:09,583 - INFO - New serving socket connected to address = ('127.0.0.1', 51356)
+2025-04-20 07:26:09,584 - INFO - Upload request received
+2025-04-20 07:26:10,580 - INFO - Requesting file list from server
+2025-04-20 07:26:10,580 - INFO - Received file list with 2 files
+2025-04-20 07:26:10,581 - INFO - Client connection closed
+2025-04-20 07:26:10,583 - INFO - Uploading file: client_files\bubbleSort (1) (1).java
+2025-04-20 07:26:10,583 - INFO - Receiving file with name: bubbleSort (1) (1).java
+2025-04-20 07:26:10,585 - INFO - Received 476 bytes for file bubbleSort (1) (1).java
+2025-04-20 07:26:14,123 - INFO - New connection established with client of address = ('127.0.0.1', 51363)
+2025-04-20 07:26:14,125 - INFO - New serving socket connected to address = ('127.0.0.1', 51363)
+2025-04-20 07:26:14,125 - INFO - Delete file request received
+2025-04-20 07:26:14,691 - INFO - bubbleSort (1) (1).java file saved successfully with integrity verified
+2025-04-20 07:26:14,691 - INFO - Client connection closed
+2025-04-20 07:26:14,691 - INFO - Connection with ('127.0.0.1', 51356) closed
+2025-04-20 07:26:15,125 - INFO - Deleting file: bubbleSort (1) (1).java
+2025-04-20 07:26:15,125 - INFO - Client requested to delete file: bubbleSort (1) (1).java
+2025-04-20 07:26:15,127 - INFO - File bubbleSort (1) (1).java deleted successfully
+2025-04-20 07:26:15,128 - INFO - Delete result: SUCCESS
+2025-04-20 07:26:15,128 - INFO - Connection with ('127.0.0.1', 51363) closed
+2025-04-20 07:26:15,129 - INFO - Client connection closed
+2025-04-20 07:26:17,977 - INFO - New connection established with client of address = ('127.0.0.1', 51368)
+2025-04-20 07:26:17,978 - INFO - New serving socket connected to address = ('127.0.0.1', 51368)
+2025-04-20 07:26:17,978 - INFO - List files request received
+2025-04-20 07:26:17,979 - INFO - File list sent to client
+2025-04-20 07:26:17,980 - INFO - Connection with ('127.0.0.1', 51368) closed
+2025-04-20 07:26:18,978 - INFO - Requesting file list from server
+2025-04-20 07:26:18,978 - INFO - Received file list with 2 files
+2025-04-20 07:26:18,979 - INFO - Client connection closed
+2025-04-20 07:29:34,881 - INFO - Server starting on port 8080...
+2025-04-20 07:29:34,883 - INFO - Server listening on port 8080...
+2025-04-20 07:29:43,116 - INFO - New connection established with client of address = ('127.0.0.1', 51449)
+2025-04-20 07:29:43,119 - INFO - New serving socket connected to address = ('127.0.0.1', 51449)
+2025-04-20 07:29:43,119 - INFO - List files request received
+2025-04-20 07:29:43,121 - INFO - File list sent to client
+2025-04-20 07:29:43,121 - INFO - Connection with ('127.0.0.1', 51449) closed
+2025-04-20 07:29:44,116 - INFO - Requesting file list from server
+2025-04-20 07:29:44,117 - INFO - Received file list with 2 files
+2025-04-20 07:29:44,118 - INFO - Client connection closed
+2025-04-20 07:29:49,927 - INFO - New connection established with client of address = ('127.0.0.1', 51461)
+2025-04-20 07:29:49,928 - INFO - New serving socket connected to address = ('127.0.0.1', 51461)
+2025-04-20 07:29:49,929 - INFO - Delete file request received
+2025-04-20 07:29:50,927 - INFO - Deleting file: bubbleSort (1) (1)_1.java
+2025-04-20 07:29:50,927 - INFO - Client requested to delete file: bubbleSort (1) (1)_1.java
+2025-04-20 07:29:50,928 - INFO - File bubbleSort (1) (1)_1.java deleted successfully
+2025-04-20 07:29:50,928 - INFO - Delete result: SUCCESS
+0.1', 51461) closed
+2025-04-20 07:29:50,928 - INFO - Client connection closed
+2025-04-20 07:29:54,178 - INFO - New connection established with client of address = ('127.0.0.1', 51463)
+2025-04-20 07:29:54,180 - INFO - New serving socket connected to address = ('127.0.0.1', 51463)
+2025-04-20 07:29:54,180 - INFO - List files request received
+2025-04-20 07:29:54,180 - INFO - File list sent to client
+2025-04-20 07:29:54,181 - INFO - Connection with ('127.0.0.1', 51463) closed
+2025-04-20 07:29:55,179 - INFO - Requesting file list from server
+2025-04-20 07:29:55,179 - INFO - Received file list with 1 files
+2025-04-20 07:29:55,179 - INFO - Client connection closed
+2025-04-20 07:29:55,498 - INFO - New connection established with client of address = ('127.0.0.1', 51470)
+2025-04-20 07:29:55,499 - INFO - New serving socket connected to address = ('127.0.0.1', 51470)
+2025-04-20 07:29:55,501 - INFO - List files request received
+2025-04-20 07:29:55,502 - INFO - File list sent to client
+2025-04-20 07:29:55,502 - INFO - Connection with ('127.0.0.1', 51470) closed
+2025-04-20 07:29:56,499 - INFO - Requesting file list from server
+2025-04-20 07:29:56,501 - INFO - Received file list with 1 files
+2025-04-20 07:29:56,501 - INFO - Client connection closed
+2025-04-20 07:30:04,125 - INFO - New connection established with client of address = ('127.0.0.1', 51480)
+2025-04-20 07:30:04,128 - INFO - New serving socket connected to address = ('127.0.0.1', 51480)
+2025-04-20 07:30:04,128 - INFO - List files request received
+2025-04-20 07:30:04,129 - INFO - File list sent to client
+2025-04-20 07:30:04,129 - INFO - Connection with ('127.0.0.1', 51480) closed
+2025-04-20 07:30:05,126 - INFO - Requesting file list from server
+2025-04-20 07:30:05,126 - INFO - Received file list with 1 files
+2025-04-20 07:30:05,126 - INFO - Client connection closed
+2025-04-20 07:30:07,014 - INFO - New connection established with client of address = ('127.0.0.1', 51491)
+2025-04-20 07:30:07,016 - INFO - New serving socket connected to address = ('127.0.0.1', 51491)
+2025-04-20 07:30:07,018 - INFO - List files request received
+2025-04-20 07:30:07,019 - INFO - File list sent to client
+2025-04-20 07:30:07,021 - INFO - Connection with ('127.0.0.1', 51491) closed
+2025-04-20 07:30:08,024 - INFO - Requesting file list from server
+2025-04-20 07:30:08,024 - INFO - Received file list with 1 files
+2025-04-20 07:30:08,025 - INFO - Client connection closed
+2025-04-20 07:31:56,367 - INFO - New connection established with client of address = ('127.0.0.1', 51518)
+2025-04-20 07:31:56,368 - INFO - New serving socket connected to address = ('127.0.0.1', 51518)
+2025-04-20 07:31:56,368 - INFO - List files request received
+2025-04-20 07:31:56,369 - INFO - File list sent to client
+2025-04-20 07:31:56,369 - INFO - Connection with ('127.0.0.1', 51518) closed
+2025-04-20 07:31:57,368 - INFO - Requesting file list from server
+2025-04-20 07:31:57,368 - INFO - Received file list with 1 files
+2025-04-20 07:31:57,369 - INFO - Client connection closed
+2025-04-20 07:32:02,438 - INFO - New connection established with client of address = ('127.0.0.1', 51529)
+2025-04-20 07:32:02,440 - INFO - New serving socket connected to address = ('127.0.0.1', 51529)
+2025-04-20 07:32:02,442 - INFO - List files request received
+2025-04-20 07:32:02,443 - INFO - File list sent to client
+2025-04-20 07:32:02,443 - INFO - Connection with ('127.0.0.1', 51529) closed
+2025-04-20 07:32:03,445 - INFO - Requesting file list from server
+2025-04-20 07:32:03,446 - INFO - Received file list with 1 files
+2025-04-20 07:32:03,446 - INFO - Client connection closed
+2025-04-20 07:32:42,516 - INFO - New connection established with client of address = ('127.0.0.1', 51550)
+2025-04-20 07:32:42,517 - INFO - New serving socket connected to address = ('127.0.0.1', 51550)
+2025-04-20 07:32:42,518 - INFO - List files request received
+2025-04-20 07:32:42,520 - INFO - File list sent to client
+2025-04-20 07:32:42,520 - INFO - Connection with ('127.0.0.1', 51550) closed
+2025-04-20 07:32:43,516 - INFO - Requesting file list from server
+2025-04-20 07:32:43,516 - INFO - Received file list with 1 files
+2025-04-20 07:32:43,516 - INFO - Client connection closed
+2025-04-20 07:32:45,264 - INFO - New connection established with client of address = ('127.0.0.1', 51562)
+2025-04-20 07:32:45,266 - INFO - New serving socket connected to address = ('127.0.0.1', 51562)
+2025-04-20 07:32:45,268 - INFO - List files request received
+2025-04-20 07:32:45,269 - INFO - File list sent to client
+2025-04-20 07:32:45,270 - INFO - Connection with ('127.0.0.1', 51562) closed
+2025-04-20 07:32:45,270 - INFO - New connection established with client of address = ('127.0.0.1', 51563)
+2025-04-20 07:32:45,271 - INFO - New serving socket connected to address = ('127.0.0.1', 51563)
+2025-04-20 07:32:45,271 - INFO - Upload request received
+2025-04-20 07:32:46,268 - INFO - Requesting file list from server
+2025-04-20 07:32:46,268 - INFO - Received file list with 1 files
+2025-04-20 07:32:46,270 - INFO - Client connection closed
+2025-04-20 07:32:46,271 - INFO - Uploading file: client_files\bubbleSort (1) (1).java
+2025-04-20 07:32:46,271 - INFO - Receiving file with name: bubbleSort (1) (1).java
+2025-04-20 07:32:46,271 - INFO - Sending overwrite flag: false
+2025-04-20 07:32:46,272 - INFO - Overwrite flag received: false, interpreted as: False
+2025-04-20 07:32:46,272 - INFO - Using versioned filename: bubbleSort (1) (1).java
+2025-04-20 07:32:46,278 - INFO - Received 476 bytes for file bubbleSort (1) (1).java
+2025-04-20 07:32:50,396 - INFO - bubbleSort (1) (1).java file saved successfully with integrity verified
+2025-04-20 07:32:50,396 - INFO - Client connection closed
+2025-04-20 07:32:50,396 - INFO - Connection with ('127.0.0.1', 51563) closed
+2025-04-20 07:32:52,663 - INFO - New connection established with client of address = ('127.0.0.1', 51578)
+2025-04-20 07:32:52,664 - INFO - New serving socket connected to address = ('127.0.0.1', 51578)
+2025-04-20 07:32:52,665 - INFO - List files request received
+2025-04-20 07:32:52,666 - INFO - File list sent to client
+2025-04-20 07:32:52,666 - INFO - Connection with ('127.0.0.1', 51578) closed
+2025-04-20 07:32:53,664 - INFO - Requesting file list from server
+2025-04-20 07:32:53,664 - INFO - Received file list with 2 files
+2025-04-20 07:32:53,664 - INFO - Client connection closed
+2025-04-20 07:33:26,992 - INFO - New connection established with client of address = ('127.0.0.1', 51593)
+2025-04-20 07:33:26,993 - INFO - New serving socket connected to address = ('127.0.0.1', 51593)
+2025-04-20 07:33:26,993 - INFO - List files request received
+2025-04-20 07:33:26,994 - INFO - File list sent to client
+2025-04-20 07:33:26,995 - INFO - Connection with ('127.0.0.1', 51593) closed
+2025-04-20 07:33:27,993 - INFO - Requesting file list from server
+2025-04-20 07:33:27,993 - INFO - Received file list with 2 files
+2025-04-20 07:33:27,993 - INFO - Client connection closed
+2025-04-20 07:33:30,732 - INFO - New connection established with client of address = ('127.0.0.1', 51607)
+2025-04-20 07:33:30,734 - INFO - New serving socket connected to address = ('127.0.0.1', 51607)
+2025-04-20 07:33:30,736 - INFO - List files request received
+2025-04-20 07:33:30,737 - INFO - File list sent to client
+2025-04-20 07:33:30,738 - INFO - Connection with ('127.0.0.1', 51607) closed
+2025-04-20 07:33:30,738 - INFO - New connection established with client of address = ('127.0.0.1', 51608)
+2025-04-20 07:33:30,740 - INFO - New serving socket connected to address = ('127.0.0.1', 51608)
+2025-04-20 07:33:30,741 - INFO - Upload request received
+2025-04-20 07:33:31,737 - INFO - Requesting file list from server
+2025-04-20 07:33:31,737 - INFO - Received file list with 2 files
+2025-04-20 07:33:31,738 - INFO - Client connection closed
+2025-04-20 07:33:31,740 - INFO - Uploading file: client_files\bubbleSort (1) (1).java
+2025-04-20 07:33:31,741 - INFO - Sending overwrite flag: false
+eSort (1) (1).java
+2025-04-20 07:33:31,741 - INFO - Overwrite flag received: false, interpreted as: False
+2025-04-20 07:33:31,742 - INFO - Using versioned filename: bubbleSort (1) (1)_1.java
+2025-04-20 07:33:31,743 - INFO - Received 476 bytes for file bubbleSort (1) (1).java
+2025-04-20 07:33:35,496 - INFO - New connection established with client of address = ('127.0.0.1', 51616)
+2025-04-20 07:33:35,497 - INFO - New serving socket connected to address = ('127.0.0.1', 51616)
+2025-04-20 07:33:35,497 - INFO - Delete file request received
+2025-04-20 07:33:35,798 - INFO - bubbleSort (1) (1).java file saved successfully with integrity verified
+2025-04-20 07:33:35,798 - INFO - Client connection closed
+2025-04-20 07:33:35,798 - INFO - Connection with ('127.0.0.1', 51608) closed
+2025-04-20 07:33:36,497 - INFO - Deleting file: bubbleSort (1) (1).java
+2025-04-20 07:33:36,498 - INFO - Client requested to delete file: bubbleSort (1) (1).java
+2025-04-20 07:33:36,501 - INFO - File bubbleSort (1) (1).java deleted successfully
+2025-04-20 07:33:36,501 - INFO - Delete result: SUCCESS
+2025-04-20 07:33:36,501 - INFO - Connection with ('127.0.0.1', 51616) closed
+2025-04-20 07:33:36,502 - INFO - Client connection closed
+2025-04-20 07:33:38,505 - INFO - New connection established with client of address = ('127.0.0.1', 51621)
+2025-04-20 07:33:38,506 - INFO - New serving socket connected to address = ('127.0.0.1', 51621)
+2025-04-20 07:33:38,506 - INFO - List files request received
+2025-04-20 07:33:38,507 - INFO - File list sent to client
+2025-04-20 07:33:38,508 - INFO - Connection with ('127.0.0.1', 51621) closed
+2025-04-20 07:33:39,505 - INFO - Requesting file list from server
+2025-04-20 07:33:39,505 - INFO - Received file list with 2 files
+2025-04-20 07:33:39,505 - INFO - Client connection closed
+2025-04-20 07:39:06,891 - INFO - New connection established with client of address = ('127.0.0.1', 51709)
+2025-04-20 07:39:06,892 - INFO - New serving socket connected to address = ('127.0.0.1', 51709)
+2025-04-20 07:39:06,893 - INFO - List files request received
+2025-04-20 07:39:06,894 - INFO - File list sent to client
+2025-04-20 07:39:06,894 - INFO - Connection with ('127.0.0.1', 51709) closed
+2025-04-20 07:39:07,891 - INFO - Requesting file list from server
+2025-04-20 07:39:07,892 - INFO - Received file list with 2 files
+2025-04-20 07:39:07,892 - INFO - Client connection closed
+2025-04-20 07:39:10,255 - INFO - New connection established with client of address = ('127.0.0.1', 51720)
+2025-04-20 07:39:10,256 - INFO - New serving socket connected to address = ('127.0.0.1', 51720)
+2025-04-20 07:39:10,257 - INFO - Delete file request received
+2025-04-20 07:39:11,255 - INFO - Deleting file: bubbleSort (1) (1)_1.java
+2025-04-20 07:39:11,255 - INFO - Client requested to delete file: bubbleSort (1) (1)_1.java
+2025-04-20 07:39:11,255 - INFO - File bubbleSort (1) (1)_1.java deleted successfully
+2025-04-20 07:39:11,256 - INFO - Delete result: SUCCESS
+0.1', 51720) closed
+2025-04-20 07:39:11,256 - INFO - Client connection closed
+2025-04-20 07:39:14,283 - INFO - New connection established with client of address = ('127.0.0.1', 51723)
+2025-04-20 07:39:14,283 - INFO - New serving socket connected to address = ('127.0.0.1', 51723)
+2025-04-20 07:39:14,284 - INFO - List files request received
+2025-04-20 07:39:14,284 - INFO - File list sent to client
+2025-04-20 07:39:14,285 - INFO - Connection with ('127.0.0.1', 51723) closed
+2025-04-20 07:39:15,284 - INFO - Requesting file list from server
+2025-04-20 07:39:15,284 - INFO - Received file list with 1 files
+2025-04-20 07:39:15,285 - INFO - Client connection closed
+2025-04-20 07:39:15,599 - INFO - New connection established with client of address = ('127.0.0.1', 51728)
+2025-04-20 07:39:15,600 - INFO - New serving socket connected to address = ('127.0.0.1', 51728)
+2025-04-20 07:39:15,600 - INFO - List files request received
+2025-04-20 07:39:15,601 - INFO - File list sent to client
+2025-04-20 07:39:15,602 - INFO - Connection with ('127.0.0.1', 51728) closed
+2025-04-20 07:39:16,599 - INFO - Requesting file list from server
+2025-04-20 07:39:16,599 - INFO - Received file list with 1 files
+2025-04-20 07:39:16,600 - INFO - Client connection closed
+2025-04-20 07:39:16,625 - INFO - New connection established with client of address = ('127.0.0.1', 51731)
+2025-04-20 07:39:16,627 - INFO - New serving socket connected to address = ('127.0.0.1', 51731)
+2025-04-20 07:39:16,627 - INFO - Upload request received
+2025-04-20 07:39:17,626 - INFO - Uploading file: client_files\bubbleSort (1) (1).java
+2025-04-20 07:39:17,627 - INFO - Receiving file with name: bubbleSort (1) (1).java
+2025-04-20 07:39:17,627 - INFO - Sending overwrite flag: false
+2025-04-20 07:39:17,628 - INFO - Overwrite flag received: false, interpreted as: False
+2025-04-20 07:39:17,628 - INFO - Using versioned filename: bubbleSort (1) (1).java
+2025-04-20 07:39:17,631 - INFO - Received 476 bytes for file bubbleSort (1) (1).java
+2025-04-20 07:39:21,691 - INFO - Client connection closed
+le saved successfully with integrity verified
+2025-04-20 07:39:21,691 - INFO - Connection with ('127.0.0.1', 51731) closed
+2025-04-20 07:39:23,456 - INFO - New connection established with client of address = ('127.0.0.1', 51742)
+2025-04-20 07:39:23,458 - INFO - New serving socket connected to address = ('127.0.0.1', 51742)
+2025-04-20 07:39:23,458 - INFO - List files request received
+2025-04-20 07:39:23,459 - INFO - File list sent to client
+2025-04-20 07:39:23,460 - INFO - Connection with ('127.0.0.1', 51742) closed
+2025-04-20 07:39:24,457 - INFO - Requesting file list from server
+2025-04-20 07:39:24,457 - INFO - Received file list with 2 files
+2025-04-20 07:39:24,458 - INFO - Client connection closed
+2025-04-20 07:39:37,560 - INFO - New connection established with client of address = ('127.0.0.1', 51755)
+2025-04-20 07:39:37,561 - INFO - New serving socket connected to address = ('127.0.0.1', 51755)
+2025-04-20 07:39:37,561 - INFO - List files request received
+2025-04-20 07:39:37,561 - INFO - File list sent to client
+2025-04-20 07:39:37,561 - INFO - Connection with ('127.0.0.1', 51755) closed
+2025-04-20 07:39:38,561 - INFO - Requesting file list from server
+2025-04-20 07:39:38,561 - INFO - Received file list with 2 files
+2025-04-20 07:39:38,562 - INFO - Client connection closed
+2025-04-20 07:39:41,425 - INFO - New connection established with client of address = ('127.0.0.1', 51767)
+2025-04-20 07:39:41,426 - INFO - New serving socket connected to address = ('127.0.0.1', 51767)
+2025-04-20 07:39:41,427 - INFO - List files request received
+2025-04-20 07:39:41,428 - INFO - File list sent to client
+2025-04-20 07:39:41,428 - INFO - Connection with ('127.0.0.1', 51767) closed
+2025-04-20 07:39:42,425 - INFO - Requesting file list from server
+2025-04-20 07:39:42,426 - INFO - Received file list with 2 files
+2025-04-20 07:39:42,426 - INFO - Client connection closed
+2025-04-20 07:39:44,636 - INFO - New connection established with client of address = ('127.0.0.1', 51769)
+2025-04-20 07:39:44,636 - INFO - New serving socket connected to address = ('127.0.0.1', 51769)
+2025-04-20 07:39:44,636 - INFO - Delete file request received
+2025-04-20 07:39:45,637 - INFO - Deleting file: bubbleSort (1) (1).java
+2025-04-20 07:39:45,637 - INFO - Client requested to delete file: bubbleSort (1) (1).java
+2025-04-20 07:39:45,639 - INFO - File bubbleSort (1) (1).java deleted successfully
+2025-04-20 07:39:45,640 - INFO - Connection with ('127.0.0.1', 51769) closed
+2025-04-20 07:39:45,640 - INFO - Delete result: SUCCESS
+2025-04-20 07:39:45,640 - INFO - Client connection closed
+2025-04-20 07:40:07,587 - INFO - New connection established with client of address = ('127.0.0.1', 51784)
+2025-04-20 07:40:07,588 - INFO - New serving socket connected to address = ('127.0.0.1', 51784)
+2025-04-20 07:40:07,589 - INFO - List files request received
+2025-04-20 07:40:07,590 - INFO - File list sent to client
+2025-04-20 07:40:07,590 - INFO - Connection with ('127.0.0.1', 51784) closed
+2025-04-20 07:40:08,588 - INFO - Requesting file list from server
+2025-04-20 07:40:08,589 - INFO - Received file list with 1 files
+2025-04-20 07:40:08,590 - INFO - Client connection closed
+2025-04-20 07:40:12,489 - INFO - New connection established with client of address = ('127.0.0.1', 51796)
+2025-04-20 07:40:12,490 - INFO - New serving socket connected to address = ('127.0.0.1', 51796)
+2025-04-20 07:40:12,490 - INFO - List files request received
+2025-04-20 07:40:12,493 - INFO - File list sent to client
+2025-04-20 07:40:12,493 - INFO - Connection with ('127.0.0.1', 51796) closed
+2025-04-20 07:40:13,490 - INFO - Requesting file list from server
+2025-04-20 07:40:13,490 - INFO - Received file list with 1 files
+2025-04-20 07:40:13,492 - INFO - Client connection closed
+2025-04-20 07:40:13,518 - INFO - New connection established with client of address = ('127.0.0.1', 51798)
+2025-04-20 07:40:13,520 - INFO - New serving socket connected to address = ('127.0.0.1', 51798)
+2025-04-20 07:40:13,521 - INFO - Upload request received
+2025-04-20 07:40:14,520 - INFO - Uploading file: client_files\bubbleSort (1) (1).java
+2025-04-20 07:40:14,520 - INFO - Receiving file with name: bubbleSort (1) (1).java
+2025-04-20 07:40:14,520 - INFO - Overwrite flag received: false, interpreted as: False
+2025-04-20 07:40:14,521 - INFO - Using versioned filename: bubbleSort (1) (1).java
+2025-04-20 07:40:14,521 - INFO - Received 476 bytes for file bubbleSort (1) (1).java
+2025-04-20 07:40:18,594 - INFO - bubbleSort (1) (1).java file saved successfully with integrity verified
+2025-04-20 07:40:18,594 - INFO - Client connection closed
+2025-04-20 07:40:18,595 - INFO - Connection with ('127.0.0.1', 51798) closed
+2025-04-20 07:40:20,062 - INFO - New connection established with client of address = ('127.0.0.1', 51808)
+2025-04-20 07:40:20,064 - INFO - New serving socket connected to address = ('127.0.0.1', 51808)
+2025-04-20 07:40:20,064 - INFO - List files request received
+2025-04-20 07:40:20,065 - INFO - File list sent to client
+2025-04-20 07:40:20,066 - INFO - Connection with ('127.0.0.1', 51808) closed
+2025-04-20 07:40:21,063 - INFO - Requesting file list from server
+2025-04-20 07:40:21,063 - INFO - Received file list with 2 files
+2025-04-20 07:40:21,064 - INFO - Client connection closed
+2025-04-20 07:40:22,516 - INFO - New connection established with client of address = ('127.0.0.1', 51821)
+2025-04-20 07:40:22,528 - INFO - New serving socket connected to address = ('127.0.0.1', 51821)
+2025-04-20 07:40:22,528 - INFO - List files request received
+2025-04-20 07:40:22,528 - INFO - File list sent to client
+2025-04-20 07:40:22,528 - INFO - Connection with ('127.0.0.1', 51821) closed
+2025-04-20 07:40:23,516 - INFO - Requesting file list from server
+2025-04-20 07:40:23,516 - INFO - Received file list with 2 files
+2025-04-20 07:40:23,517 - INFO - Client connection closed
+2025-04-20 07:40:32,789 - INFO - New connection established with client of address = ('127.0.0.1', 51850)
+2025-04-20 07:40:32,790 - INFO - New serving socket connected to address = ('127.0.0.1', 51850)
+2025-04-20 07:40:32,790 - INFO - List files request received
+2025-04-20 07:40:32,791 - INFO - File list sent to client
+2025-04-20 07:40:32,791 - INFO - Connection with ('127.0.0.1', 51850) closed
+2025-04-20 07:40:33,789 - INFO - Requesting file list from server
+2025-04-20 07:40:33,789 - INFO - Received file list with 2 files
+2025-04-20 07:40:33,790 - INFO - Client connection closed
+2025-04-20 07:40:35,117 - INFO - New connection established with client of address = ('127.0.0.1', 51853)
+2025-04-20 07:40:35,118 - INFO - New serving socket connected to address = ('127.0.0.1', 51853)
+2025-04-20 07:40:35,119 - INFO - Delete file request received
+2025-04-20 07:40:36,118 - INFO - Deleting file: bubbleSort (1) (1).java
+2025-04-20 07:40:36,119 - INFO - Client requested to delete file: bubbleSort (1) (1).java
+2025-04-20 07:40:36,121 - INFO - File bubbleSort (1) (1).java deleted successfully
+2025-04-20 07:40:36,122 - INFO - Delete result: SUCCESS
+2025-04-20 07:40:36,122 - INFO - Connection with ('127.0.0.1', 51853) closed
+2025-04-20 07:40:36,123 - INFO - Client connection closed
+2025-04-20 07:40:48,756 - INFO - New connection established with client of address = ('127.0.0.1', 51882)
+2025-04-20 07:40:48,757 - INFO - New serving socket connected to address = ('127.0.0.1', 51882)
+2025-04-20 07:40:48,758 - INFO - List files request received
+2025-04-20 07:40:48,759 - INFO - File list sent to client
+2025-04-20 07:40:48,759 - INFO - Connection with ('127.0.0.1', 51882) closed
+2025-04-20 07:40:49,756 - INFO - Requesting file list from server
+2025-04-20 07:40:49,756 - INFO - Received file list with 1 files
+2025-04-20 07:40:49,757 - INFO - Client connection closed
+2025-04-20 07:41:13,446 - INFO - New connection established with client of address = ('127.0.0.1', 51899)
+2025-04-20 07:41:13,446 - INFO - New serving socket connected to address = ('127.0.0.1', 51899)
+2025-04-20 07:41:13,447 - INFO - List files request received
+2025-04-20 07:41:13,447 - INFO - File list sent to client
+2025-04-20 07:41:13,447 - INFO - Connection with ('127.0.0.1', 51899) closed
+2025-04-20 07:41:14,447 - INFO - Requesting file list from server
+2025-04-20 07:41:14,447 - INFO - Received file list with 1 files
+2025-04-20 07:41:14,448 - INFO - Client connection closed
+2025-04-20 07:41:14,785 - INFO - New connection established with client of address = ('127.0.0.1', 51904)
+2025-04-20 07:41:14,786 - INFO - New serving socket connected to address = ('127.0.0.1', 51904)
+2025-04-20 07:41:14,786 - INFO - Upload request received
+2025-04-20 07:41:15,786 - INFO - Uploading file: client_files\bubbleSort (1) (1).java
+2025-04-20 07:41:15,786 - INFO - Receiving file with name: bubbleSort (1) (1).java
+2025-04-20 07:41:15,787 - INFO - Overwrite flag received: false, interpreted as: False
+2025-04-20 07:41:15,788 - INFO - Using versioned filename: bubbleSort (1) (1).java
+2025-04-20 07:41:15,790 - INFO - Received 476 bytes for file bubbleSort (1) (1).java
+2025-04-20 07:41:19,875 - INFO - bubbleSort (1) (1).java file saved successfully with integrity verified
+2025-04-20 07:41:19,875 - INFO - Client connection closed
+2025-04-20 07:41:19,877 - INFO - Connection with ('127.0.0.1', 51904) closed
+2025-04-20 07:41:21,243 - INFO - New connection established with client of address = ('127.0.0.1', 51915)
+2025-04-20 07:41:21,244 - INFO - New serving socket connected to address = ('127.0.0.1', 51915)
+2025-04-20 07:41:21,244 - INFO - List files request received
+2025-04-20 07:41:21,245 - INFO - File list sent to client
+2025-04-20 07:41:21,246 - INFO - Connection with ('127.0.0.1', 51915) closed
+2025-04-20 07:41:22,243 - INFO - Requesting file list from server
+2025-04-20 07:41:22,243 - INFO - Received file list with 2 files
+2025-04-20 07:41:22,244 - INFO - Client connection closed
+2025-04-20 07:41:24,044 - INFO - New connection established with client of address = ('127.0.0.1', 51930)
+2025-04-20 07:41:24,045 - INFO - New serving socket connected to address = ('127.0.0.1', 51930)
+2025-04-20 07:41:24,045 - INFO - List files request received
+2025-04-20 07:41:24,046 - INFO - File list sent to client
+2025-04-20 07:41:24,047 - INFO - Connection with ('127.0.0.1', 51930) closed
+2025-04-20 07:41:25,044 - INFO - Requesting file list from server
+2025-04-20 07:41:25,044 - INFO - Received file list with 2 files
+2025-04-20 07:41:25,044 - INFO - Client connection closed
+2025-04-20 07:41:26,936 - INFO - New connection established with client of address = ('127.0.0.1', 51943)
+2025-04-20 07:41:26,937 - INFO - New serving socket connected to address = ('127.0.0.1', 51943)
+2025-04-20 07:41:26,938 - INFO - List files request received
+2025-04-20 07:41:26,939 - INFO - File list sent to client
+2025-04-20 07:41:26,939 - INFO - Connection with ('127.0.0.1', 51943) closed
+2025-04-20 07:41:27,937 - INFO - Requesting file list from server
+2025-04-20 07:41:27,937 - INFO - Received file list with 2 files
+2025-04-20 07:41:27,937 - INFO - Client connection closed
+2025-04-20 07:41:28,884 - INFO - New connection established with client of address = ('127.0.0.1', 51946)
+2025-04-20 07:41:28,884 - INFO - New serving socket connected to address = ('127.0.0.1', 51946)
+2025-04-20 07:41:28,884 - INFO - Delete file request received
+2025-04-20 07:41:29,885 - INFO - Deleting file: bubbleSort (1) (1).java
+2025-04-20 07:41:29,885 - INFO - Client requested to delete file: bubbleSort (1) (1).java
+2025-04-20 07:41:29,887 - INFO - File bubbleSort (1) (1).java deleted successfully
+2025-04-20 07:41:29,887 - INFO - Delete result: SUCCESS
+2025-04-20 07:41:29,887 - INFO - Connection with ('127.0.0.1', 51946) closed
+2025-04-20 07:41:29,887 - INFO - Client connection closed
+2025-04-20 07:48:11,962 - INFO - New connection established with client of address = ('127.0.0.1', 52229)
+2025-04-20 07:48:11,965 - INFO - New serving socket connected to address = ('127.0.0.1', 52229)
+2025-04-20 07:48:11,965 - INFO - List files request received
+2025-04-20 07:48:11,966 - INFO - File list sent to client
+2025-04-20 07:48:11,967 - INFO - Connection with ('127.0.0.1', 52229) closed
+2025-04-20 07:48:12,962 - INFO - Requesting file list from server
+2025-04-20 07:48:12,962 - INFO - Received file list with 1 files
+2025-04-20 07:48:12,962 - INFO - Client connection closed
+2025-04-20 07:48:14,646 - INFO - New connection established with client of address = ('127.0.0.1', 52240)
+2025-04-20 07:48:14,647 - INFO - New serving socket connected to address = ('127.0.0.1', 52240)
+2025-04-20 07:48:14,647 - INFO - List files request received
+2025-04-20 07:48:14,648 - INFO - File list sent to client
+2025-04-20 07:48:14,649 - INFO - Connection with ('127.0.0.1', 52240) closed
+2025-04-20 07:48:15,647 - INFO - Requesting file list from server
+2025-04-20 07:48:15,647 - INFO - Received file list with 1 files
+2025-04-20 07:48:15,648 - INFO - Client connection closed
+2025-04-20 07:48:15,679 - INFO - New connection established with client of address = ('127.0.0.1', 52243)
+2025-04-20 07:48:15,679 - INFO - New serving socket connected to address = ('127.0.0.1', 52243)
+2025-04-20 07:48:15,680 - INFO - Upload request received
+2025-04-20 07:48:16,679 - INFO - Uploading file: client_files\bubbleSort (1) (1).java
+2025-04-20 07:48:16,680 - INFO - Sending overwrite flag: false
+2025-04-20 07:48:16,680 - INFO - Receiving file with name: bubbleSort (1) (1).java
+2025-04-20 07:48:16,680 - INFO - Overwrite flag received: false, interpreted as: False
+2025-04-20 07:48:16,680 - INFO - Using versioned filename: bubbleSort (1) (1).java
+2025-04-20 07:48:16,682 - INFO - Received 476 bytes for file bubbleSort (1) (1).java
+2025-04-20 07:48:20,727 - INFO - bubbleSort (1) (1).java file saved successfully with integrity verified
+2025-04-20 07:48:20,727 - INFO - Client connection closed
+2025-04-20 07:48:20,727 - INFO - Connection with ('127.0.0.1', 52243) closed
+2025-04-20 07:48:22,552 - INFO - New connection established with client of address = ('127.0.0.1', 52256)
+2025-04-20 07:48:22,553 - INFO - New serving socket connected to address = ('127.0.0.1', 52256)
+2025-04-20 07:48:22,554 - INFO - List files request received
+2025-04-20 07:48:22,555 - INFO - File list sent to client
+2025-04-20 07:48:22,555 - INFO - Connection with ('127.0.0.1', 52256) closed
+2025-04-20 07:48:23,552 - INFO - Requesting file list from server
+2025-04-20 07:48:23,553 - INFO - Received file list with 2 files
+2025-04-20 07:48:23,553 - INFO - Client connection closed
+2025-04-20 07:48:25,255 - INFO - New connection established with client of address = ('127.0.0.1', 52270)
+2025-04-20 07:48:25,256 - INFO - New serving socket connected to address = ('127.0.0.1', 52270)
+2025-04-20 07:48:25,256 - INFO - List files request received
+2025-04-20 07:48:25,258 - INFO - File list sent to client
+2025-04-20 07:48:25,258 - INFO - Connection with ('127.0.0.1', 52270) closed
+2025-04-20 07:48:26,255 - INFO - Requesting file list from server
+2025-04-20 07:48:26,255 - INFO - Received file list with 2 files
+2025-04-20 07:48:26,255 - INFO - Client connection closed
+2025-04-20 07:48:28,142 - INFO - New connection established with client of address = ('127.0.0.1', 52283)
+2025-04-20 07:48:28,143 - INFO - New serving socket connected to address = ('127.0.0.1', 52283)
+2025-04-20 07:48:28,143 - INFO - List files request received
+2025-04-20 07:48:28,145 - INFO - File list sent to client
+2025-04-20 07:48:28,146 - INFO - Connection with ('127.0.0.1', 52283) closed
+2025-04-20 07:48:29,143 - INFO - Requesting file list from server
+2025-04-20 07:48:29,143 - INFO - Received file list with 2 files
+2025-04-20 07:48:29,144 - INFO - Client connection closed
+2025-04-20 07:48:30,870 - INFO - New connection established with client of address = ('127.0.0.1', 52286)
+2025-04-20 07:48:30,870 - INFO - New serving socket connected to address = ('127.0.0.1', 52286)
+2025-04-20 07:48:30,870 - INFO - Delete file request received
+2025-04-20 07:48:31,870 - INFO - Deleting file: bubbleSort (1) (1).java
+2025-04-20 07:48:31,870 - INFO - Client requested to delete file: bubbleSort (1) (1).java
+2025-04-20 07:48:31,872 - INFO - File bubbleSort (1) (1).java deleted successfully
+2025-04-20 07:48:31,873 - INFO - Connection with ('127.0.0.1', 52286) closed
+2025-04-20 07:48:31,873 - INFO - Client connection closed
+2025-04-20 07:50:19,746 - INFO - New connection established with client of address = ('127.0.0.1', 52362)
+2025-04-20 07:50:19,747 - INFO - New serving socket connected to address = ('127.0.0.1', 52362)
+2025-04-20 07:50:19,748 - INFO - List files request received
+2025-04-20 07:50:19,749 - INFO - File list sent to client
+2025-04-20 07:50:19,750 - INFO - Connection with ('127.0.0.1', 52362) closed
+2025-04-20 07:50:20,746 - INFO - Requesting file list from server
+2025-04-20 07:50:20,746 - INFO - Received file list with 1 files
+2025-04-20 07:50:20,747 - INFO - Client connection closed
+2025-04-20 07:50:23,209 - INFO - New connection established with client of address = ('127.0.0.1', 52374)
+2025-04-20 07:50:23,211 - INFO - New serving socket connected to address = ('127.0.0.1', 52374)
+2025-04-20 07:50:23,211 - INFO - List files request received
+2025-04-20 07:50:23,213 - INFO - File list sent to client
+2025-04-20 07:50:23,214 - INFO - Connection with ('127.0.0.1', 52374) closed
+2025-04-20 07:50:24,211 - INFO - Requesting file list from server
+2025-04-20 07:50:24,211 - INFO - Received file list with 1 files
+2025-04-20 07:50:24,212 - INFO - Client connection closed
+2025-04-20 07:50:24,241 - INFO - New connection established with client of address = ('127.0.0.1', 52376)
+2025-04-20 07:50:24,243 - INFO - New serving socket connected to address = ('127.0.0.1', 52376)
+2025-04-20 07:50:24,243 - INFO - Upload request received
+2025-04-20 07:50:25,242 - INFO - Uploading file: client_files\bubbleSort (1) (1).java
+2025-04-20 07:50:25,243 - INFO - Receiving file with name: bubbleSort (1) (1).java
+2025-04-20 07:50:25,243 - INFO - Overwrite flag received: false, interpreted as: False
+2025-04-20 07:50:25,243 - INFO - Using versioned filename: bubbleSort (1) (1).java
+2025-04-20 07:50:25,246 - INFO - Received 476 bytes for file bubbleSort (1) (1).java
+2025-04-20 07:50:29,308 - INFO - bubbleSort (1) (1).java file saved successfully with integrity verified
+2025-04-20 07:50:29,308 - INFO - Client connection closed
+2025-04-20 07:50:29,309 - INFO - Connection with ('127.0.0.1', 52376) closed
+2025-04-20 07:50:33,519 - INFO - New connection established with client of address = ('127.0.0.1', 52413)
+2025-04-20 07:50:33,521 - INFO - New serving socket connected to address = ('127.0.0.1', 52413)
+2025-04-20 07:50:33,522 - INFO - List files request received
+2025-04-20 07:50:33,523 - INFO - File list sent to client
+2025-04-20 07:50:33,523 - INFO - Connection with ('127.0.0.1', 52413) closed
+2025-04-20 07:50:34,520 - INFO - Requesting file list from server
+2025-04-20 07:50:34,520 - INFO - Received file list with 2 files
+2025-04-20 07:50:34,520 - INFO - Client connection closed
+2025-04-20 07:50:39,448 - INFO - New connection established with client of address = ('127.0.0.1', 52430)
+2025-04-20 07:50:39,449 - INFO - New serving socket connected to address = ('127.0.0.1', 52430)
+2025-04-20 07:50:39,450 - INFO - List files request received
+2025-04-20 07:50:39,451 - INFO - File list sent to client
+2025-04-20 07:50:39,451 - INFO - Connection with ('127.0.0.1', 52430) closed
+2025-04-20 07:50:40,449 - INFO - Requesting file list from server
+2025-04-20 07:50:40,449 - INFO - Received file list with 2 files
+2025-04-20 07:50:40,450 - INFO - Client connection closed
+2025-04-20 07:50:41,956 - INFO - New connection established with client of address = ('127.0.0.1', 52433)
+2025-04-20 07:50:41,958 - INFO - New serving socket connected to address = ('127.0.0.1', 52433)
+2025-04-20 07:50:41,958 - INFO - Delete file request received
+2025-04-20 07:50:42,957 - INFO - Deleting file: bubbleSort (1) (1).java
+2025-04-20 07:50:42,957 - INFO - Client requested to delete file: bubbleSort (1) (1).java
+2025-04-20 07:50:42,960 - INFO - File bubbleSort (1) (1).java deleted successfully
+2025-04-20 07:50:42,960 - INFO - Connection with ('127.0.0.1', 52433) closed
+2025-04-20 07:50:42,961 - INFO - Client connection closed
+2025-04-20 07:51:17,428 - INFO - New connection established with client of address = ('127.0.0.1', 52473)
+2025-04-20 07:51:17,428 - INFO - New serving socket connected to address = ('127.0.0.1', 52473)
+2025-04-20 07:51:17,429 - INFO - List files request received
+2025-04-20 07:51:17,429 - INFO - File list sent to client
+2025-04-20 07:51:17,430 - INFO - Connection with ('127.0.0.1', 52473) closed
+2025-04-20 07:51:18,429 - INFO - Requesting file list from server
+2025-04-20 07:51:18,430 - INFO - Received file list with 1 files
+2025-04-20 07:51:18,430 - INFO - Client connection closed
+2025-04-20 07:51:23,151 - INFO - New connection established with client of address = ('127.0.0.1', 52491)
+2025-04-20 07:51:23,153 - INFO - New serving socket connected to address = ('127.0.0.1', 52491)
+2025-04-20 07:51:23,153 - INFO - List files request received
+2025-04-20 07:51:23,154 - INFO - File list sent to client
+2025-04-20 07:51:23,155 - INFO - Connection with ('127.0.0.1', 52491) closed
+2025-04-20 07:51:24,152 - INFO - Requesting file list from server
+2025-04-20 07:51:24,152 - INFO - Received file list with 1 files
+2025-04-20 07:51:24,152 - INFO - Client connection closed
+2025-04-20 07:51:24,185 - INFO - New connection established with client of address = ('127.0.0.1', 52494)
+2025-04-20 07:51:24,186 - INFO - New serving socket connected to address = ('127.0.0.1', 52494)
+2025-04-20 07:51:24,186 - INFO - Upload request received
+2025-04-20 07:51:25,185 - INFO - Uploading file: client_files\bubbleSort (1) (1).java
+2025-04-20 07:51:25,186 - INFO - Receiving file with name: bubbleSort (1) (1).java
+2025-04-20 07:51:25,186 - INFO - Sending overwrite flag: false
+2025-04-20 07:51:25,186 - INFO - Overwrite flag received: false, interpreted as: False
+2025-04-20 07:51:25,186 - INFO - Using versioned filename: bubbleSort (1) (1).java
+2025-04-20 07:51:25,187 - INFO - Received 476 bytes for file bubbleSort (1) (1).java
+2025-04-20 07:51:29,275 - INFO - bubbleSort (1) (1).java file saved successfully with integrity verified
+2025-04-20 07:51:29,276 - INFO - Client connection closed
+2025-04-20 07:51:29,276 - INFO - Connection with ('127.0.0.1', 52494) closed
+2025-04-20 07:51:31,537 - INFO - New connection established with client of address = ('127.0.0.1', 52509)
+2025-04-20 07:51:31,539 - INFO - New serving socket connected to address = ('127.0.0.1', 52509)
+2025-04-20 07:51:31,539 - INFO - List files request received
+2025-04-20 07:51:31,540 - INFO - File list sent to client
+2025-04-20 07:51:31,541 - INFO - Connection with ('127.0.0.1', 52509) closed
+2025-04-20 07:51:32,538 - INFO - Requesting file list from server
+2025-04-20 07:51:32,538 - INFO - Received file list with 2 files
+2025-04-20 07:51:32,539 - INFO - Client connection closed
+2025-04-20 07:51:38,905 - INFO - New connection established with client of address = ('127.0.0.1', 52527)
+2025-04-20 07:51:38,907 - INFO - New serving socket connected to address = ('127.0.0.1', 52527)
+2025-04-20 07:51:38,907 - INFO - List files request received
+2025-04-20 07:51:38,908 - INFO - File list sent to client
+2025-04-20 07:51:38,909 - INFO - Connection with ('127.0.0.1', 52527) closed
+2025-04-20 07:51:39,906 - INFO - Requesting file list from server
+2025-04-20 07:51:39,906 - INFO - Received file list with 2 files
+2025-04-20 07:51:39,907 - INFO - Client connection closed
+2025-04-20 07:51:43,749 - INFO - New connection established with client of address = ('127.0.0.1', 52541)
+2025-04-20 07:51:43,750 - INFO - New serving socket connected to address = ('127.0.0.1', 52541)
+2025-04-20 07:51:43,750 - INFO - List files request received
+2025-04-20 07:51:43,751 - INFO - File list sent to client
+2025-04-20 07:51:43,752 - INFO - Connection with ('127.0.0.1', 52541) closed
+2025-04-20 07:51:44,749 - INFO - Requesting file list from server
+2025-04-20 07:51:44,749 - INFO - Received file list with 2 files
+2025-04-20 07:51:44,751 - INFO - Client connection closed
+2025-04-20 07:51:47,325 - INFO - New connection established with client of address = ('127.0.0.1', 52545)
+2025-04-20 07:51:47,326 - INFO - New serving socket connected to address = ('127.0.0.1', 52545)
+2025-04-20 07:51:47,326 - INFO - Delete file request received
+2025-04-20 07:51:48,326 - INFO - Deleting file: bubbleSort (1) (1).java
+2025-04-20 07:51:48,326 - INFO - Client requested to delete file: bubbleSort (1) (1).java
+2025-04-20 07:51:48,329 - INFO - File bubbleSort (1) (1).java deleted successfully
+2025-04-20 07:51:48,330 - INFO - Delete result: SUCCESS
+0.1', 52545) closed
+2025-04-20 07:51:48,330 - INFO - Client connection closed
+2025-04-20 07:52:42,911 - WARNING -  * Debugger is active!
+2025-04-20 07:52:42,914 - INFO -  * Debugger PIN: 449-678-302
+2025-04-20 07:52:50,205 - INFO - 127.0.0.1 - - [20/Apr/2025 07:52:50] "GET /home HTTP/1.1" 200 -
+2025-04-20 07:52:50,328 - INFO - 127.0.0.1 - - [20/Apr/2025 07:52:50] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 07:52:50,418 - INFO - 127.0.0.1 - - [20/Apr/2025 07:52:50] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-20 07:52:50,748 - INFO - New connection established with client of address = ('127.0.0.1', 52604)
+2025-04-20 07:52:50,750 - INFO - New serving socket connected to address = ('127.0.0.1', 52604)
+2025-04-20 07:52:50,750 - INFO - List files request received
+2025-04-20 07:52:50,753 - INFO - File list sent to client
+2025-04-20 07:52:50,754 - INFO - Connection with ('127.0.0.1', 52604) closed
+2025-04-20 07:52:51,749 - INFO - Requesting file list from server
+2025-04-20 07:52:51,749 - INFO - Received file list with 1 files
+2025-04-20 07:52:51,750 - INFO - Client connection closed
+2025-04-20 07:52:51,752 - INFO - 127.0.0.1 - - [20/Apr/2025 07:52:51] "GET /list HTTP/1.1" 200 -
+2025-04-20 07:52:51,772 - INFO - 127.0.0.1 - - [20/Apr/2025 07:52:51] "[36mGET /static/icons/delete.png HTTP/1.1[0m" 304 -
+2025-04-20 07:52:52,083 - INFO - 127.0.0.1 - - [20/Apr/2025 07:52:52] "[33mGET /static/icons/image-file.png HTTP/1.1[0m" 404 -
+2025-04-20 07:52:52,085 - INFO - 127.0.0.1 - - [20/Apr/2025 07:52:52] "[36mGET /static/icons/download-file.png HTTP/1.1[0m" 304 -
+2025-04-20 07:52:55,098 - INFO - New connection established with client of address = ('127.0.0.1', 52614)
+2025-04-20 07:52:55,099 - INFO - New serving socket connected to address = ('127.0.0.1', 52614)
+2025-04-20 07:52:55,099 - INFO - List files request received
+2025-04-20 07:52:55,100 - INFO - File list sent to client
+2025-04-20 07:52:55,101 - INFO - Connection with ('127.0.0.1', 52614) closed
+2025-04-20 07:52:56,098 - INFO - Requesting file list from server
+2025-04-20 07:52:56,098 - INFO - Received file list with 1 files
+2025-04-20 07:52:56,099 - INFO - Client connection closed
+2025-04-20 07:52:56,100 - INFO - 127.0.0.1 - - [20/Apr/2025 07:52:56] "GET /list HTTP/1.1" 200 -
+2025-04-20 07:52:56,116 - INFO - New connection established with client of address = ('127.0.0.1', 52617)
+2025-04-20 07:52:56,117 - INFO - New serving socket connected to address = ('127.0.0.1', 52617)
+2025-04-20 07:52:56,117 - INFO - Upload request received
+2025-04-20 07:52:57,117 - INFO - Uploading file: client_files\bubbleSort (1) (1).java
+2025-04-20 07:52:57,117 - INFO - Sending overwrite flag: false
+eSort (1) (1).java
+2025-04-20 07:52:57,117 - INFO - Overwrite flag received: false, interpreted as: False
+2025-04-20 07:52:57,117 - INFO - Using versioned filename: bubbleSort (1) (1).java
+2025-04-20 07:52:57,119 - INFO - Received 476 bytes for file bubbleSort (1) (1).java
+2025-04-20 07:52:57,435 - INFO - 127.0.0.1 - - [20/Apr/2025 07:52:57] "GET /get_progress/bubbleSort%20(1)%20(1).java HTTP/1.1" 200 -
+2025-04-20 07:52:58,439 - INFO - 127.0.0.1 - - [20/Apr/2025 07:52:58] "GET /get_progress/bubbleSort%20(1)%20(1).java HTTP/1.1" 200 -
+2025-04-20 07:52:59,148 - INFO - 127.0.0.1 - - [20/Apr/2025 07:52:59] "POST /update_progress HTTP/1.1" 200 -
+2025-04-20 07:52:59,434 - INFO - 127.0.0.1 - - [20/Apr/2025 07:52:59] "GET /get_progress/bubbleSort%20(1)%20(1).java HTTP/1.1" 200 -
+2025-04-20 07:53:01,182 - INFO - 127.0.0.1 - - [20/Apr/2025 07:53:01] "POST /update_progress HTTP/1.1" 200 -
+2025-04-20 07:53:01,185 - INFO - bubbleSort (1) (1).java file saved successfully with integrity verified
+2025-04-20 07:53:01,185 - INFO - Client connection closed
+2025-04-20 07:53:01,185 - INFO - Connection with ('127.0.0.1', 52617) closed
+2025-04-20 07:53:01,188 - INFO - 127.0.0.1 - - [20/Apr/2025 07:53:01] "POST /upload HTTP/1.1" 200 -
+2025-04-20 07:53:03,504 - INFO - New connection established with client of address = ('127.0.0.1', 52634)
+2025-04-20 07:53:03,505 - INFO - New serving socket connected to address = ('127.0.0.1', 52634)
+2025-04-20 07:53:03,505 - INFO - List files request received
+2025-04-20 07:53:03,507 - INFO - File list sent to client
+2025-04-20 07:53:03,508 - INFO - Connection with ('127.0.0.1', 52634) closed
+2025-04-20 07:53:04,505 - INFO - Requesting file list from server
+2025-04-20 07:53:04,505 - INFO - Received file list with 2 files
+2025-04-20 07:53:04,505 - INFO - Client connection closed
+2025-04-20 07:53:04,506 - INFO - 127.0.0.1 - - [20/Apr/2025 07:53:04] "GET /list HTTP/1.1" 200 -
+2025-04-20 07:53:04,526 - INFO - 127.0.0.1 - - [20/Apr/2025 07:53:04] "[36mGET /static/icons/default-file.png HTTP/1.1[0m" 304 -
+2025-04-20 07:53:04,844 - INFO - 127.0.0.1 - - [20/Apr/2025 07:53:04] "[33mGET /static/icons/image-file.png HTTP/1.1[0m" 404 -
+2025-04-20 07:53:48,454 - INFO - 127.0.0.1 - - [20/Apr/2025 07:53:48] "GET /home HTTP/1.1" 200 -
+2025-04-20 07:53:48,516 - INFO - 127.0.0.1 - - [20/Apr/2025 07:53:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2025-04-20 07:53:48,716 - INFO - 127.0.0.1 - - [20/Apr/2025 07:53:48] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-04-20 07:53:49,056 - INFO - New connection established with client of address = ('127.0.0.1', 52669)
+2025-04-20 07:53:49,057 - INFO - New serving socket connected to address = ('127.0.0.1', 52669)
+2025-04-20 07:53:49,059 - INFO - List files request received
+2025-04-20 07:53:49,060 - INFO - File list sent to client
+2025-04-20 07:53:49,060 - INFO - Connection with ('127.0.0.1', 52669) closed
+2025-04-20 07:53:50,057 - INFO - Requesting file list from server
+2025-04-20 07:53:50,057 - INFO - Received file list with 2 files
+2025-04-20 07:53:50,058 - INFO - Client connection closed
+2025-04-20 07:53:50,059 - INFO - 127.0.0.1 - - [20/Apr/2025 07:53:50] "GET /list HTTP/1.1" 200 -
+2025-04-20 07:53:50,071 - INFO - 127.0.0.1 - - [20/Apr/2025 07:53:50] "[36mGET /static/icons/default-file.png HTTP/1.1[0m" 304 -
+2025-04-20 07:53:50,379 - INFO - 127.0.0.1 - - [20/Apr/2025 07:53:50] "[33mGET /static/icons/image-file.png HTTP/1.1[0m" 404 -
+2025-04-20 07:53:50,379 - INFO - 127.0.0.1 - - [20/Apr/2025 07:53:50] "[36mGET /static/icons/delete.png HTTP/1.1[0m" 304 -
+2025-04-20 07:53:50,385 - INFO - 127.0.0.1 - - [20/Apr/2025 07:53:50] "[36mGET /static/icons/download-file.png HTTP/1.1[0m" 304 -
+2025-04-20 07:53:53,097 - INFO - Requesting file list from server
+ient of address = ('127.0.0.1', 52683)
+2025-04-20 07:53:53,471 - INFO - New serving socket connected to address = ('127.0.0.1', 52683)
+2025-04-20 07:53:53,471 - INFO - List files request received
+2025-04-20 07:53:53,474 - INFO - Received file list with 2 files
+2025-04-20 07:53:53,474 - INFO - Connection with ('127.0.0.1', 52683) closed
+2025-04-20 07:53:53,475 - INFO - 127.0.0.1 - - [20/Apr/2025 07:53:53] "GET /list HTTP/1.1" 200 -
+2025-04-20 07:53:54,285 - INFO - New connection established with client of address = ('127.0.0.1', 52686)
+2025-04-20 07:53:54,286 - INFO - New serving socket connected to address = ('127.0.0.1', 52686)
+2025-04-20 07:53:54,286 - INFO - Delete file request received
+2025-04-20 07:53:55,286 - INFO - Deleting file: bubbleSort (1) (1).java
+2025-04-20 07:53:55,287 - INFO - Client requested to delete file: bubbleSort (1) (1).java
+2025-04-20 07:53:55,288 - INFO - File bubbleSort (1) (1).java deleted successfully
+2025-04-20 07:53:55,289 - INFO - Connection with ('127.0.0.1', 52686) closed
+2025-04-20 07:53:55,290 - INFO - Client connection closed
+2025-04-20 07:53:55,291 - INFO - 127.0.0.1 - - [20/Apr/2025 07:53:55] "POST /delete HTTP/1.1" 200 -
+2025-04-20 07:53:55,628 - INFO - admin has uploaded bubbleSort (1) (1).java and overwritten the previously available one
+2025-04-20 07:53:55,629 - INFO - New connection established with client of address = ('127.0.0.1', 52690)
+2025-04-20 07:53:55,631 - INFO - New serving socket connected to address = ('127.0.0.1', 52690)
+2025-04-20 07:53:55,632 - INFO - Upload request received
+2025-04-20 07:53:56,310 - INFO - 127.0.0.1 - - [20/Apr/2025 07:53:56] "GET /get_progress/bubbleSort%20(1)%20(1).java HTTP/1.1" 200 -
+2025-04-20 07:53:56,631 - INFO - Uploading file: client_files\bubbleSort (1) (1).java
+2025-04-20 07:53:56,632 - INFO - Receiving file with name: bubbleSort (1) (1).java
+2025-04-20 07:53:56,632 - INFO - Sending overwrite flag: true
+2025-04-20 07:53:56,632 - INFO - None is requesting to overwrite bubbleSort (1) (1).java
+2025-04-20 07:53:56,632 - INFO - Overwrite flag received: true, interpreted as: True
+2025-04-20 07:53:56,633 - INFO - Overwriting existing file: bubbleSort (1) (1).java
+2025-04-20 07:53:56,636 - INFO - Received 476 bytes for file bubbleSort (1) (1).java
+2025-04-20 07:53:58,688 - INFO - 127.0.0.1 - - [20/Apr/2025 07:53:58] "POST /update_progress HTTP/1.1" 200 -
+2025-04-20 07:54:00,723 - INFO - 127.0.0.1 - - [20/Apr/2025 07:54:00] "POST /update_progress HTTP/1.1" 200 -
+2025-04-20 07:54:00,726 - INFO - bubbleSort (1) (1).java file saved successfully with integrity verified
+2025-04-20 07:54:00,726 - INFO - Client connection closed
+2025-04-20 07:54:00,726 - INFO - Connection with ('127.0.0.1', 52690) closed
+2025-04-20 07:54:00,730 - INFO - 127.0.0.1 - - [20/Apr/2025 07:54:00] "POST /upload HTTP/1.1" 200 -
+2025-04-20 07:54:02,534 - INFO - New connection established with client of address = ('127.0.0.1', 52702)
+2025-04-20 07:54:02,535 - INFO - New serving socket connected to address = ('127.0.0.1', 52702)
+2025-04-20 07:54:02,535 - INFO - List files request received
+2025-04-20 07:54:02,536 - INFO - File list sent to client
+2025-04-20 07:54:02,537 - INFO - Connection with ('127.0.0.1', 52702) closed
+2025-04-20 07:54:03,534 - INFO - Requesting file list from server
+2025-04-20 07:54:03,534 - INFO - Received file list with 2 files
+2025-04-20 07:54:03,534 - INFO - Client connection closed
+2025-04-20 07:54:03,534 - INFO - 127.0.0.1 - - [20/Apr/2025 07:54:03] "GET /list HTTP/1.1" 200 -
+2025-04-20 07:54:03,544 - INFO - 127.0.0.1 - - [20/Apr/2025 07:54:03] "[33mGET /static/icons/image-file.png HTTP/1.1[0m" 404 -
+2025-04-20 07:55:25,539 - INFO -  * Detected change in 'E:\\Desktop\\Spring 2025\\networks\\Project\\SocketProgrammingProject\\flask_app.py', reloading
+2025-04-20 07:58:51,197 - INFO - New connection established with client of address = ('127.0.0.1', 52932)
+2025-04-20 07:58:51,199 - INFO - New serving socket connected to address = ('127.0.0.1', 52932)
+2025-04-20 07:58:51,199 - INFO - List files request received
+2025-04-20 07:58:51,201 - INFO - File list sent to client
+2025-04-20 07:58:51,201 - INFO - Connection with ('127.0.0.1', 52932) closed
+2025-04-20 07:58:52,197 - INFO - Requesting file list from server
+2025-04-20 07:58:52,197 - INFO - Received file list with 2 files
+2025-04-20 07:58:52,198 - INFO - Client connection closed
+2025-04-20 07:58:55,712 - INFO - New connection established with client of address = ('127.0.0.1', 52946)
+2025-04-20 07:58:55,713 - INFO - New serving socket connected to address = ('127.0.0.1', 52946)
+2025-04-20 07:58:55,713 - INFO - List files request received
+2025-04-20 07:58:55,713 - INFO - File list sent to client
+2025-04-20 07:58:55,713 - INFO - Connection with ('127.0.0.1', 52946) closed
+2025-04-20 07:58:56,713 - INFO - Requesting file list from server
+2025-04-20 07:58:56,713 - INFO - Received file list with 2 files
+2025-04-20 07:58:56,713 - INFO - Client connection closed
+2025-04-20 07:58:57,888 - INFO - New connection established with client of address = ('127.0.0.1', 52948)
+2025-04-20 07:58:57,888 - INFO - New serving socket connected to address = ('127.0.0.1', 52948)
+2025-04-20 07:58:57,888 - INFO - Delete file request received
+2025-04-20 07:58:58,888 - INFO - Deleting file: bubbleSort (1) (1).java
+2025-04-20 07:58:58,888 - INFO - Client requested to delete file: bubbleSort (1) (1).java
+2025-04-20 07:58:58,889 - INFO - File bubbleSort (1) (1).java deleted successfully
+2025-04-20 07:58:58,890 - INFO - Connection with ('127.0.0.1', 52948) closed
+2025-04-20 07:58:58,890 - INFO - Client connection closed
+2025-04-20 07:58:59,212 - INFO - Upload request with is_overwrite=True
+2025-04-20 07:58:59,215 - INFO - admin has uploaded bubbleSort (1) (1).java and overwritten the previously available one
+2025-04-20 07:58:59,216 - INFO - New connection established with client of address = ('127.0.0.1', 52953)
+2025-04-20 07:58:59,216 - INFO - New serving socket connected to address = ('127.0.0.1', 52953)
+2025-04-20 07:58:59,217 - INFO - Upload request received
+2025-04-20 07:59:00,216 - INFO - Uploading file: client_files\bubbleSort (1) (1).java
+2025-04-20 07:59:00,217 - INFO - Sending overwrite flag: true
+leSort (1) (1).java
+2025-04-20 07:59:00,217 - INFO - Overwrite flag received: true, interpreted as: True
+2025-04-20 07:59:00,217 - INFO - None is requesting to overwrite bubbleSort (1) (1).java
+2025-04-20 07:59:00,217 - INFO - Overwriting existing file: bubbleSort (1) (1).java
+2025-04-20 07:59:00,219 - INFO - Received 476 bytes for file bubbleSort (1) (1).java
+2025-04-20 07:59:04,274 - INFO - bubbleSort (1) (1).java file saved successfully with integrity verified
+2025-04-20 07:59:04,274 - INFO - Client connection closed
+2025-04-20 07:59:04,274 - INFO - Connection with ('127.0.0.1', 52953) closed
+2025-04-20 07:59:06,022 - INFO - New connection established with client of address = ('127.0.0.1', 52971)
+2025-04-20 07:59:06,023 - INFO - New serving socket connected to address = ('127.0.0.1', 52971)
+2025-04-20 07:59:06,023 - INFO - List files request received
+2025-04-20 07:59:06,023 - INFO - File list sent to client
+2025-04-20 07:59:06,024 - INFO - Connection with ('127.0.0.1', 52971) closed
+2025-04-20 07:59:07,023 - INFO - Requesting file list from server
+2025-04-20 07:59:07,023 - INFO - Received file list with 2 files
+2025-04-20 07:59:07,023 - INFO - Client connection closed
