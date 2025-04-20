@@ -9,6 +9,7 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, SubmitField
 from wtforms.validators import InputRequired, Length, ValidationError
 from flask_bcrypt import Bcrypt
+from utils import log
 
 app = Flask(__name__)
 progress_data = {}
@@ -111,6 +112,9 @@ def upload():
         filename = file.filename
         file_path = os.path.join(CLIENT_FILES_DIR, filename)
         file.save(file_path)
+        if 'is_overwrite' in request.form:
+            log("info",f"{current_user.username} has uploaded {filename} and overwritten the previously available one")
+
         
         # Call the client to upload the file
         initiateClient(1, file_path) # calls our client socket to open connection with the server socket with method = 1 (meaning upload)

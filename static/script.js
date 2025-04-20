@@ -16,10 +16,41 @@ function uploadFile() {
     alert('Please select a file first');
     return;
   }
+
   
   const file = fileInput.files[0];
   const formData = new FormData();
   formData.append('file', file);
+
+  fetch('/list')
+    .then(response => response.json())
+    .then(data => { 
+      if (data.files && data.files.includes(file.name)) {
+        if (currentUser === "admin") {
+          const choice = confirm(`File "${file.name}" already exists. Click OK to overwrite, or Cancel to create a new version.`);
+          if (choice) {
+            // Delete the existing file first, then proceed with upload
+            return fetch('/delete', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify({ filename: file.name })
+            })
+            .then(response => response.json())
+            .then(data => {
+              if (data.error) {
+                throw new Error('Failed to delete existing file: ' + data.error);
+              }
+              // Add overwrite flag to form data
+              formData.append('is_overwrite', 'true');
+              // Continue with the upload after successful deletion
+              return Promise.resolve();
+            });
+          }
+        }
+      }
+    })
   
   // Show progress bar when upload starts
   document.getElementById('progressBar').style.display = 'block';
@@ -43,6 +74,7 @@ function uploadFile() {
       })
       .catch(error => console.error('Error fetching progress:', error));
   }, 1000);
+  
 
   fetch('/upload', {
     method: 'POST',
@@ -172,26 +204,26 @@ function listFiles() {
 
             // Icon mapping based on file extension
             const iconMapping = {
-              'txt': 'icons/text-file.png',
-              'pdf': 'icons/pdf-file.png',
-              'doc': 'icons/word-file.png',
-              'docx': 'icons/word-file.png',
-              'xls': 'icons/excel-file.png',
-              'xlsx': 'icons/excel-file.png',
-              'png': 'icons/image-file.png',
-              'jpg': 'icons/image-file.png',
-              'jpeg': 'icons/image-file.png',
-              'gif': 'icons/image-file.png',
-              'ppt': 'icons/ppt-file.png',
-              'mp3': 'icons/audio-file.png',
-              'html': 'icons/html-file.png',
-              'delete': 'icons/delete.png',
+              'txt': '../static/icons/text-file.png',
+              'pdf': '../static/icons/pdf-file.png',
+              'doc': '../static/icons/word-file.png',
+              'docx': '../static/icons/word-file.png',
+              'xls': '../static/icons/excel-file.png',
+              'xlsx': '../static/icons/excel-file.png',
+              'png': '../static/icons/image-file.png',
+              'jpg': '../static/icons/image-file.png',
+              'jpeg': '../static/icons/image-file.png',
+              'gif': '../static/icons/image-file.png',
+              'ppt': '../static/icons/ppt-file.png',
+              'mp3': '../static/icons/audio-file.png',
+              'html': '../static/icons/html-file.png',
+              'delete': '../static/icons/delete.png',
               // Add more mappings as needed
             };
 
             const icon = document.createElement('img');
             icon.classList.add('file-icon');
-            icon.src = iconMapping[extension] || 'icons/default-file.png';
+            icon.src = iconMapping[extension] || '../static/icons/default-file.png';
             icon.alt = extension + ' file icon';
 
             const fileNameSpan = document.createElement('span');
@@ -200,16 +232,21 @@ function listFiles() {
             const delbtn = document.createElement('button');
              console.log("Logged in as:", currentUser);
             if (currentUser === "admin") {
+                const delicon = document.createElement('img');
                 delbtn.classList.add('delbtn');
-                delbtn.textContent = 'icons/delete.png' || 'icons/default-file.png';;
+                delicon.src = '../static/icons/delete.png'
+                delbtn.appendChild(delicon)
+                //delbtn.textContent = 'icons/delete.png' || 'icons/default-file.png';;
                 delbtn.addEventListener('click', () => {
                   deletefile(file);
                 });
             }
             // Create the download button within each file listing
             const downloadButton = document.createElement('button');
+            const downloadicon = document.createElement('img');
             downloadButton.classList.add('download-button');
-            downloadButton.textContent = './icons/download-file.png';
+            downloadButton.appendChild(downloadicon)
+            downloadicon.src = '../static/icons/download-file.png';
             downloadButton.addEventListener('click', () => {
               downloadFile(file);
             });
