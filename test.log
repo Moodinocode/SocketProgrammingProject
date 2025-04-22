@@ -13834,3 +13834,326 @@ leSort (1) (1).java
 2025-04-21 12:38:54,245 - INFO - hash recieved during download from server in hex is f5c3ee75d8281f994621c6173f82e0e03a1dd83ba4562bba119a32fec13e6b1c
 2025-04-21 12:38:54,245 - INFO - hash calculated during download from client in hex is f5c3ee75d8281f994621c6173f82e0e03a1dd83ba4562bba119a32fec13e6b1c
 2025-04-21 12:38:56,281 - INFO - Client connection closed
+2025-04-22 12:07:22,344 - INFO - Server starting on port 8080...
+2025-04-22 12:07:22,379 - INFO - Server listening on port 8080...
+2025-04-22 12:07:45,703 - INFO - New connection established with client of address = ('127.0.0.1', 50163)
+2025-04-22 12:07:45,706 - INFO - New serving socket connected to address = ('127.0.0.1', 50163)
+2025-04-22 12:07:45,706 - INFO - List files request received
+2025-04-22 12:07:45,707 - INFO - File list sent to client
+2025-04-22 12:07:45,708 - INFO - Connection with ('127.0.0.1', 50163) closed
+2025-04-22 12:07:46,703 - INFO - Requesting file list from server
+2025-04-22 12:07:46,703 - INFO - Received file list with 1 files
+2025-04-22 12:07:46,704 - INFO - Client connection closed
+2025-04-22 12:08:03,501 - INFO - New connection established with client of address = ('127.0.0.1', 50173)
+2025-04-22 12:08:03,502 - INFO - New serving socket connected to address = ('127.0.0.1', 50173)
+2025-04-22 12:08:03,502 - INFO - List files request received
+2025-04-22 12:08:03,503 - INFO - File list sent to client
+2025-04-22 12:08:03,504 - INFO - Connection with ('127.0.0.1', 50173) closed
+2025-04-22 12:08:04,501 - INFO - Requesting file list from server
+2025-04-22 12:08:04,501 - INFO - Received file list with 1 files
+2025-04-22 12:08:04,502 - INFO - Client connection closed
+2025-04-22 12:08:04,544 - INFO - Upload request with is_overwrite=False
+2025-04-22 12:08:04,545 - INFO - New connection established with client of address = ('127.0.0.1', 50175)
+2025-04-22 12:08:04,546 - INFO - New serving socket connected to address = ('127.0.0.1', 50175)
+2025-04-22 12:08:04,547 - INFO - Upload request received
+2025-04-22 12:08:05,546 - INFO - Uploading file: client_files\chat_7788634 (2).png
+2025-04-22 12:08:05,546 - INFO - Receiving file with name: chat_7788634 (2).png
+2025-04-22 12:08:05,548 - INFO - Overwrite flag received: false, interpreted as: False
+2025-04-22 12:08:05,549 - INFO - Using versioned filename: chat_7788634 (2).png
+2025-04-22 12:08:25,958 - INFO - Received 41297 bytes for file chat_7788634 (2).png
+2025-04-22 12:08:30,032 - INFO - chat_7788634 (2).png file saved successfully with integrity verified
+2025-04-22 12:08:30,033 - INFO - Client connection closed
+2025-04-22 12:08:30,033 - INFO - Connection with ('127.0.0.1', 50175) closed
+2025-04-22 12:08:33,827 - INFO - New connection established with client of address = ('127.0.0.1', 50251)
+2025-04-22 12:08:33,828 - INFO - New serving socket connected to address = ('127.0.0.1', 50251)
+2025-04-22 12:08:33,933 - INFO - List files request received
+2025-04-22 12:08:33,934 - INFO - File list sent to client
+2025-04-22 12:08:33,935 - INFO - Connection with ('127.0.0.1', 50251) closed
+2025-04-22 12:08:34,828 - INFO - Requesting file list from server
+2025-04-22 12:08:34,828 - INFO - Received file list with 1 files
+2025-04-22 12:08:34,829 - INFO - Client connection closed
+2025-04-22 12:08:37,524 - INFO - New connection established with client of address = ('127.0.0.1', 50260)
+2025-04-22 12:08:37,524 - INFO - New serving socket connected to address = ('127.0.0.1', 50260)
+2025-04-22 12:08:37,524 - INFO - Download request received
+2025-04-22 12:08:38,524 - INFO - Downloading file: client_files\temp_chat_7788634 (2).png
+2025-04-22 12:08:38,524 - INFO - Client requested file: chat_7788634 (2).png
+2025-04-22 12:08:38,525 - ERROR - Error in client operation: '<' not supported between instances of 'str' and 'int'
+2025-04-22 12:08:38,527 - ERROR - Error parsing offset: invalid literal for int() with base 10: ''
+2025-04-22 12:08:38,541 - ERROR - Error handling client ('127.0.0.1', 50260): [WinError 10053] An established connection was aborted by the software in your host machine
+2025-04-22 12:08:38,543 - INFO - Connection with ('127.0.0.1', 50260) closed
+2025-04-22 12:10:01,483 - INFO - New connection established with client of address = ('127.0.0.1', 50282)
+2025-04-22 12:10:01,485 - INFO - New serving socket connected to address = ('127.0.0.1', 50282)
+2025-04-22 12:10:01,485 - INFO - Download request received
+2025-04-22 12:10:02,484 - INFO - Downloading file: client_files\temp_chat_7788634 (2).png
+2025-04-22 12:10:02,484 - INFO - Client requested file: chat_7788634 (2).png
+2025-04-22 12:10:02,484 - INFO - Client requested offset: 0
+2025-04-22 12:10:02,486 - INFO - server sending hash 07cd18466e9853c7f38db204f8dc98018aed699480681caa8441b5e745572bd5
+2025-04-22 12:10:02,486 - INFO - Sent 41297 bytes for file chat_7788634 (2).png
+2025-04-22 12:10:02,486 - INFO - File chat_7788634 (2).png sent to client with integrity verification
+2025-04-22 12:10:02,486 - INFO - Connection with ('127.0.0.1', 50282) closed
+2025-04-22 12:10:02,486 - INFO - Downloading: 9.92%
+2025-04-22 12:10:04,532 - INFO - Downloading: 19.84%
+2025-04-22 12:10:06,560 - INFO - Downloading: 29.76%
+2025-04-22 12:10:08,593 - INFO - Downloading: 39.67%
+2025-04-22 12:10:10,635 - INFO - Downloading: 49.59%
+2025-04-22 12:10:12,662 - INFO - Downloading: 59.51%
+2025-04-22 12:10:14,687 - INFO - Downloading: 69.43%
+2025-04-22 12:10:16,719 - INFO - Downloading: 79.35%
+2025-04-22 12:10:18,779 - INFO - Downloading: 89.27%
+2025-04-22 12:10:20,813 - INFO - Downloading: 99.18%
+2025-04-22 12:10:22,845 - INFO - Downloading: 100.00%
+2025-04-22 12:10:24,877 - INFO - hash recieved during download from server in hex is 07cd18466e9853c7f38db204f8dc98018aed699480681caa8441b5e745572bd5
+2025-04-22 12:10:24,878 - INFO - hash calculated during download from client in hex is 07cd18466e9853c7f38db204f8dc98018aed699480681caa8441b5e745572bd5
+2025-04-22 12:10:24,878 - INFO - file chat_7788634 (2).png recived successfully with file integrity verified
+2025-04-22 12:10:26,929 - INFO - Client connection closed
+2025-04-22 12:11:45,758 - INFO - New connection established with client of address = ('127.0.0.1', 50365)
+2025-04-22 12:11:45,761 - INFO - New serving socket connected to address = ('127.0.0.1', 50365)
+2025-04-22 12:11:45,761 - INFO - Download request received
+2025-04-22 12:11:46,760 - INFO - Downloading file: client_files\temp_chat_7788634 (2).png
+2025-04-22 12:11:46,761 - INFO - Client requested file: chat_7788634 (2).png
+2025-04-22 12:11:46,762 - INFO - Client requested offset: 0
+2025-04-22 12:11:46,765 - INFO - server sending hash 07cd18466e9853c7f38db204f8dc98018aed699480681caa8441b5e745572bd5
+2025-04-22 12:11:46,765 - INFO - Sent 41297 bytes for file chat_7788634 (2).png
+2025-04-22 12:11:46,765 - INFO - File chat_7788634 (2).png sent to client with integrity verification
+2025-04-22 12:11:46,766 - INFO - incase of intrupption we are at byte 4096
+2025-04-22 12:11:46,766 - INFO - Connection with ('127.0.0.1', 50365) closed
+2025-04-22 12:11:46,766 - INFO - Downloading: 9.92%
+2025-04-22 12:11:48,814 - INFO - incase of intrupption we are at byte 8192
+2025-04-22 12:11:48,816 - INFO - Downloading: 19.84%
+2025-04-22 12:11:50,870 - INFO - incase of intrupption we are at byte 12288
+2025-04-22 12:11:50,871 - INFO - Downloading: 29.76%
+2025-04-22 12:11:52,905 - INFO - incase of intrupption we are at byte 16384
+2025-04-22 12:11:52,906 - INFO - Downloading: 39.67%
+2025-04-22 12:11:54,959 - INFO - incase of intrupption we are at byte 20480
+2025-04-22 12:11:54,960 - INFO - Downloading: 49.59%
+2025-04-22 12:11:56,990 - INFO - incase of intrupption we are at byte 24576
+2025-04-22 12:11:56,992 - INFO - Downloading: 59.51%
+2025-04-22 12:11:59,023 - INFO - incase of intrupption we are at byte 28672
+2025-04-22 12:11:59,023 - INFO - Downloading: 69.43%
+2025-04-22 12:12:01,059 - INFO - incase of intrupption we are at byte 32768
+2025-04-22 12:12:01,060 - INFO - Downloading: 79.35%
+2025-04-22 12:12:03,094 - INFO - incase of intrupption we are at byte 36864
+2025-04-22 12:12:03,095 - INFO - Downloading: 89.27%
+2025-04-22 12:12:05,131 - INFO - incase of intrupption we are at byte 40960
+2025-04-22 12:12:05,132 - INFO - Downloading: 99.18%
+2025-04-22 12:12:07,171 - INFO - incase of intrupption we are at byte 41297
+2025-04-22 12:12:07,172 - INFO - Downloading: 100.00%
+2025-04-22 12:12:09,209 - INFO - hash recieved during download from server in hex is 07cd18466e9853c7f38db204f8dc98018aed699480681caa8441b5e745572bd5
+2025-04-22 12:12:09,209 - INFO - hash calculated during download from client in hex is 07cd18466e9853c7f38db204f8dc98018aed699480681caa8441b5e745572bd5
+2025-04-22 12:12:09,210 - INFO - file chat_7788634 (2).png recived successfully with file integrity verified
+2025-04-22 12:12:11,259 - INFO - Client connection closed
+2025-04-22 12:12:28,055 - INFO - New connection established with client of address = ('127.0.0.1', 50443)
+2025-04-22 12:12:28,056 - INFO - New serving socket connected to address = ('127.0.0.1', 50443)
+2025-04-22 12:12:28,056 - INFO - Download request received
+2025-04-22 12:12:29,056 - INFO - Downloading file: client_files\temp_chat_7788634 (2).png
+2025-04-22 12:12:29,056 - INFO - Client requested file: chat_7788634 (2).png
+2025-04-22 12:12:29,058 - INFO - Client requested offset: 41297
+2025-04-22 12:12:29,059 - INFO - server sending hash 07cd18466e9853c7f38db204f8dc98018aed699480681caa8441b5e745572bd5
+2025-04-22 12:12:29,060 - INFO - Sent 41297 bytes for file chat_7788634 (2).png
+2025-04-22 12:12:29,060 - INFO - File chat_7788634 (2).png sent to client with integrity verification
+2025-04-22 12:12:29,060 - INFO - incase of intrupption we are at byte 64
+2025-04-22 12:12:29,060 - INFO - Connection with ('127.0.0.1', 50443) closed
+2025-04-22 12:12:29,060 - INFO - Downloading: 0.15%
+2025-04-22 12:12:31,100 - INFO - hash recieved during download from server in hex is 
+2025-04-22 12:12:31,100 - INFO - hash calculated during download from client in hex is fa1bfcc37c355cd8328ee01ab574d5b3e4f535ab5c38bd938f0597220f0b5ca5
+2025-04-22 12:12:31,102 - ERROR - File integrity check failed during download
+2025-04-22 12:12:31,105 - INFO - Client connection closed
+2025-04-22 12:12:35,606 - INFO - New connection established with client of address = ('127.0.0.1', 50450)
+2025-04-22 12:12:35,607 - INFO - New serving socket connected to address = ('127.0.0.1', 50450)
+2025-04-22 12:12:35,607 - INFO - Download request received
+2025-04-22 12:12:36,607 - INFO - Downloading file: client_files\temp_chat_7788634 (2).png
+2025-04-22 12:12:36,607 - INFO - Client requested file: chat_7788634 (2).png
+2025-04-22 12:12:36,608 - INFO - Client requested offset: 64
+2025-04-22 12:12:36,609 - INFO - incase of intrupption we are at byte 4160
+2025-04-22 12:12:36,609 - INFO - Downloading: 10.07%
+2025-04-22 12:12:36,610 - INFO - server sending hash dace25c63f3900a31656ec774ccddeb1442c606b883e6ba9dfb90d8136e65b7e
+2025-04-22 12:12:36,610 - INFO - Sent 41297 bytes for file chat_7788634 (2).png
+2025-04-22 12:12:36,610 - INFO - File chat_7788634 (2).png sent to client with integrity verification
+2025-04-22 12:12:36,610 - INFO - Connection with ('127.0.0.1', 50450) closed
+2025-04-22 12:12:38,647 - INFO - incase of intrupption we are at byte 8256
+2025-04-22 12:12:38,648 - INFO - Downloading: 19.99%
+2025-04-22 12:12:40,712 - INFO - incase of intrupption we are at byte 12352
+2025-04-22 12:12:40,713 - INFO - Downloading: 29.91%
+2025-04-22 12:12:53,414 - INFO - New connection established with client of address = ('127.0.0.1', 50480)
+2025-04-22 12:12:53,415 - INFO - New serving socket connected to address = ('127.0.0.1', 50480)
+2025-04-22 12:12:53,416 - INFO - List files request received
+2025-04-22 12:12:53,418 - INFO - File list sent to client
+2025-04-22 12:12:53,418 - INFO - Connection with ('127.0.0.1', 50480) closed
+2025-04-22 12:12:54,416 - INFO - Requesting file list from server
+2025-04-22 12:12:54,417 - INFO - Received file list with 1 files
+2025-04-22 12:12:54,417 - INFO - Client connection closed
+2025-04-22 12:12:56,625 - INFO - New connection established with client of address = ('127.0.0.1', 50489)
+2025-04-22 12:12:56,625 - INFO - New serving socket connected to address = ('127.0.0.1', 50489)
+2025-04-22 12:12:56,625 - INFO - Download request received
+2025-04-22 12:12:57,625 - INFO - Downloading file: client_files\temp_chat_7788634 (2).png
+2025-04-22 12:12:57,625 - INFO - Client requested file: chat_7788634 (2).png
+2025-04-22 12:12:57,626 - INFO - Client requested offset: 0
+2025-04-22 12:12:57,630 - INFO - server sending hash 07cd18466e9853c7f38db204f8dc98018aed699480681caa8441b5e745572bd5
+2025-04-22 12:12:57,631 - INFO - Sent 41297 bytes for file chat_7788634 (2).png
+2025-04-22 12:12:57,631 - INFO - File chat_7788634 (2).png sent to client with integrity verification
+2025-04-22 12:12:57,631 - INFO - incase of intrupption we are at byte 4096
+2025-04-22 12:12:57,632 - INFO - Connection with ('127.0.0.1', 50489) closed
+2025-04-22 12:12:57,632 - INFO - Downloading: 9.92%
+2025-04-22 12:12:59,690 - INFO - incase of intrupption we are at byte 8192
+2025-04-22 12:12:59,691 - INFO - Downloading: 19.84%
+2025-04-22 12:13:01,722 - INFO - incase of intrupption we are at byte 12288
+2025-04-22 12:13:01,723 - INFO - Downloading: 29.76%
+2025-04-22 12:13:03,767 - INFO - incase of intrupption we are at byte 16384
+2025-04-22 12:13:03,768 - INFO - Downloading: 39.67%
+2025-04-22 12:13:05,805 - INFO - incase of intrupption we are at byte 20480
+2025-04-22 12:13:05,806 - INFO - Downloading: 49.59%
+2025-04-22 12:13:07,840 - INFO - incase of intrupption we are at byte 24576
+2025-04-22 12:13:07,841 - INFO - Downloading: 59.51%
+2025-04-22 12:13:09,876 - INFO - incase of intrupption we are at byte 28672
+2025-04-22 12:13:09,878 - INFO - Downloading: 69.43%
+2025-04-22 12:13:11,918 - INFO - incase of intrupption we are at byte 32768
+2025-04-22 12:13:11,919 - INFO - Downloading: 79.35%
+2025-04-22 12:13:13,956 - INFO - incase of intrupption we are at byte 36864
+2025-04-22 12:13:13,958 - INFO - Downloading: 89.27%
+2025-04-22 12:13:15,994 - INFO - incase of intrupption we are at byte 40960
+2025-04-22 12:13:15,996 - INFO - Downloading: 99.18%
+2025-04-22 12:13:18,028 - INFO - incase of intrupption we are at byte 41297
+2025-04-22 12:13:18,029 - INFO - Downloading: 100.00%
+2025-04-22 12:13:20,080 - INFO - hash recieved during download from server in hex is 07cd18466e9853c7f38db204f8dc98018aed699480681caa8441b5e745572bd5
+2025-04-22 12:13:20,080 - INFO - hash calculated during download from client in hex is 07cd18466e9853c7f38db204f8dc98018aed699480681caa8441b5e745572bd5
+2025-04-22 12:13:20,081 - INFO - file chat_7788634 (2).png recived successfully with file integrity verified
+2025-04-22 12:13:22,136 - INFO - Client connection closed
+2025-04-22 12:14:37,212 - INFO - New connection established with client of address = ('127.0.0.1', 50567)
+2025-04-22 12:14:37,213 - INFO - New serving socket connected to address = ('127.0.0.1', 50567)
+2025-04-22 12:14:37,214 - INFO - Download request received
+2025-04-22 12:14:38,212 - INFO - Downloading file: client_files\temp_chat_7788634 (2).png
+2025-04-22 12:14:38,212 - INFO - Client requested file: chat_7788634 (2).png
+2025-04-22 12:14:38,213 - INFO - Client requested offset: 41297
+2025-04-22 12:14:38,215 - INFO - server sending hash 07cd18466e9853c7f38db204f8dc98018aed699480681caa8441b5e745572bd5
+2025-04-22 12:14:38,216 - INFO - Sent 41297 bytes for file chat_7788634 (2).png
+2025-04-22 12:14:38,216 - INFO - File chat_7788634 (2).png sent to client with integrity verification
+2025-04-22 12:14:38,216 - INFO - incase of intrupption we are at byte 64
+2025-04-22 12:14:38,216 - INFO - Downloading: 0.15%
+2025-04-22 12:14:38,217 - INFO - Connection with ('127.0.0.1', 50567) closed
+2025-04-22 12:14:40,244 - INFO - hash recieved during download from server in hex is 
+2025-04-22 12:14:40,246 - INFO - hash calculated during download from client in hex is fa1bfcc37c355cd8328ee01ab574d5b3e4f535ab5c38bd938f0597220f0b5ca5
+2025-04-22 12:14:40,246 - ERROR - File integrity check failed during download
+2025-04-22 12:14:40,250 - INFO - Client connection closed
+2025-04-22 12:15:02,901 - INFO - New connection established with client of address = ('127.0.0.1', 50579)
+2025-04-22 12:15:02,902 - INFO - New serving socket connected to address = ('127.0.0.1', 50579)
+2025-04-22 12:15:02,902 - INFO - Download request received
+2025-04-22 12:15:03,902 - INFO - Downloading file: client_files\temp_chat_7788634 (2).png
+2025-04-22 12:15:03,902 - INFO - Client requested file: chat_7788634 (2).png
+2025-04-22 12:15:03,903 - WARNING - File chat_7788634 (2).png not found
+2025-04-22 12:15:03,904 - INFO - Connection with ('127.0.0.1', 50579) closed
+2025-04-22 12:15:03,904 - ERROR - Error in client operation: invalid literal for int() with base 10: 'FILE_NOT_FOUND'
+2025-04-22 12:15:03,904 - INFO - Client connection closed
+2025-04-22 12:15:16,957 - INFO - New connection established with client of address = ('127.0.0.1', 50590)
+2025-04-22 12:15:16,958 - INFO - New serving socket connected to address = ('127.0.0.1', 50590)
+2025-04-22 12:15:16,958 - INFO - List files request received
+2025-04-22 12:15:16,959 - INFO - File list sent to client
+2025-04-22 12:15:16,959 - INFO - Connection with ('127.0.0.1', 50590) closed
+2025-04-22 12:15:17,957 - INFO - Requesting file list from server
+2025-04-22 12:15:17,957 - INFO - Received file list with 1 files
+2025-04-22 12:15:17,957 - INFO - Client connection closed
+2025-04-22 12:15:20,610 - INFO - New connection established with client of address = ('127.0.0.1', 50593)
+2025-04-22 12:15:20,610 - INFO - New serving socket connected to address = ('127.0.0.1', 50593)
+2025-04-22 12:15:20,610 - INFO - List files request received
+2025-04-22 12:15:20,611 - INFO - File list sent to client
+2025-04-22 12:15:20,611 - INFO - Connection with ('127.0.0.1', 50593) closed
+2025-04-22 12:15:21,611 - INFO - Requesting file list from server
+2025-04-22 12:15:21,611 - INFO - Received file list with 1 files
+2025-04-22 12:15:21,611 - INFO - Client connection closed
+2025-04-22 12:15:21,937 - INFO - Upload request with is_overwrite=False
+2025-04-22 12:15:21,939 - INFO - New connection established with client of address = ('127.0.0.1', 50597)
+2025-04-22 12:15:21,940 - INFO - New serving socket connected to address = ('127.0.0.1', 50597)
+2025-04-22 12:15:21,941 - INFO - Upload request received
+2025-04-22 12:15:22,940 - INFO - Uploading file: client_files\chat_7788634 (2).png
+2025-04-22 12:15:22,940 - INFO - Sending overwrite flag: false
+7788634 (2).png
+2025-04-22 12:15:22,941 - INFO - Overwrite flag received: false, interpreted as: False
+2025-04-22 12:15:22,942 - INFO - Using versioned filename: chat_7788634 (2).png
+2025-04-22 12:15:43,322 - INFO - Received 41297 bytes for file chat_7788634 (2).png
+2025-04-22 12:15:47,388 - INFO - chat_7788634 (2).png file saved successfully with integrity verified
+2025-04-22 12:15:47,388 - INFO - Client connection closed
+2025-04-22 12:15:47,388 - INFO - Connection with ('127.0.0.1', 50597) closed
+2025-04-22 12:15:49,441 - INFO - New connection established with client of address = ('127.0.0.1', 50672)
+2025-04-22 12:15:49,442 - INFO - New serving socket connected to address = ('127.0.0.1', 50672)
+2025-04-22 12:15:49,442 - INFO - List files request received
+2025-04-22 12:15:49,445 - INFO - File list sent to client
+2025-04-22 12:15:49,445 - INFO - Connection with ('127.0.0.1', 50672) closed
+2025-04-22 12:15:50,442 - INFO - Requesting file list from server
+2025-04-22 12:15:50,442 - INFO - Received file list with 1 files
+2025-04-22 12:15:50,442 - INFO - Client connection closed
+2025-04-22 12:15:52,113 - INFO - New connection established with client of address = ('127.0.0.1', 50681)
+2025-04-22 12:15:52,114 - INFO - New serving socket connected to address = ('127.0.0.1', 50681)
+2025-04-22 12:15:52,114 - INFO - Download request received
+2025-04-22 12:15:53,114 - INFO - Downloading file: client_files\temp_chat_7788634 (2).png
+2025-04-22 12:15:53,115 - INFO - Client requested file: chat_7788634 (2).png
+2025-04-22 12:15:53,116 - INFO - Client requested offset: 64
+2025-04-22 12:15:53,119 - ERROR - Error in client operation: [Errno 2] No such file or directory: 'client_files\\temp_chat_7788634 (2).png'
+2025-04-22 12:15:53,120 - INFO - Client connection closed
+2025-04-22 12:15:53,154 - ERROR - Error handling client ('127.0.0.1', 50681): [WinError 10053] An established connection was aborted by the software in your host machine
+2025-04-22 12:15:53,154 - INFO - Connection with ('127.0.0.1', 50681) closed
+2025-04-22 12:16:15,095 - INFO - New connection established with client of address = ('127.0.0.1', 50688)
+2025-04-22 12:16:15,097 - INFO - New serving socket connected to address = ('127.0.0.1', 50688)
+2025-04-22 12:16:15,098 - INFO - Download request received
+2025-04-22 12:16:16,096 - INFO - Downloading file: client_files\temp_chat_7788634 (2).png
+2025-04-22 12:16:16,096 - INFO - Client requested file: chat_7788634 (2).png
+2025-04-22 12:16:16,098 - INFO - Client requested offset: 64
+2025-04-22 12:16:16,101 - ERROR - Error in client operation: [Errno 2] No such file or directory: 'client_files\\temp_chat_7788634 (2).png'
+2025-04-22 12:16:16,101 - INFO - server sending hash dace25c63f3900a31656ec774ccddeb1442c606b883e6ba9dfb90d8136e65b7e
+2025-04-22 12:16:16,102 - INFO - Client connection closed
+2025-04-22 12:16:16,102 - ERROR - Error handling client ('127.0.0.1', 50688): [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-04-22 12:16:16,102 - INFO - Connection with ('127.0.0.1', 50688) closed
+2025-04-22 12:18:31,890 - INFO - Downloading file: client_files\temp_chat_7788634 (2).png
+2025-04-22 12:18:31,891 - ERROR - Error in client operation: [WinError 10054] An existing connection was forcibly closed by the remote host
+2025-04-22 12:18:31,892 - INFO - Client connection closed
+2025-04-22 12:18:49,805 - INFO - Server starting on port 8080...
+2025-04-22 12:18:49,805 - INFO - Server listening on port 8080...
+2025-04-22 12:18:59,251 - INFO - New connection established with client of address = ('127.0.0.1', 50724)
+2025-04-22 12:18:59,254 - INFO - New serving socket connected to address = ('127.0.0.1', 50724)
+2025-04-22 12:18:59,254 - INFO - List files request received
+2025-04-22 12:18:59,254 - INFO - File list sent to client
+2025-04-22 12:18:59,254 - INFO - Connection with ('127.0.0.1', 50724) closed
+2025-04-22 12:19:00,252 - INFO - Requesting file list from server
+2025-04-22 12:19:00,252 - INFO - Received file list with 1 files
+2025-04-22 12:19:00,253 - INFO - Client connection closed
+2025-04-22 12:19:11,124 - INFO - New connection established with client of address = ('127.0.0.1', 50727)
+2025-04-22 12:19:11,124 - INFO - New serving socket connected to address = ('127.0.0.1', 50727)
+2025-04-22 12:19:11,124 - INFO - List files request received
+2025-04-22 12:19:11,124 - INFO - File list sent to client
+2025-04-22 12:19:11,125 - INFO - Connection with ('127.0.0.1', 50727) closed
+2025-04-22 12:19:12,124 - INFO - Requesting file list from server
+2025-04-22 12:19:12,124 - INFO - Received file list with 1 files
+2025-04-22 12:19:12,124 - INFO - Client connection closed
+2025-04-22 12:19:12,443 - INFO - Upload request with is_overwrite=False
+2025-04-22 12:19:12,445 - INFO - New connection established with client of address = ('127.0.0.1', 50731)
+2025-04-22 12:19:12,446 - INFO - New serving socket connected to address = ('127.0.0.1', 50731)
+2025-04-22 12:19:12,447 - INFO - Upload request received
+2025-04-22 12:19:13,446 - INFO - Uploading file: client_files\bubbleSort (9).java
+2025-04-22 12:19:13,447 - INFO - Receiving file with name: bubbleSort (9).java
+2025-04-22 12:19:13,448 - INFO - Overwrite flag received: false, interpreted as: False
+2025-04-22 12:19:13,448 - INFO - Using versioned filename: bubbleSort (9).java
+2025-04-22 12:19:13,470 - INFO - Received 412 bytes for file bubbleSort (9).java
+2025-04-22 12:19:17,542 - INFO - bubbleSort (9).java file saved successfully with integrity verified
+2025-04-22 12:19:17,542 - INFO - Client connection closed
+2025-04-22 12:19:17,542 - INFO - Connection with ('127.0.0.1', 50731) closed
+2025-04-22 12:19:43,756 - INFO - New connection established with client of address = ('127.0.0.1', 50751)
+2025-04-22 12:19:43,758 - INFO - New serving socket connected to address = ('127.0.0.1', 50751)
+2025-04-22 12:19:43,758 - INFO - List files request received
+2025-04-22 12:19:43,759 - INFO - File list sent to client
+2025-04-22 12:19:43,759 - INFO - Connection with ('127.0.0.1', 50751) closed
+2025-04-22 12:19:44,758 - INFO - Requesting file list from server
+2025-04-22 12:19:44,758 - INFO - Received file list with 1 files
+2025-04-22 12:19:44,759 - INFO - Client connection closed
+2025-04-22 12:19:48,047 - INFO - New connection established with client of address = ('127.0.0.1', 50765)
+2025-04-22 12:19:48,048 - INFO - New serving socket connected to address = ('127.0.0.1', 50765)
+2025-04-22 12:19:48,048 - INFO - Download request received
+2025-04-22 12:19:49,048 - INFO - Downloading file: client_files\temp_bubbleSort (9).java
+2025-04-22 12:19:49,048 - INFO - Client requested file: bubbleSort (9).java
+2025-04-22 12:19:49,048 - INFO - Client requested offset: 0
+2025-04-22 12:19:49,049 - INFO - server sending hash d601d3f082735bd4dff546c37cce1a61e3b5e45c04c2a5062a46cc80af188a7d
+2025-04-22 12:19:49,049 - INFO - Sent 412 bytes for file bubbleSort (9).java
+2025-04-22 12:19:49,049 - INFO - File bubbleSort (9).java sent to client with integrity verification
+2025-04-22 12:19:49,049 - INFO - Connection with ('127.0.0.1', 50765) closed
+2025-04-22 12:19:49,050 - INFO - Downloading: 100.00%
+2025-04-22 12:19:51,092 - INFO - hash recieved during download from server in hex is d601d3f082735bd4dff546c37cce1a61e3b5e45c04c2a5062a46cc80af188a7d
+2025-04-22 12:19:51,092 - INFO - hash calculated during download from client in hex is d601d3f082735bd4dff546c37cce1a61e3b5e45c04c2a5062a46cc80af188a7d
+2025-04-22 12:19:51,092 - INFO - file bubbleSort (9).java recived successfully with file integrity verified
+2025-04-22 12:19:53,117 - INFO - Client connection closed

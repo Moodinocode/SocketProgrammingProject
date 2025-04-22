@@ -90,6 +90,9 @@ def initiateClient(command, file_path=None, original_filename=None, filename=Non
       hash_object = hashlib.sha256()
       interrupted_downloads_tracker.setdefault(user_id, {}).setdefault(filename, 0)
       offset = interrupted_downloads_tracker[user_id][filename] % int(filesize)
+      # above implementation might lead to weird error
+      #offset = min(interrupted_downloads_tracker[user_id][filename], int(filesize))
+      #
       clientSocket.send(str(offset).encode())
 
       if filesize == "FILE_NOT_FOUND":
@@ -97,10 +100,14 @@ def initiateClient(command, file_path=None, original_filename=None, filename=Non
           return
           
       filesize = int(filesize)
+      #if offset>=filesize:
+      #  offset = 0
+      #  interrupted_downloads_tracker[user_id][filename] = 0
       current = offset
-      
+      #mode = 'wb' if offset == 0 else 'r+b' 
       # Receive the file
       with tqdm(total=filesize, initial=offset, desc="Downloading", unit="B", unit_scale=True) as pbar:  # initializing terminal progress bar
+  #      with open(file_path, mode) as f:
         with open(file_path, 'wb') as f:
             while current < filesize:
                 to_read = min(4096, filesize - current)
@@ -110,6 +117,8 @@ def initiateClient(command, file_path=None, original_filename=None, filename=Non
                 hash_object.update(data)
                 f.write(data)
                 current += len(data)
+                #interrupted_downloads_tracker[user_id][filename] = current
+                #log("info",f"incase of intrupption we are at byte {interrupted_downloads_tracker[user_id][filename]}")
                 progress = (current / filesize) * 100  # Calculate progress
                 pbar.update(len(data)) #updating terminal progress bar
                 log("info", f"Downloading: {progress:.2f}%") # logging the progress before sending it to web interface
