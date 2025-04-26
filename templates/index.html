@@ -14,11 +14,13 @@
        <span>
         <button id="uploadButton">Upload File</button>
       </span>
-      {% if username == 'admin' %}
+      
+      <!-- {% if username == 'admin' %}
         <h3>Hello Admin</h3>
       {% else %}
         <h3>Hello User</h3>
-      {% endif %}
+      {% endif %} -->
+        <h3>Hello {{ username }}</h3>
       <span>
       <input type="file" id="fileInput" style="display: none;">
 

@@ -14157,3 +14157,61 @@ leSort (1) (1).java
 2025-04-22 12:19:51,092 - INFO - hash calculated during download from client in hex is d601d3f082735bd4dff546c37cce1a61e3b5e45c04c2a5062a46cc80af188a7d
 2025-04-22 12:19:51,092 - INFO - file bubbleSort (9).java recived successfully with file integrity verified
 2025-04-22 12:19:53,117 - INFO - Client connection closed
+2025-04-26 11:13:25,589 - INFO - Server starting on port 8080...
+2025-04-26 11:13:25,590 - INFO - Server listening on port 8080...
+2025-04-26 11:15:57,508 - INFO - New connection established with client of address = ('127.0.0.1', 50573)
+2025-04-26 11:15:57,513 - INFO - New serving socket connected to address = ('127.0.0.1', 50573)
+2025-04-26 11:15:57,513 - INFO - List files request received
+2025-04-26 11:15:57,514 - INFO - File list sent to client
+2025-04-26 11:15:57,516 - INFO - Connection with ('127.0.0.1', 50573) closed
+2025-04-26 11:15:58,509 - INFO - Requesting file list from server
+2025-04-26 11:15:58,526 - INFO - Received file list with 1 files
+2025-04-26 11:15:58,527 - INFO - Client connection closed
+2025-04-26 11:16:17,196 - INFO - New connection established with client of address = ('127.0.0.1', 50596)
+2025-04-26 11:16:17,196 - INFO - New serving socket connected to address = ('127.0.0.1', 50596)
+2025-04-26 11:16:17,197 - INFO - List files request received
+2025-04-26 11:16:17,286 - INFO - File list sent to client
+2025-04-26 11:16:17,287 - INFO - Connection with ('127.0.0.1', 50596) closed
+2025-04-26 11:16:18,196 - INFO - Requesting file list from server
+2025-04-26 11:16:18,196 - INFO - Received file list with 1 files
+2025-04-26 11:16:18,197 - INFO - Client connection closed
+2025-04-26 11:17:58,347 - INFO - New connection established with client of address = ('127.0.0.1', 50640)
+2025-04-26 11:17:58,348 - INFO - New serving socket connected to address = ('127.0.0.1', 50640)
+2025-04-26 11:17:58,348 - INFO - List files request received
+2025-04-26 11:17:58,349 - INFO - File list sent to client
+2025-04-26 11:17:58,349 - INFO - Connection with ('127.0.0.1', 50640) closed
+2025-04-26 11:17:59,348 - INFO - Requesting file list from server
+2025-04-26 11:17:59,348 - INFO - Received file list with 1 files
+2025-04-26 11:17:59,349 - INFO - Client connection closed
+2025-04-26 11:18:27,929 - INFO - New connection established with client of address = ('127.0.0.1', 50664)
+2025-04-26 11:18:27,930 - INFO - New serving socket connected to address = ('127.0.0.1', 50664)
+2025-04-26 11:18:27,930 - INFO - List files request received
+2025-04-26 11:18:27,930 - INFO - File list sent to client
+2025-04-26 11:18:27,930 - INFO - Connection with ('127.0.0.1', 50664) closed
+2025-04-26 11:18:28,929 - INFO - Requesting file list from server
+2025-04-26 11:18:28,929 - INFO - Received file list with 1 files
+2025-04-26 11:18:28,930 - INFO - Client connection closed
+2025-04-26 11:19:47,908 - INFO - New connection established with client of address = ('127.0.0.1', 50696)
+2025-04-26 11:19:47,909 - INFO - New serving socket connected to address = ('127.0.0.1', 50696)
+2025-04-26 11:19:47,910 - INFO - List files request received
+2025-04-26 11:19:47,911 - INFO - File list sent to client
+2025-04-26 11:19:47,911 - INFO - Connection with ('127.0.0.1', 50696) closed
+2025-04-26 11:19:48,908 - INFO - Requesting file list from server
+2025-04-26 11:19:48,908 - INFO - Received file list with 1 files
+2025-04-26 11:19:48,908 - INFO - Client connection closed
+2025-04-26 11:21:20,572 - INFO - New connection established with client of address = ('127.0.0.1', 50758)
+2025-04-26 11:21:20,573 - INFO - New serving socket connected to address = ('127.0.0.1', 50758)
+2025-04-26 11:21:20,573 - INFO - List files request received
+2025-04-26 11:21:20,573 - INFO - File list sent to client
+2025-04-26 11:21:20,573 - INFO - Connection with ('127.0.0.1', 50758) closed
+2025-04-26 11:21:21,573 - INFO - Requesting file list from server
+2025-04-26 11:21:21,573 - INFO - Received file list with 1 files
+2025-04-26 11:21:21,573 - INFO - Client connection closed
+2025-04-26 11:59:52,938 - INFO - New connection established with client of address = ('127.0.0.1', 51263)
+2025-04-26 11:59:52,941 - INFO - New serving socket connected to address = ('127.0.0.1', 51263)
+2025-04-26 11:59:52,941 - INFO - List files request received
+2025-04-26 11:59:52,941 - INFO - File list sent to client
+2025-04-26 11:59:52,942 - INFO - Connection with ('127.0.0.1', 51263) closed
+2025-04-26 11:59:53,934 - INFO - Requesting file list from server
+2025-04-26 11:59:53,934 - INFO - Received file list with 1 files
+2025-04-26 11:59:53,935 - INFO - Client connection closed

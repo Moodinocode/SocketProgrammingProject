@@ -8,7 +8,7 @@
    cd ...\SocketProgrammingProject\
    ```
 
-2. Install the required libararies for the app to run:
+2. Install the required libraries for the app to run:
 
    ```
    pip install -r requirements.txt
@@ -32,14 +32,23 @@
    http://127.0.0.1:5000
    ```
 
-6. The following functionalities will be available:
-   - File Upload
-   - File Listing
-   - File Download
+## Available Users
 
-Admin User:
-Username: admin
-Password: admin123
-Normal User:
-Username: user
-Password: user123
+### Admin User
+- Username: `admin`
+- Password: `admin123`
+
+### Normal Users
+1. Username: ` Ayman Tajeddine`
+   - Password: `networksOnTop`
+2. Username: `Mohammad Jomha`
+   - Password: `CP3ezA`
+3. Username: `Alice`
+   - Password: `whereIsBob`
+
+## Features
+- File Upload
+- File Listing
+- File Download
+- User Authentication
+- Admin-specific features (file deletion, log viewing)
