@@ -90,6 +90,9 @@ def initiateClient(command, file_path=None, original_filename=None, filename=Non
       hash_object = hashlib.sha256()
       interrupted_downloads_tracker.setdefault(user_id, {}).setdefault(filename, 0)
       offset = interrupted_downloads_tracker[user_id][filename] % int(filesize)
+      # above implementation might lead to weird error
+      #offset = min(interrupted_downloads_tracker[user_id][filename], int(filesize))
+      #
       clientSocket.send(str(offset).encode())
 
       if filesize == "FILE_NOT_FOUND":
@@ -97,20 +100,27 @@ def initiateClient(command, file_path=None, original_filename=None, filename=Non
           return
           
       filesize = int(filesize)
+      #if offset>=filesize:
+      #  offset = 0
+      #  interrupted_downloads_tracker[user_id][filename] = 0
       current = offset
-      
+      #mode = 'wb' if offset == 0 else 'r+b' 
       # Receive the file
       with tqdm(total=filesize, initial=offset, desc="Downloading", unit="B", unit_scale=True) as pbar:  # initializing terminal progress bar
+  #      with open(file_path, mode) as f:
         with open(file_path, 'wb') as f:
             while current < filesize:
-                data = clientSocket.recv(4096)
+                to_read = min(4096, filesize - current)
+                data = clientSocket.recv(to_read) # this is done not to ingulf the hash within in the file
                 if not data:
                     break
                 hash_object.update(data)
                 f.write(data)
                 current += len(data)
+                #interrupted_downloads_tracker[user_id][filename] = current
+                #log("info",f"incase of intrupption we are at byte {interrupted_downloads_tracker[user_id][filename]}")
                 progress = (current / filesize) * 100  # Calculate progress
-                pbar.update(4096) #updating terminal progress bar
+                pbar.update(len(data)) #updating terminal progress bar
                 log("info", f"Downloading: {progress:.2f}%") # logging the progress before sending it to web interface
 
                 # Send progress to the Flask app
@@ -121,14 +131,16 @@ def initiateClient(command, file_path=None, original_filename=None, filename=Non
       
       # Receive server's hash for verification
       server_hash = clientSocket.recv(64).decode()  # SHA-256 hash is 64 characters in hex
-      log('info', 'hash recieved during download from server in hex is {server_hash}')
+      log('info', f'hash recieved during download from server in hex is {server_hash}')
 
       client_hash = hash_object.hexdigest()
-      log('info', 'hash calculated during download from client in hex is {client_hash}')
+      log('info', f'hash calculated during download from client in hex is {client_hash}')
 
       if server_hash != client_hash:
           log('error', 'File integrity check failed during download')
           return
+      else:
+         log("info",f"file {filename} recived successfully with file integrity verified")
       
       # Send final 100% progress update
       requests.post('http://localhost:5000/update_progress', 
