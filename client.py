@@ -1,3 +1,13 @@
+"""
+TCP File Transfer Client Library
+
+This module provides the client-side implementation for the file sharing system.
+It establishes socket connections to the server and implements file upload, download,
+listing, and deletion operations with progress tracking and integrity verification.
+
+Each operation creates a new socket connection, performs the requested operation
+according to the protocol specification, and then closes the connection.
+"""
 from socket import *
 import os
 import requests
@@ -10,6 +20,35 @@ PORT = 8080
 ServerIP = "127.0.0.1"  # Use localhost
 
 def initiateClient(command, file_path=None, original_filename=None, filename=None, user_id=None, is_overwrite=False): #command should be sent from the flask web app
+  """
+  Establish a connection to the server and perform the requested file operation.
+  
+  This function is the main API for client-server communication. It handles
+  all aspects of the custom file transfer protocol including command transmission,
+  file data exchange, and integrity verification.
+  
+  Protocol Commands:
+      1: Upload - Send a file to the server
+      2: Download - Retrieve a file from the server
+      3: List - Get a list of all files on the server
+      4: Delete - Remove a file from the server (admin only)
+  
+  Parameters:
+      command (int): The operation code (1=upload, 2=download, 3=list, 4=delete)
+      file_path (str, optional): Local path for the file to upload or download location
+      original_filename (str, optional): Original name of file for download (without temp_ prefix)
+      filename (str, optional): Name of file to delete when using command 4
+      user_id (int, optional): User ID for tracking interrupted downloads
+      is_overwrite (bool, optional): Flag to indicate if upload should overwrite existing file
+  
+  Returns:
+      list or str or None: For command 3 (list), returns list of filenames
+                          For command 4 (delete), returns status string
+                          For commands 1 and 2, returns None
+  
+  Raises:
+      Exception: Logs but does not raise exceptions to caller
+  """
   try:
     clientSocket = socket(AF_INET,SOCK_STREAM)
     clientSocket.connect((ServerIP,PORT))
@@ -46,13 +85,14 @@ def initiateClient(command, file_path=None, original_filename=None, filename=Non
           sent = 0
           data = f.read(4096)
           while data:
+              # Calculate SHA-256 hash during file transfer for integrity verification
               hash_object.update(data)
               clientSocket.send(data)
               sent += len(data)
               progress = (sent / total_size) * 100
               pbar.update(4096) #updating terminal progress bar
 
-              # Send progress to the Flask app
+              # Update progress tracking for UI display
               requests.post('http://localhost:5000/update_progress', 
                            json={"filename": filename, "progress": progress})
               data = f.read(4096)
@@ -88,6 +128,8 @@ def initiateClient(command, file_path=None, original_filename=None, filename=Non
       clientSocket.send(filename.encode())
       filesize = clientSocket.recv(1024).decode()
       hash_object = hashlib.sha256()
+      
+      # Interrupted download tracking (partial implementation)
       interrupted_downloads_tracker.setdefault(user_id, {}).setdefault(filename, 0)
       offset = interrupted_downloads_tracker[user_id][filename] % int(filesize)
       # above implementation might lead to weird error
@@ -123,7 +165,7 @@ def initiateClient(command, file_path=None, original_filename=None, filename=Non
                 pbar.update(len(data)) #updating terminal progress bar
                 log("info", f"Downloading: {progress:.2f}%") # logging the progress before sending it to web interface
 
-                # Send progress to the Flask app
+                # Update progress tracking for UI display
                 requests.post('http://localhost:5000/update_progress', 
                             json={"filename": filename, "progress": progress})
                 # if filesize < 5 * 1024 * 1024:  
@@ -136,6 +178,7 @@ def initiateClient(command, file_path=None, original_filename=None, filename=Non
       client_hash = hash_object.hexdigest()
       log('info', f'hash calculated during download from client in hex is {client_hash}')
 
+      # Verify file integrity after download
       if server_hash != client_hash:
           log('error', 'File integrity check failed during download')
           return

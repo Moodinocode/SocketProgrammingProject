@@ -1,3 +1,14 @@
+"""
+Multithreaded TCP File Server
+
+This module implements a TCP socket-based file server that handles multiple client
+connections concurrently through threading. The server supports file upload, download,
+listing, and deletion operations with integrity verification via SHA-256 hashing.
+
+The server listens on port 8080 and stores all files in the 'server_files' directory.
+File versioning is automatically handled for duplicate filenames unless explicitly
+overwritten.
+"""
 #multithreaded TCP file server code
 from socket import *
 from threading import *
@@ -14,6 +25,26 @@ if not os.path.exists(SERVER_FILES_DIR):
     os.makedirs(SERVER_FILES_DIR)
 
 def handle_client(con, addr):
+    """
+    Handle individual client connections and process file operations.
+    
+    This function runs in a separate thread for each connected client and processes
+    the requested command (upload, download, list, or delete) according to the custom
+    protocol specification.
+    
+    Protocol Commands:
+        "1": Upload - Receive a file from client with hash verification
+        "2": Download - Send a file to client with hash verification
+        "3": List - Return a list of all files on the server
+        "4": Delete - Remove a file from the server (admin only)
+    
+    Parameters:
+        con (socket): The client connection socket
+        addr (tuple): The client address as (ip, port)
+    
+    Returns:
+        None
+    """
     try:
         log("info", f"New serving socket connected to address = {addr}")
         command = con.recv(1024).decode()
@@ -36,6 +67,7 @@ def handle_client(con, addr):
             
             # Handle duplicate filenames only if not overwriting
             if not is_overwrite:
+                # File versioning logic - create unique filename for duplicates
                 base_name, extension = os.path.splitext(filename)
                 counter = 1
                 while os.path.exists(file_path):
@@ -56,6 +88,7 @@ def handle_client(con, addr):
                     data = con.recv(4096)
                     if not data:
                         break
+                    # Calculate SHA-256 hash during file transfer
                     hash_object.update(data)
                     f.write(data)
                     total_received += len(data)
@@ -68,13 +101,14 @@ def handle_client(con, addr):
             client_hash = con.recv(64).decode()  # SHA-256 hash is 64 characters in hex
             server_hash = hash_object.hexdigest()
             
+            # Verify file integrity by comparing hashes
             if client_hash == server_hash:
                 con.send("OK".encode())
                 log("info", f"{filename} file saved successfully with integrity verified")
             else:
                 con.send("FAIL".encode())
                 log("error", f"File integrity check failed for {filename}")
-                # Optionally remove the corrupted file
+                # Remove the corrupted file
                 os.remove(file_path)
                 return
         
@@ -192,6 +226,17 @@ def handle_client(con, addr):
 
 
 def startServer():
+    """
+    Initialize and run the file server.
+    
+    Creates a TCP socket, binds to port 8080, and listens for incoming connections.
+    For each new connection, spawns a new thread running handle_client().
+    
+    This function runs indefinitely until terminated.
+    
+    Returns:
+        None
+    """
     serverSocket = socket(AF_INET, SOCK_STREAM)
     serverSocket.bind(('', PORT))
     serverSocket.listen(10)  # 10 clients in queue
